@@ -944,16 +944,38 @@ class VARCApp {
     }
 
     /**
+     * Get a truncated preview of question text without cutting words abruptly.
+     * @param {string} text
+     * @param {number} maxLength
+     * @returns {string}
+     */
+    truncateQuestionText(text, maxLength = 140) {
+        if (typeof text !== 'string') {
+            return '';
+        }
+        if (text.length <= maxLength) {
+            return text;
+        }
+        const truncated = text.slice(0, maxLength);
+        const lastSpaceIndex = truncated.lastIndexOf(' ');
+        if (lastSpaceIndex > 0) {
+            return truncated.slice(0, lastSpaceIndex) + '...';
+        }
+        return truncated + '...';
+    }
+
+    /**
      * Show question paper modal
      */
     showQuestionPaperModal() {
         const questionsHTML = this.questions.map((q, index) => {
             const status = StorageManager.getQuestionStatus(index);
+            const preview = this.truncateQuestionText(q.question, 140);
             return `
                 <div class="qp-question" data-index="${index}">
                     <span class="qp-question-number">Q${index + 1}.</span>
-                    ${q.question.substring(0, 100)}...
-                    <span class="img-button ${status}" style="float: right; width: 24px; height: 24px; font-size: 12px;">${index + 1}</span>
+                    ${preview}
+                    <span class="img-button ${status}" style="float: right; width: 24px; height: 24px; font-size: 12px; font-size: 12px;">${index + 1}</span>
                 </div>
             `;
         }).join('');
