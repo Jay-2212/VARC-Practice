@@ -204,7 +204,7 @@ class VARCApp {
 
         // Load from data file
         try {
-            const response = await fetch('data/questions.json');
+            const response = await fetch('data/rc-passages.json');
             if (response.ok) {
                 const data = await response.json();
                 this.questions = data.questions || [];
@@ -212,14 +212,14 @@ class VARCApp {
             } else {
                 // Load sample questions
                 console.warn(
-                    `Unable to load questions from "data/questions.json" (status: ${response.status}). Falling back to sample questions.`
+                    `Unable to load questions from "data/rc-passages.json" (status: ${response.status}). Falling back to sample questions.`
                 );
                 this.questions = this.getSampleQuestions();
                 StorageManager.saveQuestionsData(this.questions);
             }
         } catch (e) {
             console.warn(
-                'An error occurred while loading "data/questions.json". Falling back to sample questions.',
+                'An error occurred while loading "data/rc-passages.json". Falling back to sample questions.',
                 e
             );
             this.questions = this.getSampleQuestions();

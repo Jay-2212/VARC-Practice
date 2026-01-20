@@ -20,7 +20,7 @@ class RCSetSelection {
     async loadRCSets() {
         // Load questions from data file
         try {
-            const response = await fetch('data/questions.json');
+            const response = await fetch('data/rc-passages.json');
             if (response.ok) {
                 const data = await response.json();
                 const questions = data.questions || [];
