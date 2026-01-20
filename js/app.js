@@ -154,6 +154,7 @@ class VARCApp {
 
         // Fullscreen
         this.elements.fullscreenBtn?.addEventListener('click', () => this.toggleFullscreen());
+        document.addEventListener('fullscreenchange', () => this.updateFullscreenIcon());
 
         // Keyboard navigation
         document.addEventListener('keydown', (e) => this.handleKeyPress(e));
@@ -1100,6 +1101,17 @@ class VARCApp {
     }
 
     /**
+     * Update fullscreen icon based on current state
+     */
+    updateFullscreenIcon() {
+        if (document.fullscreenElement) {
+            this.elements.fullscreenBtn.innerHTML = '<i class="fas fa-compress"></i>';
+        } else {
+            this.elements.fullscreenBtn.innerHTML = '<i class="fas fa-expand"></i>';
+        }
+    }
+
+    /**
      * Toggle fullscreen
      */
     toggleFullscreen() {
@@ -1107,10 +1119,8 @@ class VARCApp {
             document.documentElement.requestFullscreen().catch(err => {
                 console.log('Error attempting fullscreen:', err);
             });
-            this.elements.fullscreenBtn.innerHTML = '<i class="fas fa-compress"></i>';
         } else {
             document.exitFullscreen();
-            this.elements.fullscreenBtn.innerHTML = '<i class="fas fa-expand"></i>';
         }
     }
 
