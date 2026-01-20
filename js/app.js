@@ -183,11 +183,17 @@ class VARCApp {
                 StorageManager.saveQuestionsData(this.questions);
             } else {
                 // Load sample questions
+                console.warn(
+                    `Unable to load questions from "data/questions.json" (status: ${response.status}). Falling back to sample questions.`
+                );
                 this.questions = this.getSampleQuestions();
                 StorageManager.saveQuestionsData(this.questions);
             }
         } catch (e) {
-            console.log('Loading sample questions');
+            console.warn(
+                'An error occurred while loading "data/questions.json". Falling back to sample questions.',
+                e
+            );
             this.questions = this.getSampleQuestions();
             StorageManager.saveQuestionsData(this.questions);
         }
