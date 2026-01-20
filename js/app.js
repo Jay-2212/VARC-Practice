@@ -6,9 +6,11 @@
 class VARCApp {
     constructor() {
         this.questions = [];
+        this.rcSetId = null;
         this.currentQuestionIndex = 0;
         this.timerInterval = null;
-        this.remainingTime = 40 * 60; // 40 minutes in seconds
+        this.totalElapsedTime = 0; // Total time in seconds
+        this.timerStartTime = null;
         this.isReviewMode = false;
         this.isTestSubmitted = false;
 
@@ -23,9 +25,28 @@ class VARCApp {
      * Initialize the application
      */
     async init() {
+        // Get selected RC set
+        this.rcSetId = StorageManager.getSelectedRCSet();
+        
+        if (!this.rcSetId) {
+            // No RC set selected, redirect to selection page
+            window.location.href = 'index.html';
+            return;
+        }
+
         this.cacheElements();
         this.bindEvents();
         await this.loadQuestions();
+        
+        // Filter questions for this RC set
+        this.questions = this.questions.filter(q => q.passageId === this.rcSetId);
+        
+        if (this.questions.length === 0) {
+            alert('No questions found for this RC set');
+            window.location.href = 'index.html';
+            return;
+        }
+
         this.restoreState();
         this.renderPalette();
         this.loadQuestion(this.currentQuestionIndex);
@@ -33,11 +54,18 @@ class VARCApp {
 
         if (!this.isTestSubmitted) {
             this.startTimer();
+            // Start tracking attempt time
+            if (!StorageManager.getAttemptStartTime()) {
+                StorageManager.saveAttemptStartTime();
+            }
         }
 
         // Set user name
         const userName = StorageManager.getUserName();
         this.elements.userName.textContent = userName;
+        
+        // Update title
+        document.title = `VARC Practice - RC Set ${this.rcSetId}`;
     }
 
     /**
@@ -358,16 +386,18 @@ class VARCApp {
         this.isTestSubmitted = StorageManager.isTestCompleted();
 
         if (this.isTestSubmitted) {
-            this.isReviewMode = true;
+            // If already submitted, redirect to results or home
+            alert('This RC set has already been completed. Starting a new attempt.');
+            StorageManager.resetTest(this.questions.length);
+            this.isTestSubmitted = false;
         }
 
         // Restore current question
         this.currentQuestionIndex = StorageManager.getCurrentQuestion();
 
-        // Restore timer
-        const savedTime = StorageManager.getTimerState();
-        if (savedTime !== null && !this.isTestSubmitted) {
-            this.remainingTime = savedTime;
+        // Make sure current question index is valid for this RC set
+        if (this.currentQuestionIndex >= this.questions.length) {
+            this.currentQuestionIndex = 0;
         }
     }
 
@@ -454,8 +484,18 @@ class VARCApp {
     loadQuestion(index) {
         if (index < 0 || index >= this.questions.length) return;
 
+        // Stop timer for previous question
+        if (this.currentQuestionIndex >= 0 && this.currentQuestionIndex < this.questions.length) {
+            StorageManager.stopQuestionTimer(this.currentQuestionIndex);
+        }
+
         const question = this.questions[index];
         this.currentQuestionIndex = index;
+
+        // Start timer for new question
+        if (!this.isTestSubmitted) {
+            StorageManager.startQuestionTimer(index);
+        }
 
         // Update question number
         this.elements.questionNumber.textContent = index + 1;
@@ -742,21 +782,18 @@ class VARCApp {
     }
 
     /**
-     * Start the timer
+     * Start the timer (elapsed time, not countdown)
      */
     startTimer() {
         if (this.timerInterval) clearInterval(this.timerInterval);
 
+        // Initialize timer start time
+        this.timerStartTime = Date.now();
         this.updateTimerDisplay();
 
         this.timerInterval = setInterval(() => {
-            this.remainingTime--;
+            this.totalElapsedTime = Math.floor((Date.now() - this.timerStartTime) / 1000);
             this.updateTimerDisplay();
-            StorageManager.saveTimerState(this.remainingTime);
-
-            if (this.remainingTime <= 0) {
-                this.submitTest();
-            }
         }, 1000);
     }
 
@@ -768,21 +805,21 @@ class VARCApp {
             clearInterval(this.timerInterval);
             this.timerInterval = null;
         }
+        // Stop tracking current question
+        if (this.currentQuestionIndex >= 0) {
+            StorageManager.stopQuestionTimer(this.currentQuestionIndex);
+        }
     }
 
     /**
-     * Update timer display
+     * Update timer display (showing elapsed time)
      */
     updateTimerDisplay() {
-        const minutes = Math.floor(this.remainingTime / 60);
-        const seconds = this.remainingTime % 60;
+        const minutes = Math.floor(this.totalElapsedTime / 60);
+        const seconds = this.totalElapsedTime % 60;
         this.elements.timeLeft.textContent =
             `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-
-        // Add warning color when time is low
-        if (this.remainingTime <= 300) { // 5 minutes
-            this.elements.timeLeft.style.color = '#f44336';
-        }
+        this.elements.timeLeft.style.color = '#0288d1';
     }
 
     /**
@@ -816,12 +853,40 @@ class VARCApp {
         // Calculate results
         const results = this.calculateResults();
 
+        // Get question times
+        const questionTimes = StorageManager.getAllQuestionTimes();
+
+        // Get total time from attempt start
+        const attemptStartTime = StorageManager.getAttemptStartTime();
+        const totalTime = attemptStartTime ? Math.floor((Date.now() - attemptStartTime) / 1000) : this.totalElapsedTime;
+
+        // Prepare attempt data
+        const attemptData = {
+            score: results.totalMarks,
+            totalMarks: results.maxMarks,
+            correct: results.correct,
+            incorrect: results.incorrect,
+            unattempted: results.unattempted,
+            totalTime: totalTime,
+            questionTimes: questionTimes,
+            questions: this.questions.map((q, index) => ({
+                id: q.id,
+                userAnswer: StorageManager.getAnswer(index),
+                correctAnswer: q.correctAnswer,
+                question: q.question
+            }))
+        };
+
+        // Save attempt
+        StorageManager.saveRCSetAttempt(this.rcSetId, attemptData);
+
         // Mark test as completed
         StorageManager.markTestCompleted();
         this.isTestSubmitted = true;
 
-        // Show results
-        this.showResults(results);
+        // Navigate to results page
+        const attemptDataStr = encodeURIComponent(JSON.stringify(attemptData));
+        window.location.href = `results.html?setId=${this.rcSetId}&attempt=${attemptDataStr}`;
     }
 
     /**
