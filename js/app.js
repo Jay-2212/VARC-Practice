@@ -1104,6 +1104,8 @@ class VARCApp {
      * Update fullscreen icon based on current state
      */
     updateFullscreenIcon() {
+        if (!this.elements.fullscreenBtn) return;
+        
         if (document.fullscreenElement) {
             this.elements.fullscreenBtn.innerHTML = '<i class="fas fa-compress"></i>';
         } else {
