@@ -455,7 +455,6 @@ class VARCApp {
         if (index < 0 || index >= this.questions.length) return;
 
         const question = this.questions[index];
-        const prevIndex = this.currentQuestionIndex;
         this.currentQuestionIndex = index;
 
         // Update question number
