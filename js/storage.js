@@ -13,7 +13,11 @@ const StorageManager = {
         TEST_COMPLETED: 'varc_test_completed',
         CURRENT_QUESTION: 'varc_current_question',
         QUESTIONS_DATA: 'varc_questions_data',
-        USER_NAME: 'varc_user_name'
+        USER_NAME: 'varc_user_name',
+        SELECTED_RC_SET: 'varc_selected_rc_set',
+        RC_SET_ATTEMPTS: 'varc_rc_set_attempts',
+        QUESTION_TIME_TRACKING: 'varc_question_time_tracking',
+        CURRENT_ATTEMPT_START: 'varc_current_attempt_start'
     },
 
     /**
@@ -337,7 +341,154 @@ const StorageManager = {
         this.remove(this.KEYS.TIMER_STATE);
         this.remove(this.KEYS.TEST_COMPLETED);
         this.remove(this.KEYS.CURRENT_QUESTION);
+        this.remove(this.KEYS.QUESTION_TIME_TRACKING);
+        this.remove(this.KEYS.CURRENT_ATTEMPT_START);
         this.initializeStatuses(totalQuestions);
+    },
+
+    // RC Set Management
+    /**
+     * Save selected RC set ID
+     * @param {number} setId - RC set ID
+     */
+    saveSelectedRCSet(setId) {
+        this.save(this.KEYS.SELECTED_RC_SET, setId);
+    },
+
+    /**
+     * Get selected RC set ID
+     * @returns {number|null} - RC set ID or null
+     */
+    getSelectedRCSet() {
+        return this.load(this.KEYS.SELECTED_RC_SET, null);
+    },
+
+    /**
+     * Clear selected RC set
+     */
+    clearSelectedRCSet() {
+        this.remove(this.KEYS.SELECTED_RC_SET);
+    },
+
+    // RC Set Attempts Management
+    /**
+     * Get all attempts for an RC set
+     * @param {number} setId - RC set ID
+     * @returns {Array} - Array of attempt objects
+     */
+    getRCSetAttempts(setId) {
+        const allAttempts = this.load(this.KEYS.RC_SET_ATTEMPTS, {});
+        return allAttempts[setId] || [];
+    },
+
+    /**
+     * Save an attempt for an RC set
+     * @param {number} setId - RC set ID
+     * @param {Object} attemptData - Attempt data
+     */
+    saveRCSetAttempt(setId, attemptData) {
+        const allAttempts = this.load(this.KEYS.RC_SET_ATTEMPTS, {});
+        if (!allAttempts[setId]) {
+            allAttempts[setId] = [];
+        }
+        allAttempts[setId].push({
+            ...attemptData,
+            timestamp: Date.now()
+        });
+        this.save(this.KEYS.RC_SET_ATTEMPTS, allAttempts);
+    },
+
+    // Question Time Tracking
+    /**
+     * Start tracking time for a question
+     * @param {number} questionIndex - Question index
+     */
+    startQuestionTimer(questionIndex) {
+        const tracking = this.load(this.KEYS.QUESTION_TIME_TRACKING, {});
+        tracking[questionIndex] = {
+            startTime: Date.now(),
+            totalTime: tracking[questionIndex]?.totalTime || 0
+        };
+        this.save(this.KEYS.QUESTION_TIME_TRACKING, tracking);
+    },
+
+    /**
+     * Stop tracking time for a question
+     * @param {number} questionIndex - Question index
+     */
+    stopQuestionTimer(questionIndex) {
+        const tracking = this.load(this.KEYS.QUESTION_TIME_TRACKING, {});
+        if (tracking[questionIndex]?.startTime) {
+            const elapsed = Date.now() - tracking[questionIndex].startTime;
+            tracking[questionIndex].totalTime += elapsed;
+            delete tracking[questionIndex].startTime;
+            this.save(this.KEYS.QUESTION_TIME_TRACKING, tracking);
+        }
+    },
+
+    /**
+     * Get time spent on a question
+     * @param {number} questionIndex - Question index
+     * @returns {number} - Time in milliseconds
+     */
+    getQuestionTime(questionIndex) {
+        const tracking = this.load(this.KEYS.QUESTION_TIME_TRACKING, {});
+        if (!tracking[questionIndex]) return 0;
+        
+        let totalTime = tracking[questionIndex].totalTime || 0;
+        if (tracking[questionIndex].startTime) {
+            totalTime += Date.now() - tracking[questionIndex].startTime;
+        }
+        return totalTime;
+    },
+
+    /**
+     * Get all question times
+     * @returns {Object} - Object with question times
+     */
+    getAllQuestionTimes() {
+        const tracking = this.load(this.KEYS.QUESTION_TIME_TRACKING, {});
+        const times = {};
+        
+        for (const [index, data] of Object.entries(tracking)) {
+            let totalTime = data.totalTime || 0;
+            if (data.startTime) {
+                totalTime += Date.now() - data.startTime;
+            }
+            times[index] = totalTime;
+        }
+        
+        return times;
+    },
+
+    /**
+     * Clear question time tracking
+     */
+    clearQuestionTimeTracking() {
+        this.remove(this.KEYS.QUESTION_TIME_TRACKING);
+    },
+
+    // Attempt Start Time
+    /**
+     * Save attempt start time
+     */
+    saveAttemptStartTime() {
+        this.save(this.KEYS.CURRENT_ATTEMPT_START, Date.now());
+    },
+
+    /**
+     * Get attempt start time
+     * @returns {number|null} - Timestamp or null
+     */
+    getAttemptStartTime() {
+        return this.load(this.KEYS.CURRENT_ATTEMPT_START, null);
+    },
+
+    /**
+     * Clear attempt start time
+     */
+    clearAttemptStartTime() {
+        this.remove(this.KEYS.CURRENT_ATTEMPT_START);
     }
 };
 

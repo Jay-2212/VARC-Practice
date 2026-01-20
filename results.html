@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VARC Practice - Results</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/results.css">
+</head>
+<body>
+    <div class="container">
+        <div class="results-card">
+            <div class="results-header">
+                <h1><i class="fas fa-trophy"></i> Test Results</h1>
+                <p class="rc-set-title" id="rc-set-title">RC Set 1</p>
+            </div>
+
+            <div class="score-section">
+                <div class="score-circle">
+                    <div class="score-value" id="score-value">0</div>
+                    <div class="score-total" id="score-total">out of 12</div>
+                </div>
+                <div class="score-details">
+                    <div class="detail-item correct">
+                        <i class="fas fa-check-circle"></i>
+                        <div class="detail-value" id="correct-count">0</div>
+                        <div class="detail-label">Correct</div>
+                    </div>
+                    <div class="detail-item incorrect">
+                        <i class="fas fa-times-circle"></i>
+                        <div class="detail-value" id="incorrect-count">0</div>
+                        <div class="detail-label">Incorrect</div>
+                    </div>
+                    <div class="detail-item unattempted">
+                        <i class="fas fa-minus-circle"></i>
+                        <div class="detail-value" id="unattempted-count">0</div>
+                        <div class="detail-label">Unattempted</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="time-section">
+                <div class="time-header">
+                    <h2><i class="fas fa-clock"></i> Time Analysis</h2>
+                </div>
+                <div class="time-stats">
+                    <div class="time-stat">
+                        <div class="stat-label">Total Time</div>
+                        <div class="stat-value" id="total-time">00:00</div>
+                    </div>
+                    <div class="time-stat">
+                        <div class="stat-label">Avg per Question</div>
+                        <div class="stat-value" id="avg-time">00:00</div>
+                    </div>
+                </div>
+                <div class="questions-time-breakdown" id="questions-time-breakdown">
+                    <!-- Question time breakdown will be inserted here -->
+                </div>
+            </div>
+
+            <div class="comparison-section" id="comparison-section" style="display: none;">
+                <div class="comparison-header">
+                    <h2><i class="fas fa-chart-line"></i> Attempt Comparison</h2>
+                </div>
+                <div class="attempts-list" id="attempts-list">
+                    <!-- Previous attempts will be listed here -->
+                </div>
+            </div>
+
+            <div class="actions-section">
+                <button class="btn btn-primary" onclick="goToSelection()">
+                    <i class="fas fa-home"></i> Back to Home
+                </button>
+                <button class="btn btn-secondary" onclick="reattempt()">
+                    <i class="fas fa-redo"></i> Reattempt
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/results.js"></script>
+</body>
+</html>
