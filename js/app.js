@@ -488,8 +488,11 @@ class VARCApp {
         // Update current indicator
         this.updateCurrentIndicator();
 
-        // Save current position
+        // Save current position and timer state
         StorageManager.saveCurrentQuestion(index);
+        if (!this.isTestSubmitted) {
+            StorageManager.saveTimerState(this.remainingTime);
+        }
     }
 
     /**
@@ -755,7 +758,6 @@ class VARCApp {
         this.timerInterval = setInterval(() => {
             this.remainingTime--;
             this.updateTimerDisplay();
-            StorageManager.saveTimerState(this.remainingTime);
 
             if (this.remainingTime <= 0) {
                 this.submitTest();
