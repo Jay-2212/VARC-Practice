@@ -5,10 +5,13 @@
 
 class VARCApp {
     constructor() {
+        // Configuration constants
+        this.TEST_DURATION_MINUTES = 40;
+        
         this.questions = [];
         this.currentQuestionIndex = 0;
         this.timerInterval = null;
-        this.remainingTime = 40 * 60; // 40 minutes in seconds
+        this.remainingTime = this.TEST_DURATION_MINUTES * 60; // Convert minutes to seconds
         this.isReviewMode = false;
         this.isTestSubmitted = false;
 
@@ -990,7 +993,7 @@ class VARCApp {
         StorageManager.resetTest(this.questions.length);
         this.isTestSubmitted = false;
         this.isReviewMode = false;
-        this.remainingTime = 40 * 60;
+        this.remainingTime = this.TEST_DURATION_MINUTES * 60;
         this.currentQuestionIndex = 0;
 
         // Reset UI
