@@ -917,30 +917,98 @@ class VARCApp {
     }
 
     /**
+     * Show custom confirmation modal before resetting the test
+     */
+    showResetConfirmModal() {
+        if (!this.elements.resetConfirmModal) {
+            const overlay = document.createElement('div');
+            overlay.id = 'resetConfirmModal';
+            overlay.className = 'modal-overlay';
+
+            const dialog = document.createElement('div');
+            dialog.className = 'modal-dialog';
+
+            const message = document.createElement('p');
+            message.textContent = 'Are you sure you want to reset the test? All your answers will be cleared.';
+
+            const actions = document.createElement('div');
+            actions.className = 'modal-actions';
+
+            const cancelBtn = document.createElement('button');
+            cancelBtn.type = 'button';
+            cancelBtn.textContent = 'Cancel';
+
+            const confirmBtn = document.createElement('button');
+            confirmBtn.type = 'button';
+            confirmBtn.textContent = 'Reset Test';
+
+            actions.appendChild(cancelBtn);
+            actions.appendChild(confirmBtn);
+
+            dialog.appendChild(message);
+            dialog.appendChild(actions);
+            overlay.appendChild(dialog);
+
+            document.body.appendChild(overlay);
+
+            this.elements.resetConfirmModal = overlay;
+            this.elements.resetConfirmCancelBtn = cancelBtn;
+            this.elements.resetConfirmConfirmBtn = confirmBtn;
+
+            cancelBtn.addEventListener('click', () => this.hideResetConfirmModal());
+            overlay.addEventListener('click', (event) => {
+                if (event.target === overlay) {
+                    this.hideResetConfirmModal();
+                }
+            });
+            confirmBtn.addEventListener('click', () => {
+                this.hideResetConfirmModal();
+                this.performTestReset();
+            });
+        }
+
+        this.elements.resetConfirmModal.style.display = 'block';
+    }
+
+    /**
+     * Hide reset confirmation modal
+     */
+    hideResetConfirmModal() {
+        if (this.elements.resetConfirmModal) {
+            this.elements.resetConfirmModal.style.display = 'none';
+        }
+    }
+
+    /**
+     * Perform the actual test reset after confirmation
+     */
+    performTestReset() {
+        StorageManager.resetTest(this.questions.length);
+        this.isTestSubmitted = false;
+        this.isReviewMode = false;
+        this.remainingTime = 40 * 60;
+        this.currentQuestionIndex = 0;
+
+        // Reset UI
+        this.elements.saveNextBtn.textContent = 'Save & Next';
+        this.elements.reviewBtn.style.display = '';
+        this.elements.clearBtn.style.display = '';
+        this.elements.submitBtn.textContent = 'Submit';
+        this.elements.submitBtn.onclick = () => this.showSubmitModal();
+        this.elements.timeLeft.style.color = '';
+
+        // Reload
+        this.renderPalette();
+        this.loadQuestion(0);
+        this.updateStatistics();
+        this.startTimer();
+    }
+
+    /**
      * Reset the test
      */
     resetTest() {
-        if (confirm('Are you sure you want to reset the test? All your answers will be cleared.')) {
-            StorageManager.resetTest(this.questions.length);
-            this.isTestSubmitted = false;
-            this.isReviewMode = false;
-            this.remainingTime = 40 * 60;
-            this.currentQuestionIndex = 0;
-
-            // Reset UI
-            this.elements.saveNextBtn.textContent = 'Save & Next';
-            this.elements.reviewBtn.style.display = '';
-            this.elements.clearBtn.style.display = '';
-            this.elements.submitBtn.textContent = 'Submit';
-            this.elements.submitBtn.onclick = () => this.showSubmitModal();
-            this.elements.timeLeft.style.color = '';
-
-            // Reload
-            this.renderPalette();
-            this.loadQuestion(0);
-            this.updateStatistics();
-            this.startTimer();
-        }
+        this.showResetConfirmModal();
     }
 
     /**
