@@ -682,7 +682,6 @@ class VARCApp {
      * Mark current question for review and go to next
      */
     markForReviewAndNext() {
-        const currentStatus = StorageManager.getQuestionStatus(this.currentQuestionIndex);
         const hasAnswer = StorageManager.getAnswer(this.currentQuestionIndex) !== null;
 
         if (hasAnswer) {
