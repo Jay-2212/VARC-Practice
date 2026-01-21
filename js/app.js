@@ -165,12 +165,23 @@ class VARCApp {
         };
 
         // Validate that critical elements exist
-        const criticalElements = ['questionNumber', 'questionText', 'optionsContainer', 'timeLeft'];
-        const missingElements = criticalElements.filter(key => !this.elements[key]);
+        const criticalMapping = {
+            questionNumber: 'question-number',
+            questionText: 'question-text',
+            optionsContainer: 'options-container',
+            timeLeft: 'time-left'
+        };
+        
+        const missingElements = [];
+        for (const [key, elementId] of Object.entries(criticalMapping)) {
+            if (!this.elements[key]) {
+                missingElements.push(elementId);
+            }
+        }
         
         if (missingElements.length > 0) {
             console.error('Critical DOM elements missing:', missingElements);
-            throw new Error(`Failed to initialize: Missing elements: ${missingElements.join(', ')}`);
+            throw new Error(`Failed to initialize: Missing element IDs: ${missingElements.join(', ')}`);
         }
     }
 
@@ -563,8 +574,10 @@ class VARCApp {
         this.loadPassage(question);
 
         // Load question text with XSS protection
+        // Sanitize first, then wrap in HTML to avoid double-sanitization
         if (question.question) {
-            Utils.safeSetHTML(this.elements.questionText, `<p>${question.question}</p>`, true);
+            const sanitizedQuestion = Utils.sanitizeHTML(question.question);
+            this.elements.questionText.innerHTML = `<p>${sanitizedQuestion}</p>`;
         } else {
             Utils.safeSetText(this.elements.questionText, 'Question text not available');
         }

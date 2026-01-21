@@ -10,10 +10,7 @@ global.document = dom.window.document;
 global.window = dom.window;
 
 // Load the Utils module
-const fs = require('fs');
-const path = require('path');
-const utilsCode = fs.readFileSync(path.join(__dirname, '../utils.js'), 'utf8');
-eval(utilsCode);
+const Utils = require('../utils');
 
 describe('Utils - Security Functions', () => {
     describe('sanitizeHTML', () => {

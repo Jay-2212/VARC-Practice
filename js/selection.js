@@ -1,6 +1,21 @@
 /**
  * RC Set Selection Page
  * Displays all available RC sets and allows users to select one
+ * 
+ * Features:
+ * - Organizes questions into RC sets by passageId
+ * - Shows attempt history for each set
+ * - Displays best score achieved
+ * - Allows reattempting completed sets
+ * 
+ * Data Flow:
+ * 1. Loads questions from rc-passages.json
+ * 2. Groups questions by passageId
+ * 3. Retrieves attempt history from localStorage
+ * 4. Renders cards with set information
+ * 5. On selection, saves RC set ID and navigates to quiz
+ * 
+ * @class RCSetSelection
  */
 
 class RCSetSelection {

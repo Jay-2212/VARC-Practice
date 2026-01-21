@@ -51,9 +51,12 @@ const Utils = {
                 }
             });
 
-            // Remove javascript: links
+            // Remove javascript: links completely
             if (element.tagName === 'A' && element.href && element.href.startsWith('javascript:')) {
-                element.removeAttribute('href');
+                // Replace link with span to preserve content but remove functionality
+                const span = document.createElement('span');
+                span.innerHTML = element.innerHTML;
+                element.parentNode.replaceChild(span, element);
             }
         });
 
@@ -252,5 +255,12 @@ const Utils = {
     }
 };
 
-// Make Utils available globally
-window.Utils = Utils;
+// Make Utils available globally for browser
+if (typeof window !== 'undefined') {
+    window.Utils = Utils;
+}
+
+// Export for Node.js/testing
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = Utils;
+}

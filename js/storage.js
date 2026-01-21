@@ -1,6 +1,25 @@
 /**
  * Storage Manager for VARC Practice App
  * Handles all localStorage operations for persisting test state
+ * 
+ * This module manages:
+ * - User answers and question statuses
+ * - Timer state and question time tracking
+ * - RC set attempts and history
+ * - Test progress and completion state
+ * 
+ * Data Structure:
+ * - Answers: { questionIndex: answerValue }
+ * - Statuses: { questionIndex: 'not-visited' | 'not-answered' | 'answered' | 'review' | 'review-answered' }
+ * - Timer: { remainingSeconds: number, savedAt: timestamp }
+ * - Attempts: { rcSetId: [{ score, totalMarks, timestamp, ... }] }
+ * 
+ * Error Handling:
+ * - All operations wrapped in try-catch
+ * - Returns sensible defaults on errors
+ * - Logs errors to console for debugging
+ * 
+ * @namespace StorageManager
  */
 
 const StorageManager = {
@@ -492,5 +511,12 @@ const StorageManager = {
     }
 };
 
-// Make StorageManager available globally
-window.StorageManager = StorageManager;
+// Make StorageManager available globally for browser
+if (typeof window !== 'undefined') {
+    window.StorageManager = StorageManager;
+}
+
+// Export for Node.js/testing
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = StorageManager;
+}

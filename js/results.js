@@ -1,6 +1,26 @@
 /**
  * Results Page
  * Displays test results with time analysis and attempt comparison
+ * 
+ * Features:
+ * - Shows score breakdown (correct, incorrect, unattempted)
+ * - Time analysis per question
+ * - Comparison with previous attempts
+ * - Answer review with explanations
+ * 
+ * Data Flow:
+ * 1. Receives attempt data via URL parameters
+ * 2. Loads previous attempts from localStorage
+ * 3. Calculates and displays statistics
+ * 4. Renders answer review with safe HTML
+ * 
+ * Security:
+ * - URL parameters validated
+ * - HTML content sanitized before display
+ * - Division-by-zero protection
+ * - Bounds checking on all array access
+ * 
+ * @class ResultsPage
  */
 
 class ResultsPage {
@@ -240,10 +260,14 @@ class ResultsPage {
             }
 
             // Get option text for display with XSS protection
+            // Validate options array once before multiple uses
+            const hasValidOptions = Array.isArray(q.options) && q.options.length > 0;
+            
             const userAnswerText = isUnattempted 
                 ? 'Not answered'
-                : Utils.sanitizeHTML(this.getAnswerText(q.options, userAnswer, 'Not answered'));
-            const correctAnswerText = Utils.sanitizeHTML(this.getAnswerText(q.options, q.correctAnswer, 'N/A'));
+                : hasValidOptions ? Utils.sanitizeHTML(this.getAnswerText(q.options, userAnswer, 'Not answered')) : 'Not answered';
+            
+            const correctAnswerText = hasValidOptions ? Utils.sanitizeHTML(this.getAnswerText(q.options, q.correctAnswer, 'N/A')) : 'N/A';
 
             // Sanitize question text to prevent XSS
             const questionSafe = Utils.sanitizeHTML(q.question || 'Question text not available');

@@ -38,10 +38,7 @@ class LocalStorageMock {
 global.localStorage = new LocalStorageMock();
 
 // Load the StorageManager module
-const fs = require('fs');
-const path = require('path');
-const storageCode = fs.readFileSync(path.join(__dirname, '../storage.js'), 'utf8');
-eval(storageCode);
+const StorageManager = require('../storage');
 
 describe('StorageManager - Basic Operations', () => {
     beforeEach(() => {
