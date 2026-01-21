@@ -873,7 +873,9 @@ class VARCApp {
                 id: q.id,
                 userAnswer: StorageManager.getAnswer(index),
                 correctAnswer: q.correctAnswer,
-                question: q.question
+                question: q.question,
+                options: q.options,
+                explanation: q.explanation
             }))
         };
 
