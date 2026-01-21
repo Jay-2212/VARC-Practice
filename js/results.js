@@ -71,6 +71,9 @@ class ResultsPage {
         if (this.previousAttempts.length > 1) {
             this.displayAttemptComparison();
         }
+
+        // Display answer review
+        this.displayAnswerReview();
     }
 
     /**
@@ -164,6 +167,109 @@ class ResultsPage {
                             <div class="attempt-stat-value" style="color: #4caf50">${attempt.correct}</div>
                         </div>
                     </div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    /**
+     * Get answer text from options array
+     */
+    getAnswerText(options, answerIndex, defaultText = 'N/A') {
+        if (
+            !options ||
+            typeof answerIndex !== 'number' ||
+            !Number.isInteger(answerIndex) ||
+            answerIndex < 0 ||
+            answerIndex >= options.length
+        ) {
+            return defaultText;
+        }
+
+        return options[answerIndex];
+    }
+
+    /**
+     * Display answer review section with explanations
+     */
+    displayAnswerReview() {
+        const reviewList = document.getElementById('review-list');
+
+        // Safely handle missing review container
+        if (!reviewList) {
+            return;
+        }
+
+        // Validate currentAttempt and questions before mapping
+        if (
+            !this.currentAttempt ||
+            !Array.isArray(this.currentAttempt.questions)
+        ) {
+            reviewList.innerHTML = '<p>No questions available for review.</p>';
+            return;
+        }
+
+        const { questions } = this.currentAttempt;
+        reviewList.innerHTML = questions.map((q, index) => {
+            const userAnswer = q.userAnswer;
+            const isCorrect = userAnswer === q.correctAnswer;
+            const isUnattempted = userAnswer === null || userAnswer === undefined;
+
+            let statusClass = 'unattempted';
+            let statusIcon = 'fa-minus-circle';
+            let statusText = 'Unattempted';
+
+            if (!isUnattempted) {
+                statusClass = isCorrect ? 'correct' : 'incorrect';
+                statusIcon = isCorrect ? 'fa-check-circle' : 'fa-times-circle';
+                statusText = isCorrect ? 'Correct' : 'Incorrect';
+            }
+
+            // Get option text for display
+            const userAnswerText = isUnattempted 
+                ? 'Not answered'
+                : this.getAnswerText(q.options, userAnswer, 'Not answered');
+            const correctAnswerText = this.getAnswerText(q.options, q.correctAnswer, 'N/A');
+
+            return `
+                <div class="review-item ${statusClass}">
+                    <div class="review-question-header">
+                        <div class="review-question-number">
+                            <span class="review-status-icon ${statusClass}">
+                                <i class="fas ${statusIcon}"></i>
+                            </span>
+                            <span class="review-question-label">Question ${index + 1}</span>
+                            <span class="review-status-badge ${statusClass}">${statusText}</span>
+                        </div>
+                    </div>
+                    <div class="review-question-text">${q.question || 'Question text not available'}</div>
+                    
+                    <div class="review-answers">
+                        ${!isUnattempted ? `
+                            <div class="review-answer-item ${isCorrect ? '' : 'user-incorrect'}">
+                                <strong>Your Answer:</strong> ${userAnswerText}
+                            </div>
+                        ` : `
+                            <div class="review-answer-item user-unattempted">
+                                <strong>Your Answer:</strong> ${userAnswerText}
+                            </div>
+                        `}
+                        ${!isCorrect ? `
+                            <div class="review-answer-item correct-answer">
+                                <strong>Correct Answer:</strong> ${correctAnswerText}
+                            </div>
+                        ` : ''}
+                    </div>
+
+                    ${q.explanation ? `
+                        <div class="review-explanation">
+                            <div class="explanation-header">
+                                <i class="fas fa-lightbulb"></i>
+                                <strong>Explanation:</strong>
+                            </div>
+                            <div class="explanation-text">${q.explanation}</div>
+                        </div>
+                    ` : ''}
                 </div>
             `;
         }).join('');
