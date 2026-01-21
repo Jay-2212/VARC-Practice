@@ -32,8 +32,6 @@ const Utils = {
             return '';
         }
 
-        // Allow only safe tags for text formatting
-        const allowedTags = ['p', 'br', 'strong', 'em', 'u', 'ul', 'ol', 'li', 'span'];
         const temp = document.createElement('div');
         temp.innerHTML = html;
 
@@ -52,13 +50,22 @@ const Utils = {
             });
 
             // Remove dangerous URL schemes completely
-            // Check for javascript:, data:, vbscript:, file:, and other dangerous schemes
-            if (element.tagName === 'A' && element.href) {
-                const href = element.href.toLowerCase();
+            // Check both element.href and getAttribute('href') for comprehensive protection
+            // element.href can be auto-resolved by browser, so check raw attribute too
+            if (element.tagName === 'A') {
+                const rawHref = element.getAttribute('href');
+                const resolvedHref = element.href;
                 const dangerousSchemes = ['javascript:', 'data:', 'vbscript:', 'file:', 'about:'];
                 
-                if (dangerousSchemes.some(scheme => href.startsWith(scheme))) {
+                const isDangerous = (href) => {
+                    if (!href) return false;
+                    const lowerHref = href.toLowerCase();
+                    return dangerousSchemes.some(scheme => lowerHref.startsWith(scheme));
+                };
+                
+                if (isDangerous(rawHref) || isDangerous(resolvedHref)) {
                     // Replace link with span to preserve visible content but remove functionality
+                    // Use textContent to avoid reintroducing XSS vulnerabilities
                     const span = document.createElement('span');
                     span.textContent = element.textContent;
                     element.parentNode.replaceChild(span, element);

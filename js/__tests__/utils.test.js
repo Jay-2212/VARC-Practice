@@ -3,6 +3,10 @@
  * These tests validate the security, safety, and correctness of utility helpers
  */
 
+// Fix TextEncoder issue for jsdom - must be before JSDOM import
+global.TextEncoder = require('util').TextEncoder;
+global.TextDecoder = require('util').TextDecoder;
+
 // Mock DOM for testing
 const { JSDOM } = require('jsdom');
 const dom = new JSDOM('<!DOCTYPE html><html><body></body></html>');
@@ -36,7 +40,11 @@ describe('Utils - Security Functions', () => {
         test('should escape dangerous HTML entities', () => {
             const input = '<img src=x onerror="alert(1)">';
             const result = Utils.sanitizeHTML(input);
-            expect(result).not.toContain('onerror');
+            // Should escape the tag, making it safe
+            expect(result).toContain('&lt;img');
+            expect(result).toContain('&gt;');
+            // The escaped version will still contain "onerror" as text, not as executable code
+            expect(result).not.toContain('<img');
         });
     });
 
@@ -59,6 +67,48 @@ describe('Utils - Security Functions', () => {
             const input = '<p onclick="alert(1)">Click me</p>';
             const result = Utils.parseHTMLSafe(input);
             expect(result).not.toContain('onclick');
+        });
+
+        test('should block javascript: URLs', () => {
+            const input = '<a href="javascript:alert(1)">Click</a>';
+            const result = Utils.parseHTMLSafe(input);
+            expect(result).not.toContain('<a');
+            expect(result).toContain('<span>Click</span>');
+        });
+
+        test('should block data: URLs', () => {
+            const input = '<a href="data:text/html,<script>alert(1)</script>">Click</a>';
+            const result = Utils.parseHTMLSafe(input);
+            expect(result).not.toContain('<a');
+            expect(result).toContain('<span>Click</span>');
+        });
+
+        test('should block vbscript: URLs', () => {
+            const input = '<a href="vbscript:msgbox(1)">Click</a>';
+            const result = Utils.parseHTMLSafe(input);
+            expect(result).not.toContain('<a');
+            expect(result).toContain('<span>Click</span>');
+        });
+
+        test('should block file: URLs', () => {
+            const input = '<a href="file:///etc/passwd">Click</a>';
+            const result = Utils.parseHTMLSafe(input);
+            expect(result).not.toContain('<a');
+            expect(result).toContain('<span>Click</span>');
+        });
+
+        test('should block about: URLs', () => {
+            const input = '<a href="about:blank">Click</a>';
+            const result = Utils.parseHTMLSafe(input);
+            expect(result).not.toContain('<a');
+            expect(result).toContain('<span>Click</span>');
+        });
+
+        test('should allow safe http/https URLs', () => {
+            const input = '<a href="https://example.com">Safe link</a>';
+            const result = Utils.parseHTMLSafe(input);
+            expect(result).toContain('<a');
+            expect(result).toContain('https://example.com');
         });
 
         test('should handle null input', () => {

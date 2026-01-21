@@ -192,7 +192,7 @@ class ResultsPage {
                         </div>
                         <div class="attempt-stat">
                             <div class="attempt-stat-label">Time</div>
-                            <div class="attempt-stat-value">${this.formatTime(attempt.totalTime)}</div>
+                            <div class="attempt-stat-value">${Utils.formatTime(attempt.totalTime)}</div>
                         </div>
                         <div class="attempt-stat">
                             <div class="attempt-stat-label">Correct</div>
@@ -317,15 +317,6 @@ class ResultsPage {
                 </div>
             `;
         }).join('');
-    }
-
-    /**
-     * Format time in seconds to MM:SS
-     */
-    formatTime(seconds) {
-        const mins = Math.floor(seconds / 60);
-        const secs = seconds % 60;
-        return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
     }
 }
 
