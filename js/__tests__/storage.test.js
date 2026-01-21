@@ -193,7 +193,6 @@ describe('StorageManager - Timer', () => {
     });
 
     test('should save and retrieve timer state', () => {
-        const originalTime = Date.now();
         StorageManager.saveTimerState(1800);
         
         // Small delay to simulate passage of time
