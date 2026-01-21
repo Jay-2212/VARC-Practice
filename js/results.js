@@ -173,6 +173,13 @@ class ResultsPage {
     }
 
     /**
+     * Get answer text from options array
+     */
+    getAnswerText(options, answerIndex, defaultText = 'N/A') {
+        return (options && options[answerIndex]) ? options[answerIndex] : defaultText;
+    }
+
+    /**
      * Display answer review section with explanations
      */
     displayAnswerReview() {
@@ -195,12 +202,10 @@ class ResultsPage {
             }
 
             // Get option text for display
-            const userAnswerText = (userAnswer !== null && userAnswer !== undefined && q.options && q.options[userAnswer]) 
-                ? q.options[userAnswer] 
-                : 'Not answered';
-            const correctAnswerText = (q.options && q.options[q.correctAnswer]) 
-                ? q.options[q.correctAnswer] 
-                : 'N/A';
+            const userAnswerText = isUnattempted 
+                ? 'Not answered'
+                : this.getAnswerText(q.options, userAnswer, 'Not answered');
+            const correctAnswerText = this.getAnswerText(q.options, q.correctAnswer, 'N/A');
 
             return `
                 <div class="review-item ${statusClass}">
@@ -222,7 +227,7 @@ class ResultsPage {
                             </div>
                         ` : `
                             <div class="review-answer-item user-unattempted">
-                                <strong>Your Answer:</strong> Not answered
+                                <strong>Your Answer:</strong> ${userAnswerText}
                             </div>
                         `}
                         ${!isCorrect ? `
