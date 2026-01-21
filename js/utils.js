@@ -51,12 +51,18 @@ const Utils = {
                 }
             });
 
-            // Remove javascript: links completely
-            if (element.tagName === 'A' && element.href && element.href.startsWith('javascript:')) {
-                // Replace link with span to preserve content but remove functionality
-                const span = document.createElement('span');
-                span.innerHTML = element.innerHTML;
-                element.parentNode.replaceChild(span, element);
+            // Remove dangerous URL schemes completely
+            // Check for javascript:, data:, vbscript:, file:, and other dangerous schemes
+            if (element.tagName === 'A' && element.href) {
+                const href = element.href.toLowerCase();
+                const dangerousSchemes = ['javascript:', 'data:', 'vbscript:', 'file:', 'about:'];
+                
+                if (dangerousSchemes.some(scheme => href.startsWith(scheme))) {
+                    // Replace link with span to preserve content but remove functionality
+                    const span = document.createElement('span');
+                    span.innerHTML = element.innerHTML;
+                    element.parentNode.replaceChild(span, element);
+                }
             }
         });
 
