@@ -58,9 +58,9 @@ const Utils = {
                 const dangerousSchemes = ['javascript:', 'data:', 'vbscript:', 'file:', 'about:'];
                 
                 if (dangerousSchemes.some(scheme => href.startsWith(scheme))) {
-                    // Replace link with span to preserve content but remove functionality
+                    // Replace link with span to preserve visible content but remove functionality
                     const span = document.createElement('span');
-                    span.innerHTML = element.innerHTML;
+                    span.textContent = element.textContent;
                     element.parentNode.replaceChild(span, element);
                 }
             }
