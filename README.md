@@ -2,6 +2,8 @@
 
 A practice interface for CAT VARC (Verbal Ability and Reading Comprehension) section that mimics the actual exam interface.
 
+**Now includes 60+ Reading Comprehension passages with 201 questions, complete with answers and detailed explanations!**
+
 ## Features
 
 - **Exam-like Interface**: Replicates the CAT exam interface with passage display, questions, and navigation
@@ -51,7 +53,7 @@ A practice interface for CAT VARC (Verbal Ability and Reading Comprehension) sec
 
 ## Adding Your Own Questions
 
-Edit `data/questions.json` to add your own questions. The format is:
+Edit `data/rc-passages.json` to add your own questions. The format is:
 
 ```json
 {
@@ -104,14 +106,20 @@ Edit `data/questions.json` to add your own questions. The format is:
 
 ```
 VARC-Practice/
-├── index.html          # Main HTML file
+├── index.html          # Landing page with RC set selection
+├── quiz.html           # Quiz interface
+├── results.html        # Results page
 ├── css/
-│   └── style.css       # Styling
+│   ├── style.css       # Main styling
+│   ├── selection.css   # Selection page styling
+│   └── results.css     # Results page styling
 ├── js/
-│   ├── app.js          # Main application logic
+│   ├── app.js          # Main quiz application logic
+│   ├── selection.js    # RC set selection logic
+│   ├── results.js      # Results display logic
 │   └── storage.js      # Local storage management
 ├── data/
-│   └── questions.json  # Question data
+│   └── rc-passages.json  # RC passages and questions data
 └── README.md           # This file
 ```
 
