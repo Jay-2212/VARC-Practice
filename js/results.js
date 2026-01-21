@@ -176,7 +176,17 @@ class ResultsPage {
      * Get answer text from options array
      */
     getAnswerText(options, answerIndex, defaultText = 'N/A') {
-        return (options && options[answerIndex]) ? options[answerIndex] : defaultText;
+        if (
+            !options ||
+            typeof answerIndex !== 'number' ||
+            !Number.isInteger(answerIndex) ||
+            answerIndex < 0 ||
+            answerIndex >= options.length
+        ) {
+            return defaultText;
+        }
+
+        return options[answerIndex];
     }
 
     /**
