@@ -1,20 +1,39 @@
 /**
  * VARC Practice App - Main Application
  * CAT Mock Test Interface for Reading Comprehension Practice
+ * 
+ * This class manages the entire quiz interface including:
+ * - Question navigation and display
+ * - Timer management
+ * - Answer tracking
+ * - Question status (answered, not answered, marked for review)
+ * - Results calculation
+ * 
+ * Security Features:
+ * - HTML sanitization to prevent XSS attacks
+ * - Input validation for all user data
+ * - Bounds checking for array access
+ * 
+ * @class VARCApp
  */
 
 class VARCApp {
     constructor() {
-        this.questions = [];
-        this.rcSetId = null;
-        this.currentQuestionIndex = 0;
-        this.timerInterval = null;
-        this.totalElapsedTime = 0; // Total time in seconds
-        this.timerStartTime = null;
-        this.isReviewMode = false;
-        this.isTestSubmitted = false;
+        // Question data and navigation
+        this.questions = []; // Array of question objects loaded from JSON
+        this.rcSetId = null; // Current RC set being attempted
+        this.currentQuestionIndex = 0; // Index of currently displayed question
 
-        // DOM Elements
+        // Timer management
+        this.timerInterval = null; // setInterval reference for timer updates
+        this.totalElapsedTime = 0; // Total time elapsed in seconds
+        this.timerStartTime = null; // Timestamp when timer started
+
+        // Application state
+        this.isReviewMode = false; // Whether user is reviewing answers after submission
+        this.isTestSubmitted = false; // Whether test has been submitted
+
+        // DOM Elements - cached for performance
         this.elements = {};
 
         // Initialize the app
@@ -23,9 +42,11 @@ class VARCApp {
 
     /**
      * Initialize the application
+     * Loads questions, sets up UI, restores saved state
+     * Redirects to selection page if no RC set is selected
      */
     async init() {
-        // Get selected RC set
+        // Get selected RC set - validates user selected a set before coming here
         this.rcSetId = StorageManager.getSelectedRCSet();
         
         if (!this.rcSetId) {
