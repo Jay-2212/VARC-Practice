@@ -193,9 +193,23 @@ class ResultsPage {
      * Display answer review section with explanations
      */
     displayAnswerReview() {
-        const { questions } = this.currentAttempt;
         const reviewList = document.getElementById('review-list');
 
+        // Safely handle missing review container
+        if (!reviewList) {
+            return;
+        }
+
+        // Validate currentAttempt and questions before mapping
+        if (
+            !this.currentAttempt ||
+            !Array.isArray(this.currentAttempt.questions)
+        ) {
+            reviewList.innerHTML = '<p>No questions available for review.</p>';
+            return;
+        }
+
+        const { questions } = this.currentAttempt;
         reviewList.innerHTML = questions.map((q, index) => {
             const userAnswer = q.userAnswer;
             const isCorrect = userAnswer === q.correctAnswer;
