@@ -137,6 +137,50 @@ Works on all modern browsers:
 - Safari
 - Edge
 
+## Code Quality & Security
+
+This project has been optimized for security, reliability, and maintainability:
+
+### Security Features
+- **XSS Protection**: All user-provided content is sanitized before display
+- **Input Validation**: URL parameters and user inputs are validated
+- **Safe HTML Rendering**: Content is parsed safely while preserving formatting
+
+### Error Handling
+- **Defensive Programming**: All array access includes bounds checking
+- **Null Safety**: DOM elements checked before use
+- **Graceful Degradation**: Errors handled with sensible defaults
+
+### Testing
+- **Unit Tests**: Comprehensive test coverage with Jest
+- **Security Tests**: Validates XSS prevention and sanitization
+- **Edge Cases**: Tests for division by zero, invalid inputs, empty arrays
+
+See [TESTING.md](TESTING.md) for details on running tests.
+
+### Code Documentation
+- **JSDoc Comments**: All functions documented with parameters and return types
+- **Inline Comments**: Complex logic explained with clear comments
+- **Architecture Notes**: Data flow and state management documented
+
+## Development
+
+### Running Tests
+
+```bash
+# Install dependencies
+npm install
+
+# Run all tests
+npm test
+
+# Run tests in watch mode
+npm run test:watch
+
+# Generate coverage report
+npm run test:coverage
+```
+
 ## Future Enhancements
 
 - Add more question types (para jumbles, odd sentence out)

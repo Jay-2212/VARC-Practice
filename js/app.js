@@ -1,20 +1,39 @@
 /**
  * VARC Practice App - Main Application
  * CAT Mock Test Interface for Reading Comprehension Practice
+ * 
+ * This class manages the entire quiz interface including:
+ * - Question navigation and display
+ * - Timer management
+ * - Answer tracking
+ * - Question status (answered, not answered, marked for review)
+ * - Results calculation
+ * 
+ * Security Features:
+ * - HTML sanitization to prevent XSS attacks
+ * - Input validation for all user data
+ * - Bounds checking for array access
+ * 
+ * @class VARCApp
  */
 
 class VARCApp {
     constructor() {
-        this.questions = [];
-        this.rcSetId = null;
-        this.currentQuestionIndex = 0;
-        this.timerInterval = null;
-        this.totalElapsedTime = 0; // Total time in seconds
-        this.timerStartTime = null;
-        this.isReviewMode = false;
-        this.isTestSubmitted = false;
+        // Question data and navigation
+        this.questions = []; // Array of question objects loaded from JSON
+        this.rcSetId = null; // Current RC set being attempted
+        this.currentQuestionIndex = 0; // Index of currently displayed question
 
-        // DOM Elements
+        // Timer management
+        this.timerInterval = null; // setInterval reference for timer updates
+        this.totalElapsedTime = 0; // Total time elapsed in seconds
+        this.timerStartTime = null; // Timestamp when timer started
+
+        // Application state
+        this.isReviewMode = false; // Whether user is reviewing answers after submission
+        this.isTestSubmitted = false; // Whether test has been submitted
+
+        // DOM Elements - cached for performance
         this.elements = {};
 
         // Initialize the app
@@ -23,9 +42,11 @@ class VARCApp {
 
     /**
      * Initialize the application
+     * Loads questions, sets up UI, restores saved state
+     * Redirects to selection page if no RC set is selected
      */
     async init() {
-        // Get selected RC set
+        // Get selected RC set - validates user selected a set before coming here
         this.rcSetId = StorageManager.getSelectedRCSet();
         
         if (!this.rcSetId) {
@@ -70,77 +91,98 @@ class VARCApp {
 
     /**
      * Cache DOM elements for better performance
+     * Uses safe element retrieval with null checks for robustness
      */
     cacheElements() {
         this.elements = {
             // Question display
-            passageSection: document.getElementById('passage-section'),
-            passageText: document.getElementById('passage-text'),
-            questionSection: document.getElementById('question-section'),
-            questionNumber: document.getElementById('question-number'),
-            questionText: document.getElementById('question-text'),
-            optionsContainer: document.getElementById('options-container'),
-            questionType: document.getElementById('question-type'),
-            positiveMarks: document.getElementById('positive-marks'),
-            negativeMarks: document.getElementById('negative-marks'),
+            passageSection: Utils.safeGetElement('passage-section', true),
+            passageText: Utils.safeGetElement('passage-text', true),
+            questionSection: Utils.safeGetElement('question-section', true),
+            questionNumber: Utils.safeGetElement('question-number', true),
+            questionText: Utils.safeGetElement('question-text', true),
+            optionsContainer: Utils.safeGetElement('options-container', true),
+            questionType: Utils.safeGetElement('question-type', true),
+            positiveMarks: Utils.safeGetElement('positive-marks', true),
+            negativeMarks: Utils.safeGetElement('negative-marks', true),
 
             // Palette
-            paletteBtns: document.getElementById('palette-btns'),
-            sidebarPaletteBtns: document.getElementById('sidebar-palette-btns'),
+            paletteBtns: Utils.safeGetElement('palette-btns', true),
+            sidebarPaletteBtns: Utils.safeGetElement('sidebar-palette-btns', false),
 
             // Statistics
-            answeredCount: document.getElementById('answered-count'),
-            unansweredCount: document.getElementById('unanswered-count'),
-            notvisitedCount: document.getElementById('notvisited-count'),
-            reviewCount: document.getElementById('review-count'),
-            reviewAnsweredCount: document.getElementById('review-answered-count'),
+            answeredCount: Utils.safeGetElement('answered-count', true),
+            unansweredCount: Utils.safeGetElement('unanswered-count', true),
+            notvisitedCount: Utils.safeGetElement('notvisited-count', true),
+            reviewCount: Utils.safeGetElement('review-count', true),
+            reviewAnsweredCount: Utils.safeGetElement('review-answered-count', true),
 
             // Sidebar statistics
-            sidebarAnsweredCount: document.getElementById('sidebar-answered-count'),
-            sidebarUnansweredCount: document.getElementById('sidebar-unanswered-count'),
-            sidebarNotvisitedCount: document.getElementById('sidebar-notvisited-count'),
-            sidebarReviewCount: document.getElementById('sidebar-review-count'),
-            sidebarReviewAnsweredCount: document.getElementById('sidebar-review-answered-count'),
+            sidebarAnsweredCount: Utils.safeGetElement('sidebar-answered-count', false),
+            sidebarUnansweredCount: Utils.safeGetElement('sidebar-unanswered-count', false),
+            sidebarNotvisitedCount: Utils.safeGetElement('sidebar-notvisited-count', false),
+            sidebarReviewCount: Utils.safeGetElement('sidebar-review-count', false),
+            sidebarReviewAnsweredCount: Utils.safeGetElement('sidebar-review-answered-count', false),
 
             // Timer
-            timeLeft: document.getElementById('time-left'),
+            timeLeft: Utils.safeGetElement('time-left', true),
 
             // Buttons
-            saveNextBtn: document.getElementById('save-next-btn'),
-            reviewBtn: document.getElementById('review-btn'),
-            clearBtn: document.getElementById('clear-btn'),
-            submitBtn: document.getElementById('submit-btn'),
-            sidebarSubmitBtn: document.getElementById('sidebar-submit-btn'),
+            saveNextBtn: Utils.safeGetElement('save-next-btn', true),
+            reviewBtn: Utils.safeGetElement('review-btn', true),
+            clearBtn: Utils.safeGetElement('clear-btn', true),
+            submitBtn: Utils.safeGetElement('submit-btn', true),
+            sidebarSubmitBtn: Utils.safeGetElement('sidebar-submit-btn', false),
 
             // Side panel
-            sidePanel: document.getElementById('side-panel'),
+            sidePanel: Utils.safeGetElement('side-panel', false),
             iconAngle: document.querySelector('.icon-angle'),
 
             // Sidebar
-            sidebar: document.getElementById('sidebar'),
+            sidebar: Utils.safeGetElement('sidebar', false),
             overlay: document.querySelector('.overlay'),
-            sidebarToggle: document.getElementById('sidebar-toggle'),
-            dismiss: document.getElementById('dismiss'),
+            sidebarToggle: Utils.safeGetElement('sidebar-toggle', false),
+            dismiss: Utils.safeGetElement('dismiss', false),
 
             // User
-            userName: document.getElementById('user-name'),
+            userName: Utils.safeGetElement('user-name', true),
 
             // Modals
-            submitModal: document.getElementById('submit-modal'),
-            resultsModal: document.getElementById('results-modal'),
-            questionPaperModal: document.getElementById('question-paper-modal'),
+            submitModal: Utils.safeGetElement('submit-modal', true),
+            resultsModal: Utils.safeGetElement('results-modal', false),
+            questionPaperModal: Utils.safeGetElement('question-paper-modal', false),
 
             // Modal elements
-            modalAnswered: document.getElementById('modal-answered'),
-            modalUnanswered: document.getElementById('modal-unanswered'),
-            modalReview: document.getElementById('modal-review'),
-            modalNotvisited: document.getElementById('modal-notvisited'),
-            resultsBody: document.getElementById('results-body'),
-            questionPaperBody: document.getElementById('question-paper-body'),
+            modalAnswered: Utils.safeGetElement('modal-answered', true),
+            modalUnanswered: Utils.safeGetElement('modal-unanswered', true),
+            modalReview: Utils.safeGetElement('modal-review', true),
+            modalNotvisited: Utils.safeGetElement('modal-notvisited', true),
+            resultsBody: Utils.safeGetElement('results-body', false),
+            questionPaperBody: Utils.safeGetElement('question-paper-body', false),
 
             // Fullscreen
-            fullscreenBtn: document.getElementById('fullscreen-btn')
+            fullscreenBtn: Utils.safeGetElement('fullscreen-btn', false)
         };
+
+        // Validate that critical elements exist
+        const criticalMapping = {
+            questionNumber: 'question-number',
+            questionText: 'question-text',
+            optionsContainer: 'options-container',
+            timeLeft: 'time-left'
+        };
+        
+        const missingElements = [];
+        for (const [key, elementId] of Object.entries(criticalMapping)) {
+            if (!this.elements[key]) {
+                missingElements.push(elementId);
+            }
+        }
+        
+        if (missingElements.length > 0) {
+            console.error('Critical DOM elements missing:', missingElements);
+            throw new Error(`Failed to initialize: Missing element IDs: ${missingElements.join(', ')}`);
+        }
     }
 
     /**
@@ -413,8 +455,15 @@ class VARCApp {
 
     /**
      * Render the question palette
+     * Creates clickable buttons for each question with proper bounds checking
      */
     renderPalette() {
+        // Validate questions array exists and has elements
+        if (!Utils.isValidArray(this.questions)) {
+            console.warn('Cannot render palette: No questions available');
+            return;
+        }
+
         const paletteHTML = this.questions.map((q, index) => {
             const status = StorageManager.getQuestionStatus(index);
             const isCurrent = index === this.currentQuestionIndex;
@@ -426,8 +475,13 @@ class VARCApp {
             this.elements.paletteBtns.innerHTML = paletteHTML;
             this.elements.paletteBtns.querySelectorAll('.palette-btn').forEach(btn => {
                 btn.addEventListener('click', () => {
-                    const index = parseInt(btn.dataset.index);
-                    this.navigateToQuestion(index);
+                    // Safely parse index with validation
+                    const index = Utils.safeParseInt(btn.dataset.index, -1);
+                    if (Utils.isValidIndex(this.questions, index)) {
+                        this.navigateToQuestion(index);
+                    } else {
+                        console.error('Invalid question index from palette:', index);
+                    }
                 });
             });
         }
@@ -436,9 +490,14 @@ class VARCApp {
             this.elements.sidebarPaletteBtns.innerHTML = paletteHTML;
             this.elements.sidebarPaletteBtns.querySelectorAll('.palette-btn').forEach(btn => {
                 btn.addEventListener('click', () => {
-                    const index = parseInt(btn.dataset.index);
-                    this.navigateToQuestion(index);
-                    this.closeSidebar();
+                    // Safely parse index with validation
+                    const index = Utils.safeParseInt(btn.dataset.index, -1);
+                    if (Utils.isValidIndex(this.questions, index)) {
+                        this.navigateToQuestion(index);
+                        this.closeSidebar();
+                    } else {
+                        console.error('Invalid question index from sidebar palette:', index);
+                    }
                 });
             });
         }
@@ -480,12 +539,18 @@ class VARCApp {
 
     /**
      * Load and display a question
+     * Validates index bounds and safely displays content with XSS prevention
+     * @param {number} index - Question index to load
      */
     loadQuestion(index) {
-        if (index < 0 || index >= this.questions.length) return;
+        // Validate index is within bounds
+        if (!Utils.isValidIndex(this.questions, index)) {
+            console.error('Invalid question index:', index);
+            return;
+        }
 
         // Stop timer for previous question
-        if (this.currentQuestionIndex >= 0 && this.currentQuestionIndex < this.questions.length) {
+        if (Utils.isValidIndex(this.questions, this.currentQuestionIndex)) {
             StorageManager.stopQuestionTimer(this.currentQuestionIndex);
         }
 
@@ -497,19 +562,25 @@ class VARCApp {
             StorageManager.startQuestionTimer(index);
         }
 
-        // Update question number
-        this.elements.questionNumber.textContent = index + 1;
+        // Update question number with safety check
+        Utils.safeSetText(this.elements.questionNumber, index + 1);
 
-        // Update marks
-        this.elements.positiveMarks.textContent = question.marks?.positive || 3;
-        this.elements.negativeMarks.textContent = question.marks?.negative || 1;
-        this.elements.questionType.textContent = question.type || 'MCQ';
+        // Update marks with safety checks
+        Utils.safeSetText(this.elements.positiveMarks, question.marks?.positive || 3);
+        Utils.safeSetText(this.elements.negativeMarks, question.marks?.negative || 1);
+        Utils.safeSetText(this.elements.questionType, question.type || 'MCQ');
 
         // Load passage
         this.loadPassage(question);
 
-        // Load question text
-        this.elements.questionText.innerHTML = `<p>${question.question}</p>`;
+        // Load question text with XSS protection
+        // Sanitize first, then wrap in HTML to avoid double-sanitization
+        if (question.question) {
+            const sanitizedQuestion = Utils.sanitizeHTML(question.question);
+            this.elements.questionText.innerHTML = `<p>${sanitizedQuestion}</p>`;
+        } else {
+            Utils.safeSetText(this.elements.questionText, 'Question text not available');
+        }
 
         // Load options
         this.loadOptions(question, index);
@@ -531,6 +602,8 @@ class VARCApp {
 
     /**
      * Load passage for the question
+     * Handles passage sharing between questions and sanitizes HTML content
+     * @param {Object} question - Question object
      */
     loadPassage(question) {
         // Check if this question has its own passage or shares with previous
@@ -544,50 +617,81 @@ class VARCApp {
             }
         }
 
-        if (passage) {
-            this.elements.passageSection.style.display = 'block';
-            this.elements.passageText.innerHTML = passage;
-            document.querySelector('.question-content').classList.remove('no-passage');
+        if (passage && Utils.isValidString(passage)) {
+            if (this.elements.passageSection) {
+                this.elements.passageSection.style.display = 'block';
+                // Sanitize passage HTML to prevent XSS while allowing formatting
+                Utils.safeSetHTML(this.elements.passageText, passage, true);
+            }
+            
+            const questionContent = document.querySelector('.question-content');
+            if (questionContent) {
+                questionContent.classList.remove('no-passage');
+            }
         } else {
-            this.elements.passageSection.style.display = 'none';
-            document.querySelector('.question-content').classList.add('no-passage');
+            if (this.elements.passageSection) {
+                this.elements.passageSection.style.display = 'none';
+            }
+            
+            const questionContent = document.querySelector('.question-content');
+            if (questionContent) {
+                questionContent.classList.add('no-passage');
+            }
         }
     }
 
     /**
      * Load options for MCQ question
+     * Handles both MCQ and TITA types with XSS protection
+     * @param {Object} question - Question object
+     * @param {number} index - Question index
      */
     loadOptions(question, index) {
         const savedAnswer = StorageManager.getAnswer(index);
 
         if (question.type === 'TITA') {
-            // Type In The Answer
+            // Type In The Answer - sanitize input value
+            const sanitizedAnswer = Utils.sanitizeHTML(savedAnswer || '');
             this.elements.optionsContainer.innerHTML = `
                 <div class="tita-container">
                     <input type="text" class="tita-input" id="tita-answer"
                            placeholder="Type your answer here"
-                           value="${savedAnswer || ''}"
+                           value="${sanitizedAnswer}"
                            ${this.isReviewMode ? 'disabled' : ''}>
                 </div>
             `;
 
             if (!this.isReviewMode) {
-                document.getElementById('tita-answer')?.addEventListener('input', (e) => {
-                    this.handleTITAInput(e.target.value);
-                });
+                const titaInput = document.getElementById('tita-answer');
+                if (titaInput) {
+                    titaInput.addEventListener('input', (e) => {
+                        this.handleTITAInput(e.target.value);
+                    });
+                }
             }
 
-            // Show correct answer in review mode
+            // Show correct answer in review mode with XSS protection
             if (this.isReviewMode && question.correctAnswer !== undefined) {
+                const correctAnswerSafe = Utils.sanitizeHTML(String(question.correctAnswer));
+                const explanationSafe = question.explanation ? 
+                    Utils.parseHTMLSafe(question.explanation) : '';
+                
                 this.elements.optionsContainer.innerHTML += `
                     <div class="explanation">
-                        <strong>Correct Answer:</strong> ${question.correctAnswer}<br>
-                        ${question.explanation ? `<strong>Explanation:</strong> ${question.explanation}` : ''}
+                        <strong>Correct Answer:</strong> ${correctAnswerSafe}<br>
+                        ${explanationSafe ? `<strong>Explanation:</strong> ${explanationSafe}` : ''}
                     </div>
                 `;
             }
         } else {
             // Multiple Choice Question
+            // Validate options array exists
+            if (!Array.isArray(question.options) || question.options.length === 0) {
+                console.error('Invalid or empty options array for question', index);
+                this.elements.optionsContainer.innerHTML = '<p>Options not available</p>';
+                return;
+            }
+
             const optionsHTML = question.options.map((option, optIndex) => {
                 const isSelected = savedAnswer === optIndex;
                 const isCorrect = question.correctAnswer === optIndex;
@@ -600,12 +704,15 @@ class VARCApp {
                     else if (isSelected && !isCorrect) optionClass += ' incorrect';
                 }
 
+                // Sanitize option text to prevent XSS
+                const optionSafe = Utils.sanitizeHTML(option);
+
                 return `
                     <div class="${optionClass}" data-index="${optIndex}">
                         <input type="radio" name="option" id="option-${optIndex}"
                                ${isSelected ? 'checked' : ''}
                                ${this.isReviewMode ? 'disabled' : ''}>
-                        <label for="option-${optIndex}">${option}</label>
+                        <label for="option-${optIndex}">${optionSafe}</label>
                     </div>
                 `;
             }).join('');
@@ -616,26 +723,32 @@ class VARCApp {
             if (!this.isReviewMode) {
                 this.elements.optionsContainer.querySelectorAll('.option').forEach(opt => {
                     opt.addEventListener('click', () => {
-                        const optIndex = parseInt(opt.dataset.index);
-                        this.selectOption(optIndex);
+                        // Safely parse and validate option index
+                        const optIndex = Utils.safeParseInt(opt.dataset.index, -1);
+                        if (Utils.isValidIndex(question.options, optIndex)) {
+                            this.selectOption(optIndex);
+                        } else {
+                            console.error('Invalid option index:', optIndex);
+                        }
                     });
                 });
             }
 
-            // Show explanation in review mode
+            // Show explanation in review mode with XSS protection
             if (this.isReviewMode && question.explanation) {
+                const explanationSafe = Utils.parseHTMLSafe(question.explanation);
                 this.elements.optionsContainer.innerHTML += `
                     <div class="explanation">
-                        <strong>Explanation:</strong> ${question.explanation}
+                        <strong>Explanation:</strong> ${explanationSafe}
                     </div>
                 `;
             }
         }
 
         // Add review mode class to question section
-        if (this.isReviewMode) {
+        if (this.isReviewMode && this.elements.questionSection) {
             this.elements.questionSection.classList.add('review-mode');
-        } else {
+        } else if (this.elements.questionSection) {
             this.elements.questionSection.classList.remove('review-mode');
         }
     }
@@ -720,9 +833,12 @@ class VARCApp {
 
     /**
      * Mark current question for review and go to next
+     * Properly handles all types of answers including 0 and empty strings
      */
     markForReviewAndNext() {
-        const hasAnswer = StorageManager.getAnswer(this.currentQuestionIndex) !== null;
+        // Get answer and check if it's actually set (not null/undefined)
+        const answer = StorageManager.getAnswer(this.currentQuestionIndex);
+        const hasAnswer = answer !== null && answer !== undefined;
 
         if (hasAnswer) {
             StorageManager.saveQuestionStatus(this.currentQuestionIndex, 'review-answered');
@@ -741,9 +857,16 @@ class VARCApp {
 
     /**
      * Clear response for current question
+     * Validates bounds before accessing questions array
      */
     clearResponse() {
         if (this.isReviewMode) return;
+
+        // Validate current question index
+        if (!Utils.isValidIndex(this.questions, this.currentQuestionIndex)) {
+            console.error('Cannot clear response: Invalid question index', this.currentQuestionIndex);
+            return;
+        }
 
         StorageManager.clearAnswer(this.currentQuestionIndex);
 

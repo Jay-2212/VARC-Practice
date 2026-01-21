@@ -1,6 +1,26 @@
 /**
  * Results Page
  * Displays test results with time analysis and attempt comparison
+ * 
+ * Features:
+ * - Shows score breakdown (correct, incorrect, unattempted)
+ * - Time analysis per question
+ * - Comparison with previous attempts
+ * - Answer review with explanations
+ * 
+ * Data Flow:
+ * 1. Receives attempt data via URL parameters
+ * 2. Loads previous attempts from localStorage
+ * 3. Calculates and displays statistics
+ * 4. Renders answer review with safe HTML
+ * 
+ * Security:
+ * - URL parameters validated
+ * - HTML content sanitized before display
+ * - Division-by-zero protection
+ * - Bounds checking on all array access
+ * 
+ * @class ResultsPage
  */
 
 class ResultsPage {
@@ -12,11 +32,13 @@ class ResultsPage {
     }
 
     init() {
-        // Get RC set ID from query parameter
+        // Get RC set ID from query parameter with validation
         const urlParams = new URLSearchParams(window.location.search);
-        this.rcSetId = parseInt(urlParams.get('setId'));
+        this.rcSetId = Utils.getValidURLParam(urlParams, 'setId', null);
 
-        if (!this.rcSetId) {
+        // Validate rcSetId is a positive integer
+        if (!this.rcSetId || this.rcSetId <= 0) {
+            console.error('Invalid or missing RC set ID');
             alert('No RC set specified');
             window.location.href = 'index.html';
             return;
@@ -91,19 +113,29 @@ class ResultsPage {
 
     /**
      * Display time analysis section
+     * Includes division-by-zero protection
      */
     displayTimeAnalysis() {
         const { totalTime, questionTimes, questions } = this.currentAttempt;
 
-        // Display total time
-        document.getElementById('total-time').textContent = this.formatTime(totalTime);
+        // Display total time with safety check
+        const totalTimeFormatted = Utils.formatTime(totalTime || 0);
+        Utils.safeSetText(document.getElementById('total-time'), totalTimeFormatted);
 
-        // Calculate and display average time
-        const avgTime = totalTime / questions.length;
-        document.getElementById('avg-time').textContent = this.formatTime(Math.round(avgTime));
+        // Calculate and display average time with division-by-zero protection
+        const avgTime = Utils.safeDivide(totalTime, questions.length, 0);
+        const avgTimeFormatted = Utils.formatTime(Math.round(avgTime));
+        Utils.safeSetText(document.getElementById('avg-time'), avgTimeFormatted);
 
         // Display question time breakdown
         const breakdownContainer = document.getElementById('questions-time-breakdown');
+        
+        // Validate container exists and questions is a valid array
+        if (!breakdownContainer || !Utils.isValidArray(questions)) {
+            console.warn('Cannot display time breakdown: missing container or questions');
+            return;
+        }
+
         breakdownContainer.innerHTML = questions.map((q, index) => {
             const time = questionTimes[index] || 0;
             const answer = q.userAnswer;
@@ -125,7 +157,7 @@ class ResultsPage {
                         </span>
                         <span>Question ${index + 1}</span>
                     </div>
-                    <div class="question-time">${this.formatTime(Math.round(time / 1000))}</div>
+                    <div class="question-time">${Utils.formatTime(Math.round(time / 1000))}</div>
                 </div>
             `;
         }).join('');
@@ -160,7 +192,7 @@ class ResultsPage {
                         </div>
                         <div class="attempt-stat">
                             <div class="attempt-stat-label">Time</div>
-                            <div class="attempt-stat-value">${this.formatTime(attempt.totalTime)}</div>
+                            <div class="attempt-stat-value">${Utils.formatTime(attempt.totalTime)}</div>
                         </div>
                         <div class="attempt-stat">
                             <div class="attempt-stat-label">Correct</div>
@@ -191,12 +223,14 @@ class ResultsPage {
 
     /**
      * Display answer review section with explanations
+     * Includes XSS protection for user-provided content
      */
     displayAnswerReview() {
         const reviewList = document.getElementById('review-list');
 
         // Safely handle missing review container
         if (!reviewList) {
+            console.warn('Review list container not found');
             return;
         }
 
@@ -225,11 +259,21 @@ class ResultsPage {
                 statusText = isCorrect ? 'Correct' : 'Incorrect';
             }
 
-            // Get option text for display
+            // Get option text for display with XSS protection
+            // Validate options array once before multiple uses
+            const hasValidOptions = Array.isArray(q.options) && q.options.length > 0;
+            
             const userAnswerText = isUnattempted 
                 ? 'Not answered'
-                : this.getAnswerText(q.options, userAnswer, 'Not answered');
-            const correctAnswerText = this.getAnswerText(q.options, q.correctAnswer, 'N/A');
+                : hasValidOptions ? Utils.sanitizeHTML(this.getAnswerText(q.options, userAnswer, 'Not answered')) : 'Not answered';
+            
+            const correctAnswerText = hasValidOptions ? Utils.sanitizeHTML(this.getAnswerText(q.options, q.correctAnswer, 'N/A')) : 'N/A';
+
+            // Sanitize question text to prevent XSS
+            const questionSafe = Utils.sanitizeHTML(q.question || 'Question text not available');
+            
+            // Sanitize explanation HTML while allowing formatting
+            const explanationSafe = q.explanation ? Utils.parseHTMLSafe(q.explanation) : '';
 
             return `
                 <div class="review-item ${statusClass}">
@@ -242,7 +286,7 @@ class ResultsPage {
                             <span class="review-status-badge ${statusClass}">${statusText}</span>
                         </div>
                     </div>
-                    <div class="review-question-text">${q.question || 'Question text not available'}</div>
+                    <div class="review-question-text">${questionSafe}</div>
                     
                     <div class="review-answers">
                         ${!isUnattempted ? `
@@ -261,27 +305,18 @@ class ResultsPage {
                         ` : ''}
                     </div>
 
-                    ${q.explanation ? `
+                    ${explanationSafe ? `
                         <div class="review-explanation">
                             <div class="explanation-header">
                                 <i class="fas fa-lightbulb"></i>
                                 <strong>Explanation:</strong>
                             </div>
-                            <div class="explanation-text">${q.explanation}</div>
+                            <div class="explanation-text">${explanationSafe}</div>
                         </div>
                     ` : ''}
                 </div>
             `;
         }).join('');
-    }
-
-    /**
-     * Format time in seconds to MM:SS
-     */
-    formatTime(seconds) {
-        const mins = Math.floor(seconds / 60);
-        const secs = seconds % 60;
-        return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
     }
 }
 

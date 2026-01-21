@@ -1,6 +1,21 @@
 /**
  * RC Set Selection Page
  * Displays all available RC sets and allows users to select one
+ * 
+ * Features:
+ * - Organizes questions into RC sets by passageId
+ * - Shows attempt history for each set
+ * - Displays best score achieved
+ * - Allows reattempting completed sets
+ * 
+ * Data Flow:
+ * 1. Loads questions from rc-passages.json
+ * 2. Groups questions by passageId
+ * 3. Retrieves attempt history from localStorage
+ * 4. Renders cards with set information
+ * 5. On selection, saves RC set ID and navigates to quiz
+ * 
+ * @class RCSetSelection
  */
 
 class RCSetSelection {
@@ -58,13 +73,17 @@ class RCSetSelection {
 
     /**
      * Render RC sets grid
+     * Displays all available RC sets with safety checks
      */
     renderRCSets() {
         const grid = document.getElementById('rc-sets-grid');
         
-        if (!grid) return;
+        if (!grid) {
+            console.error('RC sets grid container not found');
+            return;
+        }
 
-        if (this.rcSets.length === 0) {
+        if (!Utils.isValidArray(this.rcSets)) {
             grid.innerHTML = `
                 <div class="empty-state">
                     <i class="fas fa-book-open"></i>
@@ -76,7 +95,8 @@ class RCSetSelection {
         }
 
         grid.innerHTML = this.rcSets.map(rcSet => {
-            const attempts = StorageManager.getRCSetAttempts(rcSet.id);
+            // Safely get attempts with validation
+            const attempts = StorageManager.getRCSetAttempts(rcSet.id) || [];
             const attemptCount = attempts.length;
             const bestScore = this.getBestScore(attempts);
             const hasAttempts = attemptCount > 0;
@@ -110,17 +130,32 @@ class RCSetSelection {
 
     /**
      * Get best score from attempts
+     * Handles empty arrays and validates data structure
+     * @param {Array} attempts - Array of attempt objects
+     * @returns {Object|null} - Best score object or null
      */
     getBestScore(attempts) {
-        if (!attempts || attempts.length === 0) return null;
+        // Validate attempts is a valid array with elements
+        if (!Utils.isValidArray(attempts)) {
+            return null;
+        }
         
+        // Find best attempt with validation
         const bestAttempt = attempts.reduce((best, current) => {
-            return current.score > best.score ? current : best;
-        });
+            // Validate both attempts have score property
+            const bestScore = typeof best.score === 'number' ? best.score : -Infinity;
+            const currentScore = typeof current.score === 'number' ? current.score : -Infinity;
+            return currentScore > bestScore ? current : best;
+        }, attempts[0]);
+
+        // Validate bestAttempt has required properties
+        if (!bestAttempt || typeof bestAttempt.score !== 'number') {
+            return null;
+        }
 
         return {
             score: bestAttempt.score,
-            total: bestAttempt.totalMarks
+            total: bestAttempt.totalMarks || 0
         };
     }
 }
