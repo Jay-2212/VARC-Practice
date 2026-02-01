@@ -248,14 +248,9 @@ class VARCApp {
      * Load questions from data file or localStorage
      */
     async loadQuestions() {
-        // First check if questions are in localStorage
-        const storedQuestions = StorageManager.getQuestionsData();
-
-        if (storedQuestions && storedQuestions.length > 0) {
-            this.questions = storedQuestions;
-            return;
-        }
-
+        // Don't use cached questions - always load fresh based on question type
+        // This ensures we load the correct data file for the selected type
+        
         // Determine which data file to load based on question type
         const dataFiles = {
             'rc': 'data/rc-passages.json',
@@ -271,7 +266,7 @@ class VARCApp {
             if (response.ok) {
                 const data = await response.json();
                 this.questions = data.questions || [];
-                StorageManager.saveQuestionsData(this.questions);
+                // Note: Don't save to localStorage to avoid conflicts between types
             } else {
                 // Load sample questions only for RC
                 if (this.questionType === 'rc') {
@@ -279,7 +274,6 @@ class VARCApp {
                         `Unable to load questions from "${dataFile}" (status: ${response.status}). Falling back to sample questions.`
                     );
                     this.questions = this.getSampleQuestions();
-                    StorageManager.saveQuestionsData(this.questions);
                 } else {
                     console.error(`Unable to load questions from "${dataFile}"`);
                     this.questions = [];
@@ -292,7 +286,6 @@ class VARCApp {
                     e
                 );
                 this.questions = this.getSampleQuestions();
-                StorageManager.saveQuestionsData(this.questions);
             } else {
                 console.error(`Error loading questions from "${dataFile}":`, e);
                 this.questions = [];
