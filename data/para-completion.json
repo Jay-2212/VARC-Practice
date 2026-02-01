@@ -2,7 +2,7 @@
   "testInfo": {
     "title": "VARC Para Completion - Complete Set",
     "duration": 60,
-    "totalQuestions": 28,
+    "totalQuestions": 41,
     "sections": [
       "VARC"
     ],
@@ -10,552 +10,824 @@
   },
   "questions": [
     {
-      "id": 10,
-      "setId": 3,
+      "id": 5,
       "passage": null,
-      "question": "<p>From the given options, choose the sentence that completes the paragraph in the most appropriate wa y. Age has a curvilinear relationship with the exploitation of opportunity . Initially , age will incr ease the lik elihood that a person will exploit an entrepreneurial opportunity because people gather much of the knowledge necessary to exploit opportunities o ver the course of their liv es, and because age pr ovides credibility in transmitting that information t o others. Howe ver, as people become older , their willingness t o bear risks declines, their opportunity costs rise, and the y become less receptive to new information.</p>",
       "type": "MCQ",
-      "options": [
-        "As a r esult, people transmit mor e information r ather than experiment with new ideas as the y reach an advanced age.",
-        "As a r esult, people ar e reluctant t o experiment with new ideas as the y reach an advanced age. ",
-        "As a r esult, only people with lower opportunity costs exploit opportunity when the y reach an advanced age.",
-        "As a r esult, people become reluctant t o exploit entrepreneurial opportunities when the y reach an advanced age.",
-        "As a r esult, people depend on credibility r ather than on novelty as the y reach an advanced age."
-      ],
-      "correctAnswer": 3,
-      "explanation": "",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>You seemed at first to take no notice of your school-fellows, or rather to set yourself against them because they were strangers to you. They knew as little of you as you did of them; this would have been the reason for their keeping aloof from you as well, which you would have felt as a hardship. Learn never to conceive a prejudice against others because you know nothing of them. It is bad reasoning, and makes enemies of half the world. Do not think ill of them till they behave ill to you; and then strive to avoid the faults, which you see in them. This will disarm their hostility sooner than pique or resentment or complaint.</p>",
+      "options": [
+        "The discomfort you felt with your school fellows was because both sides knew little of each other. You should not complain unless you find others prejudiced against you and have attempted to carefully analyze the faults you have observed in them.",
+        "The discomfort you felt with your school fellows was because both sides knew little of each other. Avoid prejudice and negative thoughts till you encounter bad behavior from others, and then win them over by shunning the faults you have observed.",
+        "You encountered hardship amongst your school fellows because you did not know then well. You should learn not to make enemies because of your prejudices irrespective of their behaviour towards you.",
+        "You encountered hardship amongst your school fellows because you did not know them well. You should learn to not make enemies because of your prejudices unless they behave badly with you."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The paragraph begins with the experience of 2nd person and than gives the advice.\nOption A is incorrect because it doesn't tell anything about complaining and analysing\nOption C is incomplete as it only talks about the experience.\nOption D is incorrect as it is written\"you did not know them well\".The para talks about both sides not knowing\neach other.",
+      "setId": 1
+    },
+    {
+      "id": 8,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-completion",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author' s position. North American walnut sphinx moth caterpillars (Amorpha juglandis) look like easy meals for birds, but they have a trick up their sleeves — they produce whistles that sound like bird alarm calls, scaring potential predators away. At first, scientists suspected birds were simply startled by the loud noise. But a new study suggests a more sophisticated mechanism: the caterpillar's whistle appears to mimic a bird alarm call, sending avian predators scrambling for cover. When pecked by a bird, the caterpillars whistle by compressing their bodies like an accordion and forcing air out through specialized holes in their sides. The whistles are impressively loud — they have been measured at over 80 dB from 5 cm away from the caterpillar — considering they are made by a two-inch long insect.</p>",
+      "options": [
+        "North American walnut sphinx moth caterpillars will whistle periodically to ward off predator birds - they have a specialized vocal tract that helps them whistle.",
+        "North American walnut sphinx moth caterpillars can whistle very loudly; the loudness of their whistles is shocking as they are very small insects.",
+        "The North American walnut sphinx moth caterpillars, in a case of acoustic deception, produce whistles that mimic bird alarm calls to defend themselves.",
+        "North American. walnut sphinx moth caterpillars, in. a case of deception and camouflage, produce whistles that mimic bird alarm calls to defend themselves."
+      ],
+      "correctAnswer": 2,
+      "explanation": "According to the paragraph, the North American walnut sphinx moth caterpillars produce whistles which are\nextremely loud considering their size. These whistles appear to mimic bird(predator) alarm calls which scares\nthem to look for cover. Thus, these sounds act as acoustic deception and help the insect to defend themselves\nagainst predators.\nOption A mentions about vocal tracts which is out of scope. Hence, it can be eliminated.\nOption B though correct, fails to mention the use of sound to defend against the predators. Hence, it can be\neliminated.\nOption C captures all the main points and hence is right choice.\nOption D mentions 'camouflage' which is also out of context. Hence, it can be eliminated.\nHence, option C is the right answer.",
+      "setId": 1
+    },
+    {
+      "id": 10,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-completion",
+      "question": "<p>Age has a curvilinear relationship with the exploitation of opportunity. Initially, age will increase the likelihood that a person will exploit an entrepreneurial opportunity because people gather much of the knowledge necessary to exploit opportunities over the course of their lives, and because age provides credibility in transmitting that information to others. However, as people become older, their willingness to bear risks declines, their opportunity costs rise, and they become less receptive to new information. [CAT 2006]</p>",
+      "options": [
+        "As a result, people transmit more information rather than experiment with new ideas as they reach an advanced age.",
+        "As a result, people are reluctant to experiment with new ideas as they reach an advanced age.",
+        "As a result, only people with lower opportunity costs exploit opportunity when they reach an advanced age.",
+        "As a result, people become reluctant to exploit entrepreneurial opportunities when they reach an advanced age. E As a result, people depend on credibility rather than on novelty as they reach an advanced age."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The para talks about the relationship between age and entrepreneurial spirit. When people are young, they tend\nto believe that age brings in more credibility in transmitting information to others. However, as people age, they\nbecome less receptive to information and their opportunity costs rise. Hence, it is very likely that they become\nreluctant to exploit entrepreneurial opportunities as they age. Statement D, therefore, is the best concluding\nstatement.",
+      "setId": 1
+    },
+    {
+      "id": 13,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-completion",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author’s position. Should the moral obligation to rescue and aid persons in grave peril, felt by a few, be enforced by the criminal law? Should we follow the lead of a number of European countries and enact bad Samaritan laws? Proponents of Bad Samaritan laws must overcome at least three different sorts of obstacles. First, they must show the laws are morally legitimate in principle, that is, that the duty to aid others is a proper candidate for legal enforcement. Second, they must show that this duty to aid can be defined in a way that can be fairly enforced by the courts. Third, they must show that the benefits of the laws are worth their problems, risks and costs.</p>",
+      "options": [
+        "",
+        "number of European countries that have successfully enacted Bad Samaritan laws may serve as model statutes.",
+        "Everyone agrees that people ought to aid others, the only debate is whether to have a law on it.",
+        "If Bad Samaritan laws are found to be legally sound and enforceable, they must be enacted."
+      ],
+      "correctAnswer": 3,
+      "explanation": "In the given paragraph, the author has discussed about Bad Samaritan laws and whether it is enforceable by\nlaw. While answering the question, the author puts forward three points which she deems necessary for the\nimplementation of Bad Samaritan law. Only after crossing the three obstacles mentioned by the author, the law\nshould be enacted. Option D is the most relevant in this context.\nOption A is about implementing the law without any conditions, which is not what the author wants to convey.\nOption B does not mention anything about the three obstacles.\nOption C is stated with a firmness which is not the tone of the author. The author says that the law may be\nenacted, not must be enacted.\nHence, option D is the correct answer.",
+      "setId": 1
+    },
+    {
+      "id": 16,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-completion",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author' s position. For each of the past three years, temperatures have hit peaks not seen since the birth of meteorology, and probably not for more than 110,000 years. The amount of carbon dioxide in the air is at its highest level in 4 million years. This does not cause storms like Harvey — there have always been storms and hurricanes along the Gulf of Mexico — but it makes them wetter and more powerful. As the seas warm, they evaporate more easily and provide energy to storm fronts. As the air above them warms, it holds more water vapour. For every half a degree Celsius in warming, there is about a 3% increase in atmospheric moisture content. Scientists call this the Clausius-Clapeyron equation. This means the skies fill more quickly and have more to dump. The storm surge was greater because sea levels have risen 20 cm as a result of more than 100 years of human- related global warming which has melted glaciers and thermally expanded the volume of seawater.</p>",
+      "options": [
+        "The storm Harvey is one of the regular, annual ones from the Gulf of Mexico; global warming and Harvey are unrelated phenomena.",
+        "Global warming does not breed storms but makes them more destructive; the Clausius-Clapeyron equation, though it predicts potential increase in atmospheric moisture content, cannot predict the scale of damage storms might wreck.",
+        "Global warming melts glaciers, resulting in seawater volume expansion; this enables more water vapour to fill the air above faster. Thus, modern storms contain more destructive energy.",
+        "It is naive to think that rising sea levels and the force of tropical storms are unrelated; Harvey was destructive as global warming has armed it with more moisture content, but this may not be true of all storms."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Let us note down the important points in the given paragraph.\nGlobal warming does not cause storms but make them more powerful. Due to the increase in the temperature,\nthe air can absorb more moisture. This relationship (the change in the ability to absorb water with the increase\nin the temperature) is given by the Clausius-Clapeyron equation.\nLet us evaluate the options.\nThe author provides storm Harvey as an example to illustrate how increased temperatures can arm the storms\nwith more power. Harvey is not the central theme of the given paragraph. We can eliminate options A and D\nsince option D places much emphasis on storm Harvey and option A states that there is no relationship\nbetween the increase in temperature and the power of storms.\nOption B states that the Clausius-Clapeyron equation cannot predict the quantum of destruction that a storm\nmight cause. This point is totally out of context with respect to what that is being discussed in the paragraph.\nTherefore, we can eliminate option B as well.\nOption C precisely explains the mechanism through which global warming makes the modern storms more\ndestructive. Therefore, option C is the right answer.",
+      "setId": 2
     },
     {
       "id": 17,
-      "setId": 5,
       "passage": null,
-      "question": "<p>From the given options, choose the one that completes the paragraph in the most appropriate wa y. The audiences for cr osswor ds and sudoku, understandably , overlap gr eatly , but ther e are diff erences, t oo. A crosswor d attr acts a mor e liter ary person, while sudoku appeals t o a k eenly logical mind. Some cr osswor d enthusiasts turn up their noses at sudoku because the y feel it lacks depth. A good cr osswor d requir es vocabular y, knowledge, mental exibility and sometimes e ven a sense of humor t o complete. It t ouches numer ous ar eas of life and pr ovides an \" Aha!\" or two along the wa y. _____</p>",
       "type": "MCQ",
-      "options": [
-        "Sudoku, on the other hand, is just a logical ex ercise, each one similar t o the last.",
-        "Sudoku, incidentally , is gr owing faster in popularity than cr osswor ds, e ven among the liter ati.",
-        "Sudoku, on the other hand, can be attempted and enjo yed e ven b y childr en.",
-        "Sudoku, howe ver, is not exciting in any sense of the term."
-      ],
-      "correctAnswer": 0,
-      "explanation": "The last line of the paragraph should talk about Sudoku and the description should be in contr ast t o the\ndescription of Cr osswor d. a) captur es this the best wa y.",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>The audiences for crosswords and sudoku, understandably, overlap greatly, but there are differences, too. A crossword attracts a more literary person, while sudoku appeals to a keenly logical mind. Some crossword enthusiasts turn up their noses at sudoku because they feel it lacks depth. A good crossword requires vocabulary, knowledge, mental flexibility and sometimes even a sense of humor to complete. It touches numerous areas of life and provides an \"Aha!\" or two along the way. _____</p>",
+      "options": [
+        "Sudoku, on the other hand, is just a logical exercise, each one similar to the last.",
+        "Sudoku, incidentally, is growing faster in popularity than crosswords, even among the literati.",
+        "Sudoku, on the other hand, can be attempted and enjoyed even by children.",
+        "Sudoku, however, is not exciting in any sense of the term."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The last line of the paragraph should talk about Sudoku and the description should be in contrast to the\ndescription of Crossword. a) captures this the best way.",
+      "setId": 2
+    },
+    {
+      "id": 24,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-completion",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author’s position. The early optimism about sport's deterrent effects on delinquency was premature as researchers failed to find any consistent relationships between sports participation and deviance. As the initial studies were based upon cross-sectional data and the effects captured were short-term, it was problematic to test and verify the temporal sequencing of events suggested by the deterrence theory. The correlation between sport and delinquency could not be disentangled from class and cultural variables known. Choosing individuals to play sports in the first place was problematic, which became more acute in the subsequent decades as researchers began to document just how closely sports participation was linked to social class indicators.</p>",
+      "options": [
+        "There is a direct relationship between sport participation and delinquency but it needs more empirical evidence.",
+        "Statistical and empirical weaknesses stand in the way of inferring any relationship between sports participation and deviance.",
+        "Sports participation is linked to class and cultural variables such as education, income, and social capital.",
+        "Contradicting the previous optimism, latter researchers have proved that there is no consistent relationship between sports participation and deviance."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The main points of the passage are that the relation between sports participation and deviation have not been\nestablished and that there is not sufficient evidence to prove the relationship.\nOption A is distorted because it states that the relationship is already established.\nOption B mentions all the relevant points.\nOption C does not talk about the relationship and hence, ruled out.\nOption D distorts what is given in the paragraph by saying that latter researchers have \"proved\" there is no\nconsistent relationship. Thus, it is can be eliminated.\nHence, option B is the correct answer.",
+      "setId": 2
     },
     {
       "id": 41,
-      "setId": 11,
       "passage": null,
-      "question": "<p>From the given options, choose the sentence that completes the paragraph in the most appropriate wa y. We can usefully think of theor etical models as maps, which help us na vigate unfamiliar territ ory. The most accur ate map that it is possible t o construct would be of no pr actical use whatsoe ver, for it would be an exact replica, on exactly the same scale, of the place wher e we wer e. Good maps pull out the most impor tant f eatur es and thr ow awa y a huge amount of much less v aluable information. Of course, maps can be bad as well as good - witness the attempts b y medie val Europe t o produce a map of the world. In the same wa y, a bad theor y, no matter how impr essiv e it ma y seem in principle, does little or nothing t o help us understand a pr oblem.</p>",
       "type": "MCQ",
-      "options": [
-        "But good theories, just lik e good maps, ar e inv aluable, e ven if the y are simplied.",
-        "But good theories, just lik e good maps, will ne ver represent unfamiliar concepts in detail.",
-        "But good theories, just lik e good maps, need t o balance detail and f easibility of r epresentation.",
-        "But good theories, just lik e good maps, ar e accur ate only at a cer tain le vel of abstr action.",
-        "But good theories, just lik e good maps, ar e useful in the hands of a user who knows their limitations."
-      ],
-      "correctAnswer": 0,
-      "explanation": "The par a talks about good maps thr owing awa y a lar ge amount of non-essential information and r etaining mor e\nimpor tant information. They are also simplied as a r esult. So, the last sentence should be about good theories\nbeing simplied and mor e valuable. Option a) captur es the essence in the best wa y.",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>We can usefully think of theoretical models as maps, which help us navigate unfamiliar territory. The most accurate map that it is possible to construct would be of no practical use whatsoever, for it would be an exact replica, on exactly the same scale, of the place where we were. Good maps pull out the most important features and throw away a huge amount of much less valuable information. Of course, maps can be bad as well as good - witness the attempts by medieval Europe to produce a map of the world. In the same way, a bad theory, no matter how impressive it may seem in principle, does little or nothing to help us understand a problem.</p>",
+      "options": [
+        "But good theories, just like good maps, are invaluable, even if they are simplified.",
+        "But good theories, just like good maps, will never represent unfamiliar concepts in detail.",
+        "But good theories, just like good maps, need to balance detail and feasibility of representation.",
+        "But good theories, just like good maps, are accurate only at a certain level of abstraction. E But good theories, just like good maps, are useful in the hands of a user who knows their limitations."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The para talks about good maps throwing away a large amount of non-essential information and retaining more\nimportant information. They are also simplified as a result. So, the last sentence should be about good theories\nbeing simplified and more valuable. Option a) captures the essence in the best way.",
+      "setId": 2
+    },
+    {
+      "id": 43,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-completion",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author’s position. Artificial embryo twinning is a relatively low-tech way to make clones. As the name suggests, this technique mimics the natural process that creates identical twins. In nature, twins form very early in development when the embryo splits in two. Twinning happens in the first days after egg and sperm join, while the embryo is made of just a small number of unspecialized cells. Each half of the embryo continues dividing on its own, ultimately developing into separate, complete individuals. Since they developed from the same fertilized egg, the resulting individuals are genetically identical.</p>",
+      "options": [
+        "Artificial embryo twinning is low-tech and mimetic of the natural development of genetically identical twins from the embryo after fertilization.",
+        "Artificial embryo twinning is low-tech and is close to the natural development of twins where the embryo splits into two identical twins.",
+        "Artificial embryo twinning is low-tech unlike the natural development of identical twins from the embryo after fertilization.",
+        "Artificial embryo twinning is just like the natural development of twins, where during fertilization twins are formed."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The author mentions that artificial embryo twinning is 'low tech' to introduce the topic. Then, he explains how\nthe process is exactly similar to the process of development of twins. He states that the process mimics the\nnatural development of twins. He has not highlighted any of the differences between the 2 processes.\nLet us evaluate the options.\nOption C states that artificial embryo twinning is 'low tech' unlike the natural development of twins. The author\nmakes no such comparison in the paragraph and hence, option C can be eliminated.\nOption D states that the twins are formed during fertilization but the paragraph mentions that the twins are\nformed after the process of fertilization (i.e, after the sperm and the egg join).\nOption B fails to capture the fact that the twins are 'genetically' identical. Also, it states that the artificial\ntwinning process is 'close to' the natural development of twins. Though this option is not incorrect, option A is\nworded in a better way. Option A states that the process is mimetic of the natural development of the twins\n(emphasizing that no difference has been highlighted), the twins are genetically identical and the process is\nsimilar to the process of development of twins after fertilization. Therefore, option A is the right answer.",
+      "setId": 3
+    },
+    {
+      "id": 44,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-completion",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author's position. Both Socrates and Bacon were very good at asking useful questions. In fact, Socrates is largely credited with coming up with a way of asking questions, 'the Socratic method,' which itself is at the core of the 'scientific method,' popularised by Bacon. The Socratic method disproves arguments by finding exceptions to them, and can therefore lead your opponent to a point where they admit something that contradicts their original position. In common with Socrates, Bacon stressed it was as important to disprove a theory as it was to prove one — and real-world observation and experimentation were key to achieving both aims. Bacon also saw science as a collaborative affair, with scientists working together, challenging each other.</p>",
+      "options": [
+        "Both Socrates and Bacon advocated clever questioning of the opponents to disprove their arguments and theories.",
+        "Both Socrates and Bacon advocated challenging arguments and theories by observation and experimentation.",
+        "Both Socrates and Bacon advocated confirming arguments and theories by finding exceptions.",
+        "Both Socrates and Bacon advocated examining arguments and theories from both sides to prove them."
+      ],
+      "correctAnswer": 3,
+      "explanation": "According to the paragraph, Socrates and Bacon were good at asking questions. The Socratic method works in\na way by finding exceptions to the arguments of the opponent, which makes the opponent to agree on\nsomething that contradicts their original position. In a similar way, Bacon stressed that it was important to\ndisprove theory as it is to prove it. Thus both Socrates and Bacon stressed on examining arguments from both\nends - to prove as well as disprove.\nOption A, which speaks only about disproving of arguments, can be eliminated.\nOption B talks only about examining and observation. Hence, it can be eliminated.\nOption C talks only about confirming of arguments and not the other way. Hence, it can be eliminated.\nOption D captures the main points which we discussed earlier.\nHence, option D is the right answer.",
+      "setId": 3
     },
     {
       "id": 45,
-      "setId": 12,
       "passage": null,
-      "question": "<p>From the given options, choose the sentence that completes the paragraph in the most appropriate wa y. In the e volving world or der, the compar ative adv antage of the United States lies in its militar y for ce: Diplomacy and international law ha ve alwa ys been r egar ded as anno ying encumbr ances, unless the y can be used t o advantage against an enemy . Every activ e pla yer in world affairs pr ofesses t o seek only peace and t o prefer negotiation t o violence and coer cion.</p>",
       "type": "MCQ",
-      "options": [
-        "Howe ver, diplomacy has often been used as a mask b y nations which intended t o use for ce.",
-        "Howe ver, when the v eil is lifted, we commonly see that diplomacy is underst ood as a disguise for the rule of for ce.",
-        "Howe ver, hist ory has shown that many of these nations do not pr actice what the y profess.",
-        "Howe ver, hist ory tells us that peace is pr ofessed b y those who intend t o use violence.",
-        "Howe ver, when unmask ed, such nations r eveal a penchant for the use of for ce."
-      ],
-      "correctAnswer": 1,
-      "explanation": "The last sentence in the paragraph should counter the statement made b y the nations as well as talk about\ndiplomacy , to bring the par a to a meaningful conclusion. This is best captur ed in option b), which sa ys, when\nthe v eil is lifted, diplomacy is often used as a disguise for the rule of for ce. VIDEO SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>In the evolving world order, the comparative advantage of the United States lies in its military force: Diplomacy and international law have always been regarded as annoying encumbrances, unless they can be used to advantage against an enemy. Every active player in world affairs professes to seek only peace and to prefer negotiation to violence and coercion.</p>",
+      "options": [
+        "However, diplomacy has often been used as a mask by nations which intended to use force.",
+        "However, when the veil is lifted, we commonly see that diplomacy is understood as a disguise for the rule of force.",
+        "However, history has shown that many of these nations do not practice what they profess.",
+        "However, history tells us that peace is professed by those who intend to use violence. E However, when unmasked, such nations reveal a penchant for the use of force."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The last sentence in the paragraph should counter the statement made by the nations as well as talk about\ndiplomacy, to bring the para to a meaningful conclusion. This is best captured in option b), which says, when\nthe veil is lifted, diplomacy is often used as a disguise for the rule of force.",
+      "setId": 3
+    },
+    {
+      "id": 49,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-completion",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author' s position.</p>",
+      "options": [
+        "fundamental property of language is that it is slippery and messy and more liquid than solid, a gelatinous mass that changes shape to fit. As Wittgenstein would remind us, \"usage has no sharp boundary.\" Oftentimes, the only way to determine the meaning of a word is to examine how it is used. This insight is often described as the \"meaning is use\" doctrine. There are differences between the \"meaning is use\" doctrine and a dictionary-first theory of meaning. \"The dictionary's careful fixing of words to definitions, like butterflies pinned under glass, can suggest that this is how language works. The definitions can seem to ensure and fix the meaning of words, just as the gold standard can back a country's currency.\" What Wittgenstein found in the circulation of ordinary language, however, was a free-floating currency of meaning. The value of each word arises out of the exchange. The lexicographer abstracts a meaning from that exchange, which is then set within the conventions of the dictionary definition.",
+        "Dictionary definitions are like 'gold standards' — artificial, theoretical and dogmatic. Actual meaning of words is their free-exchange value.",
+        "Language is already slippery; given this, accounting for 'meaning in use' will only exasperate the problem. That is why lexicographers 'fix' meanings.",
+        "Meaning is dynamic; definitions are static. The 'meaning in use' theory helps us understand that definitions of words are culled from their meaning in exchange and use and not vice versa."
+      ],
+      "correctAnswer": 2,
+      "explanation": "According to the paragraph, language is like a gelatinous mass that changes shape to fit. Also, many times the\nonly way to find meaning of word is to examine how it is used. It is stated that definitions are fixed for the word\nby dictionary.Wittgenstein found that circulation of ordinary language was a free-floating currency of meaning.\nSo the meanings are dynamic. Thus, the value of word arises from the exchange and then the lexicographer\nabstracts meaning from that exchange. Thus, definitions are picked up from the meaning in use.\nOption A, which states that definitions are like dogmatic, cannot be found in the paragraph. Hence, it can be\neliminated.\nThe paragraph doesn't talk about why lexicographers fix meanings. Hence, option B can be eliminated.\nOption C covers all the main points. Hence, it is the right choice.\nThe purpose of the passage is not to compare meaning of words in dictionaries with meaning which arises\nfrom exchange. Hence, option D can be eliminated.\nHence, option C is the right choice.",
+      "setId": 3
     },
     {
       "id": 51,
-      "setId": 13,
       "passage": null,
-      "question": "<p>From the given options, choose the one that completes the paragraph in the most appropriate wa y. Feder er’s fth gr and slam win pr ompted a r epor ter to ask whether he was the best e ver. Feder er is cer tainly not lacking in condence, but he wasn ’t about t o proclaim himself the best e ver. “The best pla yer of this gener ation, yes”, he said, “But nowher e close t o ever. Just look at the r ecor ds that some guys ha ve. I’m a minnow .” ______</p>",
       "type": "MCQ",
-      "options": [
-        "His win against Agassi, a genius fr om the pr evious gener ation, contr adicts that.",
-        "Sampr as, the king of an earlier gener ation, was as humble.",
-        "He is mor e than a minnow t o his contempor aries.",
-        "The diff erence between ‘the best of this gener ation ’ and ‘the best e ver’ is a matter of per ception."
-      ],
-      "correctAnswer": 2,
-      "explanation": "We must select that sentence that follows the line of thought pr esented in the passage.\nThe author talks about the question ask ed b y the r epor ter to Feder er. Feder er sa ys that he was the best pla yer\nof his gener ation but not e ven close t o all-time best. He sa ys that compar ed to “some guys” he is a minnow . So,\nthe concluding line must be r elated t o his answer .\nNow , let’s check each of the options. Agassi might not be one of the “ some guys” that F eder er referred to in his\nstatement and hence, the concluding sentence cannot be option A. Mor eover, the win against Agassi does not\nprove that he is an all-time best tennis pla yer. So, option A is wr ong.\nOption B is clearly out of scope as Sampr as was not mentioned anywher e in the given passage. VIEW SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION\n\n\n\n\n\nOption C sa ys that F eder er is mor e than a minnow t o his contempor aries. This sentence extends the idea given\nin the pr evious sentence and hence is in line with r est of the passage. Also, this line concludes the paragraph\nperfectly . Hence, sentence C could be the answer .\nOption D is denitely r elated t o the paragraph, but is not r elated t o the question posed b y the r epor ter. Between\noptions C and D , option C ts better because it is mor e related t o the question posed b y the r epor ter and the\nanswer given b y Feder er.\nHence, option C is the answer .",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>Federer’s fifth grand slam win prompted a reporter to ask whether he was the best ever. Federer is certainly not lacking in confidence, but he wasn’t about to proclaim himself the best ever. “The best player of this generation, yes”, he said, “But nowhere close to ever. Just look at the records that some guys have. I’m a minnow.” ______</p>",
+      "options": [
+        "His win against Agassi, a genius from the previous generation, contradicts that.",
+        "Sampras, the king of an earlier generation, was as humble.",
+        "He is more than a minnow to his contemporaries.",
+        "The difference between ‘the best of this generation’ and ‘the best ever’ is a matter of perception."
+      ],
+      "correctAnswer": 2,
+      "explanation": "We must select that sentence that follows the line of thought presented in the passage.\nThe author talks about the question asked by the reporter to Federer. Federer says that he was the best player\nof his generation but not even close to all-time best. He says that compared to “some guys” he is a minnow. So,\nthe concluding line must be related to his answer.\nNow, let’s check each of the options. Agassi might not be one of the “some guys” that Federer referred to in his\nstatement and hence, the concluding sentence cannot be option A. Moreover, the win against Agassi does not\nprove that he is an all-time best tennis player. So, option A is wrong.\nOption B is clearly out of scope as Sampras was not mentioned anywhere in the given passage.\nOption C says that Federer is more than a minnow to his contemporaries. This sentence extends the idea given\nin the previous sentence and hence is in line with rest of the passage. Also, this line concludes the paragraph\nperfectly. Hence, sentence C could be the answer.\nOption D is definitely related to the paragraph, but is not related to the question posed by the reporter. Between\noptions C and D, option C fits better because it is more related to the question posed by the reporter and the\nanswer given by Federer.\nHence, option C is the answer.",
+      "setId": 4
+    },
+    {
+      "id": 52,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-completion",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author' s position. To me, a \"classic\" means precisely the opposite of what my predecessors understood: a work is classical by reason of its resistance to contemporaneity and supposed universality, by reason of its capacity to indicate human particularity and difference in that past epoch. The classic is not what tells me about shared humanity — or, more truthfully put, what lets me recognize myself as already present in the past, what nourishes in me the illusion that everything has been like me and has existed only to prepare the way for me. Instead, the classic is what gives access to radically different forms of human consciousness for any given generation of readers, and thereby expands for them the range of possibilities of what it means to be a human being.</p>",
+      "options": [
+        "",
+        "classic is able to focus on the contemporary human condition and a unified experience of human consciousness.",
+        "",
+        "classical work seeks to resist particularity and temporal difference even as it focuses on a common humanity."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The author states that a classic is not which puts him at the centre of the universe but one which gives access\nto radically different forms of human consciousness.\nLet us evaluate the options.\nOption A states that a classic should focus on unified human experience. The author mentions the exact\nopposite in the paragraph. Therefore, we can eliminate option A. We can eliminate option D too since it\nmentions the polar opposite of what that is mentioned in the paragraph. The author is of the view that a classic\nshould go beyond providing a unified human experience and expose one to radically different forms of human\nconsciousness.\nWe can eliminate option B since it states that a classic focuses on common humanity. Only option C captures\nthe essence of the given paragraph and hence, option C is the right answer.",
+      "setId": 4
+    },
+    {
+      "id": 53,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-completion",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author' s position.</p>",
+      "options": [
+        "translator of literary works needs a secure hold upon the two languages involved, supported by a good measure of familiarity with the two cultures. For an Indian translating works in an Indian language into English, finding satisfactory equivalents in a generalized western culture of practices and symbols in the original would be less difficult than gaining fluent control of contemporary English. When a westerner works on texts in Indian languages the interpretation of cultural elements will be the major challenge, rather than control over the grammar and essential vocabulary of the language concerned. It is much easier to remedy lapses in language in a text translated into English, than flaws of content. Since it is easier for an Indian to learn the English language than it is for a Briton or American to comprehend Indian culture, translations of Indian texts is better left to Indians.",
+        "While translating, the Indian and the westerner face the same challenges but they have different skill profiles and the former has the advantage.",
+        "As preserving cultural meanings is the essence of literary translation Indians' knowledge of the local culture outweighs the initial disadvantage of lower fluency in English.",
+        "Indian translators should translate Indian texts into English as their work is less likely to pose cultural problems which are harder to address than the quality of language."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Let us note down the important points put down by the author.\nIndians have better knowledge of their culture. A westerner might be fluent in the language but will find it hard\nto relate to the culture. Indians, on the other hand, might be less fluent in the language but will be able to\npreserve the culture when a text is translated. Therefore, Indians should translate Indian texts.\nLet us evaluate the options now.\nOption A states that Indians and Westerners face the same challenges but they have different skill sets. Indians\nand Westerners face different challenges while translating the text. Indians face difficulty in the language and\nwesterners face difficulty in relating to the culture. Therefore, we can eliminate option A.\nOption D fails to capture the fact that the primary intention of the paragraph is not to pit Indians against\nwesterners but to suggest that Indians should translate Indian texts. Also, it does not capture the fact that\nIndians will retain the advantage only when translating the Indian texts. Therefore, we can eliminate option D.\nOption B, though true, fails to capture the India-centric angle that the paragraph adopts. The paragraph places\nhuge emphasis on the term 'Indian texts' and only option C manages to capture this fact. Also, only option C\ncaptures the fact that it is easier to remedy errors in the language than to fix errors in the interpretation of\nculture. Therefore, option C is the right answer.",
+      "setId": 4
+    },
+    {
+      "id": 54,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-completion",
+      "question": "<p>The Shveta-chattra or the “White Umbrella” was a symbol of sovereign political authority placed over the monarchy’s head at the time of the coronation. The ruler so inaugurated was regarded not as a temporal autocrat but as the instrument of protective and sheltering firmament of supreme law. The white umbrella symbol is of great antiquity and its varied use illustrates the ultimate common basis of non-theocratic nature of states in the Indian tradition. As such, the umbrella is found, although not necessarily a white one, over the head of Lord Ram, the Mohammedan sultans and Chatrapati Shivaji. Which one of the following best summarises the above passage?</p>",
+      "options": [
+        "The placing of an umbrella over the ruler’s head was a common practice in the Indian subcontinent.",
+        "The white umbrella represented the instrument of firmament of the supreme law and the non-theocratic nature of Indian states.",
+        "The umbrella, not necessarily a white one, was a symbol of sovereign political authority.",
+        "The varied use of the umbrella symbolised the common basis of the non-theocratic nature of states in the Indian tradition."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sentences in options a) and c) do not capture the full essence of the paragraph. In b) it is said that the umbrella\nis the instrument of the supreme law, whereas, according to the paragraph, the ruler is the instrument of the\nsupreme law. So, b) is also wrong. The best summary is the one in option d).",
+      "setId": 4
+    },
+    {
+      "id": 56,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-completion",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author’s position. Production and legitimation of scientific knowledge can be approached from a number of perspectives. To study knowledge production from the sociology of professions perspective would mean a focus on the institutionalization of a body of knowledge. The professions-approach informed earlier research on managerial occupation, business schools and management knowledge. It however tends to reify institutional power structures in its understanding of the links between knowledge and authority. Knowledge production is restricted in the perspective to the selected members of the professional community, most notably to the university faculties and professional colleges. Power is understood as a negative mechanism, which prevents the non-professional actors from offering their ideas and information as legitimate knowledge.</p>",
+      "options": [
+        "Professions-approach focuses on the creation of institutions of higher education and disciplines to promote knowledge production",
+        "The study of knowledge production can be done through many perspectives.",
+        "The professions-approach has been one of the most relied upon perspective in the study of management knowledge production.",
+        "Professions-approach aims at the institutionalization of knowledge but restricts knowledge production as a function of a select few."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Let us note down the important points.\nProfessions-approach structures and institutionalizes knowledge but knowledge production is restricted to the\nselect members of the community. It prevents the non-professional actors from offering their ideas.\nOptions A, B, and C do not capture the negative aspects of the professions-approach at all. They just focus on\nthe advantages offered by the approach but the given paragraph places a huge emphasis on the limitations of\nthe approach as well. Only option D captures both the advantage offered by the approach and its limitations.\nTherefore, option D is the right answer.",
+      "setId": 5
+    },
+    {
+      "id": 59,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-completion",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author’s position. The conceptualization of landscape as a geometric object first occurred in Europe and is historically related to the European conceptualization of the organism, particularly the human body, as a geometric object with parts having a rational, three-dimensional organization and integration. The European idea of landscape appeared before the science of landscape emerged, and it is no coincidence that Renaissance artists such as Leonardo da Vinci, who studied the structure of the human body, also facilitated an understanding of the structure of landscape. Landscape which had been a subordinate background to religious or historical narratives, became an independent genre or subject of art by the end of sixteenth century or the beginning of the seventeenth century.</p>",
+      "options": [
+        "The three-dimensional understanding of the organism in Europe led to a similar approach towards the understanding of landscape.",
+        "Landscape became a major subject of art at the turn of the sixteenth century.",
+        "The study of landscape as an independent genre was aided by the Renaissance artists.",
+        "The Renaissance artists were responsible for the study of landscape as a subject of art."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Let us note down the main points of the given paragraph:\nThe given paragraph describes how the study of landscape gained prominence and became an independent\ngenre. Renaissance artists facilitated the development of the field as an independent genre.\nLet us evaluate the options one by one.\nOption A states that understanding of the organism in Europe led to a similar approach towards the\nunderstanding of landscape. Though this option is true, it fails to capture the fact that the field evolved as an\nindependent genre with the help of Renaissance artists.\nOption B states that Landscape became a major subject of art at the turn of the sixteenth century. Again, option\nB fails to capture the role played by the Renaissance artists.\nOption D states that Renaissance artists were responsible for the study of landscape as a subject of art. The\nparagraph mentions that the artists facilitated in the transformation of the field into an independent genre.\nOption D establishes a strong relationship and holds Renaissance artists 'responsible' for the study of\nlandscape 'as a subject of art'. The parts within the quotes disregard the fact that the artists just aided the\nprocess. They were not solely responsible for the development. Therefore, we can eliminate option D.\nOnly option C captures the fact that the renaissance artists 'aided' in the development of the study of landscape\nas an independent genre and hence, option C is the right answer.",
+      "setId": 5
     },
     {
       "id": 62,
-      "setId": 16,
       "passage": null,
-      "question": "<p>A Japanese go vernment panel announced that it r ecommends r egulating only genetically modied or ganisms that ha ve had for eign genes permanently intr oduced int o their genomes and not those whose endogenous genes ha ve been edited. The only stipulation is that r esear chers and businesses will ha ve to register their modications t o plants or animals with the go vernment, with the ex ception of micr obes cultur ed in contained envir onments. Reactions t o the decision ar e mix ed. While lauding the potential benets of genome editing, an editorial opposes acr oss-the-boar d permission. Unfor eseen risks in gene editing cannot be ruled out. All genetically modied pr oducts must go thr ough the same saf ety and labeling pr ocesses r egar dless of method.</p>",
       "type": "MCQ",
-      "options": [
-        "Excepting micr obes cultur ed in contained envir onments fr om the r egulations of genome editing is prematur e.",
-        "Creating categories within genetically modied pr oducts in terms of tr ansgenic modication and genome editing adv ances science but dees laws.",
-        "Exempting fr om r egulations the editing of endogenous genes is not desir able as this pr ocedur e might be risk-pr one.",
-        "A go vernment panel in Japan sa ys tr ansgenic modication and genome editing ar e not the same."
-      ],
-      "correctAnswer": 2,
-      "explanation": "Let us note down the impor tant points:\nThe Japanese go vernment r ecommends r egulating GM or ganisms in which for eign genes ar e intr oduced, not\nthose in which the endogenous genes ha ve been edited. The step has dr awn mix ed reactions since ther e are\nsome risks inv olved in gene editing.\nOption A shifts the focus on ex empting micr obes. The centr al theme of the passage is that endogenous gene\nediting is not t otally risk fr ee. Ther efore, we can eliminate option A. \nOption B states that categorizing GM pr oducts adv ances science but dees laws. No such comparison has\nbeen made in the paragraph. The legality of the issue has not been discussed and hence, we can eliminate\noption B. \nOption D fails t o captur e the fact that endogenous gene editing is not de void of risks. \nOnly option C captur es the fact that  ex empting endogenous gene editing is not desir able due t o the risks\ninvolved. Ther efore, option C is the right answer .  VIDEO SOLUTION\n VIDEO SOLUTION",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p></p>",
+      "options": [
+        "Japanese government panel announced that it recommends regulating only genetically modified organisms that have had foreign genes permanently introduced into their genomes and not those whose endogenous genes have been edited. The only stipulation is that researchers and businesses will have to register their modifications to plants or animals with the government, with the exception of microbes cultured in contained environments. Reactions to the decision are mixed. While lauding the potential benefits of genome editing, an editorial opposes across-the-board permission. Unforeseen risks in gene editing cannot be ruled out. All genetically modified products must go through the same safety and labeling processes regardless of method.",
+        "Excepting microbes cultured in contained environments from the regulations of genome editing is premature.",
+        "Creating categories within genetically modified products in terms of transgenic modification and genome editing advances science but defies laws.",
+        "Exempting from regulations the editing of endogenous genes is not desirable as this procedure might be risk-prone."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Let us note down the important points:\nThe Japanese government recommends regulating GM organisms in which foreign genes are introduced, not\nthose in which the endogenous genes have been edited. The step has drawn mixed reactions since there are\nsome risks involved in gene editing.\nOption A shifts the focus on exempting microbes. The central theme of the passage is that endogenous gene\nediting is not totally risk free. Therefore, we can eliminate option A.\nOption B states that categorizing GM products advances science but defies laws. No such comparison has\nbeen made in the paragraph. The legality of the issue has not been discussed and hence, we can eliminate\noption B.\nOption D fails to capture the fact that endogenous gene editing is not devoid of risks.\nOnly option C captures the fact that exempting endogenous gene editing is not desirable due to the risks\ninvolved. Therefore, option C is the right answer.",
+      "setId": 5
     },
     {
       "id": 68,
-      "setId": 17,
       "passage": null,
-      "question": "<p>From the given options, choose the sentence that completes the paragraph in the most appropriate wa y. I am sometimes attack ed for imposing `rules’. Nothing could be fur ther fr om the truth: I hate rules. All I do is repor t on how consumers r eact t o diff erent stimuli. I ma y say to a cop ywriter , “Resear ch shows that commer cials with celebrities ar e below a verage in persuading people t o buy pr oducts. Ar e you sur e you want t o use a celebrity?” Call that a rule? Or I ma y say to an ar t director, “Resear ch suggests that if y ou set the cop y in black type on a white back ground, mor e people will r ead it than if y ou set it in white type on a black back ground. ”</p>",
       "type": "MCQ",
-      "options": [
-        "Guidance based on applied r esear ch can har dly qualify as `rules’. ",
-        "Thus, all my so called `rules’ ar e rooted in applied r esear ch. .",
-        "A suggestion perhaps, but scar cely a rule.",
-        "Such principles ar e una voidable if one wants t o be systematic about consumer beha viour .",
-        "Fundamentally it is about consumer beha viour - not about celebrities or type settings."
-      ],
-      "correctAnswer": 2,
-      "explanation": "The last sentence should talk about the statement that the author made t o the ar t director. Accor ding t o the\nauthor , the statement is not a rule. So, option a) and c) ar e applicable. Between these two, option c) is better\nbecause it specically talks about this statement and not about \"rules\" in gener al. So, c) is the best concluding\nsentence.",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>I am sometimes attacked for imposing `rules’. Nothing could be further from the truth: I hate rules. All I do is report on how consumers react to different stimuli. I may say to a copywriter, “Research shows that commercials with celebrities are below average in persuading people to buy products. Are you sure you want to use a celebrity?” Call that a rule? Or I may say to an art director, “Research suggests that if you set the copy in black type on a white background, more people will read it than if you set it in white type on a black background.”</p>",
+      "options": [
+        "Guidance based on applied research can hardly qualify as `rules’.",
+        "Thus, all my so called `rules’ are rooted in applied research. .",
+        "",
+        "suggestion perhaps, but scarcely a rule."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The last sentence should talk about the statement that the author made to the art director. According to the\nauthor, the statement is not a rule. So, option a) and c) are applicable. Between these two, option c) is better\nbecause it specifically talks about this statement and not about \"rules\" in general. So, c) is the best concluding\nsentence.\n\n69. E\nOption a) talks only about one part of the chain comprising of factory, dealer and customer. Option b) is farfetched. Options c) and d) are out of scope. Option e) completes the para in the best possible way.",
+      "setId": 5
     },
     {
       "id": 69,
-      "setId": 18,
       "passage": null,
-      "question": "<p>From the given options, choose the sentence that completes the paragraph in the most appropriate wa y. Relations between the fact ory and the dealer ar e distant and usually str ained as the fact ory tries t o for ce cars on the dealers t o smooth out pr oduction. Relations between the dealer and the cust omer ar e equally str ained because dealers continuously adjust prices - mak e deals - t o adjust demand with supply while maximizing prots. This becomes a system mark ed b y ‘a lack of long-term commitment’ on either side, which maximiz es feelings of mistrust. In or der t o maximiz e their bar gaining positions, e veryone holds back information - the dealer about the pr oduct and the consumer about his true desir es.</p>",
       "type": "MCQ",
-      "options": [
-        "As a r esult, `deal making’ becomes r ampant, without concern for cust omer satisfaction.",
-        "As a r esult, ineciencies cr eep int o the supply chain.",
-        "As a r esult, e veryone tr eats the other as an adv ersar y, rather than as an ally .",
-        "As a r esult, fundamental inno vations ar e becoming scar ce in the aut omobile industr y.",
-        "As a r esult, e veryone loses in the long run."
-      ],
-      "correctAnswer": 4,
-      "explanation": "Option a) talks only about one par t of the chain comprising of fact ory, dealer and cust omer . Option b) is far-\nfetched. Options c) and d) ar e out of scope. Option e) completes the par a in the best possible wa y.",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>Relations between the factory and the dealer are distant and usually strained as the factory tries to force cars on the dealers to smooth out production. Relations between the dealer and the customer are equally strained because dealers continuously adjust prices - make deals - to adjust demand with supply while maximizing profits. This becomes a system marked by ‘a lack of long-term commitment’ on either side, which maximizes feelings of mistrust. In order to maximize their bargaining positions, everyone holds back information - the dealer about the product and the consumer about his true desires.</p>",
+      "options": [
+        "As a result, `deal making’ becomes rampant, without concern for customer satisfaction.",
+        "As a result, inefficiencies creep into the supply chain.",
+        "As a result, everyone treats the other as an adversary, rather than as an ally.",
+        "As a result, fundamental innovations are becoming scarce in the automobile industry. E As a result, everyone loses in the long run."
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "setId": 6
     },
     {
       "id": 70,
-      "setId": 18,
       "passage": null,
-      "question": "<p>From the given options, choose the one that completes the paragraph in the most appropriate wa y. Most rms consider exper t individuals t o be t oo elitist, temper amental, egocentric, and dicult t o work with. Force such people t o collabor ate on a high-stak es pr oject and the y just might come t o sticuffs. E ven the v ery notion of managing such a gr oup seems unimaginable. So most or ganizations fall int o default mode, setting up project teams of people who get along nicely . ______</p>",
       "type": "MCQ",
-      "options": [
-        "The r esult, howe ver, is disastr ous.",
-        "The r esult is mediocrity .",
-        "The r esult is cr eation of exper ts who then become elitists.",
-        "Natur ally, they driv e inno vations. Question 71   The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. The unlik ely alliance of the incumbent industrialist and the distr essed unemplo yed work er is especially power ful amid the debris of corpor ate bankruptcies and la yoffs. In an economic downturn, the capitalist is more likely to focus on costs of the competition emanating fr om fr ee mark ets than on the opportunities the y create. And the unemplo yed work er will nd many others in a similar condition and with anxieties similar t o his, which will mak e it easier for them t o organiz e together . Using the co ver and the political or ganization pr ovided by the distr essed, the capitalist captur es the political agenda.",
-        "In an economic downturn, the capitalists use the anxieties of the unemplo yed and their political organisation t o set the political agenda t o suit their economic inter ests.",
-        "The purpose of an unlik ely alliance between the industrialist and the unemplo yed during an economic downturn is t o stie competition in fr ee mark ets.",
-        "An economic downturn cr eates competition because of which the capitalists captur e the political agenda cr eated b y the political or ganisation pr ovided b y the unemplo yed.",
-        "An unlik ely alliance of the industrialist and the unemplo yed happens during an economic downturn in which the y come t ogether t o unite politically and captur e the political agenda."
-      ],
-      "correctAnswer": 1,
-      "explanation": "The last sentence should talk about the r esult of forming such a team.\nAnd fr om the ow of the paragraph, it is clear that such a r esult will be mediocr e.\nSo, the best concluding sentence is b. VIDEO SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION\n VIEW SOLUTION\n VIEW SOLUTION\n VIEW SOLUTION",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>Most firms consider expert individuals to be too elitist, temperamental, egocentric, and difficult to work with. Force such people to collaborate on a high-stakes project and they just might come to fisticuffs. Even the very notion of managing such a group seems unimaginable. So most organizations fall into default mode, setting up project teams of people who get along nicely. ______</p>",
+      "options": [
+        "The result, however, is disastrous.",
+        "The result is mediocrity.",
+        "The result is creation of experts who then become elitists.",
+        "Naturally, they drive innovations."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The last sentence should talk about the result of forming such a team.\nAnd from the flow of the paragraph, it is clear that such a result will be mediocre.\nSo, the best concluding sentence is b.",
+      "setId": 6
+    },
+    {
+      "id": 76,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-completion",
+      "question": "<p>The human race is spread all over world, from the polar regions to the tropics. The people of whom it is made up eat different kinds of food, partly according to the climate in which they live, and partly according to the kind of food which their country produces. In hot climates; meat and fat are not much needed; but in the Arctic regions they seem to be very necessary for keeping up the heat of the body. Thus, in India, People live chiefly on different kinds of grains, eggs, milk, or sometimes fish and meat. In Europe people eat more meat and less gain. In the Arctic regions, where no grains and fruits are produced, the Eskimo and others races live almost entirely on meat and fish.</p>",
+      "options": [
+        "Food eaten by people in different regions of the world depends on the climate and produce of the region, and varies from meat and fish in the Arctic to predominantly grains in the tropics.",
+        "Hot climates require people to eat grains while cold regions require people to eat meat and fish.",
+        "In hot countries people eat mainly grains while in the Arctic, they eat meat and fish because they cannot grow grains.",
+        "While people in Arctic regions like meat and fish and those in hot regions like India prefer mainly grains, they have to change what they eat depending on the local climate and the local produce."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main idea of the paragraph is the different type of foods which is primarily consumed depending upon the\nclimate.Option A clearly summarises this perfectly.\nOption B is incorrect as the climate doesn't compel the people to eat different food.\nOption C doesn't indicate the the main idea of the paragraph.It only states the facts given in the paragraph.\nOption D is incorrect as it is not mentioned in the paragraph that the people are required to change their food\ndepending upon their location.",
+      "setId": 6
     },
     {
       "id": 77,
-      "setId": 20,
       "passage": null,
-      "question": "<p>From the given options, choose the one that completes the paragraph in the most appropriate wa y. Thus the end of knowledge and the closing of the fr ontier that it symboliz es is not a looming crisis at all, but merely one of many embarr assing ts of hubris in civilization ’s long industr y. In the end, it will pass awa y and be forgotten. Ours is not the first gener ation t o struggle t o understand the or ganizational laws of the fr ontier , deceiv e itself that it has succeeded, and go t o its gr ave ha ving failed. _____</p>",
       "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-completion",
+      "question": "<p>Thus the end of knowledge and the closing of the frontier that it symbolizes is not a looming crisis at all, but merely one of many embarrassing fits of hubris in civilization’s long industry. In the end, it will pass away and be forgotten. Ours is not the first generation to struggle to understand the organizational laws of the frontier, deceive itself that it has succeeded, and go to its grave having failed. _____</p>",
       "options": [
-        "One would be wise t o be humble.",
-        "But we might be the first gener ation t o actually r each the fr ontier .",
-        "But we might be the first gener ation t o deal with the crisis.",
-        "Howe ver, this time the success is not illusor y."
+        "One would be wise to be humble.",
+        "But we might be the first generation to actually reach the frontier.",
+        "But we might be the first generation to deal with the crisis.",
+        "However, this time the success is not illusory."
       ],
       "correctAnswer": 0,
-      "explanation": "The paragraph sa ys that it is not a crisis. So, option c) is wr ong. Also, the fr ontier has not been r eached and the\nit is not a success st ory. So, options b) and d) ar e also incorr ect concluding statements. The best concluding\nsentence is a).",
-      "marks": {
-        "positive": 3,
-        "negative": 1
-      }
-    },
-    {
-      "id": 78,
-      "setId": 20,
-      "passage": null,
-      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captur es the essence of the passage. People spontaneously cr eate counter factual alternativ es to reality when the y think “if only ” or “ what if ” and imagine how the past could ha ve been diff erent. The mind computes counter factuals for many r easons. Counter factuals explain the past and pr epar e for the futur e, the y implicate v arious r elations including causal ones, and the y aff ect intentions and decisions. They modulate emotions such as r egret and r elief, and the y suppor t mor al judgments such as blame. The ability t o create counter factuals de velops thr oughout childhood and contributes t o reasoning about other people 's beliefs, including their false beliefs.</p>",
-      "type": "MCQ",
-      "options": [
-        "Counter factuals help people t o prepar e for the futur e by understanding intentions and making decisions.",
-        "People cr eate counter factual alternativ es to reality for v arious r easons, including r easoning about other people 's beliefs.",
-        "Counter factual alternativ es to reality ar e created for a v ariety of r easons and is par t of one 's developmental pr ocess.",
-        "Counter factual thinking helps t o reverse past and futur e actions and r eason out false beliefs.  Instructions Directions for the following four questions: Each of the following questions has a paragraph fr om which the last sentence has been deleted. F rom the given options, choose the sentence that completes the paragraph in the most appropriate wa y."
-      ],
-      "correctAnswer": 2,
-      "explanation": "The passage discusses the phenomenon of counter factual thinking, highlighting that people spontaneously\ncreate counter factual alternativ es to reality for v arious r easons. These r easons include explaining the past,\npreparing for the futur e, implicating v arious r elations (including causal ones), aff ecting emotions, and\nsuppor ting mor al judgments. Additionally , the passage mentions that the ability t o create counter factuals\ndevelops thr oughout childhood and contributes t o reasoning about other people 's beliefs. Option C eff ectiv ely\nencompasses these k ey points, making it the most accur ate summar y of the passage.\nOption A focuses primarily on the pr epar ation for the futur e aspect, neglecting the br oader r easons for cr eating\ncounter factual alternativ es.\nOption B does not emphasiz e the de velopmental aspect and v arious r easons for cr eating\nOption D inaccur ately suggests that counter factual thinking helps r everse past and futur e actions, which is not\nthe main point of the passage, and it o versimplies the r ole of counter factuals.",
-      "marks": {
-        "positive": 3,
-        "negative": 1
-      }
+      "explanation": "The paragraph says that it is not a crisis. So, option c) is wrong. Also, the frontier has not been reached and the\nit is not a success story. So, options b) and d) are also incorrect concluding statements. The best concluding\nsentence is a).",
+      "setId": 6
     },
     {
       "id": 79,
-      "setId": 20,
       "passage": null,
-      "question": "<p>From the given options, choose the sentence that completes the paragraph in the most appropriate wa y. Most people at their first consultation tak e a fur tive look at the sur geon ’s hands in the hope of r eassur ance. Prospectiv e patients look for delicacy , sensitivity , steadiness, perhaps unblemished pallor . On this basis, Henr y Perowne loses a number of cases each y ear. Gener ally, he knows it’ s about t o happen befor e the patient does: the downwar d glance r epeated, the pr epar ed questions beginning t o falter , the o veremphatic thanks during the retreat t o the door .</p>",
       "type": "MCQ",
-      "options": [
-        "Other people do not communicate due t o their poor obser vation.",
-        "Other patients don ’t like what the y see but ar e ignor ant of their right t o go elsewher e.",
-        "But P erowne himself is not concerned. ’",
-        "But others will tak e their place, he thought.",
-        "These hands ar e steady enough, but the y are lar ge"
-      ],
-      "correctAnswer": 1,
-      "explanation": "The paragraph talks about Henr y Perowne losing some patients because of his hands. F rom the paragraph, we\ncan understand that ther e denitely is a pr oblem with his hands. Logically , the next statement should be about\nthe patients whom Henr y Perowne doesn 't lose. Sentence B talks about this aspect, that though the other\npatients also r ealise that ther e is a pr oblem with his hands, the y are ignor ant or stuck up about their options\nand hence go nowher e else. Hence, b) is the apt concluding statement.",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>Most people at their first consultation take a furtive look at the surgeon’s hands in the hope of reassurance. Prospective patients look for delicacy, sensitivity, steadiness, perhaps unblemished pallor. On this basis, Henry Perowne loses a number of cases each year. Generally, he knows it’s about to happen before the patient does: the downward glance repeated, the prepared questions beginning to falter, the overemphatic thanks during the retreat to the door. [CAT 2008]</p>",
+      "options": [
+        "Other people do not communicate due to their poor observation.",
+        "Other patients don’t like what they see but are ignorant of their right to go elsewhere.",
+        "But Perowne himself is not concerned.’",
+        "But others will take their place, he thought. E These hands are steady enough, but they are large"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The paragraph talks about Henry Perowne losing some patients because of his hands. From the paragraph, we\ncan understand that there definitely is a problem with his hands. Logically, the next statement should be about\nthe patients whom Henry Perowne doesn't lose. Sentence B talks about this aspect, that though the other\npatients also realise that there is a problem with his hands, they are ignorant or stuck up about their options\nand hence go nowhere else. Hence, b) is the apt concluding statement.",
+      "setId": 7
     },
     {
       "id": 80,
-      "setId": 20,
       "passage": null,
-      "question": "<p>From the given options, choose the sentence that completes the paragraph in the most appropriate wa y. Trade pr otectionism, disguised as concern for the climate, is r aising its head. Citing competitiv eness concerns, power ful industrializ ed countries ar e holding out thr eats of a le vy on impor ts of ener gy-intensiv e products fr om developing countries that r efuse t o accept their demands. The actual sour ce of pr otectionist sentiment in the OECD countries is, of course, their curr ent lacklustr e economic per formance, combined with the challenges posed b y the r apid economic rise of China and India - in that or der.  </p>",
       "type": "MCQ",
-      "options": [
-        "Climate change is e voked to bring tr ade pr otectionism thr ough the back door .",
-        "OECD countries ar e taking r efuge in climate change issues t o erect tr ade barriers against these two countries.",
-        "Climate change concerns ha ve come as a conv enient stick t o beat the rising tr ade power of China and India.",
-        "Defenders of the global economic status quo ar e posing as climate change champions.",
-        "Today’s climate change champions ar e the perpetr ators of global economic inequity ."
-      ],
-      "correctAnswer": 3,
-      "explanation": "The paragraph talks about tr ade pr otectionists posing as envir onmentalists t o co ver up their lacklustr e\neconomic per formance. Statement A just r estates the first sentence of the paragraph and hence does not mo ve\nthe paragraph for ward. Statements B and C talk specically about India and China, and not about the o verall\ntheme of the par a. Hence, the y cannot be pr oper concluding statements. Statement E is t oo sweeping in its\nconclusion. The apt concluding statement is D .",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>Trade protectionism, disguised as concern for the climate, is raising its head. Citing competitiveness concerns, powerful industrialized countries are holding out threats of a levy on imports of energy-intensive products from developing countries that refuse to accept their demands. The actual source of protectionist sentiment in the OECD countries is, of course, their current lacklustre economic performance, combined with the challenges posed by the rapid economic rise of China and India - in that order. [CAT 2008]</p>",
+      "options": [
+        "Climate change is evoked to bring trade protectionism through the back door.",
+        "OECD countries are taking refuge in climate change issues to erect trade barriers against these two countries.",
+        "Climate change concerns have come as a convenient stick to beat the rising trade power of China and India.",
+        "Defenders of the global economic status quo are posing as climate change champions. E Today’s climate change champions are the perpetrators of global economic inequity."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The paragraph talks about trade protectionists posing as environmentalists to cover up their lacklustre\neconomic performance. Statement A just restates the first sentence of the paragraph and hence does not move\nthe paragraph forward. Statements B and C talk specifically about India and China, and not about the overall\ntheme of the para. Hence, they cannot be proper concluding statements. Statement E is too sweeping in its\nconclusion. The apt concluding statement is D.",
+      "setId": 7
     },
     {
       "id": 81,
-      "setId": 21,
       "passage": null,
-      "question": "<p>From the given options, choose the sentence that completes the paragraph in the most appropriate wa y. Mattancherr y is Indian Jewr y’s most famous settlement. Its pr etty str eets of pastel colour ed houses, connected by first-oor passages and home t o the last twelv e sar ee-and-sar ong-wearing, whiteskinned Indian Jews ar e visited b y thousands of t ourists each y ear. Its synagogue, built in 1568, with a oor of blue-and-white Chinese tiles, a carpet given b y Haile Selassie and the fr osty Y aheh selling tick ets at the door , stands as an image of religious t olerance.</p>",
       "type": "MCQ",
-      "options": [
-        "Mattancherr y represents, ther efore, the per fect pictur e of peaceful co-existence.",
-        "India ’s Jews ha ve almost ne ver suff ered discrimination, ex cept for E uropean coloniz ers and each other .",
-        "Jews in India wer e alwa ys tolerant.",
-        "Religious t olerance has alwa ys been only a facade and nothing mor e.",
-        "The pr etty pastel str eets ar e, thus, v ery popular with the t ourists."
-      ],
-      "correctAnswer": 1,
-      "explanation": "Statement A speaks of peaceful co-existence. Howe ver, ther e is no mention in the passage of who the Jews co-\nexisted with. Also, peaceful co-existence implies that the Jews wer e tolerant as well, wher eas the main focus of\nthe passage is on how India has been t olerant of the Jews. VIEW SOLUTION\n VIEW SOLUTION\n VIDEO SOLUTION\n VIEW SOLUTION\n VIEW SOLUTION\n\n\n\n\n\nStatement B is accur ate since it speaks of how Jews in India ha ve never faced discrimination. F rom the term\n'religous t olerance ' we can see that people belonging t o a par ticular r eligion and not facing discrimination\nwould fur ther the point of the passage.\nStatement D is out of context.\nStatement C is incorr ect because it shifts the focus of the paragraph fr om the India being t olerant of Jews t o\nJews being t olerant of India.\nStatement E is not in line with the o verall theme and dir ection in which the par a has been shaping up. It\ndisregar ds the point on r eligious t olerance.",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>Mattancherry is Indian Jewry’s most famous settlement. Its pretty streets of pastel coloured houses, connected by first-floor passages and home to the last twelve saree-and-sarong-wearing, whiteskinned Indian Jews are visited by thousands of tourists each year. Its synagogue, built in 1568, with a floor of blue-and-white Chinese tiles, a carpet given by Haile Selassie and the frosty Yaheh selling tickets at the door, stands as an image of religious tolerance. [CAT 2008]</p>",
+      "options": [
+        "Mattancherry represents, therefore, the perfect picture of peaceful co-existence.",
+        "India’s Jews have almost never suffered discrimination, except for European colonizers and each other.",
+        "Jews in India were always tolerant.",
+        "Religious tolerance has always been only a facade and nothing more. E The pretty pastel streets are, thus, very popular with the tourists."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Statement A speaks of peaceful co-existence. However, there is no mention in the passage of who the Jews coexisted with. Also, peaceful co-existence implies that the Jews were tolerant as well, whereas the main focus of\nthe passage is on how India has been tolerant of the Jews.\nStatement B is accurate since it speaks of how Jews in India have never faced discrimination. From the term\n'religous tolerance' we can see that people belonging to a particular religion and not facing discrimination\nwould further the point of the passage.\nStatement D is out of context.\nStatement C is incorrect because it shifts the focus of the paragraph from the India being tolerant of Jews to\nJews being tolerant of India.\nStatement E is not in line with the overall theme and direction in which the para has been shaping up. It\ndisregards the point on religious tolerance.\n\n82. E\nB is not a proper concluding statement.\nD is contrary to the theme of the para.\nAmong A, C and E, E is the best concluding statement since it is very specific and talks about the 'origin of\nthought' and 'purity', which is keeping in line with the flow of the paragraph.\nHence, option E is the correct answer.\n\n83. E\nThe paragraph describes the role of the chracters in the whole story.Then the paragraph moves to the macrolevel stories where the organisation does not tell the whole narrative.Option 5 extends the idea about the\npurpose of personification of whole organisation.Option 1 and 4 are incorrect because of the deviation from the\ntopic.Option 2 is incorrect as it talks abstracting away from the actors rather than explaining the reason behind\nit.Option 3 is incorrect as there is no point of invoking the importance of personification of organisation.",
+      "setId": 7
     },
     {
       "id": 82,
-      "setId": 21,
       "passage": null,
-      "question": "<p>From the given options, choose the sentence that completes the paragraph in the most appropriate wa y. Given the cultur al and intellectual inter connections, the question of what is ‘W estern ’ and what is ‘Eastern ’ (or ‘Indian ’) is often har d to decide, and the issue can be discussed only in mor e dialectical terms. The diagnosis of a thought as ‘ purely W estern ’ or ‘purely Indian ’ can be v ery illusor y.</p>",
       "type": "MCQ",
-      "options": [
-        "Thoughts ar e not the kind of things that can be easily categoriz ed.",
-        "Though ‘ occidentalism ’ and ‘ orientalism ’ as dichot omous concepts ha ve found many adher ents.",
-        "‘East is East and W est is W est’ has been a discr edited notion for a long time now .",
-        "Compar tmentalizing thoughts is often desir able. ",
-        "The origin of a thought is not the kind of thing t o which ‘ purity ’ happens easily . Instructions Each of the following questions has a paragraph fr om which the last sentence has been deleted. F rom the given options, choose the sentence that completes the paragraph in the most appropriate wa y."
-      ],
-      "correctAnswer": 4,
-      "explanation": "B is not a pr oper concluding statement.\nD is contr ary to the theme of the par a.\nAmong A, C and E, E is the best concluding statement since it is v ery specic and talks about the ' origin of\nthought' and ' purity ', which is k eeping in line with the ow of the paragraph.\nHence, option E is the corr ect answer .",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>Given the cultural and intellectual interconnections, the question of what is ‘Western’ and what is ‘Eastern’ (or ‘Indian’) is often hard to decide, and the issue can be discussed only in more dialectical terms. The diagnosis of a thought as ‘purely Western’ or ‘purely Indian’ can be very illusory. [CAT 2008]</p>",
+      "options": [
+        "Thoughts are not the kind of things that can be easily categorized.",
+        "Though ‘occidentalism’ and ‘orientalism’ as dichotomous concepts have found many adherents.",
+        "‘East is East and West is West’ has been a discredited notion for a long time now.",
+        "Compartmentalizing thoughts is often desirable. E The origin of a thought is not the kind of thing to which ‘purity’ happens easily. Instructions Each of the following questions has a paragraph from which the last sentence has been deleted. From the given options, choose the sentence that completes the paragraph in the most appropriate way."
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "setId": 7
     },
     {
       "id": 83,
-      "setId": 21,
       "passage": null,
-      "question": "<p>Char acters ar e also par t of deep structur e. Char acters tie e vents in a st ory together and pr ovide a thr ead of continuity and meaning. St ories can be about individuals, gr oups, pr ojects or whole or ganizations, so fr om an organizational studies perspectiv e, the focal act or(s) determine the le vel and unit of analysis used in a study . Stories of mer gers and acquisitions, for example, ar e common place. In these st ories whole or ganizations ar e personied as act ors. But these macr o-level stories usually ar e not t old fr om the perspectiv e of the macr o-level participants, because whole or ganizations cannot narr ate their experiences in the first person.</p>",
       "type": "MCQ",
-      "options": [
-        "More gener ally, data concerning the identities and r elationships of the char acters in the st ory are requir ed, if one is t o understand r ole structur e and social networks in which that pr ocess is embedded.",
-        "Personication of a whole or ganization abstr acts awa y from the par ticular act ors and fr om tr aditional notions of le vel of analysis.",
-        "The personication of a whole or ganization is impor tant because st ories diff er depending on who is enacting v arious e vents.",
-        "Every story is t old fr om a par ticular point of view , with a par ticular narr ative voice, which is not r egar ded as par t of the deep structur e.",
-        "The personication of a whole or ganization is a textual de vice we use t o mak e macr o-level theories more compr ehensible."
-      ],
-      "correctAnswer": 4,
-      "explanation": "The paragraph describes the r ole of the chr acters in the whole st ory.Then the paragraph mo ves to the macr o-\nlevel stories wher e the or ganisation does not tell the whole narr ative.Option 5 extends the idea about the\npurpose of personication of whole or ganisation.Option 1 and 4 ar e incorr ect because of the de viation fr om the\ntopic.Option 2 is incorr ect as it talks abstr acting awa y from the act ors r ather than explaining the r eason behind\nit.Option 3 is incorr ect as ther e is no point of inv oking the impor tance of personication of or ganisation.",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>Characters are also part of deep structure. Characters tie events in a story together and provide a thread of continuity and meaning. Stories can be about individuals, groups, projects or whole organizations, so from an organizational studies perspective, the focal actor(s) determine the level and unit of analysis used in a study. Stories of mergers and acquisitions, for example, are common place. In these stories whole organizations are personified as actors. But these macro-level stories usually are not told from the perspective of the macro-level participants, because whole organizations cannot narrate their experiences in the first person.</p>",
+      "options": [
+        "More generally, data concerning the identities and relationships of the characters in the story are required, if one is to understand role structure and social networks in which that process is embedded.",
+        "Personification of a whole organization abstracts away from the particular actors and from traditional notions of level of analysis.",
+        "The personification of a whole organization is important because stories differ depending on who is enacting various events.",
+        "Every story is told from a particular point of view, with a particular narrative voice, which is not regarded as part of the deep structure. E The personification of a whole organization is a textual device we use to make macro-level theories more comprehensible."
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "setId": 8
     },
     {
       "id": 84,
-      "setId": 21,
       "passage": null,
-      "question": "<p>Nevertheless, phot ographs still r etain some of the magical allur e that the earliest daguerr eotypes inspir ed. As objects, our phot ographs ha ve changed; the y have become physically imsier as the y have become mor e technologically sophisticated. Daguerr e produced pictur es on copper plates; t oday many of our phot ographs never become tangible thins, but instead r emain led awa y on computers and camer as, par t of the digital ether that env elops the modern world. A t the same time, our patience for the cr eation of images has also er oded. Childr en today are used t o being tr acked fr om bir th by digital camer as and video r ecor ders and the y expect t o see the r esults of their poses and per formances instantly . The space between life as it is being liv ed and life as it is being displa yed shrinks t o a mer e second.</p>",
       "type": "MCQ",
-      "options": [
-        "Yet, despite these technical de velopments, phot ographs still r emain power ful because the y are reminders of the people and things we car e about.",
-        "Images, after all, ar e surr ogates carried int o battle b y a soldier or b y a tr aveller on holida y.",
-        "Phot ographs, be the y digital or tr aditional, exist t o remind us of the absent, the belo ved, and the dead.",
-        "In the new er a of the digital image, the images also ha ve a gr eater potential for fostering falsehood and trick ery, perpetuating ctions that seem so r eal we cannot tell the diff erence.",
-        "Anywa y, human natur e being what it is, little time has passed after phot ography ’s inv entions became means of living life thr ough images. "
-      ],
-      "correctAnswer": 0,
-      "explanation": "The par agarph star ts by talking about the r etaining of the allur e of the phot ographs.It describes the new digital\nage wher e the phot os ha ve become digital. Option A per fectly ends the paragraph b y talking about the positiv es\nof the phot ographs.\n2,3,4 ar e de viations fr om the main idea. 5th is close but it intr oduces a new idea r ather than closing the\nparagraph.",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>Nevertheless, photographs still retain some of the magical allure that the earliest daguerreotypes inspired. As objects, our photographs have changed; they have become physically flimsier as they have become more technologically sophisticated. Daguerre produced pictures on copper plates; today many of our photographs never become tangible thins, but instead remain filed away on computers and cameras, part of the digital ether that envelops the modern world. At the same time, our patience for the creation of images has also eroded. Children today are used to being tracked from birth by digital cameras and video recorders and they expect to see the results of their poses and performances instantly. The space between life as it is being lived and life as it is being displayed shrinks to a mere second.</p>",
+      "options": [
+        "Yet, despite these technical developments, photographs still remain powerful because they are reminders of the people and things we care about.",
+        "Images, after all, are surrogates carried into battle by a soldier or by a traveller on holiday.",
+        "Photographs, be they digital or traditional, exist to remind us of the absent, the beloved, and the dead.",
+        "In the new era of the digital image, the images also have a greater potential for fostering falsehood and trickery, perpetuating fictions that seem so real we cannot tell the difference. E Anyway, human nature being what it is, little time has passed after photography’s inventions became means of living life through images."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The paragarph starts by talking about the retaining of the allure of the photographs.It describes the new digital\nage where the photos have become digital. Option A perfectly ends the paragraph by talking about the positives\nof the photographs.\n2,3,4 are deviations from the main idea. 5th is close but it introduces a new idea rather than closing the\nparagraph.",
+      "setId": 8
     },
     {
       "id": 85,
-      "setId": 22,
       "passage": null,
-      "question": "<p>Mma Ramotswe had a detectiv e agency in Africa, at the foot of K gale Hill. These wer e its assets; a tiny white van, two desks, two chairs, a telephone, and an old typewriter . Then ther e was a teapot, in which Mma Ramotswe - the only priv ate lady detectiv e in Botswana - br ewed r ed bush tea. And thr ee mugs - one for herself, one for her secr etary and one for the client. What else does a detectiv e agency r eally need? Detectiv e agencies rely on human intuition and intelligence, both of which Mma Ramotswe had in abundance.</p>",
       "type": "MCQ",
-      "options": [
-        "But ther e was also the view , which again would appear on no inv entory.",
-        "No inv entory would e ver include those, of course.",
-        "She had an intelligent secr etary too.",
-        "She was a good detectiv e and a good woman.",
-        "What she lack ed in possessions was mor e than made up b y a natur al shr ewdness. Instructions Each of these questions contains a sentence followed by four choices. Select fr om among these choices the one which most logically completes the idea contained in the given sentence."
-      ],
-      "correctAnswer": 1,
-      "explanation": "No inv entory would e ver include those, of course ’. The par a star ts with listing out ‘the inv entory’. The option\nwhich sa ys ‘what she lack ed………..natur al shr ewdness’ is be yond the scope of the ar gument. All the options can\nbe easily eliminated. ‘Those ’ in the option ‘No inv entory would e ver include those, of course ’, refers t o human\nintuition and intelligence of Mma Ramotswe.\n86.D VIEW SOLUTION\n VIEW SOLUTION\n VIEW SOLUTION\n VIEW SOLUTION\n VIEW SOLUTION\n\n\n\n\n\nThe sentence talks about br eaking with the pr edominant cultur al, political and social beliefs and v alues. In or der\nto reconstruct something, the thing should first be br oken. Thus, D logically follows the sentence.\nSentence A is incorr ect as it is v ague.\nB is also incorr ect as ther e is no talks of malaise in the society in the sentence.\nC can also be eliminated for the same r eason as B.",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>Mma Ramotswe had a detective agency in Africa, at the foot of Kgale Hill. These were its assets; a tiny white van, two desks, two chairs, a telephone, and an old typewriter. Then there was a teapot, in which Mma Ramotswe - the only private lady detective in Botswana - brewed red bush tea. And three mugs - one for herself, one for her secretary and one for the client. What else does a detective agency really need? Detective agencies rely on human intuition and intelligence, both of which Mma Ramotswe had in abundance.</p>",
+      "options": [
+        "But there was also the view, which again would appear on no inventory.",
+        "No inventory would ever include those, of course.",
+        "She had an intelligent secretary too.",
+        "She was a good detective and a good woman. E What she lacked in possessions was more than made up by a natural shrewdness. Instructions Each of these questions contains a sentence followed by four choices. Select from among these choices the one which most logically completes the idea contained in the given sentence."
+      ],
+      "correctAnswer": 1,
+      "explanation": "No inventory would ever include those, ofcourse’. The para starts with listing out ‘the inventory’. The option\nwhich says ‘what she lacked………..natural shrewdness’ is beyond the scope of the argument. All the options can\nbe easily eliminated. ‘Those’ in the option ‘No inventory would ever include those, ofcourse’, refers to human\nintuition and intelligence of Mma Ramotswe.",
+      "setId": 8
     },
     {
       "id": 86,
-      "setId": 22,
       "passage": null,
-      "question": "<p>Furthermor e, to be r adical means t o be r eady and willing t o break with the pr edominant cultur al, political and social beliefs and v alues in or der t o</p>",
       "type": "MCQ",
-      "options": [
-        "investigate the essential r ealities that the y conceal.",
-        "investigate the r oot cause of malaise in a society .",
-        "shape a new economic or der.",
-        "Re-construct the system in terms of new r ealities."
-      ],
-      "correctAnswer": 3,
-      "explanation": "",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>Furthermore, to be radical means to be ready and willing to break with the predominant cultural, political and social beliefs and values in order to</p>",
+      "options": [
+        "investigate the essential realities that they conceal.",
+        "investigate the root cause of malaise in a society.",
+        "shape a new economic order.",
+        "Re-construct the system in terms of new realities."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The sentence talks about breaking with the predominant cultural, political and social beliefs and values. In order\nto reconstruct something, the thing should first be broken. Thus, D logically follows the sentence.\nSentence A is incorrect as it is vague.\nB is also incorrect as there is no talks of malaise in the society in the sentence.\nC can also be eliminated for the same reason as B.",
+      "setId": 8
     },
     {
       "id": 87,
-      "setId": 22,
       "passage": null,
-      "question": "<p>This is the ancient kingdom of Sumeria and y ou ar e its v ener ated ruler . The fate of Sumeria ’s economy and of your r oyal subjects</p>",
       "type": "MCQ",
-      "options": [
-        "is written in their hor oscopes.",
-        "is as unknown as the name of y our kingdom.",
-        "is entir ely in y our hands.",
-        "is allocated accor ding t o their needs.  "
-      ],
-      "correctAnswer": 2,
-      "explanation": "From the context we can inf er that the speak er is talking t o the King of Sumeria. As the King the duty t o protect\nhis subjects and ensur e the economic pr osperity of the kingdom will be the duty of the King. Thus, option C\nwhich r eects the same is the best choice among the options.",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>This is the ancient kingdom of Sumeria and you are its venerated ruler. The fate of Sumeria’s economy and of your royal subjects</p>",
+      "options": [
+        "is written in their horoscopes.",
+        "is as unknown as the name of your kingdom.",
+        "is entirely in your hands.",
+        "is allocated according to their needs."
+      ],
+      "correctAnswer": 2,
+      "explanation": "From the context we can infer that the speaker is talking to the King of Sumeria. As the King the duty to protect\nhis subjects and ensure the economic prosperity of the kingdom will be the duty of the King. Thus, option C\nwhich reflects the same is the best choice among the options.",
+      "setId": 9
     },
     {
       "id": 88,
-      "setId": 22,
       "passage": null,
-      "question": "<p>\"Look befor e you leap \", reects an attitude expr essed in such a sa ying as</p>",
       "type": "MCQ",
-      "options": [
-        "\"Forewarned is for earmed\"",
-        "\"A stitch in time sa ves nine \"",
-        "\"No risk no gain \"",
-        "\"Fools rush wher e the angels f ear t o tread\""
-      ],
-      "correctAnswer": 0,
-      "explanation": "The idiom \"look befor e you leap means \"t o consider the possible consequences befor e committing t o an\naction \". The idiom \"for ewarned is for earmed\" means knowing possible diculties and dangers earlier will giv e\none a tactical adv antage. Both these idioms ha ve a common attitude that being pr epar ed for a possible danger\nis to ones adv antage. Thus, option A is the right choice.",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>\"Look before you leap\", reflects an attitude expressed in such a saying as</p>",
+      "options": [
+        "\"Forewarned is forearmed\"",
+        "\"A stitch in time saves nine\"",
+        "\"No risk no gain\"",
+        "\"Fools rush where the angels fear to tread\""
+      ],
+      "correctAnswer": 0,
+      "explanation": "The idiom \"look before you leap means \"to consider the possible consequences before committing to an\naction\". The idiom \"forewarned is forearmed\" means knowing possible difficulties and dangers earlier will give\none a tactical advantage. Both these idioms have a common attitude that being prepared for a possible danger\nis to ones advantage. Thus, option A is the right choice.",
+      "setId": 9
     },
     {
       "id": 89,
-      "setId": 23,
       "passage": null,
-      "question": "<p>In the E uropean Community countries ther e has been talk of an ener gy tax t o raise funds</p>",
       "type": "MCQ",
-      "options": [
-        "by bur dening the rich who can affor d higher tax es.",
-        "to penalise hea vy users of ener gy.",
-        "by raising the price of ener gy-intensiv e implements.",
-        "to sear ch for alternativ e sour ces of ener gy."
-      ],
-      "correctAnswer": 3,
-      "explanation": "As the sentence in the question talks about ener gy tax t o raise funds, it must be for some activity which will\nhelp them come out of the ener gy constr aints. Thus, Option D is the best t as the concluding par t.",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>In the European Community countries there has been talk of an energy tax to raise funds</p>",
+      "options": [
+        "by burdening the rich who can afford higher taxes.",
+        "to penalise heavy users of energy.",
+        "by raising the price of energy-intensive implements.",
+        "to search for alternative sources of energy."
+      ],
+      "correctAnswer": 3,
+      "explanation": "As the sentence in the question talks about energy tax to raise funds, it must be for some activity which will\nhelp them come out of the energy constraints. Thus, Option D is the best fit as the concluding part.",
+      "setId": 9
     },
     {
       "id": 90,
-      "setId": 23,
       "passage": null,
-      "question": "<p>Entrepreneurs ar e never satised with the status quo, the y are intent on shaping the futur e, rather than being shaped b y it. As one Chief Ex ecutiv e once said</p>",
       "type": "MCQ",
-      "options": [
-        "The futur e is the sum t otal of actions in the pr esent and past..",
-        "If you ar e not aler t, befor e you realiz e it the futur e is on y ou..",
-        "I do not want our competit ors making decisions for us..",
-        "It is a sound business policy t o anticipate change than being swamped b y it.."
-      ],
-      "correctAnswer": 1,
-      "explanation": "The given sentence talks about how entr epreneurs ar e never satised and the y are alwa ys looking for\nsomething mor e inno vative to shape the futur e. The quote used b y the ex ecutiv e should be in line with this idea.\nC is completely unr elated t o this while A dist orts the meaning. Among B and D , the former one is a better choice\nbecause D talks about the business aspects which is nowher e implied in the given sentence. Hence B is the\ncorrect answer .",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>Entrepreneurs are never satisfied with the status quo, they are intent on shaping the future, rather than being shaped by it. As one Chief Executive once said</p>",
+      "options": [
+        "The future is the sum total of actions in the present and past..",
+        "If you are not alert, before you realize it the future is on you..",
+        "I do not want our competitors making decisions for us..",
+        "It is a sound business policy to anticipate change than being swamped by it.."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The given sentence talks about how entrepreneurs are never satisfied and they are always looking for\nsomething more innovative to shape the future. The quote used by the executive should be in line with this idea.\nC is completely unrelated to this while A distorts the meaning. Among B and D, the former one is a better choice\nbecause D talks about the business aspects which is nowhere implied in the given sentence. Hence B is the\ncorrect answer.",
+      "setId": 9
     },
     {
       "id": 92,
-      "setId": 23,
       "passage": null,
-      "question": "<p>Social mo vement or ganizations often struggle t o mobiliz e suppor ters fr om allied mo vements in their effor ts to achie ve critical mass. Or ganizations with hybrid identities—those whose or ganizational identities span the boundaries of two or mor e social mo vements, issues, or identities—ar e vital t o mobilizing these constituencies. Studies of the post-9/11 U.S. antiwar mo vement show that individuals with past inv olvement in non-anti-war movements ar e mor e likely to join hybrid or ganizations than ar e individuals without inv olvement in non-anti-war movements. In addition, the y show that or ganizations with hybrid identities occup y relativ ely mor e centr al positions in inter-or ganizational contact networks within the antiwar mo vement and thus r ecruit signicantly more par ticipants in demonstr ations than do non hybrid or ganizations.</p>",
       "type": "MCQ",
-      "options": [
-        "Movements that work t owar ds social change often nd it dicult t o mobiliz e a critical mass of suppor ters.",
-        "Organizations with hybrid identities ar e able t o mobiliz e individuals with diff erent points of view .",
-        "Post 9/11 studies show that people who ar e inv olved in non anti-war mo vements ar e likely to join hybrid organizations.",
-        "Hybrid or ganizations attr act individuals that ar e deeply inv olved in anti-war mo vements."
-      ],
-      "correctAnswer": 1,
-      "explanation": "",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>Social movement organizations often struggle to mobilize supporters from allied movements in their efforts to achieve critical mass. Organizations with hybrid identities—those whose organizational identities span the boundaries of two or more social movements, issues, or identities—are vital to mobilizing these constituencies. Studies of the post-9/11 U.S. antiwar movement show that individuals with past involvement in non-anti-war movements are more likely to join hybrid organizations than are individuals without involvement in non-anti-war movements. In addition, they show that organizations with hybrid identities occupy relatively more central positions in inter-organizational contact networks within the antiwar movement and thus recruit significantly more participants in demonstrations than do non hybrid organizations.</p>",
+      "options": [
+        "Movements that work towards social change often find it difficult to mobilize a critical mass of supporters.",
+        "Organizations with hybrid identities are able to mobilize individuals with different points of view.",
+        "Post 9/11 studies show that people who are involved in non anti-war movements are likely to join hybrid organizations.",
+        "Hybrid organizations attract individuals that are deeply involved in anti-war movements."
+      ],
+      "correctAnswer": 1,
+      "explanation": "After reading all the lines of the paragraph, it is evident that social movement organisations depend on\norganisations with hybrid identities because , within them they contain individuals with multiple points of views\non different movements and issues. The example gives shows how people who are campaigning for non-antiwar movements are more likely to join hybrid organisations. It also says that organisations with hybrid identities\noccupy more central positions within organisations that are involved in anti-war movements.\nOption A is incorrect. The passage talks more about why hybrid organisations are vital to providing participants\nin social movements.\nOption C is just an illustration of the idea that the paragraph is trying to make. Hence, it would not be the most\nappropriate summary of the paragraph.\nOption D is incorrect. From the paragraph we can infer that hybrid organisations attract individuals that are\ndeeply involved in non-anti-war movements.\nOption B is an appropriate summary of the passage and hence it is the correct answer.",
+      "setId": 10
     },
     {
       "id": 93,
-      "setId": 24,
       "passage": null,
-      "question": "<p>Language is an autapomorphy found only in our lineage, and not shar ed with other br anches of our gr oup such as primates. W e also ha ve no denitiv e evidence that any species other than Homo sapiens e ver had language. Howe ver, it must be noted str aightawa y that ‘language ’ is not a monolithic entity , but r ather a complex bundle of  traits that must ha ve evolved o ver a signicant time fr ame…. Mor eover, language crucially dr aws on aspects of cognition that ar e long established in the primate lineage, such as memor y: the language faculty as a whole comprises mor e than just the uniquely linguistic f eatur es.</p>",
       "type": "MCQ",
-      "options": [
-        "Language e volved with linguistic f eatur es building on f eatur es of cognition such as memor y.",
-        "Language, a deriv ed tr ait found only in humans, has e volved o ver time and inv olves memor y.",
-        "Language is not a single, uniform entity but the end r esult of a long and complex pr ocess of linguistic evolution.",
-        "Language is a distinctiv ely human f eatur e as ther e is no e vidence of the existence of language in any other species."
-      ],
-      "correctAnswer": 0,
-      "explanation": "The main points of the passage can be summariz ed as follows:\nLanguage is a complex bundle of tr aits that has e volved o ver a signicant time fr ame.\nLanguage is not a monolithic entity but r ather the end r esult of a long and complex pr ocess of linguistic\nevolution.\nLanguage dr aws on cognitiv e featur es that ar e established in the primate lineage, such as memor y.\nWhile language is a distinctiv e featur e found only in humans, ther e is no denitiv e evidence of its existence\nin any other species.\nThe language faculty encompasses mor e than just the uniquely linguistic f eatur es and incorpor ates\nvarious aspects of cognition.\nIn summar y, the passage emphasiz es the multifaceted natur e of language, its e volutionar y development, and\nits reliance on cognitiv e abilities such as memor y. It also underscor es that while language is unique t o humans,\nit is not a standalone tr ait and incorpor ates elements be yond language-specic f eatur es.\nThe passage mentions that language is a complex bundle of tr aits that must ha ve evolved o ver a signicant\ntime fr ame. It also states that language dr aws on aspects of cognition that ar e long established in the primate\nlineage, such as memor y. This suggests that language did not emer ge in isolation but r ather built upon\npreexisting cognitiv e capacities.\nMemor y pla ys a crucial r ole in language, as language inv olves st oring, r etrie ving, and pr ocessing linguistic\ninformation. Through the use of memor y, individuals can learn and r ecall wor ds, phr ases, gr ammar rules, and\nother linguistic elements. Memor y also allows for the r etention and tr ansmission of cultur al knowledge and\nlanguage acquisition in individuals and acr oss gener ations.\nTher efore, Option A accur ately captur es the notion that language e volved b y incorpor ating linguistic f eatur es\nonto existing cognitiv e abilities, notably memor y.\nOption B is par tially corr ect as it acknowledges the e volution of language and its connection t o memor y.\nHowe ver, it does not captur e the idea that language is a complex bundle of tr aits or the absence of denitiv e\nevidence for language in other species.\nWhile Option C captur es the idea that language is not a single, uniform entity , it fails t o encompass the\ncomplete message of the passage. The passage emphasiz es that language is mor e than just the end r esult of\nlinguistic e volution. It highlights that language also r elies on cognitiv e featur es that ar e established in the\nprimate lineage, such as memor y. Additionally , the passage mentions that ther e is no denitiv e evidence of\nlanguage in other species. These aspects ar e not adequately r epresented in option C.\nOption D is par tially corr ect in stating that language is distinctiv ely human. Howe ver, it fails t o captur e the\ncomplexity of language and the fact that it is a bundle of tr aits. It also o verlooks the possibility that e vidence for\nlanguage in other species ma y be inconclusiv e rather than entir ely nonexistent. VIDEO SOLUTION\n\n\n\n\n\nIn comparison t o these options, Option A  stands out as the best summar y because it specically addr esses\nthe e volution of language and highlights the r ole of cognition, particularly memor y, in its de velopment.",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>Language is an autapomorphy found only in our lineage, and not shared with other branches of our group such as primates. We also have no definitive evidence that any species other than Homo sapiens ever had language. However, it must be noted straightaway that ‘language’ is not a monolithic entity, but rather a complex bundle of traits that must have evolved over a significant time frame…. Moreover, language crucially draws on aspects of cognition that are long established in the primate lineage, such as memory: the language faculty as a whole comprises more than just the uniquely linguistic features.</p>",
+      "options": [
+        "Language evolved with linguistic features building on features of cognition such as memory.",
+        "Language, a derived trait found only in humans, has evolved over time and involves memory.",
+        "Language is not a single, uniform entity but the end result of a long and complex process of linguistic evolution.",
+        "Language is a distinctively human feature as there is no evidence of the existence of language in any other species."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main points of the passage can be summarized as follows:\nLanguage is a complex bundle of traits that has evolved over a significant time frame.\nLanguage is not a monolithic entity but rather the end result of a long and complex process of linguistic\nevolution.\nLanguage draws on cognitive features that are established in the primate lineage, such as memory.\nWhile language is a distinctive feature found only in humans, there is no definitive evidence of its existence\nin any other species.\nThe language faculty encompasses more than just the uniquely linguistic features and incorporates\nvarious aspects of cognition.\nIn summary, the passage emphasizes the multifaceted nature of language, its evolutionary development, and\nits reliance on cognitive abilities such as memory. It also underscores that while language is unique to humans,\nit is not a standalone trait and incorporates elements beyond language-specific features.\nThe passage mentions that language is a complex bundle of traits that must have evolved over a significant\ntime frame. It also states that language draws on aspects of cognition that are long established in the primate\nlineage, such as memory. This suggests that language did not emerge in isolation but rather built upon\npreexisting cognitive capacities.\nMemory plays a crucial role in language, as language involves storing, retrieving, and processing linguistic\ninformation. Through the use of memory, individuals can learn and recall words, phrases, grammar rules, and\nother linguistic elements. Memory also allows for the retention and transmission of cultural knowledge and\nlanguage acquisition in individuals and across generations.\nTherefore, Option A accurately captures the notion that language evolved by incorporating linguistic features\nonto existing cognitive abilities, notably memory.\nOption B is partially correct as it acknowledges the evolution of language and its connection to memory.\nHowever, it does not capture the idea that language is a complex bundle of traits or the absence of definitive\nevidence for language in other species.\nWhile Option C captures the idea that language is not a single, uniform entity, it fails to encompass the\ncomplete message of the passage. The passage emphasizes that language is more than just the end result of\nlinguistic evolution. It highlights that language also relies on cognitive features that are established in the\nprimate lineage, such as memory. Additionally, the passage mentions that there is no definitive evidence of\nlanguage in other species. These aspects are not adequately represented in option C.\nOption D is partially correct in stating that language is distinctively human. However, it fails to capture the\ncomplexity of language and the fact that it is a bundle of traits. It also overlooks the possibility that evidence for\nlanguage in other species may be inconclusive rather than entirely nonexistent.\nIn comparison to these options, Option A stands out as the best summary because it specifically addresses\nthe evolution of language and highlights the role of cognition, particularly memory, in its development.",
+      "setId": 10
     },
     {
       "id": 94,
-      "setId": 24,
       "passage": null,
-      "question": "<p>Privacy-challenged oce work ers ma y nd it har d to belie ve, but open-plan oces and cubicles wer e inv ented by architects and designers who thought that t o break down the social walls that divide people, y ou had t o break down the r eal walls, t oo. Modernist ar chitects saw walls and r ooms as downright fascist. The spaciousness and exibility of an open plan would liber ate homeowners and oce dwellers fr om the connes of bo xes. But companies t ook up their idea less out of a democr atic ideology than a desir e to pack in as many work ers as the y could. The typical open-plan oce of the first half of the 20th centur y was a white-collar assembly line. Cubicles wer e interior designers’ attempt t o put some soul back in.</p>",
       "type": "MCQ",
-      "options": [
-        "Wall-fr ee oce spaces could ha ve work ed out the wa y their ut opian inv entors intended had companies cared for work ers' satisfaction.",
-        "Wall-fr ee oce spaces did not quite work out as desir ed and ther efore cubicles came int o being.",
-        "Wall-fr ee oce spaces did not quite work out the wa y their ut opian inv entors intended, as the y became tools for exploitation of labor .",
-        "Wall-fr ee oce spaces did not quite work out as companies don ’t belie ve in democr atic ideology .  Instructions For each of the two questions, indicate which of the statements given, with that par ticular question is consistent with the description of the unseasonable man in the passage below . Unseasonableness is a tendency t o do socially permissible things at the wr ong time. The unseasonable man is the sor t of person who comes t o conde in y ou when y ou ar e busy . He ser enades his belo ved when she is ill. He asks a man who has just lost mone y by paying a bill for a friend t o pa y a biII for him. He invites a friend t o go for a ride just after the friend has nished a long car trip. He is eager t o off er ser vices which ar e not wanted but which cannot be politely r efused. If he is pr esent at an arbitr ation, he stirs up dissension between the two parties, who wer e really anxious t o agr ee. Such is the unseasonable man."
-      ],
-      "correctAnswer": 2,
-      "explanation": "After r eading the entir e paragraph, it can be inf erred that the main idea of the passage is that while the\ninventors of the open-plan oces had the liber ation of oce dwellers fr om bo xes in mind, the companies used\nit to pack as much people as possible inside.\nOption A is incorr ect as the passage mak es no mentions about work ers satisfaction.\nOption B is incorr ect as it misr epresents the timeline given in the passage. Cubicles existed earlier and only\nlater wer e wall fr ee oce spaces inv ented.\nOption D is incorr ect as it could not be inf erred fr om the passage that the companies that did not belie ve in\ndemocr atic ideology \nOption C corr ectly encapsulates the main idea of the passage and hence it is the corr ect answer .",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>Privacy-challenged office workers may find it hard to believe, but open-plan offices and cubicles were invented by architects and designers who thought that to break down the social walls that divide people, you had to break down the real walls, too. Modernist architects saw walls and rooms as downright fascist. The spaciousness and flexibility of an open plan would liberate homeowners and office dwellers from the confines of boxes. But companies took up their idea less out of a democratic ideology than a desire to pack in as many workers as they could. The typical open-plan office of the first half of the 20th century was a white-collar assembly line. Cubicles were interior designers’ attempt to put some soul back in.</p>",
+      "options": [
+        "Wall-free office spaces could have worked out the way their utopian inventors intended had companies cared for workers' satisfaction.",
+        "Wall-free office spaces did not quite work out as desired and therefore cubicles came into being.",
+        "Wall-free office spaces did not quite work out the way their utopian inventors intended, as they became tools for exploitation of labor.",
+        "Wall-free office spaces did not quite work out as companies don’t believe in democratic ideology. Instructions For each of the two questions, indicate which of the statements given, with that particular question is consistent with the description of the unseasonable man in the passage below. Unseasonableness is a tendency to do socially permissible things at the wrong time. The unseasonable man is the sort of person who comes to confide in you when you are busy. He serenades his beloved when she is ill. He asks a man who has just lost money by paying a bill for a friend to pay a biII for him. He invites a friend to go for a ride just after the friend has finished a long car trip. He is eager to offer services which are not wanted but which cannot be politely refused. If he is present at an arbitration, he stirs up dissension between the two parties, who were really anxious to agree. Such is the unseasonable man."
+      ],
+      "correctAnswer": 2,
+      "explanation": "After reading the entire paragraph, it can be inferred that the main idea of the passage is that while the\ninventors of the open-plan offices had the liberation of office dwellers from boxes in mind, the companies used\nit to pack as much people as possible inside.\nOption A is incorrect as the passage makes no mentions about workers satisfaction.\nOption B is incorrect as it misrepresents the timeline given in the passage. Cubicles existed earlier and only\nlater were wall free office spaces invented.\nOption D is incorrect as it could not be inferred from the passage that the companies that did not believe in\ndemocratic ideology\nOption C correctly encapsulates the main idea of the passage and hence it is the correct answer.",
+      "setId": 10
     },
     {
       "id": 95,
-      "setId": 24,
       "passage": null,
-      "question": "<p>He tends t o</p>",
       "type": "MCQ",
-      "options": [
-        "enter tain women.",
-        "be a successful arbitr ator when dissenting par ties ar e anxious t o agr ee.",
-        "be helpful when solicited.",
-        "tell a long st ory to people who ha ve hear d it many times befor e."
-      ],
-      "correctAnswer": 3,
-      "explanation": "In this paragraph, the author states that the unr easonable man tends t o do things with other people which the y\ndon't want t o do. F or eg, the person who has lost the mone y won 't pay the bill or the person who has just come\nfrom a long ride won 't go for a ride again\nOption D corr ectly states the tendency of the unr easonable man as the person who has hear d a par ticular st ory\nwon't hear it again.",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>He tends to</p>",
+      "options": [
+        "entertain women.",
+        "be a successful arbitrator when dissenting parties are anxious to agree.",
+        "be helpful when solicited.",
+        "tell a long story to people who have heard it many times before."
+      ],
+      "correctAnswer": 3,
+      "explanation": "In this paragraph, the author states that the unreasonable man tends to do things with other people which they\ndon't want to do. For eg, the person who has lost the money won't pay the bill or the person who has just come\nfrom a long ride won't go for a ride again\nOption D correctly states the tendency of the unreasonable man as the person who has heard a particular story\nwon't hear it again.",
+      "setId": 10
     },
     {
       "id": 96,
-      "setId": 24,
       "passage": null,
-      "question": "<p>The unseasonable man tends t o</p>",
       "type": "MCQ",
-      "options": [
-        "bring a higher bidder t o a salesman who has just closed a deal.",
-        "disclose condential information t o others.",
-        "sing the pr aises of the bride when he goes t o a wedding.",
-        "sleep late and rise early .   "
-      ],
-      "correctAnswer": 0,
-      "explanation": "In this paragraph, the author states that the unr easonable man tends t o do things with other people which the y\ndon't want t o do or is irr ational. F or eg, the person who has lost the mone y won 't pay the bill or the person who\nhas just come fr om a long ride won 't go for a ride again.\nOption A corr ectly highlights this as it would be irr ational if a person brings a higher bidder t o the salesman who\nhas just closed the deal. VIDEO SOLUTION\n VIDEO SOLUTION\n VIEW SOLUTION\n VIEW SOLUTION",
       "marks": {
         "positive": 3,
         "negative": 1
-      }
+      },
+      "questionType": "para-completion",
+      "question": "<p>The unseasonable man tends to</p>",
+      "options": [
+        "bring a higher bidder to a salesman who has just closed a deal.",
+        "disclose confidential information to others.",
+        "sing the praises of the bride when he goes to a wedding.",
+        "sleep late and rise early. Answers 1.B 2.D 3.C 4.B 5.B 6.C 7.C 8.C 9.A 10.D 11.A 12.A 13.D 14.C 15.A 16.C 17.A 18.D 19.B 20.D 21.C 22.D 23.B 24.B 25.C 26.C 27.B 28.B 29.A 30.B 31.D 32.D 33.B 34.D 35.D 36.A 37.C 38.B 39.C 40.C 41.A 42.C 43.A 44.D 45.B 46.A 47.D 48.D 49.C 50.D 51.C 52.C 53.C 54.D 55.C 56.D 57.C 58.D 59.C 60.B 61.D 62.C 63.C 64.A 65.D 66.A 67.C 68.C 69.E 70.B 71.A 72.A 73.D 74.A 75.B 76.A 77.A 78.C 79.B 80.D 81.B 82.E 83.E 84.A 85.B 86.D 87.C 88.A 89.D 90.B 91.D 92.B 93.A 94.C 95.D 96.A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In this paragraph, the author states that the unreasonable man tends to do things with other people which they\ndon't want to do or is irrational. For eg, the person who has lost the money won't pay the bill or the person who\nhas just come from a long ride won't go for a ride again.\nOption A correctly highlights this as it would be irrational if a person brings a higher bidder to the salesman who\nhas just closed the deal.",
+      "setId": 11
     }
   ]
 }
