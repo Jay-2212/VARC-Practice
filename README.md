@@ -181,10 +181,22 @@ npm run test:watch
 npm run test:coverage
 ```
 
+## Upcoming Features (In Development)
+
+**Para Completion and Para Summary Questions** - A comprehensive implementation plan has been created to add two new question types to the platform:
+- **Para Completion**: Questions where you fill in missing sentences
+- **Para Summary**: Questions where you choose the best summary
+
+See [`IMPLEMENTATION_PLAN.md`](IMPLEMENTATION_PLAN.md) for the detailed phased implementation guide.
+
+## Repository Structure
+
+For a detailed explanation of the repository organization and file purposes, see [`REPOSITORY_STRUCTURE.md`](REPOSITORY_STRUCTURE.md).
+
 ## Future Enhancements
 
-- Add more question types (para jumbles, odd sentence out)
-- Import questions from PDF
+- Para jumbles and odd sentence out questions
 - Export/import test sessions
 - Multiple test sections (LRDI, Quant)
 - Performance analytics and history
+- Difficulty-based filtering
