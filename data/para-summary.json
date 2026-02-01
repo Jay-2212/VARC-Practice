@@ -1,0 +1,1305 @@
+{
+  "testInfo": {
+    "title": "VARC Para Summary - Complete Set",
+    "duration": 60,
+    "totalQuestions": 68,
+    "sections": [
+      "VARC"
+    ],
+    "questionType": "para-summary"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "setId": 1,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. Gradually , life for the island’ s bir ds is impr oving. Antar ctic prions and white-headed petr els, which also nest in burrows, had managed t o cling on in some sites while pests wer e on the island. Their numbers ar e now increasing. “It’ s fantastic and so ex citing, ” Shaw sa ys. As bir ds return t o breed, the y also poo. This adds nutrients t o the soil, which in turn helps the plants t o grow back str onger . Tall plants then help burr owing bir ds hide fr om pr edat ory skuas. “It’ s this wonder ful feedback loop, ” Shaw sa ys. Today, the “ pretty paddock” that Hought on \u0000rst experienced has been tr ansformed. “The tussock is o ver your head, and y ou’re dodging all these penguin tunnels, ” she sa ys. The or chids and tiny herb that had been pr otected b y fencing ha ve star ted turning up all o ver the place.</p>",
+      "type": "MCQ",
+      "options": [
+        "Ther e is an incr easing number of pr edat ory birds and plants on the island despite the pr esence of pests which is a positiv e de velopment.",
+        "In the absence of pests, lif e on the island is now pr otected, and ther e has been a r evival of a v ariety of birds and plants.",
+        "Flowering plants, herbs and bir ds ar e now being pr otected on this wonder ful Antar ctic island.",
+        "Ther e is a huge positiv e transformation of the ecosystem of the island when br ought under envir onmental pr otection."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage describes how lif e on the island is gr adually impr oving, par ticularly for bir ds lik e Antar ctic prions\nand white-headed petr els. It highlights that these bir ds ar e incr easing in numbers as pests ar e contr olled on the\nisland. The absence of pests allows the bir ds to return, br eed, and contribute t o the ecosystem positiv ely. The\npassage also mentions how bir d droppings add nutrients t o the soil, suppor ting plant gr owth. Ov erall, Option B\neffectiv ely conv eys the centr al theme of the passage - the r evival and impr ovement of lif e on the island due t o\nthe absence of pests and the positiv e impact on bir ds and plants.\nOption A incorr ectly suggests an incr ease in the number of pr edat ory birds, which contr adicts the positiv e\ndevelopments mentioned in the passage.\nOption C is incorr ect as the passage doesn 't explicitly state that this pr otection is the primar y cause of the\npositiv e changes.\nOption D is mor e gener al and doesn 't speci\u0000cally addr ess the absence of pests as a crucial fact or in the\npositiv e transformation mentioned in the passage.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 2,
+      "setId": 1,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. John Cleese t old F ox News Digital that comedians do not ha ve the fr eedom t o be funny in 2022. “Ther e’s alwa ys been limitations on what the y’re allowed t o sa y,” Cleese said. “I think it’ s par ticularly worr ying at the moment because y ou can only cr eate in an atmospher e of fr eedom, wher e you’re not checking e verything y ou say critically befor e you mo ve on. What y ou ha ve to be able t o do is t o build without knowing wher e you’re going because y ou’ve never been ther e befor e. That’ s what cr eativity is — y ou ha ve to be allowed t o build. And a lot of comedians now ar e sitting ther e and when the y think of something, the y say something lik e, ‘Can I get awa y with it? I don ’t think so. So and so got int o trouble, and he said that, oh, she said that. ’ You see what I mean? And that’ s the death of cr eativity .” </p>",
+      "type": "MCQ",
+      "options": [
+        "Comedians must not check what the y think and sa y. They must go wher e no one has gone befor e.",
+        "Creativity and critical thinking cannot work t ogether . Comedians must \u0000rst be cr eativ e, and later be critical.",
+        "Comedians ar e being pr evented fr om sa ying what the y want and that is the death of this ar t form.",
+        "Freedom and cr eativity ar e essential for comedy . Fear about off ending people hinders originality ."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Option D best captur es the essence of the passage.\nJohn Cleese ar gues that comedians need fr eedom t o be cr eativ e and that f ear of off ending people or worr ying\nabout the consequences of what the y say hinders their ability t o be original. He highlights how modern\ncomedians often second-guess themselv es, which sti\u0000es their cr eativity . Option D r e\u0000ects this idea, which\nstresses the impor tance of fr eedom and cr eativity in comedy , while warning against the f ear that sti\u0000es\ninno vation.\nOption A : While Cleese adv ocates for fr eedom in comedy , he doesn 't say that comedians  \"must go wher e no\none has gone befor e,\" which is mor e of an extr eme interpr etation than the essence of the passage.\nOption B : This option focuses t oo much on the r elationship between cr eativity and critical thinking. The\npassage is mor e about how f ear of off ending hinders cr eativity , not about cr eativity being incompatible with\ncritical thinking.\nOption C : This focuses on the \"death of the ar t form, \" but Cleese 's main point is about how f ear of\nreper cussions impacts cr eativity , not about the ar t form dying as such. VIDEO SOLUTION",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 3,
+      "setId": 1,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Certain codes ma y, of course, be so widely distributed in a speci\u0000c language community or cultur e, and be learned at so early an age, that the y appear not t o be constructed - the eff ect of an ar ticulation between sign and r eferent - but t o be ‘ natur ally’ given. Simple visual signs appear t o ha ve achie ved a ‘ near-univ ersality ’ in this sense: though e vidence r emains that e ven appar ently ‘ natur al’ visual codes ar e cultur e speci\u0000c. Howe ver, this does not mean that no codes ha ve inter vened; r ather , that the codes ha ve been pr ofoundly natur alized. The oper ation of natur alized codes r eveals not the tr anspar ency and ‘ natur alness’ of language but the depth, the habituation and the near-univ ersality of the codes in use. They produce appar ently ‘ natur al’ recognitions. This has the (ideological) eff ect of concealing the pr actices of coding which ar e present.</p>",
+      "type": "MCQ",
+      "options": [
+        "Learning linguistic and visual signs at an early age mak es all such codes appear natur al. This natur alization of codes is the eff ect of ideology .",
+        "Not all codes ar e natur al but cer tain codes ar e natur alized and made t o appear univ ersal. Ideology aims to hide the mechanism of coding behind signs.",
+        "Language and visual signs ar e codes. Howe ver, some of the codes ar e so widespr ead that the y not only seem natur ally giv en but also hide the mechanism of coding behind the signs.",
+        "All codes, linguistic and visual, ha ve a natur al origin but some ar e so widespr ead that the y become universal. This is what hides the mechanism of coding behind signs. "
+      ],
+      "correctAnswer": 2,
+      "explanation": "Option C is the corr ect answer . \nThis option captur es the main idea of the passage that some codes, lik e language and visual signs, ar e so\ncommonly used that the y appear natur al and conceal the pr ocess of how the y wer e created.\nOption A: The passage does not suggest that early learning is why codes appear natur al. The cause-and-eff ect\nrelationship is incorr ectly stated her e. \nOption B: This option misinterpr ets two k ey aspects of the passage. First, the idea that cer tain codes ar e \"made\nto appear univ ersal\" is somewhat misleading because the passage doesn 't claim that codes ar e deliber ately\nmade univ ersal; instead, it describes how codes, thr ough habituation and widespr ead use, come t o feel\n\"natur al\". Second, the phr ase \"Ideology aims t o hide the mechanism of coding\" is not suppor ted b y the passage.\nThe passage suggests that the natur alization of codes leads t o the illusion of tr anspar ency and natur alness,\nwhich conceals the mechanisms of coding, but it doesn 't explicitly discuss ideology as a for ce that intentionally\nhides these mechanisms\nOption D: This option is incorr ect because the passage doesn ’t claim that all codes ha ve a natur al origin. It\nstates that codes become natur alized thr ough use, not that the y wer e natur ally originating fr om the star t.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 4,
+      "setId": 1,
+      "passage": null,
+      "question": "<p>Choose the option that best captur es the essence of the text. Although almost all climate scientists agr ee that the Ear th is gr adually warming, the y have long been of two minds about the pr ocess of r apid climate shifts within lar ger periods of change. Some ha ve speculated that the process works lik e a giant o ven or fr eezer, warming or cooling the whole planet at the same time. Others think that shifts occur on opposing schedules in the Nor thern and Southern Hemispher e, lik e exagger ated seasons. Recent r esear ch in Germany examining climate patterns in the Southern Hemispher e at the end of the last Ice Age str engthens the idea that warming and cooling occurs at alternate times in the two hemispher es. A mor e de\u0000nitiv e answer t o this debate will allow scientists t o better pr edict when and how quickly the next climate shift will happen.</p>",
+      "type": "MCQ",
+      "options": [
+        "Scientists ha ve been unsur e whether r apid shifts in the Ear th's climate happen all at once or on opposing schedules in diff erent hemispher es; resear ch will help \u0000nd a de\u0000nitiv e answer and better pr edict climate shifts in futur e.",
+        "Scientists ha ve been unsur e whether r apid shifts in the Ear th's climate happen all at once or on opposing schedules in diff erent hemispher es; \u0000nding a de\u0000nitiv e answer will help them better pr edict climate shifts in futur e.",
+        "Resear ch in Germany will help scientists \u0000nd a de\u0000nitiv e answer about warming and cooling of the Ear th and pr edict climate shifts in the futur e in a better manner .",
+        "More resear ch rather than debates on warming or cooling of the Ear th and exagger ated seasons in its hemispher e will help scientists in Germany pr edict changes better in futur e. "
+      ],
+      "correctAnswer": 1,
+      "explanation": "No wher e is in mentioned in the par agraph that \" a de\u0000nitiv e answer \" can be found. So, statement a) which sa ys\n\"resear ch will help \u0000nd a de\u0000nitiv e answer \", option c) which sa ys \"Resear ch will help scientists \u0000nd a de\u0000nitiv e\nanswer \" are ruled out. Option d) is misleading because the par a doesn 't talk about mor e resear ch than debates\nhelping scientists. So, this option can also be ruled out. Option b) is the best summar y.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 5,
+      "setId": 2,
+      "passage": null,
+      "question": "<p>Choose the option which summariz es the passage the best. You seemed at \u0000rst t o tak e no notice of y our school-f ellows, or r ather t o set y ourself against them because the y were str angers t o you. They knew as little of y ou as y ou did of them; this would ha ve been the r eason for their keeping aloof fr om y ou as well, which y ou would ha ve felt as a har dship. Learn ne ver to conceiv e a pr ejudice against others because y ou know nothing of them. It is bad r easoning, and mak es enemies of half the world. Do not think ill of them till the y beha ve ill t o you; and then striv e to avoid the faults, which y ou see in them. This will disarm their hostility sooner than pique or r esentment or complaint.</p>",
+      "type": "MCQ",
+      "options": [
+        "The discomfor t you felt with y our school f ellows was because both sides knew little of each other . You should not complain unless y ou \u0000nd others pr ejudiced against y ou and ha ve attempted t o car efully analyz e the faults y ou ha ve obser ved in them.",
+        "The discomfor t you felt with y our school f ellows was because both sides knew little of each other . Avoid prejudice and negativ e thoughts till y ou encounter bad beha vior fr om others, and then win them o ver by shunning the faults y ou ha ve obser ved.",
+        "You encounter ed har dship amongst y our school f ellows because y ou did not know then well. Y ou should learn not t o mak e enemies because of y our pr ejudices irr espectiv e of their beha viour t owar ds you.",
+        "You encounter ed har dship amongst y our school f ellows because y ou did not know them well. Y ou should learn t o not mak e enemies because of y our pr ejudices unless the y beha ve badly with y ou."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The par agraph begins with the experience of 2nd person and than giv es the advice.\nOption A is incorr ect because it doesn 't tell anything about complaining and analysing\nOption C is incomplete as it only talks about the experience.\nOption D is incorr ect as it is written \"you did not know them well\".The par a talks about both sides not knowing\neach other .",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 6,
+      "setId": 2,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. The dominant hypotheses in modern science belie ve that language e volved to allow humans t o exchange factual information about the physical world. But an alternativ e view is that language e volved, in modern humans at least, t o facilitate social bonding. It incr eased our ancest ors’ chances of sur vival by enabling them t o hunt mor e successfully or t o cooper ate mor e extensiv ely. Language meant that things could be explained and that plans and past experiences could be shar ed e\u0000ciently .</p>",
+      "type": "MCQ",
+      "options": [
+        "Since its origin, language has been continuously e volving t o higher forms, fr om being used t o identify objects t o ensuring human sur vival by enabling our ancest ors t o bond and cooper ate.",
+        "From the belief that humans inv ented language t o process factual information, scholars now think that language was the outcome of the need t o ensur e social cohesion and thus human sur vival.  ",
+        "Most belie ve that language originated fr om a need t o articulate facts, but others think it emer ged fr om the need t o promote social cohesion and cooper ation, thus enabling human sur vival.",
+        "Exper ts ar e challenging the narr ow view of the origin of language, as being mer ely used t o describe facts and label objects, t o being necessar y to promote mor e complex inter actions among humans"
+      ],
+      "correctAnswer": 2,
+      "explanation": "One pr edominant viewpoint: language originated t o exchange factual information\nAn alternativ e viewpoint: language originated t o facilitate social bonding and consequently , to ensur e human\nsurvival.\nThe summar y needs t o highlight these two cor e viewpoints. Option C  does this without de viating fr om the\ndiscussion.\nOption A : The e volution of language is not the focal point her e; the views held in this r egar d are. {\"language has\nbeen continuously e volving t o higher forms\"} Thus, we can eliminate this option since it comes acr oss as a\nmisr epresentation. VIDEO SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION\n VIEW SOLUTION\n\n\n\n\n\nOption B : This is a tr ap wher ein the statement captur es both the cor e viewpoints but ther e is a dist ortion\ninvolved: \"...F rom the belief ... \"  to \"...scholars now ...\" indicates a shift in the viewpoint. Howe ver, this is not the\ncase - the author simply states two pr evalent perspectiv es on the subject. \nOption D : is again a dist ortion since exper ts ar e not \" challenging any views; the author simply highlights the\npresence of two viewpoints {no con\u0000ict pr esented}\nHence, Option C is the corr ect answer .",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 7,
+      "setId": 2,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. Manipulating information was a f eatur e of hist ory long befor e modern journalism established rules of integrity . A recor d dates back t o ancient Rome, when Ant ony met Cleopatr a and his political enemy Octa vian launched a smear campaign against him with “ shor t, sharp slogans written upon coins. ” The perpetr ator became the \u0000rst Roman Emper or and “fak e news had allowed Octa vian t o hack the r epublican system once and for all”. But the 21st centur y has seen the weaponization of information on an unpr ecedented scale. P ower ful new technology mak es the fabrication of content simple, and social networks amplify falsehoods peddled b y States, populist politicians, and dishonest corpor ate entities. The platforms ha ve become f ertile gr ound for computational pr opaganda, ‘tr olling’ and ‘tr oll armies’.</p>",
+      "type": "MCQ",
+      "options": [
+        "Disinformation, which is mediated b y technology t oday, is not new and has existed since ancient times.",
+        "People need t o become critical of what the y read, since hist orically , weaponization of information has led t o corruption.",
+        "Use of misinformation for attaining power , a pr actice that is as old as the Octa vian er a, is curr ently fueled b y technology .",
+        "Octa vian used fak e news t o manipulate people and attain power and in\u0000uence, just as people do t oday "
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage discusses the hist orical use of misinformation for political purposes, dating back t o ancient Rome\nwith Octa vian's smear campaign against Ant ony. It then highlights how the 21st centur y has seen an\nunpr ecedented scale of information weaponization, facilitated b y power ful technology and ampli\u0000ed thr ough\nsocial networks. Option C eff ectiv ely conv eys the continuity of using misinformation for power thr oughout\nhistory, now fueled b y modern technology . Ther efore, Option C is the corr ect answer .\nOption A: While the passage acknowledges the hist orical aspect of disinformation, it emphasiz es the\nunpr ecedented scale in the 21st centur y, which is not captur ed in this option.\nOption B focuses on the need for critical r eading without explicitly highlighting the hist orical context and the\nweaponization of information for power .\nOption D does not emphasiz e the br oader hist orical and contempor ary context of misinformation for political\npurposes.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 8,
+      "setId": 2,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four summaries. Choose the option that best captur es the author ' s position. North American walnut sphinx moth caterpillars (Amorpha juglandis) look lik e easy meals for bir ds, but the y have a trick up their slee ves — the y produce whistles that sound lik e bir d alarm calls, scaring potential predat ors awa y. At \u0000rst, scientists suspected bir ds wer e simply star tled b y the loud noise. But a new study suggests a mor e sophisticated mechanism: the caterpillar 's whistle appears t o mimic a bir d alarm call, sending avian pr edat ors scr ambling for co ver. When peck ed b y a bir d, the caterpillars whistle b y compr essing their bodies lik e an accor dion and for cing air out thr ough specializ ed holes in their sides. The whistles ar e impr essiv ely loud — the y have been measur ed at o ver 80 dB fr om 5 cm awa y from the caterpillar — considering they are made b y a two-inch long insect.</p>",
+      "type": "MCQ",
+      "options": [
+        "North American walnut sphinx moth caterpillars will whistle periodically t o war d off pr edat or bir ds - the y have a specializ ed vocal tr act that helps them whistle.",
+        "North American walnut sphinx moth caterpillars can whistle v ery loudly; the loudness of their whistles is shocking as the y are very small insects.",
+        "The Nor th American walnut sphinx moth caterpillars, in a case of acoustic deception, pr oduce whistles that mimic bir d alarm calls t o def end themselv es.",
+        "North American. walnut sphinx moth caterpillars, in. a case of deception and camou\u0000age, pr oduce whistles that mimic bir d alarm calls t o def end themselv es."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Accor ding t o the par agraph, the Nor th American walnut sphinx moth caterpillars pr oduce whistles which ar e\nextremely loud considering their siz e. These whistles appear t o mimic bir d(predat or) alarm calls which scar es\nthem t o look for co ver. Thus, these sounds act as acoustic deception and help the insect t o def end themselv es\nagainst pr edat ors. \nOption A mentions about v ocal tr acts which is out of scope. Hence, it can be eliminated.\nOption B though corr ect, fails t o mention the use of sound t o def end against the pr edat ors. Hence, it can be\neliminated.\nOption C captur es all the main points and hence is right choice. \nOption D mentions ' camou\u0000age ' which is also out of context. Hence, it can be eliminated. \nHence, option C is the right answer .",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 9,
+      "setId": 3,
+      "passage": null,
+      "question": "<p>  The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. The rur al-urban continuum and the heter ogeneity of urban settings pose an ob vious challenge t o identifying urban ar eas and measuring urbanization r ates in a consistent wa y within and acr oss countries. An objectiv e methodology for distinguishing between urban and rur al ar eas that is based on one or two metrics with \u0000xed thr esholds ma y not adequately captur e the wide div ersity of places. A richer combination of criteria would better describe the multifaceted natur e of a city ’s function and its envir onment, but the joint interpr etation of these criteria ma y requir e an element of human judgment.</p>",
+      "type": "MCQ",
+      "options": [
+        "With the div ersity of urban landscapes, measur able criteria for de\u0000ning urban ar eas ma y need t o be supplemented with human judgement.",
+        "Curr ent methodologies used t o de\u0000ne urban and rur al ar eas ar e no longer r elevant t o our being able t o study tr ends in urbanisation.",
+        "The di\u0000culty of accur ately identifying urban ar eas means that we need t o create a rich combination of criteria that can be applied t o all urban ar eas.",
+        "Distinguishing between urban and rur al ar eas might call for some judgement on the objectiv e methodology being used t o de\u0000ne a city ’s functions."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Option B is incorr ect, as it mentions \"is no longer r elevant\" wher eas the author sa ys ma y no longer be r elevant.\nOption C is incorr ect t oo, as the passage talks about distinguishing between urban/rur al, not about accur ately\nidentifying rur al ar eas.\nOption D is dist orted. Judgement would be r equir ed on the richer criteria , not on the objectiv e methodology , as\nmentioned in this option.\nOption A is corr ect as it corr ectly captur es the essence of the passage.\n10.D VIDEO SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION\n\n\n\n\n\nThe par a talks about the r elationship between age and entr epreneurial spirit. When people ar e young, the y tend\nto belie ve that age brings in mor e credibility in tr ansmitting information t o others. Howe ver, as people age, the y\nbecome less r eceptiv e to information and their oppor tunity costs rise. Hence, it is v ery likely that the y become\nreluctant t o exploit entr epreneurial oppor tunities as the y age. Statement D , ther efore, is the best concluding\nstatement.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 11,
+      "setId": 3,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. McGurk and MacDonald (1976) r epor ted a power ful multisensor y illusion occurring with audio-visual speech. They recor ded a v oice ar ticulating a consonant ‘ba-ba-ba ’ and dubbed it with a face ar ticulating another consonant ‘ ga-ga-ga ’. Even though the acoustic speech signal was well r ecogniz ed alone, it was hear d as another consonant after dubbing with incongruent visual speech i.e., ‘ da-da-da ’. The illusion, termed as the McGurk eff ect, has been r eplicated many times, and it has spark ed an abundance of r esear ch. The r eason for the gr eat impact is that this is a striking demonstr ation of multisensor y integr ation, wher e that audit ory and visual information is mer ged int o a uni\u0000ed, integr ated per cept.</p>",
+      "type": "MCQ",
+      "options": [
+        "Visual speech mismatched with audit ory speech can r esult in the per ception of an entir ely diff erent message: this illusion is known as the McGurk eff ect.",
+        "When the quality of audit ory information is poor , the visual information wins o ver the audit ory information.",
+        "The McGurk eff ect which is a demonstr ation of multisensor y integr ation has been r eplicated many times.",
+        "When the audit ory speech signal does not match the visual speech mo vements, the acoustic speech signal is confusing and integr ation of the two is imper fect."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main points of the par agraph ar e:\n1. A multisensor y illusion, dubbing a diff erent visual cue t o audio, mak es the subject per ceive a diff erent sound.\n(Impor tant point)\n2. This illusion is called McGurk eff ect. (Impor tant point. Related t o 1)\n3. An impactful subject of r esear ch as it demonstr ates multisensor y integr ation. (Secondar y point. 1 and 2 can\nstand without this point)\nOption A: Co vers 1 and 2. Hence, a plausible option.\nOption B: It dist orts what the author is tr ying t o sa y. It dr aws a conclusion out of the r esults of the study instead\nof par aphr asing the passage.\nOption C: Option C co vers only 3. It does not mention 1 and hence is not a good summar y.\nOption D: Mentions only 1. Not an apt summar y.\nHence, the answer is Option A.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 12,
+      "setId": 3,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage. In 1903, left-wing f eminist Elizabeth Magie inv ented The Landlor d’s Game, the original v ersion of what became Monopoly . It was designed as a power ful teaching t ool t o illustr ate the dangers of monopolies and how wealth could concentr ate in the hands of a f ew. The game f eatur ed a cir cular path, pr oper ties, and a “Go t o Jail” space.  Magie cr eated two rule sets: one “ monopolist” v ersion wher e pla yers crushed opponents thr ough accumulation, and another , mor e radical “Pr osperity ” version, wher e everyone shar ed in the wealth, pr omoting fairness and equity . Years later , unemplo yed Charles Darr ow sold a simpli\u0000ed v ersion t o Parker Br others. They paid Magie only $500 for her patent—without r oyalties—and cr edited Darr ow as the sole inv entor. For decades, his tale of inventing the game in his basement r emained the o\u0000cial st ory, while Magie ’s name and her original, anti- capitalist message wer e left in the shadows.</p>",
+      "type": "MCQ",
+      "options": [
+        "It is ir onical that a left-wing f eminist lost cr edit for the Landlor d’s Game t o an unemplo yed man, who plagiarised and sold one v ersion of the twin game t o Parker Br others for a meagr e sum, denying her royalties.",
+        "Celebr ated icons of the gaming industr y, Charles Darr ow and P arker Br others, snatched the f eminist icon Elizabeth Magie ’s original design and tr ansformed Monopoly int o a worldwide phenomenon, while bar ely acknowledging her .",
+        "Only one v ersion of Monopoly became famous because of Charles Darr ow’s relentless basement work, carefully r e\u0000ning Elizabeth Magie ’s original idea int o an engaging and enter taining pastime that he successfully patented and sold, symbolizing what many r egar ded as the ultimate triumph of individual ingenuity .",
+        "Parker Br others’ capitalist intent led t o them acquiring fr om Charles Darr ow a simpli\u0000ed v ersion of Elizabeth Magie ’s original game, tr ansforming it int o a widespr ead commer cial success while pr oviding her only minimal \u0000nancial compensation and gr anting scant public r ecognition."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main ar gument of the passage is that Elizabeth Magie originally cr eated the game as an anti-monopoly ,\nanti-capitalist teaching t ool, but her idea and message wer e later appr opriated, simpli\u0000ed, and cr edited t o\nCharles Darr ow, leaving her lar gely unr ecognised and poorly compensated. Option (a) captur es this essence\nbest because it highlights all the k ey elements t ogether:(i) Magie ’s left-wing f eminist identity , (ii) the ir ony of her\nlosing cr edit, (iii) the r ole of Darr ow in selling a v ersion of the game, (iv) the small pa yment she r eceiv ed, and (v)\nthe denial of r oyalties. It r e\u0000ects both the hist orical injustice and the ir ony that a game meant t o critique\nmonopolies ended up enacting one against its own cr eator.\nOption (b) o verstates Darr ow and P arker Br others as “ celebr ated icons” and focuses mor e on their success\nthan on Magie ’s original intent and the loss of her anti-capitalist message. Option (c) is incorr ect because it\nrepeats the v ery myth the passage is tr ying t o debunk b y por traying Darr ow as the true inno vator. Option (d)\nshifts the focus t oo hea vily ont o Parker Br others’ capitalist motiv es and underpla ys the centr al irony and\nmisattribution surr ounding Magie herself. Hence, option (a) is the best summar y.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 13,
+      "setId": 4,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author’s position. Should the mor al obligation t o rescue and aid persons in gr ave peril, f elt b y a few, be enfor ced b y the criminal law? Should we follow the lead of a number of E uropean countries and enact bad Samaritan laws? Pr oponents of Bad Samaritan laws must o vercome at least thr ee diff erent sor ts of obstacles. First, the y must show the laws ar e mor ally legitimate in principle, that is, that the duty t o aid others is a pr oper candidate for legal enfor cement. Second, the y must show that this duty t o aid can be de\u0000ned in a wa y that can be fairly enfor ced by the cour ts. Third, the y must show that the bene\u0000ts of the laws ar e wor th their pr oblems, risks and costs.</p>",
+      "type": "MCQ",
+      "options": [
+        "A number of E uropean countries that ha ve successfully enacted Bad Samaritan laws ma y ser ve as model statutes.",
+        "Everyone agr ees that people ought t o aid others, the only debate is whether t o ha ve a law on it.",
+        "If Bad Samaritan laws ar e found t o be legally sound and enfor ceable, the y must be enacted.",
+        "Bad Samaritan laws ma y be desir able but the y need t o be tested for legal soundness."
+      ],
+      "correctAnswer": 3,
+      "explanation": "In the giv en par agraph, the author has discussed about Bad Samaritan laws and whether it is enfor ceable b y\nlaw. While answering the question, the author puts for ward thr ee points which she deems necessar y for the\nimplementation of Bad Samaritan law . Only after cr ossing the thr ee obstacles mentioned b y the author , the law\nshould be enacted. Option D is the most r elevant in this context.\nOption A is about implementing the law without any conditions, which is not what the author wants t o conv ey.\nOption B does not mention anything about the thr ee obstacles. VIEW SOLUTION\n VIDEO SOLUTION\n VIEW SOLUTION\n\n\n\n\n\nOption C is stated with a \u0000rmness which is not the t one of the author . The author sa ys that the law ma y be\nenacted, not must be enacted.\nHence, option D is the corr ect answer .",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 14,
+      "setId": 4,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four summaries. Choose the option that best captur es the essence of the passage. Zombie cells ma y contribute t o age-r elated chr onic in\u0000ammation: this \u0000nding could help scientists understand more about the aging pr ocess and why the immune system becomes less eff ectiv e as we get older . Zombie or “senescent” cells ar e damaged cells that can no longer divide and gr ow lik e normal cells. Scientists think that these cells can contribute t o chr onic health pr oblems when the y accumulate in the body . In y ounger people, the immune system is mor e eff ectiv e at clearing senescent cells fr om the body thr ough a pr ocess called apopt osis, but as we age, this pr ocess becomes less e\u0000cient. As a r esult, ther e is an accumulation of senescent cells in different or gans in the body , either thr ough incr eased pr oduction or r educed clear ance b y the immune system. The z ombie cells continue t o use ener gy though the y do not divide, and often secr ete chemicals that cause in\u0000ammation, which if persistent for longer periods of time can damage healthy cells leading t o chr onic diseases.</p>",
+      "type": "MCQ",
+      "options": [
+        "Senescent “z ombie ” cells ar e inactiv e or malfunctioning cells that can be found thr oughout the body .",
+        "A younger person 's immune system is healthy and is able t o clear the damaged cells, but as people age, the z ombie cells r esist apopt osis, and star t accumulating in the body .",
+        "Aging leads t o less eff ectiv e apopt osis, and ther efore zombie cells star t to accumulate in the body , causing in\u0000ammation, which acceler ates aging and leads t o chr onic diseases.",
+        "Dead cells acceler ate chr onic in\u0000ammation weak ening the immune system and lead t o aging."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage describes how ageing, a weak er immune system, and chr onic disease ar e connected. It\nintroduces senescent or “z ombie ” cells, explains that y ounger people clear them mor e easily , and shows that\nthis pr ocess slows with age. As a r esult, these cells build up, causing ongoing in\u0000ammation and damage t o\nhealthy tissue. Based on this, we consider each option individually . \nOption A  is too limited. It corr ectly sa ys that senescent cells ar e malfunctioning and pr esent in the body , but it\nmisses the main point: as people age, these cells ar e not clear ed as well, the y build up, and this leads t o\nin\u0000ammation.\nOption B  points out the diff erences between y ounger and older immune systems and mentions apopt osis, but it\nwrongly states that z ombie cells 'r esist' apopt osis. The passage actually focuses on the immune system\nbecoming less eff ectiv e, not the cells r esisting. It also lea ves out the impor tant r ole of in\u0000ammation and\nchronic disease.\nOption C  covers the whole chain described in the passage. It links ageing t o less eff ectiv e apopt osis, explains\nhow z ombie cells build up, and includes their r ole in in\u0000ammation and chr onic disease. This matches both the\nstructur e and the focus of the original text.\nOption D  is incorr ect and somewhat out of the scope of the passage. The passage is about metabolically activ e\nsenescent cells, not dead cells, and it does not sa y that in\u0000ammation dir ectly weak ens the immune system as\nthis option suggests.\nSo, option C best sums up the main idea of the passage.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 15,
+      "setId": 4,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage. In the dynamic r ealm of cr eativity , artists often \u0000nd themselv es at the cr ossr oads between dr awing inspir ation from div erse cultur es and inadv ertently cr ossing int o the territ ory of cultur al appr opriation. Inspir ation is the lifeblood of cr eativity , driving ar tists t o create works that r esonate acr oss bor ders. The globaliz ed natur e of the modern world invites ar tists t o draw fr om a v ast arr ay of cultur al in\u0000uences. When appr oached r espectfully , inspir ation becomes a bridge, fostering understanding and appr eciation of cultur al div ersity . Howe ver, the line between inspir ation and cultur al appr opriation can be thin and easily blurr ed. Cultur al appr opriation occurs when elements fr om a par ticular cultur e are borr owed without pr oper understanding, r espect, or acknowledgement. This leads t o the commodi\u0000cation of sacr ed symbols, the r einfor cement of ster eotypes, and   the er asur e of the cultur al context fr om which these elements originated. It' s essential t o recogniz e that the impact of cultur al appr opriation extends be yond the r ealm of ar tistic expr ession, in\u0000uencing societal perceptions and perpetuating power imbalances.</p>",
+      "type": "MCQ",
+      "options": [
+        "Artists in a globalised world must na vigate between dr awing inspir ation fr om div erse cultur es respectfully and cultur al appr opriation that inv olves borr owing without pr oper acknowledgement which has br oader societal impacts including perpetuating power imbalances.",
+        "In today's world of cr eativity , artists ha ve to decide between r espectfully acknowledging works that ar e inspir ed b y div erse cultur es and appr opriating elements without r espect for their contexts.",
+        "In a globalised world, ar tists must dr aw fr om div erse cultur al in\u0000uences t o create works that appeal t o all, and this r esults in instances of both inspir ation and cultur al appr opriation.",
+        "Artists must na vigate the thin line between inspir ation and cultur al appr opriation, wher e respectful inspir ation fosters cultur al understanding wher eas appr opriation inv olves borr owing without acknowledgement leading t o commodi\u0000cation and r einfor cement of ster eotypes."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The passage talks about a k ey issue in modern ar t: a globalised world lets ar tists \u0000nd inspir ation in many\ncultur es, but this also brings the risk of cultur al appr opriation. The author explains that r espectful and\nthoughtful inspir ation can help people appr eciate other cultur es. On the other hand, cultur al appr opriation is not\njust borr owing, but borr owing without understanding, r espect, or acknowledgement, which can lead t o\ncommodi\u0000cation, ster eotypes, and bigger pr oblems in society , like reinfor cing power imbalances. Based on this,\nlet's consider each option individually .\nOption A clearly shows both sides of the ar gument. It mentions the global context, separ ates r espectful\ninspir ation fr om appr opriation that lacks acknowledgement, and highlights the passage ’s focus on bigger social\nissues lik e power imbalances. This matches the passage ’s main points well.\nOption B points out the main diff erence between r espectful inspir ation and appr opriation, but it is t oo gener al. It\ntreats the issue as just a matter of “ deciding” and lea ves out the eff ects of appr opriation and its impact on\nsociety , which ar e key par ts of the passage.\nOption C gets the author ’s view wr ong b y suggesting that dr awing fr om diff erent cultur es alwa ys “r esults in\ninstances of both inspir ation and cultur al appr opriation. ” The passage does not sa y this is ine vitable. Instead, it\nsays appr opriation depends on how the borr owing happens. Also, \" artists must  draw fr om div erse cultur al\nin\u0000uences \" is a bit str ong, and it is also not implied in the passage. \nOption D does a good job explaining the diff erence between inspir ation and appr opriation and talks about\ncommodi\u0000cation and ster eotypes. Howe ver, it does not mention the global context or the idea of wider power\nimbalances, so it is a bit mor e limited in scope compar ed to the passage.\nOverall, option A is the best choice because it co vers the global context, the ethical diff erence between\ninspir ation and appr opriation, and the wider social eff ects the author talks about. VIDEO SOLUTION\n VIEW SOLUTION",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 16,
+      "setId": 4,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author' s position. For each of the past thr ee years, temper atures ha ve hit peaks not seen since the bir th of meteor ology , and probably not for mor e than 110,000 y ears. The amount of carbon dio xide in the air is at its highest le vel in 4 million y ears. This does not cause st orms lik e Har vey — ther e ha ve alwa ys been st orms and hurricanes along the Gulf of Mexico — but it mak es them wetter and mor e power ful. As the seas warm, the y evapor ate mor e easily and pr ovide ener gy to storm fr onts. As the air abo ve them warms, it holds mor e water v apour . For every half a degr ee Celsius in warming, ther e is about a 3% incr ease in atmospheric moistur e content. Scientists call this the Clausius-Clape yron equation. This means the skies \u0000ll mor e quickly and ha ve mor e to dump. The st orm surge was gr eater because sea le vels ha ve risen 20 cm as a r esult of mor e than 100 y ears of human- r elated global warming which has melted glaciers and thermally expanded the v olume of seawater .</p>",
+      "type": "MCQ",
+      "options": [
+        "The st orm Har vey is one of the r egular , annual ones fr om the Gulf of Mexico; global warming and Har vey are unr elated phenomena.",
+        "Global warming does not br eed st orms but mak es them mor e destructiv e; the Clausius-Clape yron equation, though it pr edicts potential incr ease in atmospheric moistur e content, cannot pr edict the scale of damage st orms might wr eck.",
+        "Global warming melts glaciers, r esulting in seawater v olume expansion; this enables mor e water v apour to \u0000ll the air abo ve faster . Thus, modern st orms contain mor e destructiv e ener gy.",
+        "It is naiv e to think that rising sea le vels and the for ce of tr opical st orms ar e unr elated; Har vey was destructiv e as global warming has armed it with mor e moistur e content, but this ma y not be true of all storms."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Let us note down the impor tant points in the giv en par agraph.\nGlobal warming does not cause st orms but mak e them mor e power ful. Due t o the incr ease in the temper ature,\nthe air can absorb mor e moistur e. This r elationship (the change in the ability t o absorb water with the incr ease\nin the temper ature) is giv en b y the Clausius-Clape yron equation.\nLet us e valuate the options.\nThe author pr ovides st orm Har vey as an example t o illustr ate how incr eased temper atures can arm the st orms\nwith mor e power . Har vey is not the centr al theme of the giv en par agraph. W e can eliminate options A and D\nsince option D places much emphasis on st orm Har vey and option A states that ther e is no r elationship\nbetween the incr ease in temper ature and the power of st orms. \nOption B states that the Clausius-Clape yron equation cannot pr edict the quantum of destruction that a st orm\nmight cause. This point is t otally out of context with r espect t o what that is being discussed in the par agraph.\nTher efore, we can eliminate option B as well. \nOption C pr ecisely explains the mechanism thr ough which global warming mak es the modern st orms mor e\ndestructiv e. Ther efore, option C is the right answer .",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 18,
+      "setId": 5,
+      "passage": null,
+      "question": "<p>Choose the option that best captur es the essence of the text. Modern bour geois society , said Nietzsche, was decadent and enf eebled - a victim of the ex cessiv e de velopment of the r ational faculties at the expense of will and instinct. Against the liber al-rationalist str ess on the intellect, Nietzsche ur ged r ecognition of the dark mysterious world of instinctual desir es - the true for ces of lif e. Smother the will ex cessiv e intellectualizing and y ou destr oy the spontaneity that sparks cultur al cr eativity and ignites a zest for living. The critical and theor etical outlook destr oyed the cr eativ e instincts. F or man 's manifold potential to be r ealiz ed, he must for ego r elying on the intellect and nur ture again the instinctual r oots of human existence.</p>",
+      "type": "MCQ",
+      "options": [
+        "Nietzsche ur ges the decadent and enf eebled modern society t o for ego intellect and giv e impor tance t o creativ e instincts.",
+        "Nietzsche ur ges the decadent and enf eebled modern society t o smother the will with ex cessiv e intellectualizing and ignite a z est for living.",
+        "Nietzsche criticiz es the intellectuals for enf eebling the modern bour geois society b y not nur turing man 's creativ e instincts.",
+        "Nietzsche blames ex cessiv e intellectualization for the decline of modern society and suggests nur turing creativ e instincts instead.  "
+      ],
+      "correctAnswer": 3,
+      "explanation": "Options A, B and C doesn 't captur e the essence as well the idea discussed in the passage. The author states\nthat Nietzsche wanted t o place ex cess emphasis on cr eativ e/instinctual elements instead of intellect. Howe ver,\nhe does not str ess that we need t o \"for ego\" intellect. Hence, Option A is incorr ect. Similarly , Option C dist orts\nthe k ey points mentioned in the passage. The statement in Option B is contr ary to the ar gument Nietzsche is\nmaking and hence, can be r ejected as the corr ect answer .\nThus, Option D is the corr ect choice.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 19,
+      "setId": 5,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Biologists who publish their r esear ch dir ectly t o the W eb ha ve been labelled as “r ogue ”, but physicists ha ve been r outinely publishing r esear ch digitally (“ preprints”), prior t o submitting in a peer-r eviewed journal. Advocates of pr eprints ar gue that quick and open dissemination of r esear ch speeds up scienti\u0000c pr ogress and allows for wider access t o knowledge. But some journals still don ’t accept r esear ch pr eviously published as a preprint. E ven if the idea of pr eprints is gaining gr ound, one of the biggest barriers for biologists is how the y would be viewed b y members of their conser vative resear ch community .</p>",
+      "type": "MCQ",
+      "options": [
+        "One of the adv antages of digital pr eprints of r esear ch is the y hasten the dissemination pr ocess, but these ar e not accepted b y most scienti\u0000c communities.",
+        "Compar ed to biologists, physicists ar e less conser vative in their acceptance of digital pr e-publication of resear ch papers, which allows for faster dissemination of knowledge.",
+        "While digital publication of r esear ch is gaining popularity in many scienti\u0000c disciplines, almost all peer- reviewed journals ar e reluctant t o accept papers that ha ve been published befor e.",
+        "Preprints of r esear ch ar e frowned on b y some scienti\u0000c \u0000elds as the y do not under go a rigour ous reviewing pr ocess but ar e accepted among biologists as a quick wa y to disseminate information."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The main points of the par agraph ar e:\n1. As compar ed to physicists, biologists ar e mor e conser vative when it comes t o the subject of pr eprints.\n2. Pr eprints allow faster dissemination of knowledge.\nA: Misses out the comparison between biologists and physicists.\nB: Captur es both the points appr opriately and is the answer .\nC: Also misses out the comparison between biologists and physicists. VIEW SOLUTION\n VIDEO SOLUTION\n VIEW SOLUTION\n VIEW SOLUTION\n\n\n\n\n\nD: Factually incorr ect, physicists and not biologists ar e open t o the idea of pr eprints.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 20,
+      "setId": 5,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Creativity is now viewed as the engine of economic pr ogress. V arious or ganizations ar e de voted t o its study and pr omotion; ther e are ency clopedias and handbooks sur veying cr eativity r esear ch. But this pr oliferating success has tended t o erode cr eativity ’s stable identity: it has become so inv ested with v alue that it has become impossible t o police its meaning and the pr actices that supposedly identify and encour age it. Many people and or ganizations committed t o producing original thoughts now f eel that undue obsession with the idea of cr eativity gets in the wa y of r eal cr eativity . </p>",
+      "type": "MCQ",
+      "options": [
+        "The obsession with original thought, how it can be pr omoted and r esear ched, has made it impossible for people and or ganizations t o de\u0000ne the concept anymor e.",
+        "The industr y that has built up ar ound r esear ching what comprises and encour ages cr eativity has destr oyed the cr eativ e process itself.",
+        "Creativity has pr oliferated t o the extent that is no longer a stable pr ocess, and its mutating identity has sti\u0000ed the cr eativ e process.",
+        "The v alue assigned t o creativity t oday has assumed such pr opor tions that the concept itself has lost its real meaning and this is hampering the engendering of r eal cr eativity ."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The main points of the par agraph ar e:\n1. The v alue of cr eativity t o economic pr ogress has been r ealised, with serious inv estment being done t o\nstudy/pr omote it.\n2. But this success \u0000r es back. P olicing its meaning can lead t o obsession, hampering cr eativity itself.\nA: It is extr eme in appr oach. The par agraph does not imply that it has become impossible t o de\u0000ne the concept,\nbut it becomes di\u0000cult t o practice cr eativity when it is being for ced on oneself.\nB: It is also extr eme. The obsession hampers, not completely destr oys the cr eativ e process.\nC: This option is a dist ortion and fails t o captur e the abo ve points.\nD: Comes the closest t o capturing the abo ve two points, and hence, is the answer .",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 21,
+      "setId": 6,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. Tamsin Blanchar d, cur ator of F ashion Open Studio, an initiativ e by a campaign gr oup showcasing the work of ethical designers sa ys, “W e're all dr awn t o an ex quisite piece of embr oider y, a colour ful textile or e ven a style of dressing that might ha ve originated fr om another heritage. [But] this magpie mentality , wher e all of cultur e and history is up for gr abs as 'inspir ation ', has acceler ated since the pr oliferation of social media...Wher e once a fashion student might r esear ch the hist ory and tr aditions of a par ticular item of clothing with car e and r espect, we now ha ve a world wher e images ar e lifted fr om image libr aries without a car e for their cultur al signi\u0000cance. It's easier than e ver to steal a motif or a cr aft technique and tr ansf er it on t o a piece of clothing that is either mass pr oduced or appears on a runwa y without cr edit or compensation t o their original communities. \"</p>",
+      "type": "MCQ",
+      "options": [
+        "Copying an embr oider y design or pattern of textile fr om nativ e communities who own them is tantamount t o stealing, and the y need t o be compensated.",
+        "Media has encour aged mass pr oduction; images ar e copied effor tlessly without car e or concern for the inter ests of ethnic communities.",
+        "Taking fashion ideas fr om any cultur al gr oup without their consent is a form of appr opriation without giving due cr edit, compensation, and r espect.",
+        "Cultur al collabor ation is the need of the hour . Beautiful design ideas of indigenous people need t o be showcased and shar ed worldwide. "
+      ],
+      "correctAnswer": 2,
+      "explanation": "The main points of the par agraph ar e:\ni) The cop ying of fashion ideas unique t o par ticular cultur es or heritages is rising in this age of social media.\nii) The original communities ar e not cr edited and compensated when their unique ideas ar e used.\nOption A: This is a dist orted option. It is gener alizing that cop ying a fashion idea is tantamount t o stealing(not\nspecifying whether it is done with or without the consent of the original communities.).Thus, this is not the\ncorrect option.\nOption B: Again, this is a v ery gener al and extr eme option. Also, it is a dist orted inf erence that the media has\nencour aged mass pr oduction. Thus, this is also not the corr ect option.\nOption C: Since this includes both the main points, this is the corr ect option.\nOption D: This is a dist orted option and does not include the main ideas of the par agraph.\nThus, the corr ect option is C.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 22,
+      "setId": 6,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Ther e's a common idea that museum ar tworks ar e somehow timeless objects a vailable t o admir e for gener ations t o come. But many ar e objects of deca y. Even the most v ener able Old Master paintings don 't escape: pigments discolour , varnishes cr ack, canv ases warp. This challenging fact of ar t-world lif e is down t o something that sounds mor e like a thr ead fr om a mor ality tale: inher ent vice. Damien Hirst' s iconic shark \u0000oating in a tank - entitled The Physical Impossibility of Death in the Mind of Someone Living - is a work that put a spotlight on inher ent vice. When he made it in 1991, Hirst got himself in a pickle b y not using the right kind of pickle t o preser ve the giant \u0000sh. The r esult was that the shark began t o decompose quite quickly - its pr eser ving liquid clouding, the skin wrinkling, and an unpleasant smell wafting fr om the tank.</p>",
+      "type": "MCQ",
+      "options": [
+        "Museums ar e left with the mor al responsibility of r estoring and pr eser ving the ar tworks since ar tists cannot pr eser ve their works be yond their lif e.",
+        "Museums ha ve to guar d timeless ar t treasur es fr om intrinsic def ects such as the deterior ation of paint, polish and canv as.",
+        "The r ole of museums has e volved to ensur e that the ar tworks ar e preser ved for ever in addition t o guar ding and displa ying them.",
+        "Artworks ma y not last for ever; the y ma y deterior ate with time, and the challenge is t o slow down their degener ation. "
+      ],
+      "correctAnswer": 3,
+      "explanation": "The passage is about the 'inher ent vice ' or the natur al tendency of cer tain ar tworks t o deterior ate o ver time due\nto various fact ors such as discolour ation of pigments, cr acking of v arnishes, and warping of canv ases. The\npassage also mentions an example of Damien Hirst' s artwork, The Physical Impossibility of Death in the Mind\nof Someone Living, which began t o decompose quickly due t o the use of the wr ong pr eser ving liquid. In this\nregar d, Option D off ers an apt summar y of the passage because it accur ately captur es the main idea of the\npassage, which is that ar tworks ma y not last for ever and ma y deterior ate with time. Option A is incorr ect\nbecause the passage does not mention any mor al responsibility of museums t o restore and pr eser ve artworks.\nSimilarly , Option B can be eliminated since the passage does not speci\u0000cally mention museums guar ding ar t\ntreasur es fr om intrinsic def ects. Option C is also inaccur ate because the discussion does not pr esent the\nevolution of the r ole of museums in pr eser ving ar tworks for ever.\nHence, Option D is the corr ect choice.  VIDEO SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 23,
+      "setId": 6,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. All humans mak e decisions based on one or a combination of two fact ors. This is either intuition or information. Decisions made thr ough intuition ar e usually fast, people don ’t even think about the pr oblem. It is quite philosophical, meaning that someone who made a decision based on intuition will ha ve di\u0000culty explaining the r easoning behind it. The decision-mak er would often utiliz e her senses in dr awing conclusions, which again is based on some experience in the \u0000eld of study . On the other side of the spectrum, we ha ve decisions made based on information. These decisions ar e rational — it is based on facts and \u0000gur es, which unfor tunately also means that it can be quite slow . The decision-mak er would fr equently use r epor ts, analyses, and indicat ors t o form her conclusion. This methodology r esults in accur ate, quanti\u0000able decisions, meaning that a person can clearly explain the r ationale behind it.</p>",
+      "type": "MCQ",
+      "options": [
+        "It is better t o mak e decisions based on information because it is mor e accur ate, and the r ationale behind it can be explained.",
+        "Decisions based on intuition and information r esult in diff erential speed and ability t o provide a rationale.",
+        "While decisions based on intuition can be made fast, the r easons that led t o these cannot be spelt out.",
+        "We mak e decisions based on intuition or information on the basis of the time a vailable."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Let's look at the options one b y one.\nThe author has not made any comparisons between the two methodologies, about which method is better .\nHence optionA is incorr ect.\nOption 3 is incorr ect t oo because it doesnot summarise the par a accur ately . Nothing is mentioned about\ndecisions based on information.\nAlthough time is a fact or, nowher e it is mentioned that time is the fact or in determining the method of our\ndecision making. Hence Option4 is incorr ect t oo.\nOption 2 corr ectly summarises the passage b y diff erentiating between the two methods. Hence it is corr ect.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 24,
+      "setId": 6,
+      "passage": null,
+      "question": "<p>  The passage given below is followed by four summaries. Choose the option that best captures the author’s position. The early optimism about spor t's deterr ent eff ects on delinquency was pr ematur e as r esear chers failed t o \u0000nd any consistent r elationships between spor ts par ticipation and de viance. As the initial studies wer e based upon cross-sectional data and the eff ects captur ed wer e shor t-term, it was pr oblematic t o test and v erify the tempor al sequencing of e vents suggested b y the deterr ence theor y. The corr elation between spor t and delinquency could not be disentangled fr om class and cultur al variables known. Choosing individuals t o pla y spor ts in the \u0000rst place was pr oblematic, which became mor e acute in the subsequent decades as r esear chers began t o document just how closely spor ts par ticipation was link ed to social class indicat ors.</p>",
+      "type": "MCQ",
+      "options": [
+        "Ther e is a dir ect r elationship between spor t par ticipation and delinquency but it needs mor e empirical evidence.",
+        "Statistical and empirical weaknesses stand in the wa y of inf erring any r elationship between spor ts participation and de viance.",
+        "Spor ts par ticipation is link ed to class and cultur al variables such as education, income, and social capital.",
+        "Contr adicting the pr evious optimism, latter r esear chers ha ve proved that ther e is no consistent relationship between spor ts par ticipation and de viance."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The main points of the passage ar e that the r elation between spor ts par ticipation and de viation ha ve not been\nestablished and that ther e is not su\u0000cient e vidence t o prove the r elationship.\nOption A is dist orted because it states that the r elationship is alr eady established.\nOption B mentions all the r elevant points.\nOption C does not talk about the r elationship and hence, ruled out.\nOption D dist orts what is giv en in the par agraph b y saying that latter r esear chers ha ve \"proved\" ther e is no\nconsistent r elationship. Thus, it is can be eliminated.\nHence, option B is the corr ect answer .",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 25,
+      "setId": 7,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. Colonialism is not a modern phenomenon. W orld hist ory is full of examples of one society gr adually expanding by incorpor ating adjacent territ ory and settling its people on newly conquer ed territ ory. In the sixteenth centur y, colonialism changed decisiv ely because of technological de velopments in na vigation that began t o connect more remote par ts of the world. The modern E uropean colonial pr oject emer ged when it became possible t o move lar ge numbers of people acr oss the ocean and t o maintain political contr ol in spite of geogr aphical dispersion. The term colonialism is used t o describe the pr ocess of E uropean settlement, violent dispossession and political domination o ver the r est of the world, including the Americas, A ustralia, and par ts of Africa and Asia.</p>",
+      "type": "MCQ",
+      "options": [
+        "As a r esult of de velopments in na vigation technology , European colonialism led t o the displacement of indigenous populations and global political changes in the 16th centur y. ",
+        "Colonialism, conceptualiz ed in the 16th centur y, allowed coloniz ers t o expand their territ ories, establish settlements, and ex ercise political power .",
+        "Technological adv ancements in na vigation in the 16th centur y, transformed colonialism, enabling Europeans t o establish settlements and ex ert political dominance o ver distant r egions.",
+        "Colonialism sur ged in the 16th centur y due t o adv ancements in na vigation, enabling British settlements abroad and global dominance."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Option C is the corr ect answer because it accur ately captur es the main idea of the passage. It highlights how\ntechnological adv ancements in na vigation during the sixteenth centur y transformed colonialism b y enabling\nEuropeans t o establish settlements and ex ert political dominance o ver distant r egions, including the Americas,\nAustralia, and par ts of Africa and Asia.\nOption A focuses on the displacement of indigenous populations, which is not the centr al point of the passage.\nWhile Option B mentions the expansion of territ ories and political power , it does not emphasiz e the\ntechnological adv ancements in na vigation.\nOption D intr oduces the concept of British settlements, which is narr ower than the br oader context of E uropean\ncolonialism discussed in the passage.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 26,
+      "setId": 7,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Lyric poetr y is a genr e of priv ate meditation r ather than public commitment. The impulse in Marxism t owar d changing a society deemed unacceptable in its basic design would seem t o place demands on lyric poetr y that such poetr y, with its tendency t owar d the personal, the small scale, and the idiosyncr atic, could ne ver answer . Ther e is within Marxism, howe ver, also a str and of thought that would locate in lyric poetr y alternativ e modes of perception and description that call for th a vision of worlds at odds with a r epressiv e reality or that dr aw attention t o the workings of ideology within the hegemonic cultur e. The poetic imagination ma y indeed de\u0000ect larger social concerns, but it ma y also be implicitly critical and ut opian.</p>",
+      "type": "MCQ",
+      "options": [
+        "The focus of lyric poetr y is lar gely personal while that of Marxism is bringing change in society . Unless the diff erence is r esolv ed, poetr y will r emain lar gely ut opian.",
+        "Marxism has internal contr adictions due t o which one str and of Marxism sees no merit in lyric poetr y while another appr eciates the alternativ e modes of per ception in poetr y.",
+        "The focus of lyric poetr y as personal ma y not seem compatible with Marxism. Howe ver, it is possible t o envisage lyric poetr y as a symbol of r esistance against an oppr essiv e cultur e.",
+        "Marxism mak es unr easonable demands on lyric poetr y. Howe ver, lyric poetr y has its own merits that ar e largely ignor ed b y Marxism due t o its personal natur e. "
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage contr asts the personal, intr ospectiv e natur e of lyric poetr y with Marxism 's outwar d focus on\nsocietal change. A t \u0000rst glance, the char acteristics of lyric poetr y - being personal, small-scale, and\nidiosyncr atic - seem incompatible with Marxism 's demand for a tr ansformativ e critique of an unjust society .\nHowe ver, the passage intr oduces a nuanced perspectiv e within Marxist thought, which r ecognises lyric poetr y\nas ha ving an implicit critical and ut opian function. Through its imaginativ e and alternativ e modes of per ception, VIDEO SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION\n\n\n\n\n\nlyric poetr y can challenge dominant ideologies and suggest a vision of r esistance t o oppr ession. Thus, while\nlyric poetr y does not dir ectly engage with lar ge-scale social concerns, it can still align with Marxist ideals b y\noffering subtle forms of critique and hope for change. Option C  most eff ectiv ely captur es this idea.\nNone of the other choices pr esent a v alid interpr etation of the passage. F or instance, Option A  oversimpli\u0000es\nthe issue b y por traying lyric poetr y as mer ely ‘ut opian, ” ignoring its critical and r esistant potential as described\nin the passage. It misses the nuanced compatibility suggested between lyric poetr y and Marxism. Option B\ninaccur ately suggests that Marxism has “internal contr adictions, ” which is not the focus of the passage.\nSimilarly , Option D  frames Marxism as dismissiv e of lyric poetr y, ignoring the str and of Marxist thought that\n\u0000nds v alue in poetr y's alternativ e perspectiv es; this misr epresentation mak es it a weak er summar y.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 27,
+      "setId": 7,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Brown et al. (2001) suggest that ‘ metabolic theor y ma y provide a conceptual foundation for much of ecology just as genetic theor y provides a foundation for much of e volutionar y biology ’. One of the successes of genetic theor y is the div ersity of theor etical appr oaches and models that ha ve been de veloped and applied. A W eb of Science (v . 5.9. Thomson Reuters) sear ch on genetic* + theor* + e vol* identi\u0000es mor e than 12000 publications between 2005 and 2012. Considering only the 10 most-cited papers within this 12000 publication set, genetic theor y can be seen t o focus on genome dynamics, phylogenetic inf erence, game theor y and the regulation of gene expr ession. Ther e is no one fundamental genetic equation, but r ather a wide arr ay of genetic models, r anging fr om simple t o complex, with diff ering inputs and outputs, and div ergent ar eas of application, loosely connected t o each other thr ough the shar ed conceptual foundation of heritable v ariation.</p>",
+      "type": "MCQ",
+      "options": [
+        "Genetic theor y has e volved to spawn a wide r ange of theor etical models and applications but Metabolic theor y need not e volve in a similar manner in the \u0000eld of ecology",
+        "Genetic theor y has a wide r ange of theor etical appr oaches and application and is foundational t o evolutionar y biology and Metabolic theor y has the potential t o do the same for ecology",
+        "Genetic theor y has a wide r ange of theor etical appr oaches and applications and Metabolic theor y must have the same in the \u0000eld of ecology",
+        "Genetic theor y provides an example of how a r ange of theor etical appr oaches and applications can mak e a theor y successful.  "
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ther e are two k ey points discussed in the passage:\n1. The pr ospect of \" metabolic theor y\" being foundational t o the \u0000eld of ecology; the same as is the case in (2)\n2. Genetic theor y being the conceptual basis of e volutionar y biology {giv en the div erse and extensiv e theor etical\nappr oaches and models a vailable}. \nThus, the summar y needs t o captur e both these points. Option B  ful\u0000ls this r equir ement.\nOption A : is a dist orted claim since it is not implied in the passage; the author does not asser t that \" metabolic\ntheor y need not e volve in a similar manner \".  \nOption C : is again a misinterpr etation because the author does not claim that metabolic theor y \"must\"\ncontribute in a similar fashion. Instead, the focus is on the \" potential\" of this theor y.\nOption D : is div ergent since the author does not discuss the \" success\" of a theor y.\nHence, Option B is the corr ect answer .",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 28,
+      "setId": 7,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. Scienti\u0000c r esear ch shows that many animals ar e very intelligent and ha ve sensor y and mot or abilities that dwar f ours. Dogs ar e able t o detect diseases such as cancer and diabetes and warn humans of impending hear t attacks and str okes. Elephants, whales, hippopotamuses, gir affes, and alligat ors use low-fr equency sounds t o communicate o ver long distances, often miles. Many animals also displa y wide-r anging emotions, including jo y, happiness, empathy , compassion, grief, and e ven resentment and embarr assment. It’ s not surprising that animals shar e many emotions with us because we also shar e brain structur es, located in the limbic system, that ar e the seat of our emotions.</p>",
+      "type": "MCQ",
+      "options": [
+        "The adv anced sensor y and mot or abilities of animals is the r eason why the y can displa y wide-r anging emotions",
+        "The similarity in br ain structur e explains why animals show emotions typically associated with humans",
+        "Animals can show emotions which ar e typically associated with humans.",
+        "Animals ar e mor e intelligent than us in sensing danger and detecting diseases."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Option B is the corr ect answer .\nThe par agraph states that animals shar e many emotions with humans, such as jo y, happiness, empathy , and\ngrief, because of shar ed br ain structur es, par ticularly in the limbic system, which is r esponsible for emotions in\nboth humans and animals. This is the k ey point that ties t ogether animals' intelligence and emotional capacity ,\nas discussed in the passage.\nOption A: The passage does not attribute emotions t o sensor y and mot or abilities. The emphasis is on br ain\nstructur es, not sensor y abilities.\nOption C: While the passage states that animals shar e emotions with humans, this option fails t o captur e the\nreason behind this, i.e. shar ed br ain structur es. It misses the point that mak es the emotional similarity possible,\nwhich is centr al to the passage 's message.\nOption D: The passage discusses animals' sensor y abilities but does not suggest that their intelligence is\nsuperior t o humans'.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 29,
+      "setId": 8,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Cartographers design and cr eate maps t o communicate information about phenomena located somewher e on our planet. In the past, car tographers did not worr y too much about who was going t o read their maps. Although some simple “usability ” resear ch was done—lik e comparing whether cir cle or bar symbols work ed best—car tographers knew how t o mak e maps. This has changed now , howe ver, due t o all kinds of societal and technological de velopments. Today, map r eaders ar e mor e demanding—mostly because of the t ools the y use t o read maps. Car tographers, who ar e also in\u0000uenced b y these tr ends, ar e now mor e inter ested in seeing if their products ar e e\u0000cient, eff ectiv e, and appr eciated.</p>",
+      "type": "MCQ",
+      "options": [
+        "Today, car tographers also need t o look int o the usability of maps because of the new technological developments. ",
+        "Modern mapmak ers e valuate a map ’s eff ectiv eness e\u0000ciency and satisfaction of the user thr ough a series of experiments",
+        "Maps ar e being used for a v ariety of r easons and ther efore map r eaders ha ve become mor e demanding",
+        "New technological de velopments ha ve prompted car tographers t o experiment with their maps b y applying these new inno vations."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Option A is the corr ect answer .\nThe passage emphasiz es that car tographers now should pa y attention t o the usability of maps due t o the\nevolving expectations of map r eaders. The k ey point is that technological de velopments ha ve made users mor e\ndemanding, leading car tographers t o focus on how e\u0000cient, eff ectiv e, and appr eciated their maps ar e. VIDEO SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION\n\n\n\n\n\nOption B: While it is true that car tographers ar e focused on usability , the passage does not mention speci\u0000c\nexperiments or e valuation methods.\nOption C: This option suggests that maps ar e being used for a v ariety of r easons, which is not mentioned in the\npassage. The focus of the passage is on the demanding natur e of modern map r eaders and not on the r easons\nfor which maps ar e used.\nOption D: While new technological de velopments ar e mentioned, the passage does not state that car tographers\nare experimenting with these inno vations in their maps.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 30,
+      "setId": 8,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four summaries. Choose the option that best captur es the essence of the passage. The r eturn t o the tailor is the juxtaposition of thr ee key things for the mindful Indian shopper . The \u0000rst is the conscious shift awa y from the homogeneity of fast fashion, the idea of a hundr ed other people owning exactly the same Zar a trench coat or H&M pleated skir t. The second is an actual understanding of the waste behind the fast fashion mark et, and wanting not t o contribute t o that anymor e. The last is the shift t owar d cust omisation and \u0000t—the idea of ha ving imaginations br ought t o life and t o ha ve them \u0000t exactly; without pa ying ex orbitant rates for that bespok e tailoring. F or the individual with a k een fashion sense and a genuine desir e to mo ve awa y from the waste and uniformity of fast fashion without pa ying the pr emium for it that indie br ands would invariably demand, the tailor is the per fect cr osso ver.</p>",
+      "type": "MCQ",
+      "options": [
+        "The mindful Indian shoppers ar e returning t o the tailor with a genuine desir e to wear clothes which ar e less expensiv e, \u0000t them well and ar e yet fashionable.",
+        "The mindful Indian shopper is shifting awa y from conv enience and uniformity of clothing, and waste in fashion, t o cust omisation and less ex orbitantly priced clothing.",
+        "All Indian shoppers ar e opting for cust omisation and a shift awa y from homogeneity o ver expensiv e clothing br ands lik e Zar a and H&M.",
+        "In the Indian r etail mark et, people belie ve that expensiv e branded clothes ar e wasteful and, ther efore, are returning t o the neighbourhood tailor ."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage sa ys people ar e going back t o tailors for thr ee main r easons: the y dislik e the alik e-ness\n(homogeneity) of fast fashion, ar e awar e of the waste it causes, and want cust om clothes that \u0000t well without\nthe high prices of indie or bespok e brands. Option B best sums up these points. It shows a mo ve awa y from\nboth alik e-ness and waste in fashion, and also highlights cust omisation and affor dable clothes. These align\nwith the passage ’s focus on mindfulness, ‘\u0000t’, sustainability , and affor dability without o versimplifying or\nexagger ating.\nOption A only talks about cheaper and better-\u0000tting clothes, missing the points about waste and sameness.\nOption C is wr ong because the passage r efers t o a mindful gr oup of shoppers, not e veryone in India. Option D\noversimpli\u0000es b y focusing just on r ejecting expensiv e brands, while the passage is about lea ving fast fashion\nand a voiding high prices.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 31,
+      "setId": 8,
+      "passage": null,
+      "question": "<p>  The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage. In inv estigating memor y-beliefs, ther e are cer tain points which must be borne in mind. In the \u0000rst place, everything constituting a memor y-belief is happening now , not in that past time t o which the belief is said t o refer. It is not logically necessar y to the existence of a memor y-belief that the e vent r emember ed should ha ve occurr ed, or e ven that the past should ha ve existed at all. Ther e is no logical impossibility in the hypothesis that the world spr ang int o being \u0000v e minutes ago, exactly as it then was, with a population that “r emember ed” a wholly unr eal past. Ther e is no logically necessar y connection between e vents at diff erent times; ther efore nothing that is happening now or will happen in the futur e can dispr ove the hypothesis that the world began \u0000v e minutes ago. Hence the occurr ences which ar e CALLED knowledge of the past ar e logically independent of the past; the y are wholly analysable int o present contents, which might, theor etically , be just what the y are even if no past had existed.</p>",
+      "type": "MCQ",
+      "options": [
+        "When we discuss the concept of memor y-beliefs, we must understand that it is not logically impossible for the e vent r emember ed to ha ve never happened at all; it could just be a \u0000gment of our imagination.",
+        "Memor y-beliefs depend wholly on what is r emember ed in the pr esent, and not on anything else; just as it is not logically impossible that the world came int o being \u0000v e minutes ago, and that e veryone now just remembers a wholly imaginar y past for it.",
+        "When inv estigating memor y beliefs, we must k eep in mind that an actual past e vent is not a pr erequisite for a memor y-belief t o exist, and that what we know of the past could theor etically not need a past at all.",
+        "That which we call ‘knowledge of the past’ is logically independent of the past, since the act of remembering which forms memor y-beliefs happens in the pr esent, and does not need t o be based in real past occurr ences, or e ven need a past at all."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The passage explains that memor y-beliefs exist only in the pr esent and do not r equir e an actual past. It notes\nthat r emembering tak es place now , and ther e is no logical r eason the r emember ed e vent must ha ve happened.\nThe example of the world star ting “\u0000v e minutes ago ” shows that our knowledge of the past cannot dismiss this\nidea. This means memor y and knowledge of the past ar e logically separ ate fr om whether the past r eally\nhappened. Option D addr esses the entir e argument.  It states that knowledge of the past is logically separ ate\nfrom the past itself, links memor y-beliefs t o what happens in our minds now , and includes the idea that r eal\npast e vents, or e ven a past at all, ar e not logically necessar y.\nThe other options do not fully captur e the ar gument. Option A only discusses imagination and misses the\nlogical independence of the past. Option B focuses t oo much on the \u0000v e-minute example and lea ves out the\nmain point about memor y-beliefs. Option C comes close, but it does not clearly state that our knowledge of the\npast is logically separ ate fr om the past itself.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 32,
+      "setId": 8,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. All that we think we know about how lif e hangs t ogether is r eally some kind of illusion that we ha ve perpetr ated on ourselv es because of our limited vision. What appear t o be inanimate objects such as st ones turn out not only t o be aliv e in the same wa y that we ar e, but also in many in\u0000nitesimal wa ys to be aff ected b y stimuli just as humans ar e. The distinction between animate and inanimate simply cannot be made when y ou enter the world of quantum mechanics and tr y to determine how those appar ent subat omic par ticles, of which y ou and everything else in our univ erse is composed, ar e all tied t ogether . The point is that physics and metaphysics show ther e is a pattern t o the univ erse that goes be yond our capacity t o grasp it with our br ains.</p>",
+      "type": "MCQ",
+      "options": [
+        "The eff ect of stimuli is similar in inanimate objects when compar ed to animate objects or living beings.",
+        "Quantum physics indicates that an astigmatic view of r eality r esults in err oneous assumptions about the universe.",
+        "The inanimate world is both sentient and cognizant lik e its animate counterpar t.",
+        "Arbitr ary distinctions between inanimate and animate objects disappear at the scale at which quantum mechanics works."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The passage is about the limitations of our understanding of the univ erse and how it is connected. It suggests\nthat our understanding of the distinction between animate and inanimate objects ma y be \u0000awed because of our\nlimited perspectiv e, and that quantum mechanics r eveals a diff erent understanding of this distinction; it also\nsuggests that ther e ma y be a pattern t o the univ erse that we cannot fully gr asp with our br ains. Option D\ncorrectly captur es these points.\nOptions A and B ar e incorr ect because the passage does not state that the eff ect of stimuli is similar in\ninanimate objects compar ed to living beings or mention astigmatism or an err oneous view of r eality . Option C\nis not underst ood since the passage does not suggest that inanimate objects ar e sentient or cognizant; it only\nhighlights that the distinction between animate and inanimate objects disappears at the quantum scale. VIDEO SOLUTION\n VIEW SOLUTION\n VIEW SOLUTION\n\n\n\n\n\nHence, Option D is the corr ect choice.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 33,
+      "setId": 9,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Aesthetic political r epresentation ur ges us t o realiz e that ‘the r epresentativ e has aut onomy with r egar d to the people r epresented’ but aut onomy then is not an ex cuse t o abandon one ’s responsibility . Aesthetic aut onomy requir es cultiv ation of ‘ disinter estedness’ on the par t of act ors which is not indiff erence. To have disinter estedness, that is, t o ha ve compor tment t owar ds the beautiful that is de void of all ulterior references t o use - r equir es a kind of aesthetic commitment; it is the liber ation of ourselv es for the r elease of what has pr oper wor th only in itself.</p>",
+      "type": "MCQ",
+      "options": [
+        "Aesthetic political r epresentation adv ocates aut onomy for the r epresentativ es manif ested thr ough disinter estedness which itself is diff erent fr om indiff erence.",
+        "Aesthetic political r epresentation adv ocates aut onomy for the r epresentativ es dr awing from disinter estedness, which itself is diff erent fr om indiff erence.",
+        "Disinter estedness is diff erent fr om indiff erence as the former means a non-subjectiv e evaluation of things which is what constitutes aesthetic political r epresentation",
+        "Disinter estedness, as distinct fr om indiff erence, is the basis of political r epresentation.  "
+      ],
+      "correctAnswer": 1,
+      "explanation": "The par agraph discusses two essential elements: it begins b y presenting the facet of aut onomy enjo yed b y the\nrepresentativ e in Aesthetic political r epresentation and then highlights the cultiv ation of \" disinter estedness\" in\nthis r egar d. Additionally , the author distinctly identi\u0000es the afor ementioned concept as being not the same as\nthat of \"indiff erence \". Post this, t owar ds the end. The author pr esents the r eason behind this asser tion. Option B\ncorrectly captur es these two aspects without dist orting the o verall meaning.\nOption A: The author does not claim that the aut onomy \" manif ested\" thr ough disinter estedness. \nOption C: The statement her e contains added elements which cannot be inf erred fr om the passage. \nOption D: This alternativ e fails t o captur e the essence of the discussion and describes a single component.\n{'political r epresentation ' might again be incorr ect}\nHence, of the giv en summaries, Option B aptly captur es the substance of the passage.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 34,
+      "setId": 9,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Foreign peacek eepers often exist in a bubble in the poor countries in which the y are deplo yed; the y live in posh compounds, driv e fancy v ehicles, and distance themselv es fr om locals. This ma y be par tially justi\u0000ed as the y are outsiders, living in constant f ear, per forming a job that is emotionally dr aining. But the y are often despised by the locals, and many would lik e them t o lea ve. A better solution would be bott om-up peacebuilding, which would inv olve their spending mor e time working with communities, understanding their grie vances and earning their trust, r ather than only meeting go vernment o\u0000cials.</p>",
+      "type": "MCQ",
+      "options": [
+        "Peacek eeping duties would be mor e eff ectiv ely per formed b y local r esidents giv en their better understanding, knowledge and r appor t with their own communities.",
+        "The envir onment in poor countries has tended t o mak e for eign peacek eeping for ces liv e in encla ves, but it is time t o change this scenario.",
+        "Extravagant lif estyles and an aloof attitude among the for eigners working as peacek eepers in poor countries ha ve justi\u0000ably made them the tar get of local anger .",
+        "Peacek eeping for ces in for eign countries ha ve tended t o be aloof for v alid r easons but would be mor e effectiv e if the y work ed mor e closely with local communities."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The main points of the par agraph ar e:\n1. The peacek eeping for ces often exist in a bubble. Though ther e are valid r easons behind this, this also r esults\nin the locals f eeling antipathy t owar ds them.\n2. The solution t o this pr oblem is t o build r appor t with the locals t oo instead of focusing only on the\ngovernment o\u0000cials.\nOption A: Not implied in the par agraph. The par agraph suggests building r elationships with the locals.\nAppointing only locals as peacek eepers has not been implied.\nOption B: This option dist orts what is being pr esented in the par agraph. The par agraph suggests that the bubble\nis justi\u0000ed sometimes and also suggest measur es to counter that. The option implicates the countr y's\nenvir onment as being r esponsible for that bubble, hence the blame is shifted completely . Also, the option fails\nto mention the antipathy and the measur es suggested t o counter the bubble.\nOption C: This option is dist orted. Wher e the par agraph sa ys that the aloof attitude is justi\u0000ed sometimes, the\noption blames the peacek eeping for ces and their ' extravagant lif estyles' for the antipathy the y face. Hence, can\nbe eliminated.\nOption D: Option D corr ectly captur es the main points and is the answer .",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 35,
+      "setId": 9,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. People view idleness as a sin and industriousness as a vir tue, and in the pr ocess ha ve de veloped an unsatisfact ory relationship with their jobs. W ork has become a wa y for them t o keep busy , even though many \u0000nd their work meaningless. In their need for activity people under take what was once consider ed work (\u0000shing, gardening) as hobbies. The opposing view is that har d work has made us pr osper ous and impr oved our le vels of health and education. It has also br ought inno vation and labour and time-sa ving de vices, which ha ve lessened lif e’s drudger y.</p>",
+      "type": "MCQ",
+      "options": [
+        "Despite some detr actors, har d work is essential in t oday’s world t o enable economic pr ogress, for education and health and t o propel inno vations that mak e life easier .",
+        "Hard work has o vertaken all aspects of our liv es and has enabled economic pr osperity , but it is impor tant that people r eser ve their leisur e time for some idleness.",
+        "Some belie ve that har d work has been glori\u0000ed t o the extent that it has become meaningless, and led t o greater idleness, but it has also had enormous positiv e impacts on e veryday life. ",
+        "While the idealisation of har d work has pr opelled people int o meaningless jobs and endless activity , it has also led t o tremendous social bene\u0000ts fr om pr osperity and inno vation."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The main points of the passage ar e:\n1. People incr easingly view idleness as sin and industriousness as a vir tue, pushing them int o meaningless\njobs.\n2. On the other hand, this has also sa ved us fr om many of lif e's drudgeries.\nA: Misses out on point 1.\nB: A dist ortion. The author does not adv ocate idleness. Also, 1 is not co vered pr operly .\nC: Incorr ect. 'led t o greater idleness' is not implied anywher e in the passage.\nD: Co vers both the points aptly and is the answer . VIDEO SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 36,
+      "setId": 9,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Developing countries ar e becoming hotbeds of business inno vation in much the same wa y as Japan did fr om the 1950s onwar ds. They are reinventing systems of pr oduction and distribution, and experimenting with entir ely new business models. Why ar e countries that wer e until r ecently associated with cheap hands now becoming leaders in inno vation? Driv en b y a mixtur e of ambition and f ear the y are relentlessly climbing up the value chain. Emer ging-mark et champions ha ve not only pr oved highly competitiv e in their own backy ards, the y are also going global themselv es.</p>",
+      "type": "MCQ",
+      "options": [
+        "Competition has driv en emer ging economies, once suppliers of cheap labour , to become inno vators of business models that ha ve enabled them t o mo ve up the v alue chain and go global.",
+        "Inno vations in pr oduction and distribution ar e helping emer ging economies compete with countries t o which the y once supplied cheap labour .",
+        "Developing countries ar e being for ced t o inv ent new business models which challenge the old business models, so the y can r emain competitiv e domestically .",
+        "Production and distribution models ar e going thr ough r apid inno vations worldwide as de veloped countries ar e being challenged b y their earlier suppliers fr om the de veloping world.  "
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main points of the par agraph ar e:\n1. De veloping economies ar e becoming hotbeds of economic inno vation.\n2. Earlier the y used t o be associated with cheap labour , but now ambition and f ear ha ve made them competitiv e\nglobally .\nOption A: It corr ectly captur es the two main points and hence is the answer . \nOption B: This option is dist orted. Business inno vations ha ve not been mentioned as the r eason why emer ging\neconomies ha ve become competitiv e globally . It has only been mentioned as a fact or in close association.\nOption C: Again, the par agraph does not mention that the de veloping economies ar e being for ced t o do this in\norder t o sta y competitiv e. This option suggests an element of necessity for the sur vival of the economies,\nwhich is not implied.\nOption D: This option is dist orted. The passage only mentions inno vations in de veloping economies and not\nworldwide.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 37,
+      "setId": 10,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. It’s not that modern hist orians of medie val Africa ha ve been ignor ant about contacts between Ethiopia and Europe; the y just had the power dynamic r eversed. The tr aditional narr ative str essed Ethiopia as weak and in trouble in the face of aggr ession fr om external for ces, so Ethiopia sought militar y assistance fr om their f ellow Christians t o the nor th. But the r eal st ory, buried in plain sight in medie val diplomatic texts, simply had not y et been put t ogether b y modern scholars. Recent r esear ch pushes scholars of medie val Europe t o imagine a much more richly connected medie val world: at the beginning of the so-called Age of Explor ation, ther e is e vidence that the kings of Ethiopia wer e sponsoring their own missions of diplomacy , faith and commer ce.</p>",
+      "type": "MCQ",
+      "options": [
+        "Medie val texts ha ve documented how str ong connections between the Christian communities of Ethiopia and E urope wer e inv aluable in establishing militar y and tr ade links between the two civilisations.",
+        "Historians wer e under the illusion that Ethiopia needed militar y protection fr om their neighbours, but in fact the countr y had close commer cial and r eligious connections with them.",
+        "Medie val texts ha ve been ‘ cherr y-pick ed’ to promote a view of Ethiopia as weak and in need of E urope’s militar y help with aggr essiv e neighbours, but r ecent studies r eveal it was a well-connected and outwar d- looking cultur e.",
+        "Medie val hist orical sour ces selectiv ely pr omoted the narr ative that power ful E uropean for ces wer e called on t o protect weak African civilisations such as Ethiopia, but this is far fr om r eality ."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage t ouches upon the hist orical r elationship between Ethiopia and E urope during the medie val period.\nThe tr aditional narr ative of this r elationship has por trayed Ethiopia as weak and in need of militar y assistance\nfrom E urope, but r ecent r esear ch has r evealed that this narr ative is not accur ate and that Ethiopia was actually\na well-connected and outwar d-looking cultur e that engaged in missions of diplomacy , faith, and commer ce with\nEurope. The passage also notes that these new \u0000ndings challenge hist orians t o re-imagine the connections\nbetween Ethiopia and E urope during this period and t o consider the r ole of Ethiopia as a mor e activ e par ticipant\nin these r elationships. Option C accur ately r e\u0000ects the main points made in the passage [that the tr aditional\nnarrative of Ethiopia 's relationship with E urope is inaccur ate]\nOption A is incorr ect because it suggests that the connections between Ethiopia and E urope wer e primarily\nmilitar y and commer cial in natur e, which is not stated in the passage. Similarly , Option B implies that hist orians\nhad a mistak en view of Ethiopia 's relationship with E urope, which is not stated in the passage. The idea\nin Option D - which suggests that medie val texts wer e biased in fa vour of E urope and against Africa - cannot be\nunderst ood fr om the discussion.\nHence, Option C is the corr ect choice.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 38,
+      "setId": 10,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Today, many of the debates about beha viour al contr ol in the age of big data echo Cold W ar-er a anxieties about brainwashing, insidious manipulation and r epression in the ‘technological society ’. In his book Psy chopolitics, Han warns of the sophisticated use of tar geted online content, enabling ‘in\u0000uence t o tak e place on a pr e- re\u0000exiv e level’. On our curr ent tr aject ory, “freedom will pr ove to ha ve been mer ely an interlude. ” The f ear is that the digital age has not liber ated us but exposed us, b y off ering up our priv ate liv es to machine-learning algorithms that can pr ocess masses of personal and beha viour al data. In a world of in\u0000uencers and digital  entrepreneurs, it’ s not easy t o imagine the r esur gence of a cultur e engender ed thr ough disconnect and disa\u0000liation, but concerns o ver the thr eat of online tar geting, polarisation and big data ha ve inspir ed recent polemics about the need t o redisco ver solitude and disconnect.</p>",
+      "type": "MCQ",
+      "options": [
+        "Rather than fr eeing us, digital technology is ensla ving us b y collecting personal information and in\u0000uencing our online beha viour .",
+        "With big data making personal information fr eely a vailable, the debate on the natur e of fr eedom and the need for priv acy has r esur faced.",
+        "The r ole of technology in in\u0000uencing public beha viour is r eminiscent of the manner in which beha viour was manipulated during the Cold W ar.",
+        "The notion of fr eedom and priv acy is at stak e in a world wher e arti\u0000cial intelligence is capable of in\u0000uencing beha viour thr ough data gather ed online."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage discusses the wa ys in which big data and tar geted online content can potentially in\u0000uence and\nmanipulate beha viour , leading t o concerns o ver freedom and priv acy in the digital age. This is r e\u0000ected in the\nstatements that \"beha viour al contr ol\" in the age of big data echoes Cold W ar-er a anxieties about \"br ainwashing\"\nand \"r epression, \" and that the use of tar geted online content can enable \"in\u0000uence t o tak e place on a pr e-\nre\u0000exiv e level.\" The passage also mentions the f ear that the digital age has not liber ated us, but r ather exposed\nus b y making personal and beha viour al data a vailable t o machine-learning algorithms. Option B accur ately\nre\u0000ects this centr al theme of the passage b y stating that the debate on the natur e of fr eedom and priv acy has\nresur faced due t o the a vailability of personal information thr ough big data. Option A is incorr ect because it\ngoes be yond the scope of the passage b y stating that digital technology is \" ensla ving\" us, which is not explicitly\nstated in the text. Similarly , Option C is inaccur ate since the author only mentions the Cold W ar as a r eference VIDEO SOLUTION\n VIDEO SOLUTION\n\n\n\n\n\npoint for similar debates on beha viour al contr ol, but does not focus on the Cold W ar itself. Option D is wr ong\nbecause the passage does not mention ar ti\u0000cial intelligence speci\u0000cally , but r ather machine-learning\nalgorithms.\nHence, Option B is the corr ect choice.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 39,
+      "setId": 10,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. For years, mo vies and tele vision series lik e Crime Scene Inv estigation (CSI) paint an unr ealistic pictur e of the “science of v oices. ” In the 1994 mo vie Clear and Pr esent Danger an exper t listens t o a brief r ecor ded utter ance and declar es that the speak er is “Cuban, aged 35 t o 45, educated in the [...] eastern United States. ” The recor ding is then f ed to a super computer that matches the v oice t o that of a suspect, concluding that the probability of corr ect identi\u0000cation is 90%. This sequence sums up a good number of misimpr essions about forensic phonetics, which ha ve led t o err ors in r eal- lif e justice. Indeed, that mo vie scene ex empli\u0000es the so- called “CSI eff ect”—the phenomenon in which judges hold unr ealistic expectations of the capabilities of forensic science.</p>",
+      "type": "MCQ",
+      "options": [
+        "Although v oice r ecognition is often pr esented as e vidence in legal cases, its scienti\u0000c basis can be shaky .",
+        "Voice r ecognition as used in many mo vies t o identify criminals has been used t o identify criminals in real lif e also.",
+        "Movies and tele visions ha ve led t o the belief that the use of for ensic phonetics in legal inv estigations is robust and fool pr oof.",
+        "Voice r ecognition has star ted t o featur e prominently in crime-scene intelligence inv estigations because of mo vies and tele vision series. "
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage is primarily about the misconception r egar ding the capacity of for ensic phonetics stemming fr om\nits por trayal in mo vies and tele vision. This aspect is corr ectly captur ed b y the point stated in C. The author does\nnot question the \" scienti\u0000c basis\" of the e vidence (based on v oice r ecognition) that is pr esented in legal cases.\nHence, Option A can be eliminated. The claim made in Option B cannot be underst ood fr om the passage. Same\ncan be said about Option D . Hence, Option C is the corr ect answer .",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 40,
+      "setId": 10,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. Heatwa ves ar e becoming longer , frequent and intense due t o climate change. The impacts of extr eme heat ar e unevenly experienced; with older people and y oung childr en, those with pr e-existing medical conditions and on low incomes signi\u0000cantly mor e vulner able. Adaptation t o heatwa ves is a signi\u0000cant public policy concern. Resear ch conducted among at-risk people in the UK r eveals that e ven vulner able people do not per ceive themselv es as at risk of extr eme heat; ther efore, early warnings of extr eme heat e vents do not per form as intended. This suggests that understanding how extr eme heat is narr ated is v ery impor tant. The news media play a centr al role in this pr ocess and can help warn people about the potential danger , as well as about impacts on infr astructur e and society .</p>",
+      "type": "MCQ",
+      "options": [
+        "Protection fr om heat wa ves is impor tant but curr ent r epor ts and public policies seem ineff ectiv e.",
+        "People ar e vulner able t o heatwa ves caused due t o climate change, measur es tak en ar e ineff ectiv e.",
+        "Heatwa ves pose an enormous risk; the media pla ys a piv otal r ole in aler ting people t o this danger .",
+        "News st ories help in warning about heatwa ves, but the y have to become mor e eff ectiv e.  "
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage discusses the incr easing fr equency and intensity of heatwa ves due t o climate change, with\nvulner able gr oups experiencing une ven impacts. It emphasiz es that adaptation t o heatwa ves is a signi\u0000cant\npublic policy concern. The r esear ch \u0000ndings suggest that e ven vulner able individuals ma y not per ceive\nthemselv es as at risk of extr eme heat, highlighting the impor tance of understanding how extr eme heat is\nnarrated. The passage speci\u0000cally mentions the centr al role of the news media in warning people about the\npotential danger of heatwa ves and their impacts on infr astructur e and society . Option C eff ectiv ely conv eys the\nprimar y focus on heatwa ves posing a substantial risk and the critical r ole of the media in aler ting the public t o\nthis danger .\nOption A implies a gener al impor tance of pr otection without speci\u0000cally highlighting the r ole of the media in\nalerting people t o the risks of heatwa ves.\nOption B acknowledges the vulner ability t o heatwa ves but it does not emphasiz e the r ole of the media in\nalerting people and suggests a br oader critique of measur es tak en.\nOption D mentions the need for news st ories t o become mor e eff ectiv e but does not emphasiz e the centr al role\nof the media in aler ting people t o the risk of heatwa ves, as the passage does.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 42,
+      "setId": 11,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Brazil’s growth r ate has been low , yet most Br azilians sa y their \u0000nancial situation has impr oved, and the y expect it to get e ven better . This is because most incomes ar e rising fast, with higher minimum wages and v ery low unemplo yment. The r esult is falling inequality and a gr owing middle class — the r esult of economic stabilization, impr oved social security and univ ersal primar y education. But despite r ecent impr ovements the Brazilian economy is still painfully unequal, with poor Br azilians pa ying the biggest shar e of their income in taxes and getting the least back in go vernment ser vices.</p>",
+      "type": "MCQ",
+      "options": [
+        "Economic r eforms ha ve bene\u0000tted many Br azilians, but the y are unawar e of the impending pr oblems from rising inequalities in their society .",
+        "Good economic indicat ors ha ve mask ed the unfair taxation of the poor that is lik ely to destabilise the Brazilian economy in the next f ew y ears.",
+        "Most Br azilians f eel the y have bene\u0000tted fr om r ecent economic e vents, but the poor continue t o be dealt unfairly b y the state.",
+        "With rising incomes and falling unemplo yment, most Br azilians ar e being misled int o thinking that their economy is doing well."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The main points of the par agraph ar e:\n1. The Br azilian economy has been stagnant, but the popular per ception is that the times ha ve impr oved.\n2. The r easons ar e falling inequality and other impor tant ser vices.\n3. Despite this, the economy is brutally unequal. VIDEO SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION\n VIEW SOLUTION\n\n\n\n\n\nA: Ignor ance on the par t of Br azilians is not implied. What the author is sa ying that though things ha ve\nimpr oved for the ones who sa y so, others ar e still being dealt a r ough hand.\nB: The par agraph does not imply that the good economic indicat ors ar e being used as subter fuge t o co ver up\nthe pr evailing inequality .\nC: Comes the closest in capturing the thr ee points. Hence, is the answer .\nD: It has a pr oblem similar t o Option A. Things ha ve impr oved for that section of people. They are not ignor ant,\nnor ar e the y being misled int o belie ving something.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 43,
+      "setId": 11,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author’s position. Arti\u0000cial embr yo twinning is a r elativ ely low-tech wa y to mak e clones. As the name suggests, this technique mimics the natur al pr ocess that cr eates identical twins. In natur e, twins form v ery early in de velopment when the embr yo splits in two. Twinning happens in the \u0000rst da ys after egg and sperm join, while the embr yo is made of just a small number of unspecializ ed cells. Each half of the embr yo continues dividing on its own, ultimately developing int o separ ate, complete individuals. Since the y developed fr om the same f ertilized egg, the r esulting individuals ar e genetically identical.</p>",
+      "type": "MCQ",
+      "options": [
+        "Arti\u0000cial embr yo twinning is low-tech and mimetic of the natur al de velopment of genetically identical twins fr om the embr yo after f ertilization.",
+        "Arti\u0000cial embr yo twinning is low-tech and is close t o the natur al de velopment of twins wher e the embr yo splits int o two identical twins.",
+        "Arti\u0000cial embr yo twinning is low-tech unlik e the natur al de velopment of identical twins fr om the embr yo after f ertilization.",
+        "Arti\u0000cial embr yo twinning is just lik e the natur al de velopment of twins, wher e during f ertilization twins are formed."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The author mentions that ar ti\u0000cial embr yo twinning is 'low tech ' to intr oduce the t opic. Then, he explains how\nthe pr ocess is exactly similar t o the pr ocess of de velopment of twins. He states that the pr ocess mimics the\nnatur al de velopment of twins. He has not highlighted any of the diff erences between the 2 pr ocesses. \nLet us e valuate the options.\nOption C states that ar ti\u0000cial embr yo twinning is 'low tech ' unlik e the natur al de velopment of twins. The author\nmak es no such comparison in the par agraph and hence, option C can be eliminated. \nOption D states that the twins ar e formed during f ertilization but the par agraph mentions that the twins ar e\nformed after the pr ocess of f ertilization (i.e, after the sperm and the egg join). \nOption B fails t o captur e the fact that the twins ar e 'genetically ' identical. Also, it states that the ar ti\u0000cial\ntwinning pr ocess is ' close t o' the natur al de velopment of twins. Though this option is not incorr ect, option A is\nworded in a better wa y. Option A states that the pr ocess is mimetic of the natur al de velopment of the twins\n(emphasizing that no diff erence has been highlighted), the twins ar e genetically identical and the pr ocess is\nsimilar t o the pr ocess of de velopment of twins after f ertilization. Ther efore, option A is the right answer .",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 44,
+      "setId": 11,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four summaries. Choose the option that best captur es the author 's position. Both Socr ates and Bacon wer e very good at asking useful questions. In fact, Socr ates is lar gely cr edited with coming up with a wa y of asking questions, 'the Socr atic method, ' which itself is at the cor e of the ' scienti\u0000c method, ' popularised b y Bacon. The Socr atic method dispr oves ar guments b y \u0000nding ex ceptions t o them, and can ther efore lead y our opponent t o a point wher e the y admit something that contr adicts their original position.  In common with Socr ates, Bacon str essed it was as impor tant t o dispr ove a theor y as it was t o prove one — and real-world obser vation and experimentation wer e key to achie ving both aims. Bacon also saw science as a collabor ative affair , with scientists working t ogether , challenging each other .</p>",
+      "type": "MCQ",
+      "options": [
+        "Both Socr ates and Bacon adv ocated cle ver questioning of the opponents t o dispr ove their ar guments and theories.",
+        "Both Socr ates and Bacon adv ocated challenging ar guments and theories b y obser vation and experimentation.",
+        "Both Socr ates and Bacon adv ocated con\u0000rming ar guments and theories b y \u0000nding ex ceptions.",
+        "Both Socr ates and Bacon adv ocated examining ar guments and theories fr om both sides t o prove them."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Accor ding t o the par agraph, Socr ates and Bacon wer e good at asking questions. The Socr atic method works in\na wa y by \u0000nding ex ceptions t o the ar guments of the opponent, which mak es the opponent t o agr ee on\nsomething that contr adicts their original position. In a similar wa y, Bacon str essed that it was impor tant t o\ndispr ove theor y as it is t o prove it. Thus both Socr ates and Bacon str essed on examining ar guments fr om both\nends - t o prove as well as dispr ove. \nOption A, which speaks only about dispr oving of ar guments, can be eliminated.\nOption B talks only about examining and obser vation. Hence, it can be eliminated.\nOption C talks only about con\u0000rming of ar guments and not the other wa y. Hence, it can be eliminated.\nOption D captur es the main points which we discussed earlier . \nHence, option D is the right answer .",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 46,
+      "setId": 12,
+      "passage": null,
+      "question": "<p>  The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. For nearly a centur y most psy chologists ha ve embr aced one view of intelligence. Individuals ar e born with mor e or less intelligence potential (I.Q.); this potential is hea vily in\u0000uenced b y her edity and di\u0000cult t o alter; exper ts in measur ement can determine a person ’s intelligence early in lif e, curr ently fr om paper-and-pencil measur es, perhaps e ventually fr om examining the br ain in action or e ven scrutinizing his/her genome. Recently , criticism of this conv entional wisdom has mounted. Biologists ask if speaking of a single entity called “intelligence ” is coher ent and question the v alidity of measur es used t o estimate heritability of a tr ait in humans, who, unlik e plants or animals, ar e not conceiv ed and br ed under contr olled conditions.</p>",
+      "type": "MCQ",
+      "options": [
+        "Biologists ha ve questioned the long-standing view that ‘intelligence ’ is a single entity and the attempts to estimate it' s heritability .",
+        "Biologists ha ve criticised that conv entional wisdom that individuals ar e born with mor e or less intelligence potential.",
+        "Biologists ha ve star ted questioning psy chologists' view of 'intelligence ' as a measur able immutable char acteristic of an individual.",
+        "Biologists ha ve questioned the view that ‘intelligence ’ is a single entity and the wa ys in which what is inherited"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The par agraph highlights the following:\n1. The v alidity of the ubiquit ous perspectiv e held b y psy chologists {of intelligence being a measur able,\nunalter able entity that is gr eatly in\u0000uenced b y her edity} is now being questioned b y biologists.\n2. The dubiety concerning the aspect of intelligence being her editar y {giv en the fact that \" humans, who, unlik e\nplants or animals, ar e not conceiv ed and br ed under contr olled conditions. \"}\nThus, a statement capturing these elements is bound t o be the answer . Option A  aptly encompasses these two\nkey points.\nOption B : Calling the widely -held perspectiv e as conv entional wisdom would be inappr opriate. Additionally , the\nstatement her e fails t o captur e point (2).\nOption C : Although close, it misses out on the second half of the discussion.\nOption D : This option might appear confusing, giv en that it t ouches upon both the k ey elements. Howe ver, it is\nunspeci\u0000c and comes acr oss as a bit odd {\" ways in which what is inherited \" doesn 't mak e sense}. Between\nOptions A and D , A is de\u0000nitely the better choice.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 47,
+      "setId": 12,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. As So viet power declined, the world became t o some extent multipolar , and E urope str ove to de\u0000ne an independent identity . What a journe y Europe has under taken to reach this point. It had in e very centur y changed its internal structur e and inv ented new wa ys of thinking about the natur e of international or der. Now at the culmination of an er a, Europe, in or der t o par ticipate in it, f elt obliged t o set aside the political mechanisms through which it had conducted its affairs for thr ee and a half centuries. Impelled also b y the desir e to cushion the emer gent uni\u0000cation of Germany , the new E uropean Union established a common curr ency in 2002 and a formal political structur e in 2004. It pr oclaimed a E urope united, whole, and fr ee, adjusting its diff erences b y peaceful mechanisms.</p>",
+      "type": "MCQ",
+      "options": [
+        "Europe has consistently changed in k eeping with the changing world or der and that has culminated in a united E urope.",
+        "The establishment of a formal political structur e in E urope was hastened b y the uni\u0000cation of Germany and the emer gence of a multipolar world. ",
+        "Europe has consistently changed its internal structur e to successfully adapt t o the changing world or der.",
+        "Europe has chosen t o lower political and economic heter ogeneity , in or der t o adapt itself t o an emer ging multi-polar world."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The passage begins b y highlighting E urope's continual attempt t o adapt itself in a multipolar world b y striving t o\nbe a dynamic entity- nationally and internationally{\" changed its internal structur e and inv ented new wa ys of\nthinking about the natur e of international or der\"}.  P ost this, the author por trays how cer tain stimuli in the\nmodern world has lead E urope t o review its political components {\" set aside the political mechanisms thr ough\nwhich it had conducted its affairs for thr ee and a half centuries \"} and t o mak e changes in its economic\nstructur e {\"established a common curr ency  \"}. Thus, the passage pr esents two k ey elements: (1) the fact that\nEurope has consistently tried t o adapt t o a changing world and (2) the manner in which E urope has attempted\nto achie ve that in the existing multi-polar setup. Option D corr ectly highlights these points.\nOption A: This misses out on the point (2). F urthermor e, dir ectly ascribing the uni\u0000cation of E urope t o its\nattempt t o rapidly change would be incorr ect. \nOption B: This does not fully captur e the essence of the passage and misses out on point 1.\nOption C: Although the statement in this option captur es point 1, it misses out on point 2.\nHence, Option D is the corr ect answer .",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 48,
+      "setId": 12,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the essence of the passage. For millennia, in the pr ocess of opening up land for agricultur e, gar dens, gr azing and hunting, humans ha ve created ecological “ mosaics”, or “ patchworks”: landscapes holding a mixtur e of habitats, lik e meadows, gardens and for ests. These wer e not designed as natur e reser ves, but often cater ed to hugely div erse animal life. Resear ch indicates that E uropean ha y meadows cultiv ated for animal f eed wer e actually mor e successful at pr eser ving a v ast arr ay of species than meadows explicitly cultiv ated for biodiv ersity . Studying the early Holocene, r esear chers ha ve found that human pr esence was about as lik ely to incr ease biodiv ersity as r educe it. Of course, not all human-cr eated landscapes ha ve the same v alue. A pa ved subdivision with astr oturfed lawns is v ery diff erent t o a village with div erse v egetable and \u0000ower gar dens. But scientists continue t o \u0000nd evidence that the old idea of humans as antithetical t o natur e is also wr ong-headed, and that r osy visions of thriving, human-fr ee envir onments ar e mor e imaginar y than r eal.</p>",
+      "type": "MCQ",
+      "options": [
+        "In our attempts t o shape the world ar ound us t o our needs, humans ha ve often cr eated landscapes lik e meadows, gar dens, and for ests, which suppor t hugely div erse species, and ar e mor e successful at preser ving them, than parks cr eated speci\u0000cally for this.",
+        "In terms of pr eser ving biodiv ersity , scientists ar e \u0000nding incr easing e vidence that human action is not alwa ys antithetical t o natur e, but often assists the pr eser vation of meadows, landscapes, and \u0000ourishing of species.",
+        "Studying the early Holocene and human pr actices o ver millennia, r esear chers sa y that while agricultur al meadows, gar dens, and for ests wer e not explicitly designed as natur e reser ves, the y actually pr eser ved a vast arr ay of species, belying the idea that humans harm natur e.",
+        "Contr ary to the idea that humans alwa ys hur t natur e and that it thriv es in their absence, a lot of human action acr oss hist ory has been equally lik ely to incr ease biodiv ersity than r educe it, often cr eating v aried ecological landscapes that suppor t a vast arr ay of species.  "
+      ],
+      "correctAnswer": 3,
+      "explanation": "The main idea of the passage is that the belief that humans alwa ys harm natur e is not accur ate. Throughout\nhistory, people ha ve often cr eated div erse landscapes that suppor t many species. Resear ch shows that human\npresence can incr ease biodiv ersity just as much as it can decr ease it. The passage also questions the idea that\nnatur e only does well when people ar e not ar ound.\nOption D best sums up the main idea. It clearly contr asts the old belief that humans alwa ys harm natur e and\nthat natur e does best without people, with the newer view that humans ha ve often helped incr ease biodiv ersity .\nIt also mentions the cr eation of diff erent types of landscapes, matching the ar gument and balance of the\npassage. VIEW SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION\n\n\n\n\n\nThe other options do not sum up the passage as completely as Option D . Option A is t oo narr ow and focuses\ntoo much on people shaping natur e on purpose, missing the bigger point about the human-v ersus-natur e idea.\nOption B is t oo v ague and does not include the hist ory or the idea of mix ed landscapes. Option C is closer , but it\nis too speci\u0000c and only talks about cer tain times and actions, so it does not fully show the passage ’s main\nmessage about how we view humans and natur e.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 49,
+      "setId": 13,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author' s position. A fundamental pr oper ty of language is that it is slipper y and messy and mor e liquid than solid, a gelatinous mass that changes shape t o \u0000t. As Wittgenstein would r emind us, \"usage has no sharp boundar y.\" Oftentimes, the only wa y to determine the meaning of a wor d is t o examine how it is used. This insight is often described as the \" meaning is use \" doctrine. Ther e are diff erences between the \" meaning is use \" doctrine and a dictionar y-\u0000rst theor y of meaning. \"The dictionar y's car eful \u0000xing of wor ds to de\u0000nitions, lik e butter\u0000ies pinned under glass, can suggest that this is how language works. The de\u0000nitions can seem t o ensur e and \u0000x the meaning of wor ds, just as the gold standar d can back a countr y's curr ency .\" What Wittgenstein found in the cir culation of or dinar y language, howe ver, was a fr ee-\u0000oating curr ency of meaning. The v alue of each wor d arises out of the ex change. The lexicogr apher abstr acts a meaning fr om that ex change, which is then set within the conv entions of the dictionar y de\u0000nition.</p>",
+      "type": "MCQ",
+      "options": [
+        "Dictionar y de\u0000nitions ar e like 'gold standar ds' — ar ti\u0000cial, theor etical and dogmatic. Actual meaning of words is their fr ee-ex change v alue.",
+        "Language is alr eady slipper y; giv en this, accounting for ' meaning in use ' will only exasper ate the problem. That is why lexicogr aphers '\u0000x' meanings.",
+        "Meaning is dynamic; de\u0000nitions ar e static. The ' meaning in use ' theor y helps us understand that de\u0000nitions of wor ds ar e culled fr om their meaning in ex change and use and not vice v ersa.",
+        "The meaning of wor ds in dictionaries is clear , \u0000xed and less danger ous and ambiguous than the meaning that arises when wor ds ar e exchanged between people."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Accor ding t o the par agraph, language is lik e a gelatinous mass that changes shape t o \u0000t. Also, many times the\nonly wa y to \u0000nd meaning of wor d is t o examine how it is used. It is stated that de\u0000nitions ar e \u0000xed for the wor d\nby dictionar y.Wittgenstein found that cir culation of or dinar y language was a fr ee-\u0000oating curr ency of meaning.\nSo the meanings ar e dynamic. Thus, the v alue of wor d arises fr om the ex change and then the lexicogr apher\nabstr acts meaning fr om that ex change. Thus, de\u0000nitions ar e pick ed up fr om the meaning in use. \nOption A, which states that de\u0000nitions ar e like dogmatic, cannot be found in the par agraph. Hence, it can be\neliminated.\nThe par agraph doesn 't talk about why lexicogr aphers \u0000x meanings. Hence, option B can be eliminated.\nOption C co vers all the main points. Hence, it is the right choice.\nThe purpose of the passage is not t o compar e meaning of wor ds in dictionaries with meaning which arises\nfrom ex change. Hence, option D can be eliminated.\nHence, option C is the right choice.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 50,
+      "setId": 13,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. With the Treaty of W estphalia, the papacy had been con\u0000ned t o ecclesiastical functions, and the doctrine of sovereign equality r eigned. What political theor y could then explain the origin and justify the functions of secular political or der? In his Le viathan, published in 1651, thr ee years after the P eace of W estphalia, Thomas Hobbes pr ovided such a theor y. He imagined a “ state of natur e” in the past when the absence of authority pr oduced a “ war of all against all. ” To escape such int olerable insecurity , he theoriz ed, people  deliv ered their rights t o a so vereign power in r eturn for the so vereign’s provision of security for all within the state ’s bor der. The so vereign state ’s monopoly on power was established as the only wa y to overcome the perpetual f ear of violent death and war .</p>",
+      "type": "MCQ",
+      "options": [
+        "Thomas Hobbes theoriz ed the v oluntar y surr ender of rights b y people as essential for emer gence of sovereign states.",
+        "Thomas Hobbes theoriz ed the emer gence of so vereign states as a form of tr ansactional go vernance t o limit the power of the papacy .",
+        "Thomas Hobbes theoriz ed that so vereign states emer ged out of people ’s voluntar y desir e to overcome the sense of insecurity and establish the doctrine of so vereign equality .",
+        "Thomas Hobbes theoriz ed the emer gence of so vereign states based on a tr ansactional r elationship between people and so vereign state that was necessitated b y a sense of insecurity of the people."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Let's look at the options one b y one. Option 1 talks about v oluntar y surr ender of rights. But the passage talks\nabout \"tr ansf er\" of rights, not \" surrender \" of rights.\nThe main point is not about \" powers of papacy \", option 2 is inconsequential.\nOption 3 does not co ver one of the main points of the passage, the tr ansf er of rights, between people and the\nsovereign power . It's an incomplete option.\nOption 4 is the corr ect summar y, it talks about the tr ansactional r elationship i.e giv e and tak e or tr ansf er of\nrights between people and so vereign go vernment.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 52,
+      "setId": 13,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author' s position. To me, a \" classic \" means pr ecisely the opposite of what my pr edecessors underst ood: a work is classical b y   reason of its r esistance t o contempor aneity and supposed univ ersality , by reason of its capacity t o indicate human par ticularity and diff erence in that past epoch. The classic is not what tells me about shar ed humanity — or, mor e truthfully put, what lets me r ecogniz e myself as alr eady pr esent in the past, what nourishes in me the illusion that e verything has been lik e me and has existed only t o prepar e the wa y for me. Instead, the classic is what giv es access t o radically diff erent forms of human consciousness for any giv en gener ation of r eaders, and thereby expands for them the r ange of possibilities of what it means t o be a human being.</p>",
+      "type": "MCQ",
+      "options": [
+        "A classic is able t o focus on the contempor ary human condition and a uni\u0000ed experience of human consciousness.",
+        "A classical work seeks t o resist par ticularity and tempor al diff erence e ven as it focuses on a common humanity .",
+        "A classic is a work exploring the new , going be yond the univ ersal, the contempor ary, and the notion of a uni\u0000ed human consciousness.",
+        "A classic is a work that pr ovides access t o a univ ersal experience of the human r ace as opposed t o radically diff erent forms of human consciousness."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The author states that a classic is not which puts him at the centr e of the univ erse but one which giv es access\nto radically diff erent forms of human consciousness. \nLet us e valuate the options.\nOption A states that a classic should focus on uni\u0000ed human experience. The author mentions the exact\nopposite in the par agraph. Ther efore, we can eliminate option A. W e can eliminate option D t oo since it\nmentions the polar opposite of what that is mentioned in the par agraph. The author is of the view that a classic\nshould go be yond pr oviding a uni\u0000ed human experience and expose one t o radically diff erent forms of human\nconsciousness. \nWe can eliminate option B since it states that a classic focuses on common humanity . Only option C captur es\nthe essence of the giv en par agraph and hence, option C is the right answer .",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 53,
+      "setId": 14,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author' s position. A translat or of liter ary works needs a secur e hold upon the two languages inv olved, suppor ted b y a good measur e of familiarity with the two cultur es. F or an Indian tr anslating works in an Indian language int o English, \u0000nding satisfact ory equiv alents in a gener alized western cultur e of pr actices and symbols in the original would be less di\u0000cult than gaining \u0000uent contr ol of contempor ary English. When a westerner works on texts in Indian languages the interpr etation of cultur al elements will be the major challenge, r ather than contr ol over the grammar and essential v ocabular y of the language concerned. It is much easier t o remedy lapses in language in a text tr anslated int o English, than \u0000aws of content. Since it is easier for an Indian t o learn the English language than it is for a Brit on or American t o compr ehend Indian cultur e, translations of Indian texts is better left t o Indians.</p>",
+      "type": "MCQ",
+      "options": [
+        "While tr anslating, the Indian and the westerner face the same challenges but the y have diff erent skill pro\u0000les and the former has the adv antage.",
+        "As pr eser ving cultur al meanings is the essence of liter ary translation Indians' knowledge of the local cultur e outweighs the initial disadv antage of lower \u0000uency in English.",
+        "Indian tr anslat ors should tr anslate Indian texts int o English as their work is less lik ely to pose cultur al problems which ar e har der t o addr ess than the quality of language. ",
+        "Westerners might be good at gaining r easonable \u0000uency in new languages, but as understanding the cultur e re\u0000ected in liter ature is crucial, Indians r emain better placed."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Let us note down the impor tant points put down b y the author . \nIndians ha ve better knowledge of their cultur e. A westerner might be \u0000uent in the language but will \u0000nd it har d\nto relate t o the cultur e. Indians, on the other hand, might be less \u0000uent in the language but will be able t o\npreser ve the cultur e when a text is tr anslated. Ther efore, Indians should tr anslate Indian texts. \nLet us e valuate the options now . \nOption A states that Indians and W esterners face the same challenges but the y have diff erent skill sets. Indians\nand W esterners face diff erent challenges while tr anslating the text. Indians face di\u0000culty in the language and\nwesterners face di\u0000culty in r elating t o the cultur e. Ther efore, we can eliminate option A.\nOption D fails t o captur e the fact that the primar y intention of the par agraph is not t o pit Indians against\nwesterners but t o suggest that Indians should tr anslate Indian texts. Also, it does not captur e the fact that\nIndians will r etain the adv antage only when tr anslating the Indian texts. Ther efore, we can eliminate option D . \nOption B, though true, fails t o captur e the India-centric angle that the par agraph adopts. The par agraph places\nhuge emphasis on the term 'Indian texts' and only option C manages t o captur e this fact. Also, only option C\ncaptur es the fact that it is easier t o remedy err ors in the language than t o \u0000x err ors in the interpr etation of\ncultur e. Ther efore, option C is the right answer .  VIEW SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 54,
+      "setId": 14,
+      "passage": null,
+      "question": "<p>The Shv eta-chattr a or the “White Umbr ella” was a symbol of so vereign political authority placed o ver the monar chy’s head at the time of the cor onation. The ruler so inaugur ated was r egar ded not as a tempor al autocrat but as the instrument of pr otectiv e and sheltering \u0000rmament of supr eme law . The white umbr ella symbol is of gr eat antiquity and its v aried use illustr ates the ultimate common basis of non-theocr atic natur e of states in the Indian tr adition. As such, the umbr ella is found, although not necessarily a white one, o ver the head of Lor d Ram, the Mohammedan sultans and Chatr apati Shiv aji. Which one of the following best summarises the abo ve passage?</p>",
+      "type": "MCQ",
+      "options": [
+        "The placing of an umbr ella o ver the ruler ’s head was a common pr actice in the Indian subcontinent.",
+        "The white umbr ella r epresented the instrument of \u0000rmament of the supr eme law and the non-theocr atic natur e of Indian states.",
+        "The umbr ella, not necessarily a white one, was a symbol of so vereign political authority .",
+        "The v aried use of the umbr ella symbolised the common basis of the non-theocr atic natur e of states in the Indian tr adition.  "
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sentences in options a) and c) do not captur e the full essence of the par agraph. In b) it is said that the umbr ella\nis the instrument of the supr eme law , wher eas, accor ding t o the par agraph, the ruler is the instrument of the\nsupr eme law . So, b) is also wr ong. The best summar y is the one in option d).",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 55,
+      "setId": 14,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Humans ha ve managed t o tweak the underlying biology of v arious plants and animals t o produce high-tech crops and micr obes. But r egulating these entities is complicated, as the fr amework of policies and pr ocedur es are outdated and not \u0000exible enough t o adapt t o emer ging technology . The question is whether r egulation will ever be able t o keep up with human inno vation, t o regulate living things, which ar e apt t o be unpr edictable and unique; t o captur e all the potential risks when new biological entities ar e intr oduced, or when the y pass on variations of their genes?</p>",
+      "type": "MCQ",
+      "options": [
+        "The mer curial natur e of biological entities calls for scientists t o shape the r egulations go verning emer ging technology , with r egular calibr ation t o handle v ariations in the \u0000eld.",
+        "A new fr amework of rules and pr ocedur es for r egulating the most r ecent r esear ch emer ging fr om biotechnology is ur gently needed, t o keep up with this r apidly changing discipline.",
+        "Curr ent r egulation of biotechnology is outdated, but it is debatable if we can cr eate a fr amework, imaginativ e and \u0000exible, t o co ver all contingencies in this fast-changing ar ea.",
+        "The pr oblem with formulating r egulation for inno vation in the scienti\u0000c ar ena it that it is impossible t o imagine the outcomes or risks r elated t o the outcomes of all the r esear ch."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage discusses the challenges of r egulating inno vations in biotechnology . It highlights two k ey issues:\n(i) curr ent r egulations ar e outdated and insu\u0000cient for new biological adv ancements, and (ii) the unpr edictable\nnatur e of living entities and r apid technological changes mak e it di\u0000cult t o design a r egulat ory framework that\nanticipates all risks and contingencies. The cor e question is whether r egulation can e ver keep pace with the\nunpr edictable and unique outcomes of biotechnology . Option C  corr ectly t ouches upon these ideas.\nThe other options ar e either t oo narr ow or miss the essence. Option A  focuses on calibr ation and scientists'\nroles, which is not the centr al concern of the passage. Similarly , Option B  highlights the ur gency for new rules\nbut omits the sk epticism about achie ving compr ehensiv e regulation. Option D  overemphasises the\nimpossibility of imagining all risks without addr essing the need for \u0000exibility in r egulations.\nHence, Option C is the best choice.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 56,
+      "setId": 14,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author’s position. Production and legitimation of scienti\u0000c knowledge can be appr oached fr om a number of perspectiv es. To study knowledge pr oduction fr om the sociology of pr ofessions perspectiv e would mean a focus on the institutionalization of a body of knowledge. The pr ofessions-appr oach informed earlier r esear ch on managerial occupation, business schools and management knowledge. It howe ver tends t o reify institutional power structur es in its understanding of the links between knowledge and authority . Knowledge pr oduction is restricted in the perspectiv e to the selected members of the pr ofessional community , most notably t o the university faculties and pr ofessional colleges. P ower is underst ood as a negativ e mechanism, which pr events the non-pr ofessional act ors fr om off ering their ideas and information as legitimate knowledge.</p>",
+      "type": "MCQ",
+      "options": [
+        "Professions-appr oach focuses on the cr eation of institutions of higher education and disciplines t o promote knowledge pr oduction",
+        "The study of knowledge pr oduction can be done thr ough many perspectiv es. ",
+        "The pr ofessions-appr oach has been one of the most r elied upon perspectiv e in the study of management knowledge pr oduction.",
+        "Professions-appr oach aims at the institutionalization of knowledge but r estricts knowledge pr oduction as a function of a select f ew."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Let us note down the impor tant points.\nProfessions-appr oach structur es and institutionaliz es knowledge but knowledge pr oduction is r estricted t o the\nselect members of the community . It pr events the non-pr ofessional act ors fr om off ering their ideas. \nOptions A, B, and C do not captur e the negativ e aspects of the pr ofessions-appr oach at all. They just focus on\nthe adv antages off ered b y the appr oach but the giv en par agraph places a huge emphasis on the limitations of\nthe appr oach as well. Only option D captur es both the adv antage off ered b y the appr oach and its limitations.\nTher efore, option D is the right answer .",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 57,
+      "setId": 15,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Petitioning is an expeditious democr atic tr adition, used fr equently in prior centuries, b y which citiz ens can bring issues dir ectly t o go vernments. As expr essions of collectiv e voice, the y suppor t procedur al democr acy b y shaping agendas. They can also r ecruit citiz ens t o causes, giv e voice t o the v oteless, and apply the discipline of rhetorical ar gument that clari\u0000es a point of view . By contr ast, elections ar e limited in se veral respects: the y involve only a f ew candidates, and thus fall far shor t of a r epresentativ e democr acy. Further, voters’ choices ar e not speci\u0000c t o par ticular policies or laws, and elections ar e episodic, wher eas the v oice of the people needs t o be hear d and integr ated constantly int o democr atic go vernment.</p>",
+      "type": "MCQ",
+      "options": [
+        "By giving citiz ens gr eater contr ol over shaping political and democr atic agendas, political petitions ar e invaluable as the y represent an ideal form of a r epresentativ e democr acy.",
+        "Citiz ens become less inclined t o petitioning as it enables v ocal citiz ens t o shape political agendas, but this needs t o change t o str engthen democr acies t oday.",
+        "Petitioning has been impor tant t o democr atic functioning, as it supplements the elect oral pr ocess b y enabling ongoing engagement with the go vernment.",
+        "Petitioning is de\u0000nitely mor e representativ e of the collectiv e voice, and the functioning of democr atic government could impr ove if we r elied mor e on petitioning r ather than holding periodic elections. "
+      ],
+      "correctAnswer": 2,
+      "explanation": "The giv en passage discusses the r ole of petitioning in democr atic go vernance; it highlights how petitioning can\nshape political agendas, r ecruit citiz ens t o causes, giv e voice t o the v oteless, and apply the discipline of\nrhetorical ar gument t o clarify points of view . The passage also compar es petitioning t o elections, stating that\npetitioning supplements the elect oral pr ocess and enables ongoing engagement with the go vernment. The\nauthor does not mak e a judgment about the r elativ e superiority of petitioning or elections, but r ather focuses on\nthe speci\u0000c wa ys in which petitioning can contribute t o democr atic functioning.  Option C  accur ately\nsummariz es the points discussed abo ve. \nOption A  is incorr ect because the passage does not state that petitioning is \" an ideal form of r epresentativ e\ndemocr acy.\" It only mentions that petitioning can giv e voice t o the v oteless and apply the discipline of rhet orical\nargument, but it does not mak e a br oader claim about the superiority of petitioning o ver other forms of\ndemocr acy. VIDEO SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION\n\n\n\n\n\nOption B  is incorr ect because the passage does not suggest that citiz ens ar e becoming less inclined t o\npetitioning. In fact, the passage does not addr ess the pr evalence of petitioning in contempor ary times at all.\nOption D  is incorr ect because the passage does not state that petitioning is mor e representativ e of the\ncollectiv e voice than elections. It only mentions that petitioning can giv e voice t o the v oteless, but it does not\nmak e a comparison t o elections in this r egar d. The passage also does not suggest that the functioning of\ndemocr atic go vernment would necessarily impr ove if we r elied mor e on petitioning instead of holding periodic\nelections; it simply states that petitioning has been impor tant t o democr atic functioning in the past, and that it\nsupplements the elect oral pr ocess b y enabling ongoing engagement with the go vernment.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 58,
+      "setId": 15,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Several of the world’ s earliest cities wer e organised along egalitarian lines. In some r egions, urban populations governed themselv es for centuries without any indication of the temples and palaces that would later emer ge; in others, temples and palaces ne ver emer ged at all, and ther e is simply no e vidence of a class of administr ators or any other sor t of ruling str atum. It would seem that the mer e fact of urban lif e does not, necessarily , imply any par ticular form of political or ganization, and ne ver did. F ar from r esigning us t o inequality , the pictur e that is now emer ging of humanity ’s past ma y open our e yes to egalitarian possibilities we other wise would ha ve never consider ed.</p>",
+      "type": "MCQ",
+      "options": [
+        "The lack of hier archical administr ation in ancient cities can be deduced b y the absence of r eligious and regal structur es such as temples and palaces.",
+        "Contr ary to our assumption that urban settlements ha ve alwa ys inv olved hier archical political and administr ative structur es, ancient cities wer e not or ganised in this wa y.",
+        "The emer gence of a class of administr ators and ruling str atum tr ansformed the egalitarian urban lif e of ancient cities t o the hier archical civic or ganisations of t oday.",
+        "We now ha ve the e vidence in suppor t of the existence of an egalitarian urban lif e in some ancient cities, wher e political and civic or ganisation was far less hier archical. "
+      ],
+      "correctAnswer": 3,
+      "explanation": "The passage is about the political and civic or ganization of ancient cities. It states that some ancient cities\nwere organiz ed along egalitarian lines, without any indication of temples or palaces (which suggests a lack of a\nruling class or administr ators), and that in other cities, temples and palaces ne ver emer ged at all. Option D\ncorrectly summariz es this information b y stating that ther e was e vidence of an egalitarian urban lif e in some\nancient cities, wher e the political and civic or ganization was less hier archical. Option A is incorr ect because it\nonly mentions the absence of temples and palaces, but does not mention the fact that some ancient cities wer e\norganiz ed along egalitarian lines. On a similar note, Option B pr esents an exagger ation b y suggesting that ' all'\nancient cities wer e organiz ed along egalitarian lines, which is not stated in the passage. Option C is also\ninaccur ate since it asser ts that ancient cities wer e transformed fr om egalitarian t o hier archical, but the passage\nonly states that some ancient cities wer e egalitarian and does not mention any tr ansformation. \nHence, Option D is the corr ect choice.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 59,
+      "setId": 15,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author’s position. The conceptualization of landscape as a geometric object \u0000rst occurr ed in E urope and is hist orically r elated t o the E uropean conceptualization of the or ganism, par ticularly the human body , as a geometric object with par ts having a r ational, thr ee-dimensional or ganization and integr ation. The E uropean idea of landscape appear ed befor e the science of landscape emer ged, and it is no coincidence that Renaissance ar tists such as Leonar do da Vinci, who studied the structur e of the human body , also facilitated an understanding of the structur e of landscape. Landscape which had been a subor dinate back ground t o religious or hist orical narr atives, became an independent genr e or subject of ar t by the end of sixteenth centur y or the beginning of the se venteenth centur y.</p>",
+      "type": "MCQ",
+      "options": [
+        "The thr ee-dimensional understanding of the or ganism in E urope led t o a similar appr oach t owar ds the understanding of landscape.",
+        "Landscape became a major subject of ar t at the turn of the sixteenth centur y.",
+        "The study of landscape as an independent genr e was aided b y the Renaissance ar tists.",
+        "The Renaissance ar tists wer e responsible for the study of landscape as a subject of ar t."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Let us note down the main points of the giv en par agraph:\nThe giv en par agraph describes how the study of landscape gained pr ominence and became an independent\ngenr e. Renaissance ar tists facilitated the de velopment of the \u0000eld as an independent genr e. \nLet us e valuate the options one b y one.\nOption A states that understanding of the or ganism in E urope led t o a similar appr oach t owar ds the\nunderstanding of landscape. Though this option is true, it fails t o captur e the fact that the \u0000eld e volved as an\nindependent genr e with the help of Renaissance ar tists. \nOption B states that Landscape became a major subject of ar t at the turn of the sixteenth centur y. Again, option\nB fails t o captur e the r ole pla yed b y the Renaissance ar tists. \nOption D states that Renaissance ar tists wer e responsible for the study of landscape as a subject of ar t. The\nparagraph mentions that the ar tists facilitated in the tr ansformation of the \u0000eld int o an independent genr e.\nOption D establishes a str ong r elationship and holds Renaissance ar tists 'r esponsible ' for the study of\nlandscape ' as a subject of ar t'. The par ts within the quotes disr egar d the fact that the ar tists just aided the\nprocess. They wer e not solely r esponsible for the de velopment. Ther efore, we can eliminate option D . \nOnly option C captur es the fact that the r enaissance ar tists ' aided' in the de velopment of the study of landscape\nas an independent genr e and hence, option C is the right answer . \n60.B VIDEO SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION\n\n\n\n\n\nThe passage contr asts the 1950s, wher e per fectionism meant conforming t o societal norms, with\ncontempor ary times, wher e individuals f eel pr essur ed to stand out and gain attention thr ough unique style and\nwit. This e volution fr om conformism t o non-conformism is a k ey point in the passage, making Option B the\nmost accur ate summar y. It eff ectiv ely captur es the changing natur e of per fectionism in r esponse t o\nmultifarious and contr adict ory societal expectations o ver the decades.\nOption A focuses on the media 's role and people adhering t o ideals, which is not the primar y emphasis of the\npassage that highlights the e volution of societal expectations o ver time.\nOption C suggests tension and con\u0000ict r elated t o the changing idea of per fection, but the passage emphasises\nthe hist orical shift in expectations r ather than con\u0000ict.\nOption D o vergener alizes by stating that people ar e willing t o go t o any lengths t o attr act attention, which is not\nexplicitly suppor ted b y the passage that highlights the changing natur e of per fectionism.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 60,
+      "setId": 15,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. The weight of society ’s expectations is har dly a new phenomenon but it has become par ticularly dr aining o ver recent decades, perhaps because expectations themselv es ar e so multifarious and contr adict ory. The perfectionism of the 1950s was r ooted in the norms of mass cultur e and captur ed in famous adv ertising images of the ideal white American family that now seem self-satirising. In that er a, per fectionism meant seamlessly conforming t o values, beha viour and appear ance: chiselled con\u0000dence for men, demur e graciousness for women. The per fectionist was under pr essur e to look lik e everyone else, only mor e so. The perfectionists of t oday, by contr ast, f eel an obligation t o stand out thr ough their idiosyncr atic style and wit if they are to gain a foothold in the attention economy .</p>",
+      "type": "MCQ",
+      "options": [
+        "The image of per fectionism is r e\u0000ected in and perpetuated b y the media; and people do their best t o adher e to these ideals. ",
+        "Though long-standing, the pr essur e to appear per fect and ther eby attr act attention, has e volved o ver time fr om one of conformism t o one of non-conformism.",
+        "The pr essur e to appear per fect has been the cause of tension and con\u0000ict because the idea itself has been in a state of \u0000ux and har d to de\u0000ne.",
+        "The desir e to attr act attention is so deep-r ooted in individual consciousness that people ar e willing t o go to any lengths t o achie ve it."
+      ],
+      "correctAnswer": 1,
+      "explanation": "",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 61,
+      "setId": 16,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Different fr om individuals, states conduct war fare oper ations using the DIME model— “ diplomacy , information, militar y, and economics. ” Most states do e verything the y can t o in\u0000ict pain and confusion on their enemies befor e deplo ying the militar y. In fact, attacks on v ectors of information ar e a well-worn tactic of war and usually are the \u0000rst tar get when the char ge begins. It’ s common for telecom data and communications networks t o be routinely monit ored b y governments, which is why the open data policies of the web ar e so concerning t o many advocates of priv acy and human rights. With the worldwide adoption of social media, mor e go vernments ar e getting inv olved in low-gr ade information war fare thr ough the use of cyber tr oops. Accor ding t o a study b y the Oxfor d Internet Institute in 2020, cyber tr oops ar e “government or political par ty act ors task ed with manipulating public opinion online. ” The Oxfor d resear ch gr oup was able t o identify 81 countries with activ e cyber tr oop oper ations, utilizing many diff erent str ategies t o spr ead false information, including spending millions on online adv ertising.</p>",
+      "type": "MCQ",
+      "options": [
+        "Following the DIME model, many go vernments ha ve tak en adv antage of open data policies of the web t o deplo y cyber tr oops who manipulate domestic public opinion, using adv ertising and other str ategies t o spread false information.",
+        "Governments primarily use the DIME model t o deplo y cyber tr oops who pr actise lowgr ade information warfare, seeking t o manipulate public opinion with the objectiv e of in\u0000icting pain and confusion on their enemies.",
+        "Using the DIME model, t ogether with militar y oper ations, many go vernments simultaneously conduct information war fare with the help of cyber tr oops and r outinely monit or telecom data and communications networks. ",
+        "As par t of conducting information war fare as per the DIME model, many go vernments r outinely monit or telecom data and communications networks, and use cyber tr oops on social media t o manipulate public opinion."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The passage star ts by explaining how states use the DIME model in war fare, often tar geting information\nsystems \u0000rst t o destabiliz e enemies. Go vernments monit or communication networks, r aising priv acy concerns.\nWith social media 's rise, many countries emplo y \"cyber tr oops\" t o manipulate public opinion online, spr eading\ndisinformation thr ough tactics lik e paid ads.  Option D best captur es all these points. \nOption A : This option incorr ectly focuses on open data policies being used t o deplo y cyber tr oops, which the\npassage does not emphasiz e.\nOption B : This option fails t o addr ess the k ey par t of the passage, which is monit oring telecom data and\nnetworks.\nOption C : The passage does not indicate that go vernments conduct war fare simultaneously with militar y\nforces; r ather , they act befor e inv olving the militar y. We can inf er this fr om the statement,  \"Most states do\neverything the y can t o in\u0000ict pain and confusion on their enemies befor e deplo ying the militar y.\"",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 63,
+      "setId": 16,
+      "passage": null,
+      "question": "<p>  The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. When the tr adwif e puts on that geor gic, pinstriped dr ess, she is not just admiring the visual cues of a fantastical past. She tak es these dr eams of st orybook bliss liter ally, tracing them backwar d in time until she r eaches a logical conclusion that satis\u0000es her . And b y doing so, she ends up deliv ering an unhapp y reminder of just how much our liv es consist of ar ti\u0000ce and pla yacting. The tr adwif e outr ages people because of her deliber ately regressiv e ideals. And y et her beha viour is, on some le vel, indistinguishable fr om the non-tr adwif e’s. The tradwif e’s trollish genius is t o beat us at our own dr ess-up game. By insisting that the idyllic cottage da ydream should be r eal, right down t o the primitiv e gender r oles, she lea ves others f eeling hollow , cheated. The hullabaloo and headaches she causes ma y be the price we pa y for taking t oo many things at face v alue: our just deser ts, ser ved Instagr am-per fect b y a manicur ed hand on a gor geous cer amic dish, with fat, mouthwatering mar aschino cherries on t op.</p>",
+      "type": "MCQ",
+      "options": [
+        "The tr adwif e’s commitment t o outdated gender r oles and r etro fashion critiques the super\u0000ciality of today's societal ideals.",
+        "By pr omoting an idealiz ed past, the tr adwif e exposes the ar ti\u0000ce of contempor ary values and mocks societal norms.",
+        "The tr adwif e, with her vintage dr ess and tr aditional r oles, highlights the super\u0000ciality of modern lif e and challenges curr ent societal norms.",
+        "The tr adwif e’s vintage dr ess and adher ence t o traditional r oles r eveal the ar ti\u0000cial natur e of modern lif e and its super\u0000cial v alues."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Option C is the correct answer. This option best captur es the essence of the passage. The tr adwif e’s embr ace\nof traditional r oles and vintage fashion natur ally contr asts with and highlights the super\u0000ciality of modern lif e.\nThe passage emphasiz es that she is not o vertly critiquing society but r ather embodying a r egressiv e ideal that\nchallenges contempor ary norms. This \u0000ts with how the passage describes her actions—her existence itself is a\nchallenge t o modern societal expectations.\nOption A: The passage does not suggest that the tr adwif e is activ ely critiquing modern society . Instead, the\ntradwif e embodies a lif estyle and set of ideals that ar e in contr ast t o contempor ary values. The critique comes\nfrom others' r eactions t o her beha vior, not fr om her intentions. \nOption B : The passage does not show her as activ ely tr ying t o expose or mock anything. She simply liv es in a\nway that contr asts with modern expectations. The \" mock ery\" is a r eaction fr om others, not her goal. Ther efore,\nthis option o verstates her intentions.\nOption D : This focuses on the tr adwif e's dress and adher ence t o traditional r oles as the means of r evealing\nmodern lif e’s arti\u0000cial natur e. While the tr adwif e does embody these tr aditional v alues, the passage is mor e\nfocused on how her actions highlight societal super\u0000ciality r ather than \"r evealing\" it. Additionally , the passage\nsuggests that her beha viour is not an o vert revelation but r ather something that others r eact t o—making this\noption somewhat dist orted.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 64,
+      "setId": 16,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. “It does seem t o me that the job of comedy is t o off end, or ha ve the potential t o off end, and it cannot be dr ained of that potential, ” Rowan A tkinson said of cancel cultur e.“Every jok e has a victim. That’ s the de\u0000nition of a jok e. Someone or something or an idea is made t o look ridiculous. ” The Net\u0000ix star continued, “I think y ou’ve got t o be very, very car eful about sa ying what y ou’re allowed t o mak e jok es about. Y ou’ve alwa ys got t o kick up? Really?” He added, “Ther e are lots of extr emely smug and self-satis\u0000ed people in what would be deemed lower down in society , who also deser ve to be pulled up. In a pr oper fr ee society , you should be allowed t o mak e jok es about absolutely anything. ” </p>",
+      "type": "MCQ",
+      "options": [
+        "All jok es tar get someone and one should be able t o jok e about any one in the society , which is inconsistent with cancel cultur e.",
+        "Every jok e needs a victim and one needs t o include people fr om lower down the society and not just the upper class.",
+        "Victims of jok es must not only be politicians and r oyalty, but also arr ogant people fr om lower classes should be mentioned b y comedians.",
+        "Cancel cultur e does not understand the r ole and duty of comedians, which is t o deride and mock everyone."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main ideas of the passage ar e:\ni) The job of a jok e is t o off end its tar get(victim) irr espectiv e of its status.\nii) The cancel cultur e deems it inappr opriate t o jok e about people deemed lower in society .\nOption A: This option includes both the main points and hence is the corr ect answer .\nOption B: This is a dist orted option. The ideas in the par agraph ar e not intended t o persuade t o include people\nfrom the lower class in the jok e. Thus, this is not the corr ect answer .\nOption C: Again, this is a dist orted option and can be eliminated based on the explanation giv en in option B.\nOption D: This is also a dist orted option, as nowher e in the passage the duties of a comedian ar e mentioned.\nThus, this is not the corr ect option.\n Thus, the corr ect option is A.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 65,
+      "setId": 17,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. The human mind is wir ed to see patterns. Not only does the br ain pr ocess information as it comes in, it also stores insights fr om all our past experiences. E very inter action, happ y or sad, is catalogued in our memor y. Intuition dr aws fr om that deep memor y well t o inform our decisions going for ward. In other wor ds, intuitiv e decisions ar e based on data, and not contr ary to data as many would lik e to assume. When we subconsciously spot patterns, the body star ts \u0000ring neur ochemicals in both the br ain and gut. These “ somatic mark ers” ar e what giv e us that instant sense that something is right … or that it’ s off. Not only ar e these aut omatic pr ocesses faster than r ational thought, but our intuition dr aws fr om decades of div erse qualitativ e experience (sights, sounds, inter actions, etc.) - a wholly human f eatur e that big data alone could ne ver accomplish.</p>",
+      "type": "MCQ",
+      "options": [
+        "Intuition is in\u0000nitely richer than big data which is based on r ational thought and accomplishes mor e than what big data can.",
+        "Intuitions ar e aut omatic pr ocesses and ar e ther efore faster than r ational thought, and so decisions based on them ar e better .",
+        "Intuition dr aws fr om deep memor y, and ma y not be r elated t o data, but t o decades of div erse qualitativ e experience.",
+        "Intuitions ar e neur o-chemical \u0000rings based on pattern r ecognition and dr aw upon a rich and v ast database of experiences. "
+      ],
+      "correctAnswer": 3,
+      "explanation": "The main points of the par agraph ar e as follows:\n1. Intuition dr aws fr om a v ast arr ay of memories that our br ain k eeps in st ore.\n2. When our br ain r ecognises a pattern fr om past memories, neur on \u0000ring star ts, which giv es us the gut f eeling\nof intuition. \nA: Dist ortion: The passage does not giv e any detail about big data being based on r ational thought.\nB: Out of scope. The par agraph does not allude t o whether the decisions based on intuition ar e better or worse.\nC: Incorr ect: The passage sa ys that intuitiv e decisions ar e based on data.\nD: Corr ectly co vers the mentioned points and hence, is the answer . VIDEO SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 66,
+      "setId": 17,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. Recent impor tant scienti\u0000c \u0000ndings ha ve emer ged fr om cr ossing the boundaries of scienti\u0000c \u0000elds. They stem from physicists collabor ating with biologists, sociologists and others, t o answer questions about our world. But physicists and their potential collabor ators often \u0000nd their cultur es out of sync. F or one, physicists often discar d a lot of information while extr acting br oad patterns; for other scientists, information is not r eadily disposed. F urther, many non-physicists ar e uncomfor table with mathematical models. Still, the desir e to work on something new and diff erent is r eal, and ther e are clear bene\u0000ts fr om the collision of views.</p>",
+      "type": "MCQ",
+      "options": [
+        "Despite diff erences in their r esear ch styles, physicists’ r esear ch collabor ations with scholars fr om other disciplines ha ve yielded impor tant r esear ch \u0000ndings.",
+        "Large data sets and mathematical models in physics r esear ch combined with the r esear ch methods of non-physicist collabor ators ha ve yielded impor tant scienti\u0000c \u0000ndings.",
+        "The desir e to div ersify their r esear ch and answer impor tant questions has led t o several collabor ations between physicists and other social scientists.",
+        "Physicists ha ve successfully buried their diff erences on r esear ch methods applied in other \u0000elds in their desir e to \u0000nd answers t o ba\u0000ing scienti\u0000c questions.  "
+      ],
+      "correctAnswer": 0,
+      "explanation": "Option A is the corr ect answer .\nOption A captur es the cor e idea that their collabor ations ha ve led t o valuable scienti\u0000c disco veries despite\ndifferences in r esear ch methods between physicists and other scientists. The passage emphasiz es how these\ncontr asting appr oaches still lead t o productiv e outcomes, demonstr ating the bene\u0000ts of cr oss-disciplinar y\nwork.\nOption B: While lar ge data sets and mathematical models ar e mentioned, this option incorr ectly focuses on\n\"large data sets and mathematical models\" as the main contribut or, which is not the main point of the passage.\nOption C: This is par tially true, but the passage does not emphasiz e the \" desir e to div ersify \" resear ch or focus\non social scientists. It is about the collabor ation of diff erent scienti\u0000c \u0000elds, not speci\u0000cally social science.\nOption D: This is inaccur ate because the passage does not state that physicists ha ve \"buried\" their diff erences;\nrather , it sa ys that their diff erences exist, but the collabor ation is still v aluable. This is an extr eme interpr etation.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 67,
+      "setId": 17,
+      "passage": null,
+      "question": "<p>Choose the option that best captur es the essence of the text. Local communities ha ve often come in con\u0000ict with agents tr ying t o exploit r esour ces, at a faster pace, for an expanding commer cial-industrial economy . Mor e often than not, such agents of r esour ce-intensi\u0000cation ar e given pr eferential tr eatment b y the state, thr ough the gr ant of gener ous long leases o ver miner al or \u0000sh st ocks, for example, or the pr ovision of r aw material at an enormously subsidiz ed price. With the injustice so compounded, local communities at the r eceiving end of this pr ocess ha ve no r ecourse ex cept dir ect action, resisting both the state and outside exploiters thr ough a v ariety of pr otest techniques. These struggles might perhaps be seen as a manif estation of a new kind of class con\u0000ict.</p>",
+      "type": "MCQ",
+      "options": [
+        "A new kind of class con\u0000ict arises fr om pr eferential tr eatments giv en to agents of r esour ce- intensi\u0000cation b y the state, which the local community sees as unfair .",
+        "The gr ant of long leases t o agents of r esour ce-intensi\u0000cation for an expanding commer cial-industrial economy leads t o dir ect pr otests fr om the local community , which sees it as unfair .",
+        "Preferential tr eatment giv en b y the state t o agents of r esour ce-intensi\u0000cation for an expanding commer cial-industrial economy exacerbates injustice t o local communities and leads t o dir ect pr otests from them, r esulting in a new type of class con\u0000ict.",
+        "Local communities ha ve no option but t o protest against agents of r esour ce intensi\u0000cation and cr eate a new type of class con\u0000ict when the y are giv en raw material at subsidiz ed prices for an expanding commer cial-industrial economy ."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The main idea of the par agraph is the r easons behind the  gener ation of class con\u0000ict.Option C corr ectly\nsummarises this par a.Option A and B talks nothing about the class con\u0000ict.\nOption D is incorr ect as it does not mention the r ole of state in gener ation of class con\u0000ict.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 71,
+      "setId": 18,
+      "passage": null,
+      "question": "<p>The passage given below is followed by four alternate summaries. Choose the option that best captures the essence of the passage. The unlikely alliance of the incumbent industrialist and the distressed unemployed worker is especially powerful amid the debris of corporate bankruptcies and layoffs. In an economic downturn, the capitalist is more likely to focus on costs of the competition emanating from free markets than on the opportunities they create. And the unemployed worker will find many others in a similar condition and with anxieties similar to his, which will make it easier for them to organize together. Using the cover and the political organization provided by the distressed, the capitalist captures the political agenda. Options: A) In an economic downturn, the capitalists use the anxieties of the unemployed and their political organisation to set the political agenda to suit their economic interests. B) The purpose of an unlikely alliance between the industrialist and the unemployed during an economic downturn is to stifle competition in free markets. C) An economic downturn creates competition because of which the capitalists capture the political agenda created by the political organisation provided by the unemployed. D) An unlikely alliance of the industrialist and the unemployed happens during an economic downturn in which they come together to unite politically and capture the political agenda.</p>",
+      "type": "MCQ",
+      "options": [
+        "In an economic downturn, the capitalists use the anxieties of the unemployed and their political organisation to set the political agenda to suit their economic interests.",
+        "The purpose of an unlikely alliance between the industrialist and the unemployed during an economic downturn is to stifle competition in free markets.",
+        "An economic downturn creates competition because of which the capitalists capture the political agenda created by the political organisation provided by the unemployed.",
+        "An unlikely alliance of the industrialist and the unemployed happens during an economic downturn in which they come together to unite politically and capture the political agenda."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main points of the par agraph ar e:\n1. In an economic disaster , the atypical alliance of established industrialist and unemplo yed work ers pr oves\npower ful.\n2. Anxieties and anticipation lead them t o look after their inter ests.\n3. It is the industrialist that bene\u0000ts the most as he is able t o use the latter t o achie ve his v ested\npolitical inter ests.\nA: Comes the closest in capturing all thr ee points, and hence, is the answer .\nB: Dist ortion. This purpose has not been mentioned in the passage.\nC: Dist ortion. It has not been mentioned that an economic downturn cr eates competition. It has been\nmentioned that during such a disaster , the industrialist is mor e likely to focus on the downsides emer ging\nfrom fr ee-mark et (competition) than the upsides.\nD: Dist ortion. It has been implied that the industrialist manipulates the situation t o ful\u0000ll his own political\nagenda, and not that the two par ties come t ogether t o achie ve a single goal.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 72,
+      "setId": 18,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. Vance P ackar d’s The Hidden P ersuaders aler ted the public t o the psy choanalytical techniques used b y the advertising industr y. Its pr emise was that adv ertising agencies wer e using depth inter views t o identify hidden consumer motiv ations, which wer e then used t o entice consumers t o buy goods. Critics and r epor ters often wrongly assumed that P ackar d was writing mainly about subliminal adv ertising. P ackar d ne ver mentioned the word subliminal, howe ver, and de voted v ery little space t o discussions of “ subthr eshold” eff ects. Instead, his views lar gely aligned with the notion that individuals do not alwa ys ha ve access t o their conscious thoughts and can be persuaded b y supr aliminal messages without their knowledge.</p>",
+      "type": "MCQ",
+      "options": [
+        "Packar d held that adv ertising as a ‘hidden persuasion ’ understands the hidden motiv ations of consumers and works at the supr aliminal le vel, though the people tar geted ha ve no awar eness of being persuaded.",
+        "Packar d held that adv ertising as a ‘hidden persuasion ’ builds on peoples’ conscious thoughts and awar eness, b y understanding the hidden motiv ations of consumers and works at the subliminal le vel. ",
+        "Packar d argued that adv ertising as a ‘hidden persuasion ’ works at the supr aliminal le vel, wher ein the people tar geted ar e awar e of being persuaded, after understanding the hidden motiv ations of consumers and works.",
+        "Packar d argued that adv ertising as a ‘hidden persuasion ’ understands the hidden motiv ations of consumers and works at the subliminal le vel, on the subconscious le vel of the awar eness of the people targeted."
+      ],
+      "correctAnswer": 0,
+      "explanation": "In this context, \"Psy choanalytical analytical technique \" implies that the adv ertising agencies ar e\nadapting methods t o tap int o the unconscious mind of the consumers. They are conducting detailed inter views\nto identify hidden motiv ations.\nHere, subliminal adv ertising r epresents some por tion of the ad being di\u0000cult t o compr ehend or simply put,\nwhen one of the motiv es of the ad is so subtle that it is di\u0000cult t o be underst ood b y a la yman.\nWhile supr aliminal adv ertising can be clearly conceiv ed b y most people.\nPackar d claims that the 'Hidden persuaders' use supr aliminal adv ertising t o entice cust omers b y tapping int o\nconsumers without their knowledge.  (....can be persuaded b y supr aliminal messages without their knowledge.)\nOption B and D sa y that the method is subliminal, hence, it is incorr ect\nOption C sa ys that people ar e well awar e about being persuaded, hence incorr ect.\nOption A is a wholesome summar y of the method of persuation.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 73,
+      "setId": 19,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. A distinguishing f eatur e of language is our ability t o refer to absent things, known as displaced r eference. A speak er can bring distant r eferents t o mind in the absence of any ob vious stimuli. Thoughts, not limited t o the here and now , can pop int o our heads for unfathomable r easons. This ability t o think about distant things necessarily pr ecedes the ability t o talk about them. Thought pr ecedes meaningful r eferential communication. A prerequisite for the emer gence of human-lik e meaningful symbols is that the mental categories the y relate t o can be inv oked e ven in the absence of immediate stimuli.</p>",
+      "type": "MCQ",
+      "options": [
+        "Displaced r eference is par ticular t o humans and thoughts pop int o our heads for no r eal r eason.",
+        "Thoughts pr ecede all speech acts and these thoughts pop up in our heads e ven in the absence of any stimulus.",
+        "Thoughts ar e essential t o communication and only humans ha ve the ability t o think about objects not present in their surr oundings.",
+        "The ability t o think about objects not pr esent in our envir onment pr ecedes the de velopment of human communication. "
+      ],
+      "correctAnswer": 3,
+      "explanation": "The par agraph sa ys that humans think about past occurr ences suddenly without any immediate stimuli.\nThe author also sa ys that thinking/thoughts about a cer tain distant past is a necessity befor e one can speak\nabout it. \nHe sa ys that thoughts ar e a pr e-requisite befor e one talks about it. He also giv es an example that v arious\nhuman-lik e symbols might ha ve emer ged without any immediate stimuli.\nOption A and C: Ther e is no mention of speci\u0000city t o humans in the passage\nOption B : \" All speech acts\" is a false gener alisation. The passage sa ys that speaking about distant past\nrequir es thinking about it \u0000rst\nOption D : It clearly captur es the essence of the passage and sa ys that one needs t o think about distant past\nevents befor e talking about them\nHence option D is corr ect. VIDEO SOLUTION\n VIDEO SOLUTION",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 74,
+      "setId": 19,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. Physics is a pur e science that seeks t o understand the beha vior of matter without r egar d to whether it will affor d any pr actical bene\u0000t. Engineering is the corr elativ e applied science in which physical theories ar e put t o some speci\u0000c use, such as building a bridge or a nuclear r eact or. Engineers ob viously r ely hea vily on the disco veries of physicists, but an engineer 's knowledge of the world is not the same as the physicist' s knowledge. In fact, an engineer 's know-how will often depend on physical theories that, fr om the point of view of pur e physics, ar e false. Ther e are some r easons for this. First, theories that ar e false in the purest and strictest sense ar e still sometimes v ery good appr oximations t o the true ones, and often ha ve the added vir tue of being much easier t o work with. Second, sometimes the true theories apply only under highly idealiz ed conditions which can only be cr eated under contr olled experimental situations. The engineer \u0000nds that in the r eal world, theories r ejected b y physicists yield mor e accur ate predictions than the ones that the y accept.</p>",
+      "type": "MCQ",
+      "options": [
+        "Though engineering dr aws hea vily fr om pur e science, it contributes t o knowledge, b y incorpor ating the constr aints and conditions in the r eal world.",
+        "Engineering and physics fundamentally diff er on matters lik e building a bridge or a nuclear r eact or.",
+        "The r elationship between pur e and applied science is strictly linear , with the pur e science dir ecting applied science, and ne ver the other wa y round.",
+        "The unique task of the engineer is t o identify , understand, and interpr et the design constr aints t o produce a successful r esult. "
+      ],
+      "correctAnswer": 0,
+      "explanation": "The passage sa ys that pur e science intends t o disco ver without any end-goal in mind. While engineers use\nthese bene\u0000ts for pr actical applications. The author sa ys that the science behind these pr actical applications\nare often consider ed false b y pur e science since the y are appr oximated or not applied as per ideal conditions.\nIn any case, e ven though the y are rejected, these appr oximated science theories \u0000nd lot of pr actical\napplications in e veryday life.\nOption A is corr ect. By diluting science, these theories ar e put int o practical bene\u0000ts. Hence, option A is corr ect\nOption B is incorr ect as no such implication can be dr awn fr om the passage\nOption C is incorr ect. Linear r elationship indicates that, if a cer tain theor y is r ejected b y pur e science, it is bound\nto be r ejected b y applied science t oo. This is clearly not the case as engineers use r ejected theories for\npractical bene\u0000ts.\nOption D speaks only about engineers and has no r eference t o sciences or the main point of the par agraph. The\nparagraph intends t o compar e the functionalities of scientists and engineers while option D is speci\u0000c t o\nengineers and does not encapsulate the essence of the par agraph.\nHence, b y wa y of elimination Option A is the most suitable summar y",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 75,
+      "setId": 19,
+      "passage": null,
+      "question": "<p>The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage. To def end the sequence of alphabetisation ma y seem bizarr e, so ob vious is its application that it is har d to imagine a r eference, catalogue or listing without it. But alphabetical or der was not an immediate consequence of the alphabet itself. In the Middle Ages, def erence for ecclesiastical tr adition left scholars r eluctant t o categorise things accor ding t o the alphabet — t o do so would be a r ejection of the divine or der. The r edisco very of the ancient Gr eek and Roman classics necessitated mor e e\u0000cient wa ys of or dering, sear ching and referencing texts. Go vernment bur eaucr acy in the 16th and 17th centuries quick ened the adv ance of alphabetical or der, bringing with it pigeonholes, notebooks and car d index es.</p>",
+      "type": "MCQ",
+      "options": [
+        "Unlik e the alphabet, once the e\u0000cacy of the alphabetic sequence became appar ent t o scholars and administr ators, its use became widespr ead.",
+        "The alphabetic or der t ook se veral centuries t o gain common curr ency because of r eligious beliefs and a lack of appr eciation of its e\u0000cacy in the or dering of things.",
+        "The ban on the use b y scholars of any form of categorisation - but the divinely or dained one - dela yed the adoption of the alphabetic sequence b y several centuries.",
+        "While adoption of the written alphabet was easily accomplished, it t ook scholars se veral centuries t o accept the alphabetic sequence as a useful t ool in their work."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The main ideas of the par agraph ar e:\ni) The alphabetical or der did not dir ectly follow the disco very of alphabets.\nii) Scholars wer e reluctant t o categoriz e the alphabet in the middle ages because of the f ear of r ejection of the\ndivine or der.\niii) Only after the r edisco very of Gr eek and Roman classics and the Go vernment bur eaucr acy in later centuries\ndid the categorization happen.\nOption A misses capturing the point of why scholars wer e reluctant t o categoriz e things accor ding t o the\nalphabet.\nOption C is factually incorr ect in mentioning the ban on the use. Option D can be eliminated on the same\ngrounds as option A.\nOption B captur es the essence of the main points most aptly and hence, is the best answer .\nThus, the corr ect option is B.",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 76,
+      "setId": 19,
+      "passage": null,
+      "question": "<p>Choose the option which summariz es the passage the best. The human r ace is spr ead all o ver world, fr om the polar r egions t o the tr opics. The people of whom it is made up eat diff erent kinds of food, par tly accor ding t o the climate in which the y live, and par tly accor ding t o the kind of food which their countr y produces. In hot climates; meat and fat ar e not much needed; but in the Ar ctic r egions the y seem t o be v ery necessar y for keeping up the heat of the body . Thus, in India, P eople liv e chie\u0000y on diff erent kinds of gr ains, eggs, milk, or sometimes \u0000sh and meat. In E urope people eat mor e meat and less gain. In the Ar ctic r egions, wher e no gr ains and fruits ar e produced, the Eskimo and others r aces liv e almost entir ely on meat and \u0000sh. </p>",
+      "type": "MCQ",
+      "options": [
+        "Food eaten b y people in diff erent r egions of the world depends on the climate and pr oduce of the r egion, and v aries fr om meat and \u0000sh in the Ar ctic t o predominantly gr ains in the tr opics.",
+        "Hot climates r equir e people t o eat gr ains while cold r egions r equir e people t o eat meat and \u0000sh.",
+        "In hot countries people eat mainly gr ains while in the Ar ctic, the y eat meat and \u0000sh because the y cannot grow gr ains.",
+        "While people in Ar ctic r egions lik e meat and \u0000sh and those in hot r egions lik e India pr efer mainly gr ains, they have to change what the y eat depending on the local climate and the local pr oduce."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The main idea of the par agraph is the diff erent type of foods which is primarily consumed depending upon the\nclimate.Option A clearly summarises this per fectly .\nOption B is incorr ect as the climate doesn 't compel the people t o eat diff erent food.\nOption C doesn 't indicate the the main idea of the par agraph.It only states the facts giv en in the par agraph.\nOption D is incorr ect as it is not mentioned in the par agraph that the people ar e requir ed to change their food\ndepending upon their location. VIDEO SOLUTION\n VIDEO SOLUTION\n VIDEO SOLUTION",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    },
+    {
+      "id": 91,
+      "setId": 23,
+      "passage": null,
+      "question": "<p>Particularly t oday, when so many di\u0000cult and complex pr oblems face the human species, the de velopment of broad   </p>",
+      "type": "MCQ",
+      "options": [
+        "and power ful shoulders is necessar y.",
+        "plans of action ar e not possible.",
+        "moral values ar e requir ed.",
+        "and power ful thinking is desper ately needed. Instructions The passage giv en below is followed b y four alternate summaries. Choose the option that best captur es the essence of the passage."
+      ],
+      "correctAnswer": 3,
+      "explanation": "To solv e such di\u0000cult and complex pr oblems, br oad and power ful thinking is needed.\nMoral values cannot guar antee solution t o complex pr oblems.\nBroad shoulders cannot tackle pr oblem per taining t o human species.\nOption B is negativ e and is not suitable.\nHence, option D is the corr ect answer .\n92.B VIEW SOLUTION\n VIEW SOLUTION\n VIEW SOLUTION\n VIEW SOLUTION\n VIEW SOLUTION\n VIEW SOLUTION\n\n\n\n\n\nAfter r eading all the lines of the par agraph, it is e vident that social mo vement or ganisations depend on\norganisations with hybrid identities because , within them the y contain individuals with multiple points of views\non diff erent mo vements and issues. The example giv es shows how people who ar e campaigning for non-anti-\nwar mo vements ar e mor e likely to join hybrid or ganisations. It also sa ys that or ganisations with hybrid identities\noccup y mor e centr al positions within or ganisations that ar e inv olved in anti-war mo vements.\nOption A is incorr ect. The passage talks mor e about why hybrid or ganisations ar e vital t o providing par ticipants\nin social mo vements. \nOption C is just an illustr ation of the idea that the par agraph is tr ying t o mak e. Hence, it would not be the most\nappr opriate summar y of the par agraph.\nOption D is incorr ect. F rom the par agraph we can inf er that hybrid or ganisations attr act individuals that ar e\ndeeply inv olved in non-anti-war mo vements.\nOption B is an appr opriate summar y of the passage and hence it is the corr ect answer .",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      }
+    }
+  ]
+}
