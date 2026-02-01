@@ -21,7 +21,8 @@ class VARCApp {
     constructor() {
         // Question data and navigation
         this.questions = []; // Array of question objects loaded from JSON
-        this.rcSetId = null; // Current RC set being attempted
+        this.rcSetId = null; // Current set being attempted
+        this.questionType = 'rc'; // Type of questions: 'rc', 'para-completion', or 'para-summary'
         this.currentQuestionIndex = 0; // Index of currently displayed question
 
         // Timer management
@@ -43,14 +44,15 @@ class VARCApp {
     /**
      * Initialize the application
      * Loads questions, sets up UI, restores saved state
-     * Redirects to selection page if no RC set is selected
+     * Redirects to selection page if no set is selected
      */
     async init() {
-        // Get selected RC set - validates user selected a set before coming here
-        this.rcSetId = StorageManager.getSelectedRCSet();
+        // Get selected question type and set ID
+        this.questionType = StorageManager.getQuestionType();
+        this.rcSetId = StorageManager.getSelectedSetId(this.questionType);
         
         if (!this.rcSetId) {
-            // No RC set selected, redirect to selection page
+            // No set selected, redirect to landing page
             window.location.href = 'index.html';
             return;
         }
@@ -59,12 +61,17 @@ class VARCApp {
         this.bindEvents();
         await this.loadQuestions();
         
-        // Filter questions for this RC set
-        this.questions = this.questions.filter(q => q.passageId === this.rcSetId);
+        // Filter questions based on question type
+        if (this.questionType === 'rc') {
+            this.questions = this.questions.filter(q => q.passageId === this.rcSetId);
+        } else {
+            // For para-completion and para-summary, filter by setId
+            this.questions = this.questions.filter(q => q.setId === this.rcSetId);
+        }
         
         if (this.questions.length === 0) {
-            alert('No questions found for this RC set');
-            window.location.href = 'index.html';
+            alert('No questions found for this set');
+            this.navigateBack();
             return;
         }
 
@@ -85,8 +92,13 @@ class VARCApp {
         const userName = StorageManager.getUserName();
         this.elements.userName.textContent = userName;
         
-        // Update title
-        document.title = `VARC Practice - RC Set ${this.rcSetId}`;
+        // Update title based on question type
+        const typeLabels = {
+            'rc': 'RC Set',
+            'para-completion': 'Para Completion Set',
+            'para-summary': 'Para Summary Set'
+        };
+        document.title = `VARC Practice - ${typeLabels[this.questionType] || 'Set'} ${this.rcSetId}`;
     }
 
     /**
@@ -236,36 +248,48 @@ class VARCApp {
      * Load questions from data file or localStorage
      */
     async loadQuestions() {
-        // First check if questions are in localStorage
-        const storedQuestions = StorageManager.getQuestionsData();
-
-        if (storedQuestions && storedQuestions.length > 0) {
-            this.questions = storedQuestions;
-            return;
-        }
+        // Don't use cached questions - always load fresh based on question type
+        // This ensures we load the correct data file for the selected type
+        
+        // Determine which data file to load based on question type
+        const dataFiles = {
+            'rc': 'data/rc-passages.json',
+            'para-completion': 'data/para-completion.json',
+            'para-summary': 'data/para-summary.json'
+        };
+        
+        const dataFile = dataFiles[this.questionType] || 'data/rc-passages.json';
 
         // Load from data file
         try {
-            const response = await fetch('data/rc-passages.json');
+            const response = await fetch(dataFile);
             if (response.ok) {
                 const data = await response.json();
                 this.questions = data.questions || [];
-                StorageManager.saveQuestionsData(this.questions);
+                // Note: Don't save to localStorage to avoid conflicts between types
             } else {
-                // Load sample questions
-                console.warn(
-                    `Unable to load questions from "data/rc-passages.json" (status: ${response.status}). Falling back to sample questions.`
-                );
-                this.questions = this.getSampleQuestions();
-                StorageManager.saveQuestionsData(this.questions);
+                // Load sample questions only for RC
+                if (this.questionType === 'rc') {
+                    console.warn(
+                        `Unable to load questions from "${dataFile}" (status: ${response.status}). Falling back to sample questions.`
+                    );
+                    this.questions = this.getSampleQuestions();
+                } else {
+                    console.error(`Unable to load questions from "${dataFile}"`);
+                    this.questions = [];
+                }
             }
         } catch (e) {
-            console.warn(
-                'An error occurred while loading "data/rc-passages.json". Falling back to sample questions.',
-                e
-            );
-            this.questions = this.getSampleQuestions();
-            StorageManager.saveQuestionsData(this.questions);
+            if (this.questionType === 'rc') {
+                console.warn(
+                    `An error occurred while loading "${dataFile}". Falling back to sample questions.`,
+                    e
+                );
+                this.questions = this.getSampleQuestions();
+            } else {
+                console.error(`Error loading questions from "${dataFile}":`, e);
+                this.questions = [];
+            }
         }
 
         // Initialize statuses for all questions
@@ -606,7 +630,20 @@ class VARCApp {
      * @param {Object} question - Question object
      */
     loadPassage(question) {
-        // Check if this question has its own passage or shares with previous
+        // For para-completion and para-summary, always hide passage
+        if (this.questionType !== 'rc') {
+            if (this.elements.passageSection) {
+                this.elements.passageSection.style.display = 'none';
+            }
+            
+            const questionContent = document.querySelector('.question-content');
+            if (questionContent) {
+                questionContent.classList.add('no-passage');
+            }
+            return;
+        }
+
+        // For RC questions, check if this question has its own passage or shares with previous
         let passage = question.passage;
 
         if (!passage && question.passageId) {
@@ -1002,16 +1039,16 @@ class VARCApp {
             }))
         };
 
-        // Save attempt
-        StorageManager.saveRCSetAttempt(this.rcSetId, attemptData);
+        // Save attempt using multi-type storage
+        StorageManager.saveSetAttempt(this.questionType, this.rcSetId, attemptData);
 
         // Mark test as completed
         StorageManager.markTestCompleted();
         this.isTestSubmitted = true;
 
-        // Navigate to results page
+        // Navigate to results page with question type
         const attemptDataStr = encodeURIComponent(JSON.stringify(attemptData));
-        window.location.href = `results.html?setId=${this.rcSetId}&attempt=${attemptDataStr}`;
+        window.location.href = `results.html?type=${this.questionType}&setId=${this.rcSetId}&attempt=${attemptDataStr}`;
     }
 
     /**
@@ -1339,6 +1376,18 @@ class VARCApp {
                 }
                 break;
         }
+    }
+
+    /**
+     * Navigate back to appropriate selection page based on question type
+     */
+    navigateBack() {
+        const backPages = {
+            'rc': 'rc-selection.html',
+            'para-completion': 'para-completion-selection.html',
+            'para-summary': 'para-summary-selection.html'
+        };
+        window.location.href = backPages[this.questionType] || 'index.html';
     }
 }
 

@@ -36,7 +36,12 @@ const StorageManager = {
         SELECTED_RC_SET: 'varc_selected_rc_set',
         RC_SET_ATTEMPTS: 'varc_rc_set_attempts',
         QUESTION_TIME_TRACKING: 'varc_question_time_tracking',
-        CURRENT_ATTEMPT_START: 'varc_current_attempt_start'
+        CURRENT_ATTEMPT_START: 'varc_current_attempt_start',
+        QUESTION_TYPE: 'varc_question_type',
+        SELECTED_SET_PC: 'varc_selected_pc_set',
+        SELECTED_SET_PS: 'varc_selected_ps_set',
+        SET_ATTEMPTS_PC: 'varc_pc_set_attempts',
+        SET_ATTEMPTS_PS: 'varc_ps_set_attempts'
     },
 
     /**
@@ -508,6 +513,91 @@ const StorageManager = {
      */
     clearAttemptStartTime() {
         this.remove(this.KEYS.CURRENT_ATTEMPT_START);
+    },
+
+    // Multi-Type Question Support
+    /**
+     * Get current question type
+     * @returns {string} - Question type: 'rc', 'para-completion', or 'para-summary'
+     */
+    getQuestionType() {
+        return this.load(this.KEYS.QUESTION_TYPE, 'rc');
+    },
+
+    /**
+     * Save selected question type
+     * @param {string} type - Question type
+     */
+    saveQuestionType(type) {
+        this.save(this.KEYS.QUESTION_TYPE, type);
+    },
+
+    /**
+     * Get selected set ID for a question type
+     * @param {string} type - Question type
+     * @returns {number|null} - Set ID or null
+     */
+    getSelectedSetId(type) {
+        const keys = {
+            'rc': this.KEYS.SELECTED_RC_SET,
+            'para-completion': this.KEYS.SELECTED_SET_PC,
+            'para-summary': this.KEYS.SELECTED_SET_PS
+        };
+        return this.load(keys[type]);
+    },
+
+    /**
+     * Save selected set for a question type
+     * @param {string} type - Question type
+     * @param {number} setId - Set ID
+     */
+    saveSelectedSet(type, setId) {
+        this.saveQuestionType(type);
+        const keys = {
+            'rc': this.KEYS.SELECTED_RC_SET,
+            'para-completion': this.KEYS.SELECTED_SET_PC,
+            'para-summary': this.KEYS.SELECTED_SET_PS
+        };
+        this.save(keys[type], setId);
+    },
+
+    /**
+     * Get set attempts for a question type
+     * @param {string} type - Question type
+     * @param {number} setId - Set ID
+     * @returns {Array} - Array of attempt objects
+     */
+    getSetAttempts(type, setId) {
+        const keys = {
+            'rc': this.KEYS.RC_SET_ATTEMPTS,
+            'para-completion': this.KEYS.SET_ATTEMPTS_PC,
+            'para-summary': this.KEYS.SET_ATTEMPTS_PS
+        };
+        const allAttempts = this.load(keys[type], {});
+        return allAttempts[setId] || [];
+    },
+
+    /**
+     * Save set attempt for a question type
+     * @param {string} type - Question type
+     * @param {number} setId - Set ID
+     * @param {Object} attemptData - Attempt data
+     */
+    saveSetAttempt(type, setId, attemptData) {
+        const keys = {
+            'rc': this.KEYS.RC_SET_ATTEMPTS,
+            'para-completion': this.KEYS.SET_ATTEMPTS_PC,
+            'para-summary': this.KEYS.SET_ATTEMPTS_PS
+        };
+        const allAttempts = this.load(keys[type], {});
+        if (!allAttempts[setId]) {
+            allAttempts[setId] = [];
+        }
+        allAttempts[setId].push({
+            ...attemptData,
+            timestamp: Date.now()
+        });
+        this.save(keys[type], allAttempts);
     }
 };
 
