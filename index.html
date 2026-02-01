@@ -3,26 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VARC Practice - Select RC Set</title>
+    <title>VARC Practice - Choose Question Type</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/selection.css">
+    <link rel="stylesheet" href="css/landing.css">
 </head>
 <body>
     <div class="container">
         <header class="header">
             <h1>VARC Practice</h1>
-            <p class="subtitle">Reading Comprehension Practice Sets</p>
+            <p class="subtitle">Choose Your Question Type</p>
         </header>
-
-        <main class="main-content">
-            <div class="rc-sets-grid" id="rc-sets-grid">
-                <!-- RC sets will be loaded here -->
+        
+        <main class="question-types-grid">
+            <!-- Reading Comprehension Card -->
+            <div class="question-type-card" onclick="selectQuestionType('rc')">
+                <div class="card-icon">📖</div>
+                <h2>Reading Comprehension</h2>
+                <p>Practice with full passages and multiple questions</p>
+                <div class="card-stats">
+                    <span>60+ Passages</span>
+                    <span>201 Questions</span>
+                </div>
+                <button class="card-button">Start Practice</button>
+            </div>
+            
+            <!-- Para Completion Card -->
+            <div class="question-type-card" onclick="selectQuestionType('para-completion')">
+                <div class="card-icon">✍️</div>
+                <h2>Para Completion</h2>
+                <p>Fill in the missing sentences in paragraphs</p>
+                <div class="card-stats">
+                    <span>28 Questions</span>
+                    <span>7 Sets</span>
+                </div>
+                <button class="card-button">Start Practice</button>
+            </div>
+            
+            <!-- Para Summary Card -->
+            <div class="question-type-card" onclick="selectQuestionType('para-summary')">
+                <div class="card-icon">📝</div>
+                <h2>Para Summary</h2>
+                <p>Choose the best summary for paragraphs</p>
+                <div class="card-stats">
+                    <span>68 Questions</span>
+                    <span>17 Sets</span>
+                </div>
+                <button class="card-button">Start Practice</button>
             </div>
         </main>
     </div>
-
-    <script src="js/utils.js"></script>
-    <script src="js/storage.js"></script>
-    <script src="js/selection.js"></script>
+    
+    <script src="js/landing.js"></script>
 </body>
 </html>

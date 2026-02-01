@@ -23,6 +23,38 @@ body {
     text-align: center;
     color: #fff;
     padding: 40px 20px;
+    position: relative;
+}
+
+/* Back Navigation */
+.back-navigation {
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.back-button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateX(-5px);
+}
+
+.back-button i {
+    font-size: 14px;
 }
 
 .header h1 {
