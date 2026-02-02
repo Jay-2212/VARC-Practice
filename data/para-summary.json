@@ -2,7 +2,7 @@
   "testInfo": {
     "title": "VARC Para Summary - Complete Set",
     "duration": 60,
-    "totalQuestions": 55,
+    "totalQuestions": 66,
     "sections": [
       "VARC"
     ],
@@ -130,6 +130,26 @@
       "setId": 2
     },
     {
+      "id": 8,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-summary",
+      "question": "<p><strong>The passage given below is followed by four summaries. Choose the option that best captures the author's position.</strong></p>\n\n<p>North American walnut sphinx moth caterpillars (Amorpha juglandis) look like easy meals for birds, but they have a trick up their sleeves — they produce whistles that sound like bird alarm calls, scaring potential predators away. At first, scientists suspected birds were simply startled by the loud noise. But a new study suggests a more sophisticated mechanism: the caterpillar's whistle appears to mimic a bird alarm call, sending avian predators scrambling for cover. When pecked by a bird, the caterpillars whistle by compressing their bodies like an accordion and forcing air out through specialized holes in their sides. The whistles are impressively loud — they have been measured at over 80 dB from 5 cm away from the caterpillar — considering they are made by a two-inch long insect.</p>",
+      "options": [
+        "North American walnut sphinx moth caterpillars will whistle periodically to ward off predator birds - they have a specialized vocal tract that helps them whistle.",
+        "North American walnut sphinx moth caterpillars can whistle very loudly; the loudness of their whistles is shocking as they are very small insects.",
+        "The North American walnut sphinx moth caterpillars, in a case of acoustic deception, produce whistles that mimic bird alarm calls to defend themselves.",
+        "North American. walnut sphinx moth caterpillars, in. a case of deception and camouflage, produce whistles that mimic bird alarm calls to defend themselves."
+      ],
+      "correctAnswer": 2,
+      "explanation": "According to the paragraph, the North American walnut sphinx moth caterpillars produce whistles which are\nextremely loud considering their size. These whistles appear to mimic bird(predator) alarm calls which scares\nthem to look for cover. Thus, these sounds act as acoustic deception and help the insect to defend themselves\nagainst predators.\nOption A mentions about vocal tracts which is out of scope. Hence, it can be eliminated.\nOption B though correct, fails to mention the use of sound to defend against the predators. Hence, it can be\neliminated.\nOption C captures all the main points and hence is right choice.\nOption D mentions 'camouflage' which is also out of context. Hence, it can be eliminated.\nHence, option C is the right answer.",
+      "setId": 15
+    },
+    {
       "id": 9,
       "passage": null,
       "type": "MCQ",
@@ -190,6 +210,26 @@
       "setId": 3
     },
     {
+      "id": 13,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-summary",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author’s position. Should the moral obligation to rescue and aid persons in grave peril, felt by a few, be enforced by the criminal law? Should we follow the lead of a number of European countries and enact bad Samaritan laws? Proponents of Bad Samaritan laws must overcome at least three different sorts of obstacles. First, they must show the laws are morally legitimate in principle, that is, that the duty to aid others is a proper candidate for legal enforcement. Second, they must show that this duty to aid can be defined in a way that can be fairly enforced by the courts. Third, they must show that the benefits of the laws are worth their problems, risks and costs.</p>",
+      "options": [
+        "",
+        "number of European countries that have successfully enacted Bad Samaritan laws may serve as model statutes.",
+        "Everyone agrees that people ought to aid others, the only debate is whether to have a law on it.",
+        "If Bad Samaritan laws are found to be legally sound and enforceable, they must be enacted."
+      ],
+      "correctAnswer": 3,
+      "explanation": "In the given paragraph, the author has discussed about Bad Samaritan laws and whether it is enforceable by\nlaw. While answering the question, the author puts forward three points which she deems necessary for the\nimplementation of Bad Samaritan law. Only after crossing the three obstacles mentioned by the author, the law\nshould be enacted. Option D is the most relevant in this context.\nOption A is about implementing the law without any conditions, which is not what the author wants to convey.\nOption B does not mention anything about the three obstacles.\nOption C is stated with a firmness which is not the tone of the author. The author says that the law may be\nenacted, not must be enacted.\nHence, option D is the correct answer.",
+      "setId": 15
+    },
+    {
       "id": 14,
       "passage": null,
       "type": "MCQ",
@@ -228,6 +268,26 @@
       "correctAnswer": 0,
       "explanation": "The passage talks about a key issue in modern art: a globalised world lets artists find inspiration in many\ncultures, but this also brings the risk of cultural appropriation. The author explains that respectful and\nthoughtful inspiration can help people appreciate other cultures. On the other hand, cultural appropriation is not\njust borrowing, but borrowing without understanding, respect, or acknowledgement, which can lead to\ncommodification, stereotypes, and bigger problems in society, like reinforcing power imbalances. Based on this,\nlet's consider each option individually.\nOption A clearly shows both sides of the argument. It mentions the global context, separates respectful\ninspiration from appropriation that lacks acknowledgement, and highlights the passage’s focus on bigger social\nissues like power imbalances. This matches the passage’s main points well.\nOption B points out the main difference between respectful inspiration and appropriation, but it is too general. It\ntreats the issue as just a matter of “deciding” and leaves out the effects of appropriation and its impact on\nsociety, which are key parts of the passage.\nOption C gets the author’s view wrong by suggesting that drawing from different cultures always “results in\ninstances of both inspiration and cultural appropriation.” The passage does not say this is inevitable. Instead, it\nsays appropriation depends on how the borrowing happens. Also, \"artists must draw from diverse cultural\ninfluences \" is a bit strong, and it is also not implied in the passage.\nOption D does a good job explaining the difference between inspiration and appropriation and talks about\ncommodification and stereotypes. However, it does not mention the global context or the idea of wider power\nimbalances, so it is a bit more limited in scope compared to the passage.\nOverall, option A is the best choice because it covers the global context, the ethical difference between\ninspiration and appropriation, and the wider social effects the author talks about.",
       "setId": 3
+    },
+    {
+      "id": 16,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-summary",
+      "question": "<p><strong>The passage given below is followed by four summaries. Choose the option that best captures the author's position.</strong></p>\n\n<p>For each of the past three years, temperatures have hit peaks not seen since the birth of meteorology, and probably not for more than 110,000 years. The amount of carbon dioxide in the air is at its highest level in 4 million years. This does not cause storms like Harvey — there have always been storms and hurricanes along the Gulf of Mexico — but it makes them wetter and more powerful. As the seas warm, they evaporate more easily and provide energy to storm fronts. As the air above them warms, it holds more water vapour. For every half a degree Celsius in warming, there is about a 3% increase in atmospheric moisture content. Scientists call this the Clausius-Clapeyron equation. This means the skies fill more quickly and have more to dump. The storm surge was greater because sea levels have risen 20 cm as a result of more than 100 years of human- related global warming which has melted glaciers and thermally expanded the volume of seawater.</p>",
+      "options": [
+        "The storm Harvey is one of the regular, annual ones from the Gulf of Mexico; global warming and Harvey are unrelated phenomena.",
+        "Global warming does not breed storms but makes them more destructive; the Clausius-Clapeyron equation, though it predicts potential increase in atmospheric moisture content, cannot predict the scale of damage storms might wreck.",
+        "Global warming melts glaciers, resulting in seawater volume expansion; this enables more water vapour to fill the air above faster. Thus, modern storms contain more destructive energy.",
+        "It is naive to think that rising sea levels and the force of tropical storms are unrelated; Harvey was destructive as global warming has armed it with more moisture content, but this may not be true of all storms."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Let us note down the important points in the given paragraph.\nGlobal warming does not cause storms but make them more powerful. Due to the increase in the temperature,\nthe air can absorb more moisture. This relationship (the change in the ability to absorb water with the increase\nin the temperature) is given by the Clausius-Clapeyron equation.\nLet us evaluate the options.\nThe author provides storm Harvey as an example to illustrate how increased temperatures can arm the storms\nwith more power. Harvey is not the central theme of the given paragraph. We can eliminate options A and D\nsince option D places much emphasis on storm Harvey and option A states that there is no relationship\nbetween the increase in temperature and the power of storms.\nOption B states that the Clausius-Clapeyron equation cannot predict the quantum of destruction that a storm\nmight cause. This point is totally out of context with respect to what that is being discussed in the paragraph.\nTherefore, we can eliminate option B as well.\nOption C precisely explains the mechanism through which global warming makes the modern storms more\ndestructive. Therefore, option C is the right answer.",
+      "setId": 15
     },
     {
       "id": 18,
@@ -348,6 +408,26 @@
       "correctAnswer": 1,
       "explanation": "Let's look at the options one by one.\nThe author has not made any comparisons between the two methodologies, about which method is better.\nHence optionA is incorrect.\nOption 3 is incorrect too because it doesnot summarise the para accurately. Nothing is mentioned about\ndecisions based on information.\nAlthough time is a factor, nowhere it is mentioned that time is the factor in determining the method of our\ndecision making. Hence Option4 is incorrect too.\nOption 2 correctly summarises the passage by differentiating between the two methods. Hence it is correct.",
       "setId": 5
+    },
+    {
+      "id": 24,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-summary",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author’s position. The early optimism about sport's deterrent effects on delinquency was premature as researchers failed to find any consistent relationships between sports participation and deviance. As the initial studies were based upon cross-sectional data and the effects captured were short-term, it was problematic to test and verify the temporal sequencing of events suggested by the deterrence theory. The correlation between sport and delinquency could not be disentangled from class and cultural variables known. Choosing individuals to play sports in the first place was problematic, which became more acute in the subsequent decades as researchers began to document just how closely sports participation was linked to social class indicators.</p>",
+      "options": [
+        "There is a direct relationship between sport participation and delinquency but it needs more empirical evidence.",
+        "Statistical and empirical weaknesses stand in the way of inferring any relationship between sports participation and deviance.",
+        "Sports participation is linked to class and cultural variables such as education, income, and social capital.",
+        "Contradicting the previous optimism, latter researchers have proved that there is no consistent relationship between sports participation and deviance."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The main points of the passage are that the relation between sports participation and deviation have not been\nestablished and that there is not sufficient evidence to prove the relationship.\nOption A is distorted because it states that the relationship is already established.\nOption B mentions all the relevant points.\nOption C does not talk about the relationship and hence, ruled out.\nOption D distorts what is given in the paragraph by saying that latter researchers have \"proved\" there is no\nconsistent relationship. Thus, it is can be eliminated.\nHence, option B is the correct answer.",
+      "setId": 16
     },
     {
       "id": 25,
@@ -690,6 +770,46 @@
       "setId": 9
     },
     {
+      "id": 43,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-summary",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author’s position. Artificial embryo twinning is a relatively low-tech way to make clones. As the name suggests, this technique mimics the natural process that creates identical twins. In nature, twins form very early in development when the embryo splits in two. Twinning happens in the first days after egg and sperm join, while the embryo is made of just a small number of unspecialized cells. Each half of the embryo continues dividing on its own, ultimately developing into separate, complete individuals. Since they developed from the same fertilized egg, the resulting individuals are genetically identical.</p>",
+      "options": [
+        "Artificial embryo twinning is low-tech and mimetic of the natural development of genetically identical twins from the embryo after fertilization.",
+        "Artificial embryo twinning is low-tech and is close to the natural development of twins where the embryo splits into two identical twins.",
+        "Artificial embryo twinning is low-tech unlike the natural development of identical twins from the embryo after fertilization.",
+        "Artificial embryo twinning is just like the natural development of twins, where during fertilization twins are formed."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The author mentions that artificial embryo twinning is 'low tech' to introduce the topic. Then, he explains how\nthe process is exactly similar to the process of development of twins. He states that the process mimics the\nnatural development of twins. He has not highlighted any of the differences between the 2 processes.\nLet us evaluate the options.\nOption C states that artificial embryo twinning is 'low tech' unlike the natural development of twins. The author\nmakes no such comparison in the paragraph and hence, option C can be eliminated.\nOption D states that the twins are formed during fertilization but the paragraph mentions that the twins are\nformed after the process of fertilization (i.e, after the sperm and the egg join).\nOption B fails to capture the fact that the twins are 'genetically' identical. Also, it states that the artificial\ntwinning process is 'close to' the natural development of twins. Though this option is not incorrect, option A is\nworded in a better way. Option A states that the process is mimetic of the natural development of the twins\n(emphasizing that no difference has been highlighted), the twins are genetically identical and the process is\nsimilar to the process of development of twins after fertilization. Therefore, option A is the right answer.",
+      "setId": 16
+    },
+    {
+      "id": 44,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-summary",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author's position. Both Socrates and Bacon were very good at asking useful questions. In fact, Socrates is largely credited with coming up with a way of asking questions, 'the Socratic method,' which itself is at the core of the 'scientific method,' popularised by Bacon. The Socratic method disproves arguments by finding exceptions to them, and can therefore lead your opponent to a point where they admit something that contradicts their original position. In common with Socrates, Bacon stressed it was as important to disprove a theory as it was to prove one — and real-world observation and experimentation were key to achieving both aims. Bacon also saw science as a collaborative affair, with scientists working together, challenging each other.</p>",
+      "options": [
+        "Both Socrates and Bacon advocated clever questioning of the opponents to disprove their arguments and theories.",
+        "Both Socrates and Bacon advocated challenging arguments and theories by observation and experimentation.",
+        "Both Socrates and Bacon advocated confirming arguments and theories by finding exceptions.",
+        "Both Socrates and Bacon advocated examining arguments and theories from both sides to prove them."
+      ],
+      "correctAnswer": 3,
+      "explanation": "According to the paragraph, Socrates and Bacon were good at asking questions. The Socratic method works in\na way by finding exceptions to the arguments of the opponent, which makes the opponent to agree on\nsomething that contradicts their original position. In a similar way, Bacon stressed that it was important to\ndisprove theory as it is to prove it. Thus both Socrates and Bacon stressed on examining arguments from both\nends - to prove as well as disprove.\nOption A, which speaks only about disproving of arguments, can be eliminated.\nOption B talks only about examining and observation. Hence, it can be eliminated.\nOption C talks only about confirming of arguments and not the other way. Hence, it can be eliminated.\nOption D captures the main points which we discussed earlier.\nHence, option D is the right answer.",
+      "setId": 16
+    },
+    {
       "id": 46,
       "passage": null,
       "type": "MCQ",
@@ -750,6 +870,26 @@
       "setId": 10
     },
     {
+      "id": 49,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-summary",
+      "question": "<p><strong>The passage given below is followed by four summaries. Choose the option that best captures the author's position.</strong></p>\n\n<p></p>",
+      "options": [
+        "fundamental property of language is that it is slippery and messy and more liquid than solid, a gelatinous mass that changes shape to fit. As Wittgenstein would remind us, \"usage has no sharp boundary.\" Oftentimes, the only way to determine the meaning of a word is to examine how it is used. This insight is often described as the \"meaning is use\" doctrine. There are differences between the \"meaning is use\" doctrine and a dictionary-first theory of meaning. \"The dictionary's careful fixing of words to definitions, like butterflies pinned under glass, can suggest that this is how language works. The definitions can seem to ensure and fix the meaning of words, just as the gold standard can back a country's currency.\" What Wittgenstein found in the circulation of ordinary language, however, was a free-floating currency of meaning. The value of each word arises out of the exchange. The lexicographer abstracts a meaning from that exchange, which is then set within the conventions of the dictionary definition.",
+        "Dictionary definitions are like 'gold standards' — artificial, theoretical and dogmatic. Actual meaning of words is their free-exchange value.",
+        "Language is already slippery; given this, accounting for 'meaning in use' will only exasperate the problem. That is why lexicographers 'fix' meanings.",
+        "Meaning is dynamic; definitions are static. The 'meaning in use' theory helps us understand that definitions of words are culled from their meaning in exchange and use and not vice versa."
+      ],
+      "correctAnswer": 2,
+      "explanation": "According to the paragraph, language is like a gelatinous mass that changes shape to fit. Also, many times the\nonly way to find meaning of word is to examine how it is used. It is stated that definitions are fixed for the word\nby dictionary.Wittgenstein found that circulation of ordinary language was a free-floating currency of meaning.\nSo the meanings are dynamic. Thus, the value of word arises from the exchange and then the lexicographer\nabstracts meaning from that exchange. Thus, definitions are picked up from the meaning in use.\nOption A, which states that definitions are like dogmatic, cannot be found in the paragraph. Hence, it can be\neliminated.\nThe paragraph doesn't talk about why lexicographers fix meanings. Hence, option B can be eliminated.\nOption C covers all the main points. Hence, it is the right choice.\nThe purpose of the passage is not to compare meaning of words in dictionaries with meaning which arises\nfrom exchange. Hence, option D can be eliminated.\nHence, option C is the right choice.",
+      "setId": 16
+    },
+    {
       "id": 50,
       "passage": null,
       "type": "MCQ",
@@ -770,6 +910,46 @@
       "setId": 10
     },
     {
+      "id": 52,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-summary",
+      "question": "<p><strong>The passage given below is followed by four summaries. Choose the option that best captures the author's position.</strong></p>\n\n<p>To me, a \"classic\" means precisely the opposite of what my predecessors understood: a work is classical by reason of its resistance to contemporaneity and supposed universality, by reason of its capacity to indicate human particularity and difference in that past epoch. The classic is not what tells me about shared humanity — or, more truthfully put, what lets me recognize myself as already present in the past, what nourishes in me the illusion that everything has been like me and has existed only to prepare the way for me. Instead, the classic is what gives access to radically different forms of human consciousness for any given generation of readers, and thereby expands for them the range of possibilities of what it means to be a human being.</p>",
+      "options": [
+        "",
+        "classic is able to focus on the contemporary human condition and a unified experience of human consciousness.",
+        "",
+        "classical work seeks to resist particularity and temporal difference even as it focuses on a common humanity."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The author states that a classic is not which puts him at the centre of the universe but one which gives access\nto radically different forms of human consciousness.\nLet us evaluate the options.\nOption A states that a classic should focus on unified human experience. The author mentions the exact\nopposite in the paragraph. Therefore, we can eliminate option A. We can eliminate option D too since it\nmentions the polar opposite of what that is mentioned in the paragraph. The author is of the view that a classic\nshould go beyond providing a unified human experience and expose one to radically different forms of human\nconsciousness.\nWe can eliminate option B since it states that a classic focuses on common humanity. Only option C captures\nthe essence of the given paragraph and hence, option C is the right answer.",
+      "setId": 17
+    },
+    {
+      "id": 53,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-summary",
+      "question": "<p><strong>The passage given below is followed by four summaries. Choose the option that best captures the author's position.</strong></p>\n\n<p></p>",
+      "options": [
+        "translator of literary works needs a secure hold upon the two languages involved, supported by a good measure of familiarity with the two cultures. For an Indian translating works in an Indian language into English, finding satisfactory equivalents in a generalized western culture of practices and symbols in the original would be less difficult than gaining fluent control of contemporary English. When a westerner works on texts in Indian languages the interpretation of cultural elements will be the major challenge, rather than control over the grammar and essential vocabulary of the language concerned. It is much easier to remedy lapses in language in a text translated into English, than flaws of content. Since it is easier for an Indian to learn the English language than it is for a Briton or American to comprehend Indian culture, translations of Indian texts is better left to Indians.",
+        "While translating, the Indian and the westerner face the same challenges but they have different skill profiles and the former has the advantage.",
+        "As preserving cultural meanings is the essence of literary translation Indians' knowledge of the local culture outweighs the initial disadvantage of lower fluency in English.",
+        "Indian translators should translate Indian texts into English as their work is less likely to pose cultural problems which are harder to address than the quality of language."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Let us note down the important points put down by the author.\nIndians have better knowledge of their culture. A westerner might be fluent in the language but will find it hard\nto relate to the culture. Indians, on the other hand, might be less fluent in the language but will be able to\npreserve the culture when a text is translated. Therefore, Indians should translate Indian texts.\nLet us evaluate the options now.\nOption A states that Indians and Westerners face the same challenges but they have different skill sets. Indians\nand Westerners face different challenges while translating the text. Indians face difficulty in the language and\nwesterners face difficulty in relating to the culture. Therefore, we can eliminate option A.\nOption D fails to capture the fact that the primary intention of the paragraph is not to pit Indians against\nwesterners but to suggest that Indians should translate Indian texts. Also, it does not capture the fact that\nIndians will retain the advantage only when translating the Indian texts. Therefore, we can eliminate option D.\nOption B, though true, fails to capture the India-centric angle that the paragraph adopts. The paragraph places\nhuge emphasis on the term 'Indian texts' and only option C manages to capture this fact. Also, only option C\ncaptures the fact that it is easier to remedy errors in the language than to fix errors in the interpretation of\nculture. Therefore, option C is the right answer.",
+      "setId": 17
+    },
+    {
       "id": 55,
       "passage": null,
       "type": "MCQ",
@@ -788,6 +968,26 @@
       "correctAnswer": 2,
       "explanation": "The passage discusses the challenges of regulating innovations in biotechnology. It highlights two key issues:\n(i) current regulations are outdated and insufficient for new biological advancements, and (ii) the unpredictable\nnature of living entities and rapid technological changes make it difficult to design a regulatory framework that\nanticipates all risks and contingencies. The core question is whether regulation can ever keep pace with the\nunpredictable and unique outcomes of biotechnology. Option C correctly touches upon these ideas.\nThe other options are either too narrow or miss the essence. Option A focuses on calibration and scientists'\nroles, which is not the central concern of the passage. Similarly, Option B highlights the urgency for new rules\nbut omits the skepticism about achieving comprehensive regulation. Option D overemphasises the\nimpossibility of imagining all risks without addressing the need for flexibility in regulations.\nHence, Option C is the best choice.",
       "setId": 10
+    },
+    {
+      "id": 56,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-summary",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author’s position. Production and legitimation of scientific knowledge can be approached from a number of perspectives. To study knowledge production from the sociology of professions perspective would mean a focus on the institutionalization of a body of knowledge. The professions-approach informed earlier research on managerial occupation, business schools and management knowledge. It however tends to reify institutional power structures in its understanding of the links between knowledge and authority. Knowledge production is restricted in the perspective to the selected members of the professional community, most notably to the university faculties and professional colleges. Power is understood as a negative mechanism, which prevents the non-professional actors from offering their ideas and information as legitimate knowledge.</p>",
+      "options": [
+        "Professions-approach focuses on the creation of institutions of higher education and disciplines to promote knowledge production",
+        "The study of knowledge production can be done through many perspectives.",
+        "The professions-approach has been one of the most relied upon perspective in the study of management knowledge production.",
+        "Professions-approach aims at the institutionalization of knowledge but restricts knowledge production as a function of a select few."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Let us note down the important points.\nProfessions-approach structures and institutionalizes knowledge but knowledge production is restricted to the\nselect members of the community. It prevents the non-professional actors from offering their ideas.\nOptions A, B, and C do not capture the negative aspects of the professions-approach at all. They just focus on\nthe advantages offered by the approach but the given paragraph places a huge emphasis on the limitations of\nthe approach as well. Only option D captures both the advantage offered by the approach and its limitations.\nTherefore, option D is the right answer.",
+      "setId": 17
     },
     {
       "id": 57,
@@ -828,6 +1028,26 @@
       "correctAnswer": 3,
       "explanation": "The passage is about the political and civic organization of ancient cities. It states that some ancient cities\nwere organized along egalitarian lines, without any indication of temples or palaces (which suggests a lack of a\nruling class or administrators), and that in other cities, temples and palaces never emerged at all. Option D\ncorrectly summarizes this information by stating that there was evidence of an egalitarian urban life in some\nancient cities, where the political and civic organization was less hierarchical. Option A is incorrect because it\nonly mentions the absence of temples and palaces, but does not mention the fact that some ancient cities were\norganized along egalitarian lines. On a similar note, Option B presents an exaggeration by suggesting that 'all'\nancient cities were organized along egalitarian lines, which is not stated in the passage. Option C is also\ninaccurate since it asserts that ancient cities were transformed from egalitarian to hierarchical, but the passage\nonly states that some ancient cities were egalitarian and does not mention any transformation.\nHence, Option D is the correct choice.",
       "setId": 11
+    },
+    {
+      "id": 59,
+      "passage": null,
+      "type": "MCQ",
+      "marks": {
+        "positive": 3,
+        "negative": 1
+      },
+      "questionType": "para-summary",
+      "question": "<p>The passage given below is followed by four summaries. Choose the option that best captures the author’s position. The conceptualization of landscape as a geometric object first occurred in Europe and is historically related to the European conceptualization of the organism, particularly the human body, as a geometric object with parts having a rational, three-dimensional organization and integration. The European idea of landscape appeared before the science of landscape emerged, and it is no coincidence that Renaissance artists such as Leonardo da Vinci, who studied the structure of the human body, also facilitated an understanding of the structure of landscape. Landscape which had been a subordinate background to religious or historical narratives, became an independent genre or subject of art by the end of sixteenth century or the beginning of the seventeenth century.</p>",
+      "options": [
+        "The three-dimensional understanding of the organism in Europe led to a similar approach towards the understanding of landscape.",
+        "Landscape became a major subject of art at the turn of the sixteenth century.",
+        "The study of landscape as an independent genre was aided by the Renaissance artists.",
+        "The Renaissance artists were responsible for the study of landscape as a subject of art."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Let us note down the main points of the given paragraph:\nThe given paragraph describes how the study of landscape gained prominence and became an independent\ngenre. Renaissance artists facilitated the development of the field as an independent genre.\nLet us evaluate the options one by one.\nOption A states that understanding of the organism in Europe led to a similar approach towards the\nunderstanding of landscape. Though this option is true, it fails to capture the fact that the field evolved as an\nindependent genre with the help of Renaissance artists.\nOption B states that Landscape became a major subject of art at the turn of the sixteenth century. Again, option\nB fails to capture the role played by the Renaissance artists.\nOption D states that Renaissance artists were responsible for the study of landscape as a subject of art. The\nparagraph mentions that the artists facilitated in the transformation of the field into an independent genre.\nOption D establishes a strong relationship and holds Renaissance artists 'responsible' for the study of\nlandscape 'as a subject of art'. The parts within the quotes disregard the fact that the artists just aided the\nprocess. They were not solely responsible for the development. Therefore, we can eliminate option D.\nOnly option C captures the fact that the renaissance artists 'aided' in the development of the study of landscape\nas an independent genre and hence, option C is the right answer.",
+      "setId": 17
     },
     {
       "id": 60,
