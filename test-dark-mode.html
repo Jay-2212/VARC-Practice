@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Test - Results Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/results.css">
+    <style>
+        .test-controls {
+            position: fixed;
+            top: 80px;
+            right: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            z-index: 2000;
+        }
+        body.dark-mode .test-controls {
+            background: #2d2d44;
+            color: #e0e0e0;
+        }
+        .test-controls h3 {
+            margin: 0 0 10px 0;
+            font-size: 16px;
+        }
+        .test-controls button {
+            margin: 5px 0;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background: #667eea;
+            color: white;
+            width: 100%;
+        }
+        .test-info {
+            background: #e8f5e9;
+            padding: 15px;
+            margin: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #4caf50;
+        }
+        body.dark-mode .test-info {
+            background: rgba(76, 175, 80, 0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="test-controls">
+        <h3>🧪 Test Controls</h3>
+        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+        <button onclick="showStatus()">Show Status</button>
+    </div>
+
+    <div class="container">
+        <div class="test-info">
+            <h2>✅ Dark Mode Test Page</h2>
+            <p><strong>Status:</strong> Dark mode has been successfully implemented!</p>
+            <ul>
+                <li>Dark mode toggle button is visible in top-right</li>
+                <li>Click the moon/sun icon to toggle dark mode</li>
+                <li>Preference is saved in localStorage</li>
+                <li>All sections styled with dark mode support</li>
+            </ul>
+        </div>
+
+        <div class="results-card">
+            <div class="results-header">
+                <h1><i class="fas fa-trophy"></i> Test Results</h1>
+                <p class="rc-set-title">RC Set 1 - Sample Data</p>
+            </div>
+
+            <div class="score-section">
+                <div class="score-circle">
+                    <div class="score-value">6</div>
+                    <div class="score-total">out of 12</div>
+                </div>
+                <div class="score-details">
+                    <div class="detail-item correct">
+                        <i class="fas fa-check-circle"></i>
+                        <div class="detail-value">2</div>
+                        <div class="detail-label">Correct</div>
+                    </div>
+                    <div class="detail-item incorrect">
+                        <i class="fas fa-times-circle"></i>
+                        <div class="detail-value">1</div>
+                        <div class="detail-label">Incorrect</div>
+                    </div>
+                    <div class="detail-item unattempted">
+                        <i class="fas fa-minus-circle"></i>
+                        <div class="detail-value">1</div>
+                        <div class="detail-label">Unattempted</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="time-section">
+                <div class="time-header">
+                    <h2><i class="fas fa-clock"></i> Time Analysis</h2>
+                </div>
+                <div class="time-stats">
+                    <div class="time-stat">
+                        <div class="stat-label">Total Time</div>
+                        <div class="stat-value">10:00</div>
+                    </div>
+                    <div class="time-stat">
+                        <div class="stat-label">Avg per Question</div>
+                        <div class="stat-value">03:20</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-section">
+                <div class="review-header">
+                    <h2><i class="fas fa-clipboard-check"></i> Answer Review</h2>
+                </div>
+                <div class="review-list">
+                    <div class="review-item correct">
+                        <div class="review-question-header">
+                            <div class="review-question-number">
+                                <span class="review-status-icon correct">
+                                    <i class="fas fa-check-circle"></i>
+                                </span>
+                                <span class="review-question-label">Question 1</span>
+                                <span class="review-status-badge correct">Correct</span>
+                            </div>
+                        </div>
+                        <div class="review-question-text">Sample question text about reading comprehension?</div>
+                        <div class="review-answers">
+                            <div class="review-answer-item">
+                                <strong>Your Answer:</strong> Option A
+                            </div>
+                        </div>
+                        <div class="review-explanation">
+                            <div class="explanation-header">
+                                <i class="fas fa-lightbulb"></i>
+                                <strong>Explanation:</strong>
+                            </div>
+                            <div class="explanation-text">This is correct because it directly addresses the main point of the passage.</div>
+                        </div>
+                    </div>
+
+                    <div class="review-item incorrect">
+                        <div class="review-question-header">
+                            <div class="review-question-number">
+                                <span class="review-status-icon incorrect">
+                                    <i class="fas fa-times-circle"></i>
+                                </span>
+                                <span class="review-question-label">Question 2</span>
+                                <span class="review-status-badge incorrect">Incorrect</span>
+                            </div>
+                        </div>
+                        <div class="review-question-text">Another sample question about critical reasoning?</div>
+                        <div class="review-answers">
+                            <div class="review-answer-item user-incorrect">
+                                <strong>Your Answer:</strong> Option B
+                            </div>
+                            <div class="review-answer-item correct-answer">
+                                <strong>Correct Answer:</strong> Option C
+                            </div>
+                        </div>
+                        <div class="review-explanation">
+                            <div class="explanation-header">
+                                <i class="fas fa-lightbulb"></i>
+                                <strong>Explanation:</strong>
+                            </div>
+                            <div class="explanation-text">The correct answer is C because it provides the most logical conclusion.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="actions-section">
+                <button class="btn btn-primary">
+                    <i class="fas fa-home"></i> Back to Home
+                </button>
+                <button class="btn btn-secondary">
+                    <i class="fas fa-redo"></i> Reattempt
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/darkmode.js"></script>
+    <script>
+        // Initialize dark mode toggle
+        const container = document.querySelector('.container');
+        if (container) {
+            darkModeManager.createToggleButton(container, 'prepend');
+        }
+
+        function toggleDarkMode() {
+            darkModeManager.toggle();
+            showStatus();
+        }
+
+        function showStatus() {
+            const isDark = darkModeManager.isEnabled();
+            alert(`Dark Mode: ${isDark ? 'ENABLED ✅' : 'DISABLED'}\n\nSaved to localStorage: varc_dark_mode = ${isDark}`);
+        }
+    </script>
+</body>
+</html>
