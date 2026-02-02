@@ -598,10 +598,15 @@ class VARCApp {
         this.loadPassage(question);
 
         // Load question text with XSS protection
-        // Sanitize first, then wrap in HTML to avoid double-sanitization
         if (question.question) {
-            const sanitizedQuestion = Utils.sanitizeHTML(question.question);
-            this.elements.questionText.innerHTML = `<p>${sanitizedQuestion}</p>`;
+            // For para-summary and para-completion, allow HTML formatting
+            // For RC, use basic text sanitization
+            if (this.questionType === 'para-summary' || this.questionType === 'para-completion') {
+                Utils.safeSetHTML(this.elements.questionText, question.question, true);
+            } else {
+                const sanitizedQuestion = Utils.sanitizeHTML(question.question);
+                this.elements.questionText.innerHTML = `<p>${sanitizedQuestion}</p>`;
+            }
         } else {
             Utils.safeSetText(this.elements.questionText, 'Question text not available');
         }
