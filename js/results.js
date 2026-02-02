@@ -65,6 +65,8 @@ class ResultsPage {
             this.currentAttempt = this.previousAttempts[this.previousAttempts.length - 1];
         } else {
             console.error('No attempt data found in localStorage');
+            alert('No attempt data found. Please complete the test first.');
+            window.location.href = 'index.html';
         }
     }
 
@@ -78,8 +80,15 @@ class ResultsPage {
             return;
         }
 
-        // Update set title
-        document.getElementById('rc-set-title').textContent = `RC Set ${this.setId}`;
+        // Update set title based on question type
+        const titleElement = document.getElementById('rc-set-title');
+        const typeLabels = {
+            'rc': 'RC Set',
+            'para-completion': 'Para Completion Set',
+            'para-summary': 'Para Summary Set'
+        };
+        const label = typeLabels[this.questionType] || 'Set';
+        titleElement.textContent = `${label} ${this.setId}`;
 
         // Display score
         this.displayScore();
