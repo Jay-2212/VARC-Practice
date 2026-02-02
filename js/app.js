@@ -600,6 +600,9 @@ class VARCApp {
         // Load question text with XSS protection
         if (question.question) {
             // For para-summary and para-completion, allow HTML formatting
+            // Uses Utils.safeSetHTML with sanitize=true which applies parseHTMLSafe:
+            // - Removes script tags, event handlers, and dangerous URL schemes
+            // - Allows safe HTML tags like <p>, <strong> for proper formatting
             // For RC, use basic text sanitization
             if (this.questionType === 'para-summary' || this.questionType === 'para-completion') {
                 Utils.safeSetHTML(this.elements.questionText, question.question, true);
