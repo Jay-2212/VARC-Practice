@@ -25,7 +25,7 @@
 
 class ResultsPage {
     constructor() {
-        this.rcSetId = null;
+        this.setId = null;
         this.questionType = 'rc';
         this.currentAttempt = null;
         this.previousAttempts = [];
@@ -33,15 +33,15 @@ class ResultsPage {
     }
 
     init() {
-        // Get RC set ID and question type from query parameters with validation
+        // Get set ID and question type from query parameters with validation
         const urlParams = new URLSearchParams(window.location.search);
-        this.rcSetId = Utils.getValidURLParam(urlParams, 'setId', null);
+        this.setId = Utils.getValidURLParam(urlParams, 'setId', null);
         this.questionType = urlParams.get('type') || 'rc';
 
-        // Validate rcSetId is a positive integer
-        if (!this.rcSetId || this.rcSetId <= 0) {
-            console.error('Invalid or missing RC set ID');
-            alert('No RC set specified');
+        // Validate setId is a positive integer
+        if (!this.setId || this.setId <= 0) {
+            console.error('Invalid or missing set ID');
+            alert('No set specified');
             window.location.href = 'index.html';
             return;
         }
@@ -58,7 +58,7 @@ class ResultsPage {
      */
     loadAttemptData() {
         // Load all attempts for this set and type from localStorage
-        this.previousAttempts = StorageManager.getSetAttempts(this.questionType, this.rcSetId);
+        this.previousAttempts = StorageManager.getSetAttempts(this.questionType, this.setId);
         
         // Get the most recent attempt (last one in the array)
         if (this.previousAttempts.length > 0) {
@@ -78,8 +78,8 @@ class ResultsPage {
             return;
         }
 
-        // Update RC set title
-        document.getElementById('rc-set-title').textContent = `RC Set ${this.rcSetId}`;
+        // Update set title
+        document.getElementById('rc-set-title').textContent = `RC Set ${this.setId}`;
 
         // Display score
         this.displayScore();
