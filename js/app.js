@@ -1046,9 +1046,8 @@ class VARCApp {
         StorageManager.markTestCompleted();
         this.isTestSubmitted = true;
 
-        // Navigate to results page with question type
-        const attemptDataStr = encodeURIComponent(JSON.stringify(attemptData));
-        window.location.href = `results.html?type=${this.questionType}&setId=${this.rcSetId}&attempt=${attemptDataStr}`;
+        // Navigate to results page with question type (attempt data is already in localStorage)
+        window.location.href = `results.html?type=${this.questionType}&setId=${this.rcSetId}`;
     }
 
     /**
