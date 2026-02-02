@@ -28,6 +28,14 @@
 
     <script src="js/utils.js"></script>
     <script src="js/storage.js"></script>
+    <script src="js/darkmode.js"></script>
     <script src="js/rc-selection.js"></script>
+    <script>
+        // Initialize dark mode toggle button
+        document.addEventListener('DOMContentLoaded', () => {
+            const header = document.querySelector('.header');
+            darkModeManager.createToggleButton(header, 'append');
+        });
+    </script>
 </body>
 </html>
