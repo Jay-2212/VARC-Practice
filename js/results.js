@@ -9,8 +9,8 @@
  * - Answer review with explanations
  * 
  * Data Flow:
- * 1. Receives attempt data via URL parameters
- * 2. Loads previous attempts from localStorage
+ * 1. Receives setId and type via URL parameters
+ * 2. Loads attempt data from localStorage
  * 3. Calculates and displays statistics
  * 4. Renders answer review with safe HTML
  * 
@@ -25,21 +25,23 @@
 
 class ResultsPage {
     constructor() {
-        this.rcSetId = null;
+        this.setId = null;
+        this.questionType = 'rc';
         this.currentAttempt = null;
         this.previousAttempts = [];
         this.init();
     }
 
     init() {
-        // Get RC set ID from query parameter with validation
+        // Get set ID and question type from query parameters with validation
         const urlParams = new URLSearchParams(window.location.search);
-        this.rcSetId = Utils.getValidURLParam(urlParams, 'setId', null);
+        this.setId = Utils.getValidURLParam(urlParams, 'setId', null);
+        this.questionType = urlParams.get('type') || 'rc';
 
-        // Validate rcSetId is a positive integer
-        if (!this.rcSetId || this.rcSetId <= 0) {
-            console.error('Invalid or missing RC set ID');
-            alert('No RC set specified');
+        // Validate setId is a positive integer
+        if (!this.setId || this.setId <= 0) {
+            console.error('Invalid or missing set ID');
+            alert('No set specified');
             window.location.href = 'index.html';
             return;
         }
@@ -52,22 +54,20 @@ class ResultsPage {
     }
 
     /**
-     * Load attempt data from URL parameters
+     * Load attempt data from localStorage
      */
     loadAttemptData() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const attemptDataStr = urlParams.get('attempt');
+        // Load all attempts for this set and type from localStorage
+        this.previousAttempts = StorageManager.getSetAttempts(this.questionType, this.setId);
         
-        if (attemptDataStr) {
-            try {
-                this.currentAttempt = JSON.parse(decodeURIComponent(attemptDataStr));
-            } catch (e) {
-                console.error('Failed to parse attempt data:', e);
-            }
+        // Get the most recent attempt (last one in the array)
+        if (this.previousAttempts.length > 0) {
+            this.currentAttempt = this.previousAttempts[this.previousAttempts.length - 1];
+        } else {
+            console.error('No attempt data found in localStorage');
+            alert('No attempt data found. Please complete the test first.');
+            window.location.href = 'index.html';
         }
-
-        // Load previous attempts
-        this.previousAttempts = StorageManager.getRCSetAttempts(this.rcSetId);
     }
 
     /**
@@ -80,8 +80,15 @@ class ResultsPage {
             return;
         }
 
-        // Update RC set title
-        document.getElementById('rc-set-title').textContent = `RC Set ${this.rcSetId}`;
+        // Update set title based on question type
+        const titleElement = document.getElementById('rc-set-title');
+        const typeLabels = {
+            'rc': 'RC Set',
+            'para-completion': 'Para Completion Set',
+            'para-summary': 'Para Summary Set'
+        };
+        const label = typeLabels[this.questionType] || 'Set';
+        titleElement.textContent = `${label} ${this.setId}`;
 
         // Display score
         this.displayScore();
@@ -336,11 +343,12 @@ function goToSelection() {
 function reattempt() {
     const urlParams = new URLSearchParams(window.location.search);
     const setId = parseInt(urlParams.get('setId'));
+    const questionType = urlParams.get('type') || 'rc';
     
     if (setId) {
         // Reset test state
         StorageManager.resetTest(0);
-        StorageManager.saveSelectedRCSet(setId);
+        StorageManager.saveSelectedSet(questionType, setId);
         window.location.href = 'quiz.html';
     } else {
         window.location.href = 'index.html';
