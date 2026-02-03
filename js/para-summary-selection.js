@@ -35,7 +35,7 @@ class ParaSummarySelection {
     async loadSets() {
         // Load questions from data file
         try {
-            const response = await fetch('data/para-summary.json');
+            const response = await fetch('../data/para-summary.json');
             if (response.ok) {
                 const data = await response.json();
                 const questions = data.questions || [];
