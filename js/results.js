@@ -96,6 +96,9 @@ class ResultsPage {
         // Display time analysis
         this.displayTimeAnalysis();
 
+        // Display smart analytics
+        this.displaySmartAnalytics();
+
         // Display attempt comparison if there are previous attempts
         if (this.previousAttempts.length > 1) {
             this.displayAttemptComparison();
@@ -126,12 +129,12 @@ class ResultsPage {
         const { totalTime, questionTimes, questions } = this.currentAttempt;
 
         // Display total time with safety check
-        const totalTimeFormatted = Utils.formatTime(totalTime || 0);
+        const totalTimeFormatted = Utils.formatDuration(totalTime || 0);
         Utils.safeSetText(document.getElementById('total-time'), totalTimeFormatted);
 
         // Calculate and display average time with division-by-zero protection
         const avgTime = Utils.safeDivide(totalTime, questions.length, 0);
-        const avgTimeFormatted = Utils.formatTime(Math.round(avgTime));
+        const avgTimeFormatted = Utils.formatDuration(Math.round(avgTime));
         Utils.safeSetText(document.getElementById('avg-time'), avgTimeFormatted);
 
         // Display question time breakdown
@@ -156,6 +159,9 @@ class ResultsPage {
                 statusIcon = isCorrect ? 'fa-check-circle' : 'fa-times-circle';
             }
 
+            const timeSeconds = Math.round(time / 1000);
+            const timeFormatted = Utils.formatDuration(timeSeconds);
+
             return `
                 <div class="question-time-item ${statusClass}">
                     <div class="question-label">
@@ -164,10 +170,81 @@ class ResultsPage {
                         </span>
                         <span>Question ${index + 1}</span>
                     </div>
-                    <div class="question-time">${Utils.formatTime(Math.round(time / 1000))}</div>
+                    <div class="question-time">${timeFormatted}</div>
                 </div>
             `;
         }).join('');
+    }
+
+    /**
+     * Display smart analytics section with charts and insights
+     */
+    displaySmartAnalytics() {
+        const analyticsSection = document.getElementById('smart-analytics');
+        if (!analyticsSection || !this.currentAttempt) {
+            return;
+        }
+
+        const summary = Analytics.summarizeAttempt(this.currentAttempt);
+
+        Utils.safeSetText(
+            document.getElementById('median-time'),
+            Utils.formatDuration(summary.medianTime)
+        );
+        Utils.safeSetText(
+            document.getElementById('p75-time'),
+            Utils.formatDuration(summary.p75Time)
+        );
+
+        const fastestLabel = `Q${summary.fastest.index + 1} - ${Utils.formatDuration(summary.fastest.time)}`;
+        const slowestLabel = `Q${summary.slowest.index + 1} - ${Utils.formatDuration(summary.slowest.time)}`;
+        Utils.safeSetText(document.getElementById('fastest-time'), fastestLabel);
+        Utils.safeSetText(document.getElementById('slowest-time'), slowestLabel);
+
+        const maxTime = Math.max(...summary.times, 0);
+        const barChart = document.getElementById('time-bar-chart');
+        if (barChart) {
+            barChart.innerHTML = summary.times.map((time, index) => {
+                const status = Analytics.getQuestionStatus(this.currentAttempt, index);
+                const width = maxTime > 0 ? Math.round((time / maxTime) * 100) : 0;
+                const timeText = Utils.formatDuration(time);
+                return `
+                    <div class="bar-row">
+                        <div class="bar-label">Q${index + 1}</div>
+                        <div class="bar-track">
+                            <div class="bar-fill ${status}" style="width: ${width}%"></div>
+                        </div>
+                        <div class="bar-value">${timeText}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        const totalTime = summary.totalTime || summary.times.reduce((sum, t) => sum + t, 0);
+        const timeShare = document.getElementById('time-share-bar');
+        if (timeShare) {
+            timeShare.innerHTML = summary.times.map((time, index) => {
+                const status = Analytics.getQuestionStatus(this.currentAttempt, index);
+                const width = totalTime > 0 ? (time / totalTime) * 100 : 0;
+                const timeText = Utils.formatDuration(time);
+                return `
+                    <div class="time-share-segment ${status}"
+                         style="width: ${width}%"
+                         title="Q${index + 1}: ${timeText}">
+                    </div>
+                `;
+            }).join('');
+        }
+
+        const insights = Analytics.buildInsights(this.currentAttempt, summary);
+        const insightsContainer = document.getElementById('analytics-insights');
+        if (insightsContainer) {
+            if (insights.length === 0) {
+                insightsContainer.innerHTML = '<div class="insight-item">No insights available for this attempt yet.</div>';
+            } else {
+                insightsContainer.innerHTML = insights.map(text => `<div class="insight-item">${Utils.sanitizeHTML(text)}</div>`).join('');
+            }
+        }
     }
 
     /**

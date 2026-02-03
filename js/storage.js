@@ -595,9 +595,40 @@ const StorageManager = {
         }
         allAttempts[setId].push({
             ...attemptData,
+            setId: attemptData?.setId ?? setId,
+            questionType: attemptData?.questionType ?? type,
             timestamp: Date.now()
         });
         this.save(keys[type], allAttempts);
+    },
+
+    /**
+     * Get all attempts across all sets for a question type
+     * @param {string} type - Question type
+     * @returns {Array} - Flat array of attempts
+     */
+    getAllSetAttempts(type) {
+        const keys = {
+            'rc': this.KEYS.RC_SET_ATTEMPTS,
+            'para-completion': this.KEYS.SET_ATTEMPTS_PC,
+            'para-summary': this.KEYS.SET_ATTEMPTS_PS
+        };
+        const allAttempts = this.load(keys[type], {});
+        const flat = [];
+
+        Object.entries(allAttempts).forEach(([setId, attempts]) => {
+            if (!Array.isArray(attempts)) return;
+            attempts.forEach(attempt => {
+                const parsedSetId = Number.isFinite(Number(setId)) ? parseInt(setId, 10) : setId;
+                flat.push({
+                    ...attempt,
+                    setId: attempt?.setId ?? parsedSetId,
+                    questionType: attempt?.questionType ?? type
+                });
+            });
+        });
+
+        return flat;
     }
 };
 

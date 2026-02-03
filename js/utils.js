@@ -215,6 +215,40 @@ const Utils = {
     },
 
     /**
+     * Format time in seconds using smart units (s, m, h)
+     * @param {number} seconds - Time in seconds
+     * @returns {string} - Formatted duration string
+     */
+    formatDuration(seconds) {
+        if (typeof seconds !== 'number' || !Number.isFinite(seconds) || seconds < 0) {
+            return '0s';
+        }
+
+        const totalSeconds = Math.round(seconds);
+        if (totalSeconds < 60) {
+            return `${totalSeconds}s`;
+        }
+
+        const totalMinutes = Math.floor(totalSeconds / 60);
+        const remainingSeconds = totalSeconds % 60;
+
+        if (totalMinutes < 60) {
+            return remainingSeconds > 0
+                ? `${totalMinutes}m ${remainingSeconds}s`
+                : `${totalMinutes}m`;
+        }
+
+        const hours = Math.floor(totalMinutes / 60);
+        const remainingMinutes = totalMinutes % 60;
+
+        if (remainingMinutes === 0) {
+            return `${hours}h`;
+        }
+
+        return `${hours}h ${remainingMinutes}m`;
+    },
+
+    /**
      * Validate URL parameter is safe integer
      * @param {URLSearchParams} params - URL search params
      * @param {string} key - Parameter key

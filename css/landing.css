@@ -43,6 +43,79 @@
     width: 100%;
 }
 
+/* Overall Analytics Section */
+.overall-analytics {
+    margin-top: 50px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.overall-analytics-header h2 {
+    font-size: 1.6rem;
+    color: #1a1a1a;
+    margin-bottom: 6px;
+}
+
+.overall-analytics-subtitle {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.overall-analytics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+}
+
+.overall-analytics-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    border-left: 4px solid #4A90E2;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.overall-card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+.overall-card-stat {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 6px;
+}
+
+.overall-card-stat span {
+    font-weight: 600;
+    color: #222;
+}
+
+.overall-insights {
+    margin-top: 20px;
+    padding: 14px 16px;
+    background: #f5f7ff;
+    border-radius: 10px;
+    border-left: 4px solid #4A90E2;
+}
+
+.overall-insight-item {
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 6px;
+}
+
+.overall-insight-item:last-child {
+    margin-bottom: 0;
+}
+
 /* Question Type Card */
 .question-type-card {
     background: white;
@@ -270,4 +343,44 @@ body.dark-mode .card-button {
 body.dark-mode .card-button:hover {
     background: linear-gradient(135deg, #7c8fe8 0%, #8a5cb8 100%);
     box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+}
+
+body.dark-mode .overall-analytics {
+    background: rgba(26, 26, 46, 0.85);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .overall-analytics-header h2 {
+    color: #f0f0ff;
+}
+
+body.dark-mode .overall-analytics-subtitle {
+    color: #b8b8d4;
+}
+
+body.dark-mode .overall-analytics-card {
+    background: #1f1f38;
+    border-left-color: #8a2be2;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .overall-card-title {
+    color: #e8e8ff;
+}
+
+body.dark-mode .overall-card-stat {
+    color: #b8b8d4;
+}
+
+body.dark-mode .overall-card-stat span {
+    color: #f0f0ff;
+}
+
+body.dark-mode .overall-insights {
+    background: rgba(138, 43, 226, 0.15);
+    border-left-color: #8a2be2;
+}
+
+body.dark-mode .overall-insight-item {
+    color: #d8d8f0;
 }

@@ -1032,18 +1032,22 @@ class VARCApp {
         const attemptData = {
             score: results.totalMarks,
             totalMarks: results.maxMarks,
+            totalQuestions: results.totalQuestions,
             correct: results.correct,
             incorrect: results.incorrect,
             unattempted: results.unattempted,
             totalTime: totalTime,
             questionTimes: questionTimes,
+            questionType: this.questionType,
+            setId: this.rcSetId,
             questions: this.questions.map((q, index) => ({
                 id: q.id,
                 userAnswer: StorageManager.getAnswer(index),
                 correctAnswer: q.correctAnswer,
                 question: q.question,
                 options: q.options,
-                explanation: q.explanation
+                explanation: q.explanation,
+                tags: Array.isArray(q.tags) ? q.tags : []
             }))
         };
 
