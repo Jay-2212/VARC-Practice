@@ -173,9 +173,9 @@ describe('Navigation Integration Tests', () => {
             expect(jsPath).toContain('../js/');
         });
         
-        test('should resolve data paths correctly from JS files', () => {
-            const dataPath = 'data/rc-passages.json';
-            expect(dataPath).toBe('data/rc-passages.json');
+        test('should resolve data paths correctly from pages directory', () => {
+            const dataPath = '../data/rc-passages.json';
+            expect(dataPath).toBe('../data/rc-passages.json');
         });
     });
 });

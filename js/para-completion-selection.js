@@ -35,7 +35,7 @@ class ParaCompletionSelection {
     async loadSets() {
         // Load questions from data file
         try {
-            const response = await fetch('data/para-completion.json');
+            const response = await fetch('../data/para-completion.json');
             if (response.ok) {
                 const data = await response.json();
                 const questions = data.questions || [];

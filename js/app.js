@@ -253,12 +253,12 @@ class VARCApp {
         
         // Determine which data file to load based on question type
         const dataFiles = {
-            'rc': 'data/rc-passages.json',
-            'para-completion': 'data/para-completion.json',
-            'para-summary': 'data/para-summary.json'
+            'rc': '../data/rc-passages.json',
+            'para-completion': '../data/para-completion.json',
+            'para-summary': '../data/para-summary.json'
         };
         
-        const dataFile = dataFiles[this.questionType] || 'data/rc-passages.json';
+        const dataFile = dataFiles[this.questionType] || '../data/rc-passages.json';
 
         // Load from data file
         try {
