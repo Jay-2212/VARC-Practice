@@ -158,12 +158,12 @@
         "negative": 1
       },
       "questionType": "para-completion",
-      "question": "<p></p>",
+      "question": "<p>A Japanese government panel announced that it recommends regulating only genetically modified organisms that have had foreign genes permanently introduced into their genomes and not those whose endogenous genes have been edited. The only stipulation is that researchers and businesses will have to register their modifications to plants or animals with the government, with the exception of microbes cultured in contained environments. Reactions to the decision are mixed. While lauding the potential benefits of genome editing, an editorial opposes across-the-board permission. Unforeseen risks in gene editing cannot be ruled out. All genetically modified products must go through the same safety and labeling processes regardless of method.</p>",
       "options": [
-        "Japanese government panel announced that it recommends regulating only genetically modified organisms that have had foreign genes permanently introduced into their genomes and not those whose endogenous genes have been edited. The only stipulation is that researchers and businesses will have to register their modifications to plants or animals with the government, with the exception of microbes cultured in contained environments. Reactions to the decision are mixed. While lauding the potential benefits of genome editing, an editorial opposes across-the-board permission. Unforeseen risks in gene editing cannot be ruled out. All genetically modified products must go through the same safety and labeling processes regardless of method.",
         "Excepting microbes cultured in contained environments from the regulations of genome editing is premature.",
         "Creating categories within genetically modified products in terms of transgenic modification and genome editing advances science but defies laws.",
-        "Exempting from regulations the editing of endogenous genes is not desirable as this procedure might be risk-prone."
+        "Exempting from regulations the editing of endogenous genes is not desirable as this procedure might be risk-prone.",
+        "A government panel in Japan says transgenic modification and genome editing are not the same."
       ],
       "correctAnswer": 2,
       "explanation": "Let us note down the important points:\nThe Japanese government recommends regulating GM organisms in which foreign genes are introduced, not\nthose in which the endogenous genes have been edited. The step has drawn mixed reactions since there are\nsome risks involved in gene editing.\nOption A shifts the focus on exempting microbes. The central theme of the passage is that endogenous gene\nediting is not totally risk free. Therefore, we can eliminate option A.\nOption B states that categorizing GM products advances science but defies laws. No such comparison has\nbeen made in the paragraph. The legality of the issue has not been discussed and hence, we can eliminate\noption B.\nOption D fails to capture the fact that endogenous gene editing is not devoid of risks.\nOnly option C captures the fact that exempting endogenous gene editing is not desirable due to the risks\ninvolved. Therefore, option C is the right answer.",
@@ -180,10 +180,11 @@
       "questionType": "para-completion",
       "question": "<p>I am sometimes attacked for imposing `rules’. Nothing could be further from the truth: I hate rules. All I do is report on how consumers react to different stimuli. I may say to a copywriter, “Research shows that commercials with celebrities are below average in persuading people to buy products. Are you sure you want to use a celebrity?” Call that a rule? Or I may say to an art director, “Research suggests that if you set the copy in black type on a white background, more people will read it than if you set it in white type on a black background.”</p>",
       "options": [
-        "Guidance based on applied research can hardly qualify as `rules’.",
-        "Thus, all my so called `rules’ are rooted in applied research. .",
-        "",
-        "suggestion perhaps, but scarcely a rule."
+        "Guidance based on applied research can hardly qualify as `rules`.",
+        "Thus, all my so called `rules` are rooted in applied research.",
+        "A suggestion perhaps, but scarcely a rule.",
+        "Such principles are unavoidable if one wants to be systematic about consumer behaviour.",
+        "Fundamentally it is about consumer behaviour - not about celebrities or type settings."
       ],
       "correctAnswer": 2,
       "explanation": "The last sentence should talk about the statement that the author made to the art director. According to the\nauthor, the statement is not a rule. So, option a) and c) are applicable. Between these two, option c) is better\nbecause it specifically talks about this statement and not about \"rules\" in general. So, c) is the best concluding\nsentence.\n\n69. E\nOption a) talks only about one part of the chain comprising of factory, dealer and customer. Option b) is farfetched. Options c) and d) are out of scope. Option e) completes the para in the best possible way.",
@@ -341,11 +342,12 @@
       "question": "<p>Given the cultural and intellectual interconnections, the question of what is ‘Western’ and what is ‘Eastern’ (or ‘Indian’) is often hard to decide, and the issue can be discussed only in more dialectical terms. The diagnosis of a thought as ‘purely Western’ or ‘purely Indian’ can be very illusory. [CAT 2008]</p>",
       "options": [
         "Thoughts are not the kind of things that can be easily categorized.",
-        "Though ‘occidentalism’ and ‘orientalism’ as dichotomous concepts have found many adherents.",
-        "‘East is East and West is West’ has been a discredited notion for a long time now.",
-        "Compartmentalizing thoughts is often desirable. E The origin of a thought is not the kind of thing to which ‘purity’ happens easily. Instructions Each of the following questions has a paragraph from which the last sentence has been deleted. From the given options, choose the sentence that completes the paragraph in the most appropriate way."
+        "Though `occidentalism` and `orientalism` as dichotomous concepts have found many adherents.",
+        "`East is East and West is West` has been a discredited notion for a long time now.",
+        "Compartmentalizing thoughts is often desirable.",
+        "The origin of a thought is not the kind of thing to which `purity` happens easily."
       ],
-      "correctAnswer": 0,
+      "correctAnswer": 4,
       "explanation": "",
       "setId": 7
     },
@@ -403,7 +405,8 @@
         "But there was also the view, which again would appear on no inventory.",
         "No inventory would ever include those, of course.",
         "She had an intelligent secretary too.",
-        "She was a good detective and a good woman. E What she lacked in possessions was more than made up by a natural shrewdness. Instructions Each of these questions contains a sentence followed by four choices. Select from among these choices the one which most logically completes the idea contained in the given sentence."
+        "She was a good detective and a good woman.",
+        "What she lacked in possessions was more than made up by a natural shrewdness."
       ],
       "correctAnswer": 1,
       "explanation": "No inventory would ever include those, ofcourse’. The para starts with listing out ‘the inventory’. The option\nwhich says ‘what she lacked………..natural shrewdness’ is beyond the scope of the argument. All the options can\nbe easily eliminated. ‘Those’ in the option ‘No inventory would ever include those, ofcourse’, refers to human\nintuition and intelligence of Mma Ramotswe.",
@@ -563,7 +566,7 @@
         "Wall-free office spaces could have worked out the way their utopian inventors intended had companies cared for workers' satisfaction.",
         "Wall-free office spaces did not quite work out as desired and therefore cubicles came into being.",
         "Wall-free office spaces did not quite work out the way their utopian inventors intended, as they became tools for exploitation of labor.",
-        "Wall-free office spaces did not quite work out as companies don’t believe in democratic ideology. Instructions For each of the two questions, indicate which of the statements given, with that particular question is consistent with the description of the unseasonable man in the passage below. Unseasonableness is a tendency to do socially permissible things at the wrong time. The unseasonable man is the sort of person who comes to confide in you when you are busy. He serenades his beloved when she is ill. He asks a man who has just lost money by paying a bill for a friend to pay a biII for him. He invites a friend to go for a ride just after the friend has finished a long car trip. He is eager to offer services which are not wanted but which cannot be politely refused. If he is present at an arbitration, he stirs up dissension between the two parties, who were really anxious to agree. Such is the unseasonable man."
+        "Wall-free office spaces did not quite work out as companies don't believe in democratic ideology."
       ],
       "correctAnswer": 2,
       "explanation": "After reading the entire paragraph, it can be inferred that the main idea of the passage is that while the\ninventors of the open-plan offices had the liberation of office dwellers from boxes in mind, the companies used\nit to pack as much people as possible inside.\nOption A is incorrect as the passage makes no mentions about workers satisfaction.\nOption B is incorrect as it misrepresents the timeline given in the passage. Cubicles existed earlier and only\nlater were wall free office spaces invented.\nOption D is incorrect as it could not be inferred from the passage that the companies that did not believe in\ndemocratic ideology\nOption C correctly encapsulates the main idea of the passage and hence it is the correct answer.",
@@ -603,7 +606,7 @@
         "bring a higher bidder to a salesman who has just closed a deal.",
         "disclose confidential information to others.",
         "sing the praises of the bride when he goes to a wedding.",
-        "sleep late and rise early. Answers 1.B 2.D 3.C 4.B 5.B 6.C 7.C 8.C 9.A 10.D 11.A 12.A 13.D 14.C 15.A 16.C 17.A 18.D 19.B 20.D 21.C 22.D 23.B 24.B 25.C 26.C 27.B 28.B 29.A 30.B 31.D 32.D 33.B 34.D 35.D 36.A 37.C 38.B 39.C 40.C 41.A 42.C 43.A 44.D 45.B 46.A 47.D 48.D 49.C 50.D 51.C 52.C 53.C 54.D 55.C 56.D 57.C 58.D 59.C 60.B 61.D 62.C 63.C 64.A 65.D 66.A 67.C 68.C 69.E 70.B 71.A 72.A 73.D 74.A 75.B 76.A 77.A 78.C 79.B 80.D 81.B 82.E 83.E 84.A 85.B 86.D 87.C 88.A 89.D 90.B 91.D 92.B 93.A 94.C 95.D 96.A"
+        "sleep late and rise early."
       ],
       "correctAnswer": 0,
       "explanation": "In this paragraph, the author states that the unreasonable man tends to do things with other people which they\ndon't want to do or is irrational. For eg, the person who has lost the money won't pay the bill or the person who\nhas just come from a long ride won't go for a ride again.\nOption A correctly highlights this as it would be irrational if a person brings a higher bidder to the salesman who\nhas just closed the deal.",
