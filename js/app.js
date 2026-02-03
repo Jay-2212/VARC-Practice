@@ -53,7 +53,7 @@ class VARCApp {
         
         if (!this.rcSetId) {
             // No set selected, redirect to landing page
-            window.location.href = 'index.html';
+            window.location.href = '../index.html';
             return;
         }
 
@@ -1390,11 +1390,11 @@ class VARCApp {
      */
     navigateBack() {
         const backPages = {
-            'rc': 'rc-selection.html',
-            'para-completion': 'para-completion-selection.html',
-            'para-summary': 'para-summary-selection.html'
+            'rc': '../pages/rc-selection.html',
+            'para-completion': '../pages/para-completion-selection.html',
+            'para-summary': '../pages/para-summary-selection.html'
         };
-        window.location.href = backPages[this.questionType] || 'index.html';
+        window.location.href = backPages[this.questionType] || '../index.html';
     }
 }
 

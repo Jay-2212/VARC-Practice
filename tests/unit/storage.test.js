@@ -38,7 +38,7 @@ class LocalStorageMock {
 global.localStorage = new LocalStorageMock();
 
 // Load the StorageManager module
-const StorageManager = require('../storage');
+const StorageManager = require('../../js/storage');
 
 describe('StorageManager - Basic Operations', () => {
     beforeEach(() => {

@@ -23,13 +23,13 @@ function selectQuestionType(type) {
     // Navigate to appropriate selection page
     switch(type) {
         case 'rc':
-            window.location.href = 'rc-selection.html';
+            window.location.href = 'pages/rc-selection.html';
             break;
         case 'para-completion':
-            window.location.href = 'para-completion-selection.html';
+            window.location.href = 'pages/para-completion-selection.html';
             break;
         case 'para-summary':
-            window.location.href = 'para-summary-selection.html';
+            window.location.href = 'pages/para-summary-selection.html';
             break;
         default:
             console.error('Invalid question type:', type);
