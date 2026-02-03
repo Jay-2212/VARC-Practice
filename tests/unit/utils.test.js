@@ -254,6 +254,23 @@ describe('Utils - Format Functions', () => {
             expect(Utils.formatTime(null)).toBe('00:00');
         });
     });
+
+    describe('formatDuration', () => {
+        test('should format seconds with smart units', () => {
+            expect(Utils.formatDuration(0)).toBe('0s');
+            expect(Utils.formatDuration(45)).toBe('45s');
+            expect(Utils.formatDuration(60)).toBe('1m');
+            expect(Utils.formatDuration(75)).toBe('1m 15s');
+            expect(Utils.formatDuration(3600)).toBe('1h');
+            expect(Utils.formatDuration(3720)).toBe('1h 2m');
+        });
+
+        test('should handle invalid input', () => {
+            expect(Utils.formatDuration(-5)).toBe('0s');
+            expect(Utils.formatDuration('abc')).toBe('0s');
+            expect(Utils.formatDuration(null)).toBe('0s');
+        });
+    });
 });
 
 describe('Utils - Validation Helpers', () => {

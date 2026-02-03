@@ -32,6 +32,7 @@ body {
     color: #fff;
     padding: 30px;
     text-align: center;
+    position: relative;
 }
 
 .results-header h1 {
@@ -46,6 +47,27 @@ body {
 .rc-set-title {
     font-size: 18px;
     opacity: 0.9;
+}
+
+.results-nav {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.back-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    opacity: 0.9;
+}
+
+.back-link:hover {
+    opacity: 1;
 }
 
 /* Score Section */
@@ -502,6 +524,11 @@ body {
     .results-header h1 {
         font-size: 24px;
     }
+
+    .results-nav {
+        position: static;
+        margin-bottom: 12px;
+    }
     
     .score-circle {
         width: 140px;
@@ -546,6 +573,83 @@ body {
         width: 100%;
         justify-content: space-around;
     }
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    color: #e8e8ff;
+}
+
+body.dark-mode .results-card {
+    background: #1b1b2d;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .results-header {
+    background: linear-gradient(135deg, #3a3f7d 0%, #2d2f54 100%);
+}
+
+body.dark-mode .score-section,
+body.dark-mode .time-section,
+body.dark-mode .analytics-section,
+body.dark-mode .comparison-section,
+body.dark-mode .review-section {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .detail-item,
+body.dark-mode .time-stat,
+body.dark-mode .question-time-item,
+body.dark-mode .analytics-card,
+body.dark-mode .insights-block,
+body.dark-mode .attempt-item,
+body.dark-mode .review-item {
+    background: #252545;
+    color: #e8e8ff;
+}
+
+body.dark-mode .detail-label,
+body.dark-mode .stat-label,
+body.dark-mode .analytics-label,
+body.dark-mode .attempt-date,
+body.dark-mode .review-header h2,
+body.dark-mode .comparison-header h2,
+body.dark-mode .time-header h2,
+body.dark-mode .analytics-header h2,
+body.dark-mode .review-question-text,
+body.dark-mode .attempt-stat-label {
+    color: #b8b8d4;
+}
+
+body.dark-mode .detail-value,
+body.dark-mode .stat-value,
+body.dark-mode .analytics-value,
+body.dark-mode .attempt-stat-value,
+body.dark-mode .question-time,
+body.dark-mode .review-question-label,
+body.dark-mode .review-status-badge {
+    color: #e8e8ff;
+}
+
+body.dark-mode .bar-track,
+body.dark-mode .time-share {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+body.dark-mode .btn-secondary {
+    background: transparent;
+    color: #b5c2ff;
+    border-color: #b5c2ff;
+}
+
+body.dark-mode .btn-secondary:hover {
+    background: #b5c2ff;
+    color: #1b1b2d;
+}
+
+body.dark-mode .back-link {
+    color: #ffffff;
 }
 
 @media screen and (max-width: 480px) {
