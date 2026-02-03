@@ -106,22 +106,63 @@ Edit `data/rc-passages.json` to add your own questions. The format is:
 
 ```
 VARC-Practice/
-├── index.html          # Landing page with RC set selection
-├── quiz.html           # Quiz interface
-├── results.html        # Results page
-├── css/
-│   ├── style.css       # Main styling
-│   ├── selection.css   # Selection page styling
-│   └── results.css     # Results page styling
-├── js/
-│   ├── app.js          # Main quiz application logic
-│   ├── selection.js    # RC set selection logic
-│   ├── results.js      # Results display logic
-│   └── storage.js      # Local storage management
-├── data/
-│   └── rc-passages.json  # RC passages and questions data
-└── README.md           # This file
+├── index.html              # Landing page (entry point)
+├── package.json            # Dependencies and scripts
+├── README.md              # This file
+│
+├── pages/                 # Application pages
+│   ├── rc-selection.html              # RC set selection
+│   ├── para-completion-selection.html # Para completion selection
+│   ├── para-summary-selection.html    # Para summary selection
+│   ├── quiz.html                      # Main quiz interface
+│   ├── results.html                   # Results and review page
+│   └── test-dark-mode.html           # Dark mode testing
+│
+├── css/                   # Stylesheets
+│   ├── landing.css               # Landing page styles
+│   ├── selection.css             # Selection pages styles
+│   ├── style.css                 # Main quiz interface styles
+│   └── results.css               # Results page styles
+│
+├── js/                    # JavaScript modules
+│   ├── landing.js                # Landing page logic
+│   ├── rc-selection.js           # RC selection logic
+│   ├── para-completion-selection.js  # Para completion selection
+│   ├── para-summary-selection.js     # Para summary selection
+│   ├── app.js                    # Main quiz application
+│   ├── results.js                # Results page logic
+│   ├── storage.js                # LocalStorage management
+│   ├── utils.js                  # Utility functions
+│   └── darkmode.js               # Dark mode functionality
+│
+├── data/                  # Question data files
+│   ├── rc-passages.json          # Reading Comprehension
+│   ├── para-completion.json      # Para Completion questions
+│   └── para-summary.json         # Para Summary questions
+│
+├── tests/                 # Test files
+│   ├── unit/                     # Unit tests
+│   │   ├── utils.test.js
+│   │   └── storage.test.js
+│   └── integration/              # Integration tests
+│       ├── navigation.test.js
+│       ├── data-loading.test.js
+│       └── quiz-flow.test.js
+│
+├── docs/                  # Documentation
+│   ├── ARCHITECTURE.md           # Application architecture
+│   ├── PATH_REFERENCE.md         # Path reference guide
+│   ├── TESTING.md                # Testing documentation
+│   └── [other documentation]
+│
+└── assets/                # Static assets
+    └── pdfs/                     # Reference PDFs
+        ├── Reading-Comprehension.pdf
+        └── Top-96-CAT-Para-Completion-and-Summary-Questions.pdf
 ```
+
+For detailed architecture information, see [ARCHITECTURE.md](docs/ARCHITECTURE.md).  
+For path reference guide, see [PATH_REFERENCE.md](docs/PATH_REFERENCE.md).
 
 ## Resetting Your Progress
 
@@ -156,7 +197,7 @@ This project has been optimized for security, reliability, and maintainability:
 - **Security Tests**: Validates XSS prevention and sanitization
 - **Edge Cases**: Tests for division by zero, invalid inputs, empty arrays
 
-See [TESTING.md](TESTING.md) for details on running tests.
+See [TESTING.md](docs/TESTING.md) for details on running tests.
 
 ### Code Documentation
 - **JSDoc Comments**: All functions documented with parameters and return types
@@ -187,11 +228,14 @@ npm run test:coverage
 - **Para Completion**: Questions where you fill in missing sentences
 - **Para Summary**: Questions where you choose the best summary
 
-See [`IMPLEMENTATION_PLAN.md`](IMPLEMENTATION_PLAN.md) for the detailed phased implementation guide.
+See [docs/IMPLEMENTATION_PLAN.md](docs/IMPLEMENTATION_PLAN.md) for the detailed phased implementation guide.
 
 ## Repository Structure
 
-For a detailed explanation of the repository organization and file purposes, see [`REPOSITORY_STRUCTURE.md`](REPOSITORY_STRUCTURE.md).
+For a detailed explanation of the repository organization and file purposes, see:
+- [ARCHITECTURE.md](docs/ARCHITECTURE.md) - Complete application architecture
+- [PATH_REFERENCE.md](docs/PATH_REFERENCE.md) - Comprehensive path reference guide
+- [REPOSITORY_STRUCTURE.md](docs/REPOSITORY_STRUCTURE.md) - Detailed file descriptions
 
 ## Future Enhancements
 
