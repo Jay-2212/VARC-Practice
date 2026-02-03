@@ -42,7 +42,7 @@ class ResultsPage {
         if (!this.setId || this.setId <= 0) {
             console.error('Invalid or missing set ID');
             alert('No set specified');
-            window.location.href = 'index.html';
+            window.location.href = '../index.html';
             return;
         }
 
@@ -66,7 +66,7 @@ class ResultsPage {
         } else {
             console.error('No attempt data found in localStorage');
             alert('No attempt data found. Please complete the test first.');
-            window.location.href = 'index.html';
+            window.location.href = '../index.html';
         }
     }
 
@@ -76,7 +76,7 @@ class ResultsPage {
     displayResults() {
         if (!this.currentAttempt) {
             alert('No attempt data found');
-            window.location.href = 'index.html';
+            window.location.href = '../index.html';
             return;
         }
 
@@ -334,7 +334,7 @@ function goToSelection() {
     // Clear current attempt data
     StorageManager.clearSelectedRCSet();
     StorageManager.resetTest(0);
-    window.location.href = 'index.html';
+    window.location.href = '../index.html';
 }
 
 /**
@@ -351,7 +351,7 @@ function reattempt() {
         StorageManager.saveSelectedSet(questionType, setId);
         window.location.href = 'quiz.html';
     } else {
-        window.location.href = 'index.html';
+        window.location.href = '../index.html';
     }
 }
 

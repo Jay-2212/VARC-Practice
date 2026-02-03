@@ -14,7 +14,7 @@ global.document = dom.window.document;
 global.window = dom.window;
 
 // Load the Utils module
-const Utils = require('../utils');
+const Utils = require('../../js/utils');
 
 describe('Utils - Security Functions', () => {
     describe('sanitizeHTML', () => {
