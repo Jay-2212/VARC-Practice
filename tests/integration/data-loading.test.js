@@ -52,6 +52,17 @@ describe('Data Loading Integration Tests', () => {
             expect(typeof questionWithPassage.passage).toBe('string');
             expect(questionWithPassage.passage.length).toBeGreaterThan(0);
         });
+
+        test('should include multi-paragraph passages', () => {
+            const multiParagraph = rcData.questions.find(q => {
+                if (!q.passage) {
+                    return false;
+                }
+                const matches = q.passage.match(/<p>/g) || [];
+                return matches.length > 1;
+            });
+            expect(multiParagraph).toBeDefined();
+        });
         
         test('should have questions grouped by passageId', () => {
             const passageIds = new Set(rcData.questions.map(q => q.passageId));
