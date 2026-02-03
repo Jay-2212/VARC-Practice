@@ -398,6 +398,41 @@ body {
     }
 }
 
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.95);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark-mode-toggle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode-toggle i {
+    font-size: 20px;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.dark-mode-toggle .fa-sun {
+    display: none;
+    color: #ffd700;
+}
+
 /* Loading State */
 .loading {
     text-align: center;
@@ -583,4 +618,219 @@ body {
     color: #5d4037;
 }
 
+/* ============================================
+   DARK MODE STYLES
+   ============================================ */
+
+/* Body and Background */
+body.dark-mode {
+    background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+    color: #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+/* Dark Mode Toggle in Dark Mode */
+body.dark-mode .dark-mode-toggle {
+    background: rgba(46, 46, 82, 0.95);
+}
+
+body.dark-mode .dark-mode-toggle i {
+    color: #ffd700;
+}
+
+/* Results Card */
+body.dark-mode .results-card {
+    background: linear-gradient(145deg, #2d2d44 0%, #1a1a2e 100%);
+    border: 2px solid rgba(138, 43, 226, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* Results Header */
+body.dark-mode .results-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+body.dark-mode .rc-set-title {
+    color: rgba(255, 255, 255, 0.95);
+}
+
+/* Score Section */
+body.dark-mode .score-section {
+    border-bottom: 1px solid rgba(138, 43, 226, 0.3);
+}
+
+body.dark-mode .score-circle {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.5);
+}
+
+body.dark-mode .detail-item {
+    background: rgba(46, 46, 82, 0.5);
+    border-left: 4px solid;
+}
+
+body.dark-mode .detail-value {
+    color: #e0e0e0;
+}
+
+body.dark-mode .detail-label {
+    color: #b8b8d4;
+}
+
+/* Time Section */
+body.dark-mode .time-section {
+    border-bottom: 1px solid rgba(138, 43, 226, 0.3);
+}
+
+body.dark-mode .time-header h2 {
+    color: #e0e0e0;
+}
+
+body.dark-mode .time-stat {
+    background: rgba(46, 46, 82, 0.5);
+}
+
+body.dark-mode .stat-label {
+    color: #b8b8d4;
+}
+
+body.dark-mode .stat-value {
+    color: #8a9aff;
+}
+
+body.dark-mode .question-time-item {
+    background: rgba(46, 46, 82, 0.5);
+}
+
+body.dark-mode .question-time {
+    color: #b8b8d4;
+}
+
+/* Comparison Section */
+body.dark-mode .comparison-section {
+    border-bottom: 1px solid rgba(138, 43, 226, 0.3);
+}
+
+body.dark-mode .comparison-header h2 {
+    color: #e0e0e0;
+}
+
+body.dark-mode .attempt-item {
+    background: rgba(46, 46, 82, 0.5);
+}
+
+body.dark-mode .attempt-item.current {
+    background: rgba(102, 126, 234, 0.2);
+    border-left-color: #667eea;
+}
+
+body.dark-mode .attempt-number {
+    color: #e0e0e0;
+}
+
+body.dark-mode .attempt-date {
+    color: #b8b8d4;
+}
+
+body.dark-mode .attempt-stat-label {
+    color: #b8b8d4;
+}
+
+body.dark-mode .attempt-stat-value {
+    color: #e0e0e0;
+}
+
+/* Review Section */
+body.dark-mode .review-section {
+    border-bottom: 1px solid rgba(138, 43, 226, 0.3);
+}
+
+body.dark-mode .review-header h2 {
+    color: #e0e0e0;
+}
+
+body.dark-mode .review-item {
+    background: rgba(46, 46, 82, 0.5);
+}
+
+body.dark-mode .review-question-text {
+    color: #e0e0e0;
+}
+
+body.dark-mode .review-answer-item {
+    background: rgba(46, 46, 82, 0.6);
+}
+
+body.dark-mode .review-answer-item strong {
+    color: #e0e0e0;
+}
+
+body.dark-mode .review-answer-item.user-incorrect {
+    background: rgba(244, 67, 54, 0.15);
+    border-left-color: #f44336;
+}
+
+body.dark-mode .review-answer-item.user-unattempted {
+    background: rgba(158, 158, 158, 0.15);
+    border-left-color: #9e9e9e;
+}
+
+body.dark-mode .review-answer-item.correct-answer {
+    background: rgba(76, 175, 80, 0.15);
+    border-left-color: #4caf50;
+}
+
+body.dark-mode .review-explanation {
+    background: rgba(255, 152, 0, 0.15);
+    border-left-color: #ff9800;
+}
+
+body.dark-mode .explanation-header {
+    color: #ffa726;
+}
+
+body.dark-mode .explanation-text {
+    color: #e0e0e0;
+}
+
+body.dark-mode .review-status-badge.correct {
+    background: rgba(76, 175, 80, 0.25);
+    color: #81c784;
+}
+
+body.dark-mode .review-status-badge.incorrect {
+    background: rgba(244, 67, 54, 0.25);
+    color: #e57373;
+}
+
+body.dark-mode .review-status-badge.unattempted {
+    background: rgba(158, 158, 158, 0.25);
+    color: #bdbdbd;
+}
+
+/* Actions Section */
+body.dark-mode .btn-primary {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+}
+
+body.dark-mode .btn-secondary {
+    background: rgba(138, 43, 226, 0.2);
+    color: #8a9aff;
+    border: 2px solid #667eea;
+}
+
+body.dark-mode .btn-secondary:hover {
+    background: #667eea;
+    color: #fff;
+}
+
+/* Loading State */
+body.dark-mode .loading {
+    color: #b8b8d4;
+}
+
+body.dark-mode .loading::after {
+    border-color: rgba(138, 43, 226, 0.3);
+    border-top-color: #8a2be2;
+}
 

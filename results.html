@@ -89,6 +89,16 @@
 
     <script src="js/utils.js"></script>
     <script src="js/storage.js"></script>
+    <script src="js/darkmode.js"></script>
     <script src="js/results.js"></script>
+    <script>
+        // Initialize dark mode toggle button
+        document.addEventListener('DOMContentLoaded', () => {
+            const container = document.querySelector('.container');
+            if (container) {
+                darkModeManager.createToggleButton(container, 'prepend');
+            }
+        });
+    </script>
 </body>
 </html>
