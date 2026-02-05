@@ -1,5 +1,7 @@
 # VARC Practice - CAT Mock Test Interface
 
+![Visitors](https://api.visitorbadge.io/api/visitors?path=Jay-2212%2FVARC-Practice&label=Views&countColor=%23263759&style=flat)
+
 A practice interface for CAT VARC (Verbal Ability and Reading Comprehension) section that mimics the actual exam interface.
 
 **Now includes 60+ Reading Comprehension passages with 201 questions, complete with answers and detailed explanations!**
