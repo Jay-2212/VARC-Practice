@@ -178,3 +178,11 @@ details.pexp .txt{white-space:pre-wrap;font-size:14px;margin-top:8px}
 
 .card.clickable{cursor:pointer}.card.clickable:hover{border-color:#1d5fbf}
 @media (max-width:820px){.review .pal{grid-template-columns:repeat(8,1fr);gap:5px}.review .pb{height:34px}.review .counts{grid-template-columns:repeat(3,auto);justify-content:start}.review .side-foot{display:none}}
+
+/* fix: lock exam to viewport on desktop so passage/question panes scroll and Save & Next stays visible */
+@media (min-width:821px){
+  body.in-exam #app{flex:1 1 0;min-height:0;overflow:hidden}
+  body.in-exam .exam{flex:1 1 0;height:auto;min-height:0}
+  body.in-exam .body,body.in-exam .content,body.in-exam .panes{min-height:0;overflow:hidden}
+  body.in-exam .pane{overflow-y:auto;overscroll-behavior:contain}
+}
